@@ -306,66 +306,66 @@ lessons:
       - ref: [L001, 5]
         msa: {ar: "أَهْلًا وَسَهْلًا بِكَ في دِمَشْقَ!", tr: "ʔahlan wa-sahlan bika fī Dimašqa!"}
         hl:
-          - ["أَهْلا وْسَهْلا", "ʔahla w-sahla", "أَهْلًا وَسَهْلًا", "ʔahlan wa-sahlan", end]
-          - ["بِالشّام", "biš-Šām", "في دِمَشْقَ", "fī Dimašqa", words]
+          - ["أَهْلا وْسَهْلا", "ʔahla w-sahla", "أَهْلًا وَسَهْلًا", "ʔahlan wa-sahlan", end, "Same words. MSA keeps the ending -an (ʔahl-an) and says wa- on its own; Shami drops the ending and glues w- onto the next word."]
+          - ["بِالشّام", "biš-Šām", "في دِمَشْقَ", "fī Dimašqa", words, "Shami says bi- 'in' stuck to iš-Šām, the everyday name for Damascus. MSA writes the city name Dimašq with a separate fī 'in' and an ending."]
       - ref: [L002, 2]
         msa: {ar: "بِخَيْرٍ، الحَمْدُ لِلّٰهِ. وَكَيْفَ حالُكَ أَنْتَ يا عَمّي؟", tr: "bi-xayrin, al-ḥamdu lillāhi. wa-kayfa ḥāluka ʔanta yā 3ammī?"}
         hl:
-          - ["مْنيح", "mnīḥ", "بِخَيْرٍ", "bi-xayrin", words]
-          - ["الحَمْدِلله", "il-ḥamdilla", "الحَمْدُ لِلّٰهِ", "al-ḥamdu lillāhi", end]
-          - ["كيفَك", "kīfak", "كَيْفَ حالُكَ", "kayfa ḥāluka", words]
+          - ["مْنيح", "mnīḥ", "بِخَيْرٍ", "bi-xayrin", words, "Two different words for 'fine'. Shami mnīḥ changes with the speaker (mnīḥa for a woman). MSA bi-xayrin, literally 'in goodness', never changes."]
+          - ["الحَمْدِلله", "il-ḥamdilla", "الحَمْدُ لِلّٰهِ", "al-ḥamdu lillāhi", end, "The same phrase. MSA pronounces every part with its ending (al-ḥamd-u li-llāh-i); Shami runs it together: il-ḥamdilla."]
+          - ["كيفَك", "kīfak", "كَيْفَ حالُكَ", "kayfa ḥāluka", words, "MSA asks 'how is your state?' (kayfa ḥāl-uka). Shami keeps kīf + -ak 'your'. Note ay → ī in kayf → kīf."]
       - ref: [L003, 1]
         msa: {ar: "أَهْلًا وَسَهْلًا يا بُنَيَّ! هٰذا بَيْتي، وَالآنَ هُوَ بَيْتُكَ.", tr: "ʔahlan wa-sahlan yā bunayya! hādhā baytī, wa-l-ʔāna huwa baytuka."}
         hl:
-          - ["هادا", "hāda", "هٰذا", "hādhā", th]
-          - ["بَيْتي", "bēti", "بَيْتي", "baytī", diph]
-          - ["هَلَّق", "hallaʔ", "الآنَ", "l-ʔāna", q]
+          - ["هادا", "hāda", "هٰذا", "hādhā", th, "The th of 'this' (ذ) becomes d: hādhā → hāda. Shami spells it as it is said: هادا."]
+          - ["بَيْتي", "bēti", "بَيْتي", "baytī", diph, "ay becomes ē: bayt → bēt. The ending -ī 'my' shortens to -i."]
+          - ["هَلَّق", "hallaʔ", "الآنَ", "l-ʔāna", q, "A different word. Shami hallaʔ is usually traced back to 'this time' (hal-waqt), with the q said as ʔ. MSA says al-ʔāna."]
       - ref: [L003, 3]
         msa: {ar: "هُنا المَطْبَخُ، وَهُناكَ الحَمّامُ.", tr: "hunā l-maṭbaxu, wa-hunāka l-ḥammāmu."}
         hl:
-          - ["هَوْن", "hōn", "هُنا", "hunā", words]
-          - ["هْنيك", "hnīk", "هُناكَ", "hunāka", vow]
-          - ["المَطْبَخ", "il-maṭbax", "المَطْبَخُ", "l-maṭbaxu", end]
+          - ["هَوْن", "hōn", "هُنا", "hunā", words, "'Here': Shami hōn, MSA hunā. Same idea, different vowels."]
+          - ["هْنيك", "hnīk", "هُناكَ", "hunāka", vow, "'There': MSA hunāka loses its first short vowel and its ending: hnīk."]
+          - ["المَطْبَخ", "il-maṭbax", "المَطْبَخُ", "l-maṭbaxu", end, "The same noun. MSA adds the ending -u; Shami has no ending."]
       - ref: [L004, 1]
         msa: {ar: "يا لينا، ما هٰذا؟", tr: "yā Līnā, mā hādhā?"}
         hl:
-          - ["شو", "šū", "ما", "mā", words]
-          - ["هاد", "hād", "هٰذا", "hādhā", th]
+          - ["شو", "šū", "ما", "mā", words, "'What': Shami šū, MSA mā. Syrians understand mā but only use it in fixed phrases."]
+          - ["هاد", "hād", "هٰذا", "hādhā", th, "ذ becomes d again, and the final -ā is dropped: hādhā → hād."]
       - ref: [L004, 5]
         msa: {ar: "وَأَيْنَ جَدَّتي؟", tr: "wa-ʔayna jaddatī?"}
         hl:
-          - ["وَيْن", "wēn", "أَيْنَ", "ʔayna", diph]
-          - ["تيتا", "tēta", "جَدَّتي", "jaddatī", words]
+          - ["وَيْن", "wēn", "أَيْنَ", "ʔayna", diph, "'Where': ʔayna becomes wēn. ay → ē, as in bēt."]
+          - ["تيتا", "tēta", "جَدَّتي", "jaddatī", words, "Two words for grandmother. Tēta is the family name for her; MSA jaddatī means 'my grandmother'. Shami also says sitti."]
       - ref: [L005, 2]
         msa: {ar: "لا يا جَدَّتي، لَسْتُ جَوْعانَ. لٰكِنَّني مُتْعَبٌ قَليلًا.", tr: "lā yā jaddatī, lastu jaw3āna. lākinnanī mut3abun qalīlan."}
         hl:
-          - ["مو", "mū", "لَسْتُ", "lastu", words]
-          - ["جوعان", "jū3ān", "جَوْعانَ", "jaw3āna", diph]
-          - ["بَسّ", "bass", "لٰكِنَّني", "lākinnanī", words]
-          - ["شْوَيّ", "šwayy", "قَليلًا", "qalīlan", words]
+          - ["مو", "mū", "لَسْتُ", "lastu", words, "Shami negates an adjective with mū, which never changes: mū jū3ān. MSA conjugates laysa for each person: lastu 'I am not'."]
+          - ["جوعان", "jū3ān", "جَوْعانَ", "jaw3āna", diph, "aw becomes ū: jaw3ān → jū3ān. MSA also adds an ending."]
+          - ["بَسّ", "bass", "لٰكِنَّني", "lākinnanī", words, "'But': Shami bass (also 'only'). MSA lākinna with -nī 'I' attached: 'but I'."]
+          - ["شْوَيّ", "šwayy", "قَليلًا", "qalīlan", words, "'A little': Shami šwayy, MSA qalīlan ('little' + the adverb ending -an)."]
       - ref: [L005, 4]
         msa: {ar: "أَنا نَعْسانُ جِدًّا! وَأَنْتِ، أَلَسْتِ مُتْعَبَةً؟", tr: "ʔanā na3sānu jiddan! wa-ʔanti, ʔa-lasti mut3abatan?"}
         hl:
-          - ["كْتير", "ktīr", "جِدًّا", "jiddan", words]
-          - ["اِنْتي", "ʔinti", "أَنْتِ", "ʔanti", vow]
-          - ["تَعْبانة", "ta3bāne", "مُتْعَبَةً", "mut3abatan", end]
+          - ["كْتير", "ktīr", "جِدًّا", "jiddan", words, "'Very': Shami ktīr, which also means 'a lot'. MSA says jiddan."]
+          - ["اِنْتي", "ʔinti", "أَنْتِ", "ʔanti", vow, "'You' to a woman: a becomes i, ʔanti → ʔinti (ʔanta → ʔinte for a man)."]
+          - ["تَعْبانة", "ta3bāne", "مُتْعَبَةً", "mut3abatan", end, "Both mean 'tired' (said to a woman). Shami ta3bān gets -e for the feminine: ta3bāne. MSA mut3ab takes -a- and an ending: mut3abatan."]
       - ref: [L006, 2]
         msa: {ar: "نَعَمْ، عِنْدي أُخْتٌ. لَيْسَ عِنْدي أَخٌ.", tr: "na3am, 3indī ʔuxtun. laysa 3indī ʔaxun."}
         hl:
-          - ["اي", "ʔē", "نَعَمْ", "na3am", words]
-          - ["إخْت", "ʔixt", "أُخْتٌ", "ʔuxtun", end]
-          - ["ما", "mā", "لَيْسَ", "laysa", words]
+          - ["اي", "ʔē", "نَعَمْ", "na3am", words, "'Yes': Shami ʔē, MSA na3am. Na3am is understood but sounds formal in Damascus."]
+          - ["إخْت", "ʔixt", "أُخْتٌ", "ʔuxtun", end, "'Sister': ʔuxt → ʔixt, with u → i, and MSA adds the ending -un."]
+          - ["ما", "mā", "لَيْسَ", "laysa", words, "'Not': Shami mā + 3andi. MSA laysa is fuṣḥa only; you will not hear it in Damascus."]
       - ref: [L006, 3]
         msa: {ar: "وَهَلْ يوجَدُ ياسَمينٌ في باريسَ؟", tr: "wa-hal yūjadu yāsamīnun fī Bārīsa?"}
         hl:
-          - ["في", "fī", "هَلْ يوجَدُ", "hal yūjadu", words]
-          - ["بْباريس", "b-Bārīs", "في باريسَ", "fī Bārīsa", vow]
+          - ["في", "fī", "هَلْ يوجَدُ", "hal yūjadu", words, "'Is there?': Shami fī, with no verb, asked with a rising voice. MSA says hal yūjadu, 'does it exist?' (hal marks a question)."]
+          - ["بْباريس", "b-Bārīs", "في باريسَ", "fī Bārīsa", vow, "'In Paris': Shami sticks b- onto the name. MSA writes fī separately and adds the ending -a to Bārīs."]
       - ref: [L006, 4]
         msa: {ar: "لا، لا يوجَدُ ياسَمينٌ. لٰكِنْ هُناكَ مَطَرٌ كَثيرٌ!", tr: "lā, lā yūjadu yāsamīnun. lākin hunāka maṭarun kathīrun!"}
         hl:
-          - ["ما في", "mā fī", "لا يوجَدُ", "lā yūjadu", words]
-          - ["مَطَر", "maṭar", "مَطَرٌ", "maṭarun", end]
-          - ["كْتير", "ktīr", "كَثيرٌ", "kathīrun", th]
+          - ["ما في", "mā fī", "لا يوجَدُ", "lā yūjadu", words, "'There isn't': Shami mā fī. MSA lā + yūjadu, the verb negated."]
+          - ["مَطَر", "maṭar", "مَطَرٌ", "maṭarun", end, "The same word; MSA adds the ending -un."]
+          - ["كْتير", "ktīr", "كَثيرٌ", "kathīrun", th, "th → t, and the first vowel drops: kathīr → ktīr. The ending -un goes too."]
     rules:
       - id: q
         title: "ق becomes ʔ"
