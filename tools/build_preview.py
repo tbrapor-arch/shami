@@ -14,6 +14,24 @@ for L in d["lessons"]:
         sd["sh"] = lines[lid][k - 1]
         sd["lesson"] = nums[lid]
         sd["msa"]["audio"] = base64.b64encode(open(f"audio/{L['id']}/m{i:02d}.mp3", "rb").read()).decode()
+# notes become small pop-ups anchored on the transcription: each part of an anchor
+# ("hāda / hayy") is marked at its first free whole-word occurrence in the dialogue
+import re
+for L in d["lessons"]:
+    lns = L.get("lines", []); spans = {i: [] for i in range(len(lns))}; loose = []
+    for k, n in enumerate(L.get("notes", [])):
+        hit = False
+        for part in [x.strip() for x in re.split(r" / |, ", n["anchor"]) if x.strip()]:
+            pat = re.compile(r"(?<!\w)" + re.escape(part) + r"(?!\w)")
+            done = False
+            for i, ln in enumerate(lns):
+                for m in pat.finditer(ln["tr"]):
+                    if not any(m.start() < b and m.end() > a for a, b, _ in spans[i]):
+                        spans[i].append((m.start(), m.end(), k)); done = hit = True; break
+                if done: break
+        if not hit: loose.append(k)
+    for i, ln in enumerate(lns): ln["marks"] = sorted(spans[i])
+    L["loose"] = loose
 data = json.dumps(d["lessons"], ensure_ascii=False).replace("</", "<\\/")
 open(out, "w").write(open("tools/preview_template.html").read().replace("/*DATA*/[]", data).replace("{{WEEK}}", str(d["week"])))
 print(out, len(data) // 1024, "KB")

@@ -4,12 +4,10 @@
 <style>
 /* Layout: one reading column; a strip of lesson tiles on top, like a row of Damascene wall tiles; dialogue as the page's centre. */
 :root{
-  --bg:#f3f6f7; --surface:#ffffff; --ink:#14262e; --muted:#5b6f78; --line:#d5dfe3;
+  color-scheme:light; --bg:#f3f6f7; --surface:#ffffff; --ink:#14262e; --muted:#5b6f78; --line:#d5dfe3;
   --tile:#0e5a73; --tile-ink:#ffffff; --tile-soft:#dcecf1; --pom:#a8324a; --msa:#6a5a1e; --msa-soft:#f3edd3;
   --f-ar:"Noto Naskh Arabic","Geeza Pro","Segoe UI",serif; --f-kufi:"Reem Kufi","Noto Naskh Arabic",sans-serif; --f-lat:"Noto Sans",system-ui,sans-serif;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1a20;--surface:#14262e;--ink:#e6eef1;--muted:#93a7b0;--line:#27404b;--tile:#58b4cf;--tile-ink:#0d1a20;--tile-soft:#1b3641;--pom:#ef8fa3;--msa:#e0cf85;--msa-soft:#2e2b17;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0d1a20;--surface:#14262e;--ink:#e6eef1;--muted:#93a7b0;--line:#27404b;--tile:#58b4cf;--tile-ink:#0d1a20;--tile-soft:#1b3641;--pom:#ef8fa3;--msa:#e0cf85;--msa-soft:#2e2b17;color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--f-lat);padding-block:20px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 main{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
@@ -73,6 +71,9 @@ mark.lit2{outline:2px solid var(--pom)}
 .sheet .pair{font-size:17px;margin:6px 0 10px} .sheet .pair .s{color:var(--tile);font-weight:600} .sheet .pair .m{color:var(--msa);font-weight:600}
 .sheet .pair .ara{font:400 24px/1.7 var(--f-ar)}
 @media (min-width:760px){body.wide main{max-width:980px}.sides{grid-template-columns:1fr 1fr}.sd.m{border-top:0;padding-top:0;border-inline-start:1px dashed var(--line);padding-inline-start:12px}}
+.nt{border-bottom:1.5px dotted var(--tile);cursor:pointer}.nt.on,mark.on{background:var(--tile-soft)}
+.pop{position:absolute;z-index:30;width:min(290px,calc(100vw - 24px));background:var(--surface);color:var(--ink);border:1px solid var(--line);border-top:3px solid var(--tile);border-radius:6px;box-shadow:0 6px 22px rgba(20,38,46,.18);padding:10px 12px;font:400 14px/1.45 var(--f-lat)}
+.pop b{display:block;color:var(--tile);margin-bottom:3px}.pop .pp{display:block;margin-bottom:4px;font-weight:600}.pop .s{color:var(--tile)}.pop .m{color:var(--msa)}
 footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:12px}
 @media (max-width:480px){h1{font-size:36px}.ar{font-size:24px}.words{grid-template-columns:auto minmax(0,1fr)}.words .e{grid-column:1/-1;margin-bottom:6px}}
 </style>
@@ -89,17 +90,17 @@ const esc=s=>String(s).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[
 let au=new Audio(),cur=null,queue=[];
 function stop(){au.pause();if(cur)cur.classList.remove('on');cur=null}
 function play(row,src,next){stop();cur=row;row.classList.add('on');au=new Audio('data:audio/mpeg;base64,'+src);au.onended=()=>{row.classList.remove('on');cur=null;if(next)next()};au.play().catch(()=>{})}
-function show(i){stop();closeNotes();const d=L[i],el=document.getElementById('lesson');el.innerHTML='';document.body.classList.toggle('wide',!!d.sides);
+function show(i){stop();closeNotes();unpop();const d=L[i],el=document.getElementById('lesson');el.innerHTML='';document.body.classList.toggle('wide',!!d.sides);
   document.querySelectorAll('#nav button').forEach((b,k)=>b.setAttribute('aria-current',k===i));
   el.append($('div','kicker',d.bridge?'Bridge to Modern Standard Arabic':d.review?'Revision':'Lesson '+d.n));
   el.append($('h1','',esc(d.title.ar)),$('div','sub',esc(d.title.tr)+' · '+esc(d.title.en)),$('p','scene',esc(d.scene||'')));
-  if(d.notes&&d.notes.length){const nb=$('button','nbtn','ⓘ Notes · '+d.notes.length);nb.onclick=()=>openNotes(d);el.append(nb)}
+  if(d.loose&&d.loose.length){const nb=$('button','nbtn','ⓘ Notes · '+d.loose.length);nb.onclick=()=>openNotes({title:d.title,notes:d.loose.map(k=>d.notes[k])});el.append(nb)}
   (d.sections||[]).forEach(s=>{const b=$('div','sec');b.append($('h3','',esc(s.title)));if(s.text)b.append($('p','',esc(s.text)));if(s.table)b.append(tbl(s.table));if(s.after)b.append($('p','',esc(s.after)));el.append(b)});
   if(d.lines){const o=$('div','opts');o.innerHTML='<button class="playall" id="pa">▶ Play the dialogue</button>'+[['tr','Transcription'],['lit','Word for word'],['en','English']].map(([k,t])=>`<label><input type="checkbox" id="o-${k}" ${document.body.classList.contains('no-'+k)?'':'checked'}> ${t}</label>`).join('');
     const g=$('div','dlg');el.append($('h2','','Dialogue'),o,g);
     const rows=d.lines.map(l=>{const r=$('div','ln'+(l.lang==='msa'?' msa':''));const b=$('button','pl','▶');b.setAttribute('aria-label','Play line');const c=$('div'),h=$('div','lh');h.append(b,$('div','who',esc(l.name)));
-      c.innerHTML=`<div class="ar" lang="ar">${esc(l.ar)}</div><div class="tr">${esc(l.tr)}</div><div class="lit">${esc(l.lit)}</div><div class="en">${esc(l.en)}</div>`;
-      b.onclick=()=>cur===r?stop():play(r,l.audio);r.append(h,c);g.append(r);return[r,l]});
+      c.innerHTML=`<div class="ar" lang="ar">${esc(l.ar)}</div><div class="tr">${marks(l.tr,l.marks)}</div><div class="lit">${esc(l.lit)}</div><div class="en">${esc(l.en)}</div>`;
+      b.onclick=()=>cur===r?stop():play(r,l.audio);c.querySelectorAll('.nt').forEach(m=>m.onclick=e=>{e.stopPropagation();const n=d.notes[+m.dataset.n];pop(m,`<b>${esc(n.anchor)}</b>${esc(n.text)}`)});r.append(h,c);g.append(r);return[r,l]});
     o.querySelector('#pa').onclick=()=>{let k=0;const nx=()=>{if(k<rows.length){const[r,l]=rows[k++];play(r,l.audio,nx)}};nx()};
     ['tr','lit','en'].forEach(k=>o.querySelector('#o-'+k).onchange=e=>document.body.classList.toggle('no-'+k,!e.target.checked))}
   if(d.sides)renderSides(d,el);
@@ -132,7 +133,7 @@ function renderSides(d,el){const rules=Object.fromEntries((d.rules||[]).map(r=>[
       mk.onmouseenter=()=>c.querySelectorAll(`mark[data-k="${k}"]`).forEach(x=>x.classList.add('lit2'));
       mk.onmouseleave=()=>c.querySelectorAll('mark').forEach(x=>x.classList.remove('lit2'));
       mk.onclick=e=>{if(c.classList.contains('hide-s')||c.classList.contains('hide-m'))return;e.stopPropagation();const h=p.hl[k],r=rules[h[4]];
-        sheet(r.title,`<div class="pair"><span class="ara" lang="ar">${esc(h[0])}</span> <span class="s">${esc(h[1])}</span> &nbsp;↔&nbsp; <span class="ara" lang="ar">${esc(h[2])}</span> <span class="m">${esc(h[3])}</span></div><p>${esc(r.text)}</p>`)}});
+        pop(mk,`<b>${esc(r.title)}</b><span class="pp"><span class="s">${esc(h[1])}</span> ↔ <span class="m">${esc(h[3])}</span></span>${esc(r.text)}`)}});
     const pk=c.querySelector('.peek');c.onclick=e=>{if(e.target.closest('.pl'))return;if(c.classList.contains('hide-s')||c.classList.contains('hide-m')){c.classList.remove('hide-s','hide-m');pk.hidden=true}};
     g.append(c);return c});
   const apply=()=>{o.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.m===sideMode));cards.forEach(c=>{c.classList.toggle('hide-m',sideMode==='s');c.classList.toggle('hide-s',sideMode==='m');c.querySelector('.peek').hidden=sideMode==='both'})};
@@ -140,6 +141,13 @@ function renderSides(d,el){const rules=Object.fromEntries((d.rules||[]).map(r=>[
 function sheet(title,html){closeNotes();const o=$('div','ov');o.id='ov';const sh=$('div','sheet');
   sh.innerHTML='<div class="sh-h"><b>'+esc(title)+'</b><button class="x" aria-label="Close">✕</button></div>'+html;
   o.onclick=e=>{if(e.target===o)closeNotes()};sh.querySelector('.x').onclick=closeNotes;o.append(sh);document.body.append(o)}
+function marks(t,ms){let o='',p=0;(ms||[]).forEach(([a,b,k])=>{o+=esc(t.slice(p,a))+`<span class="nt" data-n="${k}" role="button" tabindex="0">${esc(t.slice(a,b))}</span>`;p=b});return o+esc(t.slice(p))}
+function unpop(){const q=document.getElementById('pop');if(q)q.remove();document.querySelectorAll('.nt.on,mark.on').forEach(x=>x.classList.remove('on'))}
+function pop(anchor,html){const was=anchor.classList.contains('on');unpop();if(was)return;anchor.classList.add('on');
+  const q=$('div','pop',html);q.id='pop';document.body.append(q);const r=anchor.getBoundingClientRect(),w=q.offsetWidth,h=q.offsetHeight,vw=document.documentElement.clientWidth;
+  let x=Math.min(Math.max(12,r.left+r.width/2-w/2),vw-w-12),y=r.bottom+8;if(y+h>innerHeight-8&&r.top-h-8>0)y=r.top-h-8;
+  q.style.left=x+'px';q.style.top=(y+scrollY)+'px'}
+document.addEventListener('click',e=>{if(!e.target.closest('#pop'))unpop()});addEventListener('resize',unpop);
 function qa(h,a){const b=$('button','q',h+`<span class="ans">${esc(a)}</span>`);b.onclick=()=>b.classList.toggle('open');return b}
 function tbl(t,cls){const w=$('div','tw'),e=$('table');e.innerHTML='<tr>'+t.head.map(h=>`<th>${esc(h)}</th>`).join('')+'</tr>'+t.rows.map(r=>'<tr>'+r.map((c,i)=>`<td class="${cls?cls[i]:''}">${esc(c)}</td>`).join('')+'</tr>').join('');w.append(e);return w}
 const nav=document.getElementById('nav');L.forEach((d,i)=>{const b=$('button',d.bridge?'b':'',esc(d.n));b.title=d.title.en;b.onclick=()=>show(i);nav.append(b)});show(0);
