@@ -1,0 +1,346 @@
+# Shami, week 1: lessons 1–7 and bridge B1.
+# Original text written for this course. Not yet checked by a native speaker.
+# Line fields: who, ar (partial vowels), tr (transcription), lit (word for word), en.
+# lang: msa marks a Modern Standard Arabic line (bridge lessons only).
+week: 1
+cast:
+  adam: {name: "Adam", ar: "آدم", voice: ar-SY-LaithNeural}
+  sami: {name: "Sāmi", ar: "سامي", voice: ar-SY-LaithNeural, pitch: "-12Hz"}
+  abu:  {name: "Abu Sāmi", ar: "أبو سامي", voice: ar-SY-LaithNeural, pitch: "-25Hz", rate: "-6%"}
+  umm:  {name: "Umm Sāmi", ar: "إم سامي", voice: ar-SY-AmanyNeural}
+  lina: {name: "Līna", ar: "لينا", voice: ar-SY-AmanyNeural, pitch: "+12Hz"}
+  teta: {name: "Tēta", ar: "تيتا", voice: ar-SY-AmanyNeural, pitch: "-18Hz", rate: "-8%"}
+
+lessons:
+  - id: L001
+    n: 1
+    title: {ar: "مَرْحَبا", tr: "marḥaba", en: "Hello"}
+    scene: "Damascus airport. Sāmi is waiting for a cousin he has only ever seen on a screen."
+    lines:
+      - {who: sami, ar: "مَرْحَبا! اِنْتَ آدَم؟", tr: "marḥaba! ʔinte ʔādam?", lit: "hello! you Adam?", en: "Hello! Are you Adam?"}
+      - {who: adam, ar: "اي، أنا آدَم. واِنْتَ سامي؟", tr: "ʔē, ʔana ʔādam. w-ʔinte Sāmi?", lit: "yes, I Adam. and-you Sami?", en: "Yes, I'm Adam. And you're Sāmi?"}
+      - {who: sami, ar: "اي، أنا سامي، اِبْن عَمَّك. الحَمْدِلله عَالسَّلامة!", tr: "ʔē, ʔana Sāmi, ʔibn 3ammak. il-ḥamdilla 3as-salāme!", lit: "yes, I Sami, son uncle-your. the-praise-to-God on-the-safety", en: "Yes, I'm Sāmi, your cousin. Glad you arrived safely!"}
+      - {who: adam, ar: "الله يْسَلّمَك.", tr: "ʔalla ysallmak.", lit: "God keep-safe-you", en: "Thank you. (God keep you safe.)"}
+      - {who: sami, ar: "أَهْلا وْسَهْلا فيك بِالشّام!", tr: "ʔahla w-sahla fīk biš-Šām!", lit: "welcome in-you in-the-Sham", en: "Welcome to Damascus!"}
+    notes:
+      - {anchor: "ʔinte ʔādam?", text: "There is no word for 'am / is / are'. 'You Adam?' is a complete question; only the rising voice marks it. ʔana Sāmi = 'I am Sāmi'."}
+      - {anchor: "ʔinte", text: "ʔinte is 'you' to a man. To a woman it is ʔinti (lesson 5)."}
+      - {anchor: "ʔibn 3ammak", text: "Literally 'son of your father's brother'. Arabic names each cousin by the exact link. The ending -ak means 'your' (to a man)."}
+      - {anchor: "il-ḥamdilla 3as-salāme", text: "The fixed greeting for anyone who has just travelled or recovered from illness. The fixed answer is ʔalla ysallmak (to a woman: ʔalla ysallmik)."}
+      - {anchor: "biš-Šām", text: "iš-Šām is what Syrians call Damascus (and, more widely, the whole Levant). b- means 'in'."}
+    words:
+      - {ar: "مرحبا", tr: "marḥaba", en: "hello"}
+      - {ar: "انت", tr: "ʔinte", en: "you (to a man)"}
+      - {ar: "أنا", tr: "ʔana", en: "I"}
+      - {ar: "اي", tr: "ʔē", en: "yes"}
+      - {ar: "ابن عمّ", tr: "ʔibn 3amm", en: "cousin (son of father's brother)"}
+      - {ar: "أهلا وسهلا", tr: "ʔahla w-sahla", en: "welcome"}
+      - {ar: "الشام", tr: "iš-Šām", en: "Damascus"}
+    practice:
+      translate:
+        - {ar: "أنا آدم.", tr: "ʔana ʔādam.", en: "I'm Adam."}
+        - {ar: "انت سامي؟", tr: "ʔinte Sāmi?", en: "Are you Sāmi?"}
+        - {ar: "أهلا وسهلا فيك!", tr: "ʔahla w-sahla fīk!", en: "Welcome!"}
+      fill:
+        - {tr: "ʔana Sāmi, ʔibn ___.", answer: "3ammak", en: "I'm Sāmi, your cousin."}
+        - {tr: "il-ḥamdilla ___!", answer: "3as-salāme", en: "Glad you arrived safely!"}
+        - {tr: "ʔahla w-sahla fīk ___!", answer: "biš-Šām", en: "Welcome to Damascus!"}
+
+  - id: L002
+    n: 2
+    title: {ar: "كيفَك؟", tr: "kīfak?", en: "How are you?"}
+    scene: "The family flat in Mezze. Everyone has been waiting at the door."
+    lines:
+      - {who: abu, ar: "أَهْلين عَمّو! كيفَك؟", tr: "ʔahlēn 3ammo! kīfak?", lit: "welcome uncle! how-you?", en: "Welcome, my boy! How are you?"}
+      - {who: adam, ar: "مْنيح، الحَمْدِلله. واِنْتَ كيفَك عَمّو؟", tr: "mnīḥ, il-ḥamdilla. w-ʔinte kīfak 3ammo?", lit: "good, the-praise-to-God. and-you how-you uncle?", en: "Fine, thank God. And how are you, Uncle?"}
+      - {who: abu, ar: "تَمام. هَيّ مَرْت عَمَّك، وهَيّ لينا.", tr: "tamām. hayy mart 3ammak, w-hayy Līna.", lit: "perfect. this wife uncle-your, and-this Lina", en: "Very well. This is your aunt, and this is Līna."}
+      - {who: adam, ar: "مَرْحَبا! كيفِك لينا؟", tr: "marḥaba! kīfik Līna?", lit: "hello! how-you(f) Lina?", en: "Hello! How are you, Līna?"}
+      - {who: lina, ar: "مْنيحة، الحَمْدِلله!", tr: "mnīḥa, il-ḥamdilla!", lit: "good(f), the-praise-to-God", en: "Fine, thank God!"}
+      - {who: umm, ar: "أَهْلا وْسَهْلا يا اِبْني! كيفْكُن شَباب؟ تْفَضَّلو!", tr: "ʔahla w-sahla yā ʔibni! kīfkun šabāb? tfaḍḍalu!", lit: "welcome O son-my! how-you(pl) young-men? please(pl)", en: "Welcome, my son! How are you, boys? Come in!"}
+    notes:
+      - {anchor: "kīfak / kīfik / kīfkun", text: "kīf 'how' takes the ending of the person you ask: -ak to a man, -ik to a woman, -kun to several people. The same three endings mean 'your' on nouns: 3ammak, 3ammik, 3ammkun."}
+      - {anchor: "mnīḥ / mnīḥa", text: "Adjectives agree with the person. The feminine ending is written ة. It is said -e after most consonants and -a after throat and emphatic consonants (ḥ, 3, x, ɣ, ʔ, h, ṣ, ḍ, ṭ, ẓ) and usually r: so mnīḥa here, but ta3bāne in lesson 5."}
+      - {anchor: "3ammo", text: "Adam calls his uncle 3ammo, and the uncle calls Adam 3ammo back. Older relatives address children with their own title; it is affectionate, not a mistake."}
+      - {anchor: "hayy", text: "hayy is 'this' for a woman or a feminine thing. It is also how you introduce someone: hayy Līna, 'this is Līna'."}
+      - {anchor: "tfaḍḍalu", text: "'Please, go ahead': come in, sit down, help yourself. To one man tfaḍḍal, to one woman tfaḍḍali."}
+    words:
+      - {ar: "كيف", tr: "kīf", en: "how"}
+      - {ar: "منيح", tr: "mnīḥ", en: "good, well"}
+      - {ar: "الحمدلله", tr: "il-ḥamdilla", en: "thank God"}
+      - {ar: "تمام", tr: "tamām", en: "perfect, very well"}
+      - {ar: "عمّ", tr: "3amm", en: "father's brother"}
+      - {ar: "مرت", tr: "mart", en: "wife of"}
+      - {ar: "ابني", tr: "ʔibni", en: "my son"}
+      - {ar: "شباب", tr: "šabāb", en: "young men, guys"}
+    practice:
+      translate:
+        - {ar: "كيفِك؟", tr: "kīfik?", en: "How are you? (to a woman)"}
+        - {ar: "أنا منيح، الحمدلله.", tr: "ʔana mnīḥ, il-ḥamdilla.", en: "I'm fine, thank God."}
+        - {ar: "هَيّ مرت عمّي.", tr: "hayy mart 3ammi.", en: "This is my aunt."}
+        - {ar: "كيفكن؟", tr: "kīfkun?", en: "How are you all?"}
+      fill:
+        - {tr: "kīf___ Līna?", answer: "ik", en: "How are you, Līna?"}
+        - {tr: "Līna ___ , il-ḥamdilla.", answer: "mnīḥa", en: "Līna is fine, thank God."}
+        - {tr: "___ Līna.", answer: "hayy", en: "This is Līna."}
+        - {tr: "ʔahla w-sahla yā ___!", answer: "ʔibni", en: "Welcome, my son!"}
+
+  - id: L003
+    n: 3
+    title: {ar: "أَهْلا وْسَهْلا", tr: "ʔahla w-sahla", en: "Welcome"}
+    scene: "The old city. Tēta opens the door of the courtyard house where Adam's father grew up."
+    lines:
+      - {who: teta, ar: "أَهْلا وْسَهْلا يا تيتا! هادا بَيْتي، وهَلَّق بَيْتَك.", tr: "ʔahla w-sahla yā tēta! hāda bēti, w-hallaʔ bētak.", lit: "welcome O grandma! this house-my, and-now house-your", en: "Welcome, my dear! This is my house, and now it's yours."}
+      - {who: adam, ar: "شو حِلو!", tr: "šū ḥilu!", lit: "what beautiful", en: "How beautiful!"}
+      - {who: teta, ar: "هَوْن المَطْبَخ، وهْنيك الحَمّام.", tr: "hōn il-maṭbax, w-hnīk il-ḥammām.", lit: "here the-kitchen, and-there the-bathroom", en: "Here is the kitchen, and over there the bathroom."}
+      - {who: adam, ar: "وهَيّ؟", tr: "w-hayy?", lit: "and-this?", en: "And this one?"}
+      - {who: teta, ar: "هَيّ أوضِة أَبوك. هَلَّق أوضْتَك.", tr: "hayy ʔūḍit ʔabūk. hallaʔ ʔūḍtak.", lit: "this room father-your. now room-your", en: "This is your father's room. Now it's your room."}
+    notes:
+      - {anchor: "hāda / hayy", text: "'This': hāda for masculine words (hāda bēti), hayy for feminine ones (hayy ʔūḍa). Adam asks w-hayy? because ʔūḍa 'room' is feminine."}
+      - {anchor: "hallaʔ", text: "Sound of the week: the letter ق. In Damascus it is not said q. It is a catch in the throat, written ʔ, like the break in 'uh-oh'. The spelling keeps ق: هلق is said hallaʔ."}
+      - {anchor: "bēti, bētak", text: "'My' is -i, 'your' (to a man) is -ak: bēt, bēti, bētak. To a woman: bētik."}
+      - {anchor: "ʔūḍit ʔabūk", text: "To say 'the room of your father', put the two words side by side. A word ending in ة then shows a hidden t: ʔūḍa becomes ʔūḍit. The same t appears before an ending: ʔūḍti 'my room', ʔūḍtak 'your room'."}
+      - {anchor: "yā tēta", text: "Tēta calls Adam tēta, just as his uncle called him 3ammo in lesson 2. Many Syrians say sitti for 'my grandmother'."}
+    words:
+      - {ar: "هادا", tr: "hāda", en: "this (masculine)"}
+      - {ar: "هَيّ", tr: "hayy", en: "this (feminine)"}
+      - {ar: "بيت", tr: "bēt", en: "house, home"}
+      - {ar: "هلق", tr: "hallaʔ", en: "now"}
+      - {ar: "حلو", tr: "ḥilu", en: "beautiful, nice, sweet"}
+      - {ar: "هون", tr: "hōn", en: "here"}
+      - {ar: "هنيك", tr: "hnīk", en: "there"}
+      - {ar: "مطبخ", tr: "maṭbax", en: "kitchen"}
+      - {ar: "حمّام", tr: "ḥammām", en: "bathroom"}
+      - {ar: "أوضة", tr: "ʔūḍa", en: "room"}
+      - {ar: "أبوك", tr: "ʔabūk", en: "your father"}
+    practice:
+      translate:
+        - {ar: "هادا بيتي.", tr: "hāda bēti.", en: "This is my house."}
+        - {ar: "هون الحمّام.", tr: "hōn il-ḥammām.", en: "Here is the bathroom."}
+        - {ar: "هَيّ أوضتك.", tr: "hayy ʔūḍtak.", en: "This is your room."}
+        - {ar: "شو حلو بيتك!", tr: "šū ḥilu bētak!", en: "How beautiful your house is!"}
+      fill:
+        - {tr: "___ bēti.", answer: "hāda", en: "This is my house."}
+        - {tr: "___ ʔūḍit ʔabūk.", answer: "hayy", en: "This is your father's room."}
+        - {tr: "hōn il-maṭbax, w-___ il-ḥammām.", answer: "hnīk", en: "Here is the kitchen, and there the bathroom."}
+        - {tr: "hāda bēti, w-hallaʔ bēt___.", answer: "ak", en: "This is my house, and now it's yours."}
+
+  - id: L004
+    n: 4
+    title: {ar: "شو هاد؟", tr: "šū hād?", en: "What's this?"}
+    scene: "Morning in the courtyard. Līna has come over for breakfast; Adam is looking at everything."
+    lines:
+      - {who: adam, ar: "لينا، شو هاد؟", tr: "Līna, šū hād?", lit: "Lina, what this?", en: "Līna, what's this?"}
+      - {who: lina, ar: "هاد ياسْمين. وهَيّ البَحْرة.", tr: "hād yāsmīn. w-hayy il-baḥra.", lit: "this jasmine. and-this the-fountain", en: "That's jasmine. And this is the fountain."}
+      - {who: adam, ar: "ومين هاد بِالصّورة؟", tr: "w-mīn hād biṣ-ṣūra?", lit: "and-who this in-the-picture?", en: "And who's this in the photo?"}
+      - {who: lina, ar: "هاد جِدّي وجِدَّك، الله يِرْحَمو.", tr: "hād jiddi w-jiddak, ʔalla yirḥamo.", lit: "this grandfather-my and-grandfather-your, God have-mercy-him", en: "That's my grandfather, and yours, God rest his soul."}
+      - {who: adam, ar: "ووَيْن تيتا؟", tr: "w-wēn tēta?", lit: "and-where grandma?", en: "And where's Tēta?"}
+      - {who: lina, ar: "تيتا بِالمَطْبَخ.", tr: "tēta bil-maṭbax.", lit: "grandma in-the-kitchen", en: "Tēta is in the kitchen."}
+    notes:
+      - {anchor: "šū, mīn, wēn", text: "The three first question words: šū 'what', mīn 'who', wēn 'where'. They stand first, and nothing else changes: wēn tēta? 'Where is Tēta?'"}
+      - {anchor: "hād", text: "hād is the everyday short form of hāda. Both are correct."}
+      - {anchor: "il-baḥra, biṣ-ṣūra", text: "'The' is il-, joined to the word. Before a consonant made with the tip of the tongue (t, d, s, z, š, ṣ, ḍ, ṭ, ẓ, n, r, l, and usually j), the l copies that consonant: il + ṣūra is iṣ-ṣūra, il + Šām is iš-Šām. Before other consonants the l stays: il-baḥra, il-maṭbax."}
+      - {anchor: "bil-maṭbax", text: "b- 'in' joins the article: b + il-maṭbax is bil-maṭbax, b + iṣ-ṣūra is biṣ-ṣūra."}
+      - {anchor: "ʔalla yirḥamo", text: "Said every time you mention someone who has died. For a woman: ʔalla yirḥamha."}
+    words:
+      - {ar: "شو", tr: "šū", en: "what"}
+      - {ar: "مين", tr: "mīn", en: "who"}
+      - {ar: "وين", tr: "wēn", en: "where"}
+      - {ar: "ياسمين", tr: "yāsmīn", en: "jasmine"}
+      - {ar: "بحرة", tr: "baḥra", en: "courtyard fountain"}
+      - {ar: "صورة", tr: "ṣūra", en: "picture, photo"}
+      - {ar: "جدّ", tr: "jidd", en: "grandfather"}
+      - {ar: "بـ", tr: "b-", en: "in"}
+    practice:
+      translate:
+        - {ar: "شو هاد؟", tr: "šū hād?", en: "What's this?"}
+        - {ar: "مين هَيّ؟", tr: "mīn hayy?", en: "Who's this? (a woman)"}
+        - {ar: "وين المطبخ؟", tr: "wēn il-maṭbax?", en: "Where's the kitchen?"}
+        - {ar: "آدم بالبيت.", tr: "ʔādam bil-bēt.", en: "Adam is at home."}
+      fill:
+        - {tr: "___ tēta? — bil-maṭbax.", answer: "wēn", en: "Where's Tēta? — In the kitchen."}
+        - {tr: "___ hād? — hād jiddi.", answer: "mīn", en: "Who's this? — That's my grandfather."}
+        - {tr: "mīn hād bi___-ṣūra?", answer: "ṣ", en: "Who's this in the photo?"}
+        - {tr: "___ hād? — hād yāsmīn.", answer: "šū", en: "What's this? — It's jasmine."}
+
+  - id: L005
+    n: 5
+    title: {ar: "تَعْبان", tr: "ta3bān", en: "Tired"}
+    scene: "First evening at Tēta's. The jet lag is winning."
+    lines:
+      - {who: teta, ar: "آدَم، اِنْتَ جوعان؟", tr: "ʔādam, ʔinte jū3ān?", lit: "Adam, you hungry?", en: "Adam, are you hungry?"}
+      - {who: adam, ar: "لأ تيتا، مو جوعان. بَسّ تَعْبان شْوَيّ.", tr: "laʔ tēta, mū jū3ān. bass ta3bān šwayy.", lit: "no grandma, not hungry. but tired a-little", en: "No, Tēta, I'm not hungry. Just a bit tired."}
+      - {who: teta, ar: "تَعْبان وِلّا نَعْسان؟", tr: "ta3bān willa na3sān?", lit: "tired or sleepy?", en: "Tired, or sleepy?"}
+      - {who: adam, ar: "نَعْسان كْتير! واِنْتي، مو تَعْبانة؟", tr: "na3sān ktīr! w-ʔinti, mū ta3bāne?", lit: "sleepy very! and-you(f), not tired(f)?", en: "Very sleepy! And you, aren't you tired?"}
+      - {who: teta, ar: "أنا؟ أنا مو تَعْبانة أَبَداً!", tr: "ʔana? ʔana mū ta3bāne ʔabadan!", lit: "I? I not tired(f) at-all", en: "Me? I'm not tired at all!"}
+    notes:
+      - {anchor: "jū3ān, ta3bān, na3sān", text: "Many words for a passing state end in -ān. Feminine adds -e, plural -īn: ta3bān, ta3bāne, ta3bānīn."}
+      - {anchor: "mū", text: "mū is 'not' before anything that is not a verb: mū jū3ān 'not hungry', mū hōn 'not here', mū ʔana 'not me'."}
+      - {anchor: "ʔinti", text: "'You' to a woman is ʔinti; her adjective is feminine too: ʔinti ta3bāne?"}
+      - {anchor: "willa", text: "'Or' in a question that offers a choice."}
+      - {anchor: "šwayy, ktīr", text: "šwayy 'a little' and ktīr 'very, a lot' usually follow the adjective: ta3bān šwayy, na3sān ktīr. ktīr can also come first: ktīr ḥilu."}
+    words:
+      - {ar: "جوعان", tr: "jū3ān", en: "hungry"}
+      - {ar: "تعبان", tr: "ta3bān", en: "tired"}
+      - {ar: "نعسان", tr: "na3sān", en: "sleepy"}
+      - {ar: "مو", tr: "mū", en: "not"}
+      - {ar: "لأ", tr: "laʔ", en: "no"}
+      - {ar: "بسّ", tr: "bass", en: "but, only"}
+      - {ar: "شويّ", tr: "šwayy", en: "a little"}
+      - {ar: "كتير", tr: "ktīr", en: "very, a lot"}
+      - {ar: "ولّا", tr: "willa", en: "or (in questions)"}
+      - {ar: "انتي", tr: "ʔinti", en: "you (to a woman)"}
+    practice:
+      translate:
+        - {ar: "أنا مو تعبان.", tr: "ʔana mū ta3bān.", en: "I'm not tired."}
+        - {ar: "انتي جوعانة؟", tr: "ʔinti jū3āne?", en: "Are you hungry? (to a woman)"}
+        - {ar: "لينا نعسانة شويّ.", tr: "Līna na3sāne šwayy.", en: "Līna is a bit sleepy."}
+        - {ar: "البيت كتير حلو.", tr: "il-bēt ktīr ḥilu.", en: "The house is very beautiful."}
+      fill:
+        - {tr: "laʔ, ___ jū3ān.", answer: "mū", en: "No, I'm not hungry."}
+        - {tr: "tēta mū ta3bān___.", answer: "e", en: "Tēta isn't tired."}
+        - {tr: "ta3bān ___ na3sān?", answer: "willa", en: "Tired or sleepy?"}
+        - {tr: "ʔana na3sān ___!", answer: "ktīr", en: "I'm very sleepy!"}
+
+  - id: L006
+    n: 6
+    title: {ar: "عَنْدي", tr: "3andi", en: "I have"}
+    scene: "Tēta wants to know everything about the family in Paris."
+    lines:
+      - {who: teta, ar: "عَنْدَك إخْوِة يا آدَم؟", tr: "3andak ʔixwe yā ʔādam?", lit: "at-you siblings O Adam?", en: "Do you have brothers and sisters, Adam?"}
+      - {who: adam, ar: "اي، عَنْدي أُخْت. ما عَنْدي أَخّ.", tr: "ʔē, 3andi ʔixt. mā 3andi ʔaxx.", lit: "yes, at-me sister. not at-me brother", en: "Yes, I have a sister. I don't have a brother."}
+      - {who: teta, ar: "وفي ياسْمين بْباريس؟", tr: "w-fī yāsmīn b-Bārīs?", lit: "and-there-is jasmine in-Paris?", en: "And is there jasmine in Paris?"}
+      - {who: adam, ar: "لأ، ما في ياسْمين. بَسّ في مَطَر كْتير!", tr: "laʔ, mā fī yāsmīn. bass fī maṭar ktīr!", lit: "no, not there-is jasmine. but there-is rain much", en: "No, there's no jasmine. But there's a lot of rain!"}
+      - {who: teta, ar: "يا حَرام! هَوْن إلَك بَيْت وياسْمين.", tr: "yā ḥarām! hōn ʔilak bēt w-yāsmīn.", lit: "O pity! here to-you house and-jasmine", en: "Poor thing! Here you have a home, and jasmine."}
+    notes:
+      - {anchor: "3andak, 3andi", text: "There is no verb 'to have'. You say 'at me': 3and + ending. 3andi 'I have', 3andak 'you have' (to a man), 3andik (to a woman)."}
+      - {anchor: "mā 3andi", text: "'I don't have' is mā 3andi. mā is the 'not' for verbs and for 3and and fī; mū (lesson 5) is for everything else."}
+      - {anchor: "fī / mā fī", text: "fī 'there is, there are' and mā fī 'there isn't, there aren't' never change: fī maṭar, mā fī yāsmīn."}
+      - {anchor: "ʔilak", text: "ʔil- + ending means 'belongs to, is for': ʔili 'mine, for me', ʔilak 'yours'. It is warmer than 3andak: Tēta is saying the house is his."}
+      - {anchor: "yā ḥarām", text: "Sympathy: 'poor thing', 'what a pity'."}
+    words:
+      - {ar: "عند", tr: "3and", en: "at; (with an ending) to have"}
+      - {ar: "إخوة", tr: "ʔixwe", en: "brothers, siblings"}
+      - {ar: "أخت", tr: "ʔixt", en: "sister"}
+      - {ar: "أخّ", tr: "ʔaxx", en: "brother"}
+      - {ar: "في", tr: "fī", en: "there is"}
+      - {ar: "ما", tr: "mā", en: "not (with verbs and 3and / fī)"}
+      - {ar: "مطر", tr: "maṭar", en: "rain"}
+      - {ar: "إلك", tr: "ʔilak", en: "yours, for you"}
+    practice:
+      translate:
+        - {ar: "عندي بيت بالشام.", tr: "3andi bēt biš-Šām.", en: "I have a house in Damascus."}
+        - {ar: "ما عندي أخت.", tr: "mā 3andi ʔixt.", en: "I don't have a sister."}
+        - {ar: "في ياسمين هون؟", tr: "fī yāsmīn hōn?", en: "Is there jasmine here?"}
+        - {ar: "ما في مطر.", tr: "mā fī maṭar.", en: "There's no rain."}
+      fill:
+        - {tr: "3and___ ʔixwe? (to a man)", answer: "ak", en: "Do you have siblings?"}
+        - {tr: "laʔ, ___ 3andi ʔaxx.", answer: "mā", en: "No, I don't have a brother."}
+        - {tr: "___ maṭar ktīr b-Bārīs.", answer: "fī", en: "There's a lot of rain in Paris."}
+        - {tr: "hōn ___ bēt.", answer: "ʔilak", en: "Here you have a home."}
+
+  - id: L007
+    n: 7
+    review: true
+    title: {ar: "مُراجَعة", tr: "murāja3a", en: "Revision 1"}
+    scene: "Nothing new this lesson. Read the tables, then enjoy a longer dialogue made only of what you know."
+    sections:
+      - title: "Sentences without 'to be'"
+        text: "Two words side by side make a sentence: ʔana ʔādam 'I am Adam', tēta bil-maṭbax 'Tēta is in the kitchen', il-bēt ḥilu 'the house is beautiful'. A question keeps the same words and raises the voice, or starts with šū, mīn, wēn, kīf."
+      - title: "Pronouns and endings"
+        text: "The ending is the same on a noun (bēt-), on kīf, on 3and and on ʔil-."
+        table:
+          head: ["", "pronoun", "ending", "example"]
+          rows:
+            - ["I", "ʔana · أنا", "-i", "bēti, 3andi"]
+            - ["you (m)", "ʔinte · انت", "-ak", "bētak, kīfak"]
+            - ["you (f)", "ʔinti · انتي", "-ik", "bētik, kīfik"]
+            - ["he", "huwwe · هوّ", "-o", "bēto, 3ando"]
+            - ["she", "hiyye · هيّ", "-a", "bēta, 3anda"]
+            - ["we", "niḥna · نحنا", "-na", "bētna, 3anna"]
+            - ["you (pl)", "ʔintu · انتو", "-kun", "bētkun, kīfkun"]
+            - ["they", "hinnen · هنّن", "-un", "bētun, 3andun"]
+        after: "huwwe, hiyye and the last rows are new: you will meet them in the dialogue below and in the coming lessons. After a vowel, 'his' is only a longer vowel (ʔabū 'his father') and 'her' is -ha (ʔabūha)."
+      - title: "This, here, there"
+        table:
+          head: ["", "masculine", "feminine"]
+          rows:
+            - ["this", "hāda / hād · هادا", "hayy · هَيّ"]
+            - ["here / there", "hōn · هون", "hnīk · هنيك"]
+      - title: "Two words for 'not'"
+        text: "mū before adjectives, nouns and places: mū ta3bān, mū hōn. mā before verbs, 3and and fī: mā 3andi, mā fī."
+      - title: "The feminine ending ة"
+        text: "Said -e (ta3bāne, jū3āne), but -a after throat and emphatic consonants and usually r (mnīḥa, ʔūḍa, baḥra, ṣūra). Before another noun or an ending it shows a t: ʔūḍit ʔabūk, ʔūḍtak."
+      - title: "Sounds"
+        text: "ق is said ʔ (hallaʔ). 3 (ع) is a squeezed, voiced sound from deep in the throat (3amm, ta3bān). ḥ (ح) is a strong, breathy h (mnīḥ, ḥilu). x (خ) is the ch of German 'Bach' (ʔaxx, maṭbax)."
+    lines:
+      - {who: sami, ar: "مَرْحَبا تيتا! كيفِك؟", tr: "marḥaba tēta! kīfik?", lit: "hello grandma! how-you(f)?", en: "Hello Tēta! How are you?"}
+      - {who: teta, ar: "مْنيحة، الحَمْدِلله. تْفَضَّل اِبْني!", tr: "mnīḥa, il-ḥamdilla. tfaḍḍal ʔibni!", lit: "good(f), the-praise-to-God. please son-my", en: "Fine, thank God. Come in, my son!"}
+      - {who: sami, ar: "وَيْن آدَم؟ نَعْسان؟", tr: "wēn ʔādam? na3sān?", lit: "where Adam? sleepy?", en: "Where's Adam? Sleepy?"}
+      - {who: teta, ar: "لأ، مو نَعْسان. هُوّ بْأوضِة أَبوه.", tr: "laʔ, mū na3sān. huwwe b-ʔūḍit ʔabū.", lit: "no, not sleepy. he in-room father-his", en: "No, he's not sleepy. He's in his father's room."}
+      - {who: sami, ar: "آدَم! كيفَك؟ جوعان؟", tr: "ʔādam! kīfak? jū3ān?", lit: "Adam! how-you? hungry?", en: "Adam! How are you? Hungry?"}
+      - {who: adam, ar: "كْتير! في أَكِل؟", tr: "ktīr! fī ʔakil?", lit: "very! there-is food?", en: "Very! Is there any food?"}
+      - {who: teta, ar: "طَبْعاً في! هاد بَيْت تيتا.", tr: "ṭab3an fī! hād bēt tēta.", lit: "of-course there-is! this house grandma", en: "Of course there is! This is Tēta's house."}
+    words:
+      - {ar: "هوّ", tr: "huwwe", en: "he"}
+      - {ar: "هيّ", tr: "hiyye", en: "she"}
+      - {ar: "أكل", tr: "ʔakil", en: "food"}
+      - {ar: "طبعاً", tr: "ṭab3an", en: "of course"}
+    practice:
+      translate:
+        - {ar: "وين سامي؟ هوّ بالبيت.", tr: "wēn Sāmi? huwwe bil-bēt.", en: "Where's Sāmi? He's at home."}
+        - {ar: "هَيّ أوضة لينا.", tr: "hayy ʔūḍit Līna.", en: "This is Līna's room."}
+        - {ar: "ما في أكل، بسّ في ياسمين.", tr: "mā fī ʔakil, bass fī yāsmīn.", en: "There's no food, but there's jasmine."}
+        - {ar: "تيتا مو تعبانة، بسّ أنا نعسان كتير.", tr: "tēta mū ta3bāne, bass ʔana na3sān ktīr.", en: "Tēta isn't tired, but I'm very sleepy."}
+      fill:
+        - {tr: "kīf___ šabāb?", answer: "kun", en: "How are you, guys?"}
+        - {tr: "Līna ___ jū3āne.", answer: "mū", en: "Līna isn't hungry."}
+        - {tr: "___ 3andi ʔixwe.", answer: "mā", en: "I don't have siblings."}
+        - {tr: "hād bēt___, w-hallaʔ bētak.", answer: "i", en: "This is my house, and now it's yours."}
+
+  - id: B01
+    n: B1
+    bridge: true
+    title: {ar: "الشّامي والفُصْحى", tr: "iš-šāmi wil-fuṣḥa", en: "Bridge 1 · Sounds"}
+    scene: "Adam learnt Modern Standard Arabic at university. It is the Arabic of books, news and speeches; nobody speaks it at home. He tries it on Tēta."
+    lines:
+      - {who: adam, lang: msa, ar: "مَرْحَبًا يا جَدَّتي! كَيْفَ حالُكِ؟", tr: "marḥaban yā jaddatī! kayfa ḥāluki?", lit: "hello O grandmother-my! how state-your(f)?", en: "Hello, Grandmother! How are you?"}
+      - {who: teta, ar: "شو؟ «كَيْفَ حالُكِ»؟ اِنْتَ مُذيع أَخْبار؟", tr: "šū? \"kayfa ḥāluki\"? ʔinte muzī3 ʔaxbār?", lit: "what? how-is-your-state? you announcer news?", en: "What? \"How do you do\"? Are you a newsreader?"}
+      - {who: adam, lang: msa, ar: "أَنا مُتْعَبٌ قَليلًا. هٰذا البَيْتُ جَميلٌ جِدًّا.", tr: "ʔanā mut3abun qalīlan. hādhā l-baytu jamīlun jiddan.", lit: "I tired a-little. this the-house beautiful very", en: "I am a little tired. This house is very beautiful."}
+      - {who: teta, ar: "قول: «تَعْبان شْوَيّ» و«هَالبَيْت كْتير حِلو».", tr: "ʔūl: \"ta3bān šwayy\" w-\"hal-bēt ktīr ḥilu\".", lit: "say: tired a-little and this-the-house very beautiful", en: "Say: \"ta3bān šwayy\" and \"hal-bēt ktīr ḥilu\"."}
+      - {who: adam, lang: msa, ar: "هَلْ عِنْدَكِ قَهْوَةٌ؟", tr: "hal 3indaki qahwatun?", lit: "? at-you(f) coffee", en: "Do you have coffee?"}
+      - {who: teta, ar: "«في قَهْوِة؟» اي في! أَهْلا وْسَهْلا بِالشّام يا مُذيع!", tr: "\"fī ʔahwe?\" ʔē fī! ʔahla w-sahla biš-Šām yā muzī3!", lit: "there-is coffee? yes there-is! welcome in-the-Sham O announcer", en: "\"fī ʔahwe?\" Yes there is! Welcome to Damascus, Mr Newsreader!"}
+    pairs:
+      head: ["Shami", "", "MSA", "", "English"]
+      rows:
+        - ["kīfak?", "كيفَك؟", "kayfa ḥāluka?", "كَيْفَ حالُكَ؟", "How are you?"]
+        - ["ʔana ta3bān šwayy", "أنا تعبان شويّ", "ʔanā mut3abun qalīlan", "أَنا مُتْعَبٌ قَليلًا", "I'm a bit tired"]
+        - ["hāda bēti", "هادا بيتي", "hādhā baytī", "هٰذا بَيْتي", "This is my house"]
+        - ["šū hād?", "شو هاد؟", "mā hādhā?", "ما هٰذا؟", "What's this?"]
+        - ["wēn tēta?", "وين تيتا؟", "ʔayna jaddatī?", "أَيْنَ جَدَّتي؟", "Where is Grandmother?"]
+        - ["mū jū3ān", "مو جوعان", "lastu jāʔi3an", "لَسْتُ جائِعًا", "I'm not hungry"]
+        - ["mā 3andi ʔaxx", "ما عندي أخّ", "laysa 3indī ʔaxun", "لَيْسَ عِنْدي أَخٌ", "I don't have a brother"]
+        - ["fī yāsmīn", "في ياسمين", "hunāka yāsamīnun", "هُناكَ ياسَمينٌ", "There is jasmine"]
+        - ["ktīr ḥilu", "كتير حلو", "jamīlun jiddan", "جَميلٌ جِدًّا", "Very beautiful"]
+        - ["hallaʔ", "هلق", "al-ʔāna", "الآنَ", "now"]
+    notes:
+      - {anchor: "ق", text: "MSA says q, a k made at the very back of the mouth: qahwa. Damascus says ʔ: ʔahwe. So does Tēta's ʔūl 'say!' (MSA qul). A few learned words keep q even in Damascus, such as il-Qurʔān."}
+      - {anchor: "ث ذ ظ", text: "MSA has the th of 'think' (ث), the th of 'this' (ذ) and an emphatic version (ظ). Damascus has none of them. Everyday words turn them into t and d: MSA hādhā is hāda, kathīr is ktīr. Learned words turn them into s and z: MSA mudhī3 'announcer' is muzī3. Shami spells what it says: هادا, كتير."}
+      - {anchor: "ay, aw", text: "MSA ay and aw become long ē and ō: bayt is bēt, ʔayna is wēn, yawm 'day' is yōm."}
+      - {anchor: "Endings", text: "MSA nouns carry short case endings: bayt-u-n, qahwat-u-n, jamīl-u-n. Speech drops them all, which is why MSA sounds formal and long. The ة goes from -at(un) to plain -e or -a: qahwatun is ʔahwe."}
+      - {anchor: "Lost vowels", text: "Short unstressed vowels often disappear, leaving two consonants at the start of a word: MSA kathīr is ktīr, kabīr 'big' is kbīr."}
+      - {anchor: "ج", text: "In careful MSA ج is the j of 'jam'. In Damascus it is softer, the j of French 'jour': jiddi, jū3ān."}
+      - {anchor: "Different words", text: "Some of the commonest words are simply different: šū / mā 'what', hallaʔ / al-ʔāna 'now', mū / laysa 'not', ktīr / jiddan 'very', ḥilu / jamīl 'beautiful'. Syrians understand both; they speak the first and write the second."}
+    words:
+      - {ar: "قهوة", tr: "ʔahwe", en: "coffee"}
+      - {ar: "قول", tr: "ʔūl", en: "say! (to a man)"}
+      - {ar: "مذيع", tr: "muzī3", en: "announcer, newsreader"}
+      - {ar: "أخبار", tr: "ʔaxbār", en: "news"}
+      - {ar: "هالبيت", tr: "hal-bēt", en: "this house"}
+      - {ar: "الفصحى", tr: "il-fuṣḥa", en: "Modern Standard Arabic"}
+    practice:
+      fill:
+        - {tr: "MSA qahwa → Shami ___", answer: "ʔahwe", en: "coffee"}
+        - {tr: "MSA bayt → Shami ___", answer: "bēt", en: "house"}
+        - {tr: "MSA kathīr → Shami ___", answer: "ktīr", en: "a lot"}
+        - {tr: "MSA hādhā → Shami ___", answer: "hāda", en: "this"}
+        - {tr: "MSA ʔayna → Shami ___", answer: "wēn", en: "where"}

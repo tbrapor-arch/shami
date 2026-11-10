@@ -213,7 +213,7 @@ Voices and the Syrian speakers of the two Shwayy 3an Ḥāli books.
 | 97 | وداع · *wadā3* | farewell in the courtyard | blessings and leave-taking | | 13 |
 | 98 | **Revision 14** | | | | |
 | B14 | *Bridge: full circle* | | lesson 1's scene in MSA, next to the Shami | | |
-| 99 | رسالة من باريس · *risāle min Bārīz* | a voice note home, in Shami this time | mixing registers | | |
+| 99 | رسالة من باريس · *risāle min Bārīs* | a voice note home, in Shami this time | mixing registers | | |
 | 100 | أهلا وسهلا مرة تانية · *ʔahla w-sahla marra tānye* | Adam comes back | everything | | |
 
 **Voice (tested 2026-11-10):** Microsoft neural voices **ar-SY-AmanyNeural** (female) and **ar-SY-LaithNeural**

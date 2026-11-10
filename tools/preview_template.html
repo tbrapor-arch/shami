@@ -1,0 +1,83 @@
+<title>Shami Week {{WEEK}}</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600&family=Noto+Sans:ital,wght@0,400;0,600;1,400&family=Reem+Kufi:wght@500;700&display=swap">
+<style>
+/* Layout: one reading column; a strip of lesson tiles on top, like a row of Damascene wall tiles; dialogue as the page's centre. */
+:root{
+  --bg:#f3f6f7; --surface:#ffffff; --ink:#14262e; --muted:#5b6f78; --line:#d5dfe3;
+  --tile:#0e5a73; --tile-ink:#ffffff; --tile-soft:#dcecf1; --pom:#a8324a; --msa:#6a5a1e; --msa-soft:#f3edd3;
+  --f-ar:"Noto Naskh Arabic","Geeza Pro","Segoe UI",serif; --f-kufi:"Reem Kufi","Noto Naskh Arabic",sans-serif; --f-lat:"Noto Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1a20;--surface:#14262e;--ink:#e6eef1;--muted:#93a7b0;--line:#27404b;--tile:#58b4cf;--tile-ink:#0d1a20;--tile-soft:#1b3641;--pom:#ef8fa3;--msa:#e0cf85;--msa-soft:#2e2b17;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1a20;--surface:#14262e;--ink:#e6eef1;--muted:#93a7b0;--line:#27404b;--tile:#58b4cf;--tile-ink:#0d1a20;--tile-soft:#1b3641;--pom:#ef8fa3;--msa:#e0cf85;--msa-soft:#2e2b17;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--f-lat);padding-block:20px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{font:700 30px/1 var(--f-kufi);color:var(--tile)} .brand span{font:600 15px var(--f-lat);color:var(--muted);margin-inline-start:8px}
+nav{display:grid;grid-template-columns:repeat(8,1fr);gap:6px}
+nav button{aspect-ratio:1;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:600 15px var(--f-lat);border-radius:4px;cursor:pointer;padding:0}
+nav button[aria-current="true"]{background:var(--tile);color:var(--tile-ink);border-color:var(--tile)}
+nav button.b{color:var(--msa)} nav button.b[aria-current="true"]{background:var(--msa);color:var(--bg);border-color:var(--msa)}
+button:focus-visible{outline:2px solid var(--pom);outline-offset:2px}
+.kicker{font:600 12px var(--f-lat);letter-spacing:.1em;text-transform:uppercase;color:var(--pom)}
+h1{margin:2px 0 0;font:700 44px/1.25 var(--f-kufi);direction:rtl;text-align:start}
+.sub{color:var(--tile);font-weight:600;font-size:18px} .scene{color:var(--muted);margin:6px 0 0;font-style:italic}
+.opts{display:flex;gap:14px;flex-wrap:wrap;font-size:14px;color:var(--muted)} .opts label{display:flex;gap:6px;align-items:center;cursor:pointer}
+.playall{border:1px solid var(--tile);background:transparent;color:var(--tile);font:600 14px var(--f-lat);border-radius:4px;padding:8px 14px;cursor:pointer}
+.dlg{display:flex;flex-direction:column;gap:4px}
+.ln{display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:14px 0;border-top:1px solid var(--line)}
+.ln.on .pl{background:var(--tile);color:var(--tile-ink)}
+.pl{width:40px;height:40px;border-radius:50%;border:1px solid var(--tile);background:transparent;color:var(--tile);cursor:pointer;font-size:14px;display:grid;place-items:center}
+.who{font:600 12px var(--f-lat);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.ar{font:400 27px/1.9 var(--f-ar);direction:rtl;text-align:start}
+.tr{color:var(--tile);font-weight:600} .lit{color:var(--muted);font-size:13.5px;font-style:italic} .en{margin-top:2px}
+.ln.msa .ar,.ln.msa .tr{color:var(--msa)} .ln.msa .who::after{content:" · MSA";color:var(--msa)}
+body.no-tr .dlg .tr,body.no-lit .lit,body.no-en .dlg .en{display:none}
+h2{font:600 13px var(--f-lat);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:10px 0 0;padding-top:16px;border-top:2px solid var(--tile)}
+.note{margin:0;padding:10px 0;border-bottom:1px solid var(--line)} .note b{color:var(--tile)}
+.sec h3{font:600 17px var(--f-lat);margin:14px 0 4px} .sec p{margin:4px 0}
+.tw{overflow-x:auto} table{border-collapse:collapse;width:100%;font-size:15px} th,td{text-align:start;padding:7px 10px 7px 0;border-bottom:1px solid var(--line);vertical-align:top} th{font:600 12px var(--f-lat);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+td.a{font:400 20px/1.6 var(--f-ar);direction:rtl;white-space:nowrap} td.m{color:var(--msa)} td.s{color:var(--tile);font-weight:600}
+.words{display:grid;grid-template-columns:auto auto minmax(0,1fr);gap:4px 16px;align-items:baseline} .words .a{font:400 22px/1.6 var(--f-ar);direction:rtl} .words .t{color:var(--tile);font-weight:600}
+.ex{display:flex;flex-direction:column;gap:8px} .q{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:10px 12px;cursor:pointer;text-align:start;font:inherit;color:inherit;width:100%}
+.q .a{font:400 22px/1.7 var(--f-ar);direction:rtl;text-align:start;display:block} .q .ans{display:block;color:var(--pom);font-weight:600} .q:not(.open) .ans{visibility:hidden} .q small{color:var(--muted)}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:12px}
+@media (max-width:480px){h1{font-size:36px}.ar{font-size:24px}.words{grid-template-columns:auto minmax(0,1fr)}.words .e{grid-column:1/-1;margin-bottom:6px}}
+</style>
+<main>
+<header><div class="brand">شامي<span>Shami · week {{WEEK}}</span></div></header>
+<nav id="nav" aria-label="Lessons"></nav>
+<article id="lesson"></article>
+<footer>Draft lessons, not yet checked by a native speaker. Voices are synthetic (Microsoft, Syrian Arabic): a guide to rhythm and melody, not a native speaker.</footer>
+</main>
+<script>
+const L=/*DATA*/[];
+const $=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
+const esc=s=>String(s).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
+let au=new Audio(),cur=null,queue=[];
+function stop(){au.pause();if(cur)cur.classList.remove('on');cur=null}
+function play(row,src,next){stop();cur=row;row.classList.add('on');au=new Audio('data:audio/mpeg;base64,'+src);au.onended=()=>{row.classList.remove('on');cur=null;if(next)next()};au.play().catch(()=>{})}
+function show(i){stop();const d=L[i],el=document.getElementById('lesson');el.innerHTML='';
+  document.querySelectorAll('#nav button').forEach((b,k)=>b.setAttribute('aria-current',k===i));
+  el.append($('div','kicker',d.bridge?'Bridge to Modern Standard Arabic':d.review?'Revision':'Lesson '+d.n));
+  el.append($('h1','',esc(d.title.ar)),$('div','sub',esc(d.title.tr)+' · '+esc(d.title.en)),$('p','scene',esc(d.scene||'')));
+  (d.sections||[]).forEach(s=>{const b=$('div','sec');b.append($('h3','',esc(s.title)));if(s.text)b.append($('p','',esc(s.text)));if(s.table)b.append(tbl(s.table));if(s.after)b.append($('p','',esc(s.after)));el.append(b)});
+  if(d.lines){const o=$('div','opts');o.innerHTML='<button class="playall" id="pa">▶ Play the dialogue</button>'+[['tr','Transcription'],['lit','Word for word'],['en','English']].map(([k,t])=>`<label><input type="checkbox" id="o-${k}" ${document.body.classList.contains('no-'+k)?'':'checked'}> ${t}</label>`).join('');
+    const g=$('div','dlg');el.append($('h2','','Dialogue'),o,g);
+    const rows=d.lines.map(l=>{const r=$('div','ln'+(l.lang==='msa'?' msa':''));const b=$('button','pl','▶');b.setAttribute('aria-label','Play line');const c=$('div');
+      c.innerHTML=`<div class="who">${esc(l.name)}</div><div class="ar" lang="ar">${esc(l.ar)}</div><div class="tr">${esc(l.tr)}</div><div class="lit">${esc(l.lit)}</div><div class="en">${esc(l.en)}</div>`;
+      b.onclick=()=>cur===r?stop():play(r,l.audio);r.append(b,c);g.append(r);return[r,l]});
+    o.querySelector('#pa').onclick=()=>{let k=0;const nx=()=>{if(k<rows.length){const[r,l]=rows[k++];play(r,l.audio,nx)}};nx()};
+    ['tr','lit','en'].forEach(k=>o.querySelector('#o-'+k).onchange=e=>document.body.classList.toggle('no-'+k,!e.target.checked))}
+  if(d.pairs){el.append($('h2','','Side by side'));const t={head:d.pairs.head,rows:d.pairs.rows};el.append(tbl(t,['s','a','m','a','']))}
+  if(d.notes){el.append($('h2','','Notes'));d.notes.forEach(n=>el.append($('p','note',`<b>${esc(n.anchor)}</b><br>${esc(n.text)}`)))}
+  if(d.words){el.append($('h2','','New words'));const w=$('div','words');d.words.forEach(x=>w.append($('span','a',esc(x.ar)),$('span','t',esc(x.tr)),$('span','e',esc(x.en))));el.append(w)}
+  const p=d.practice||{};
+  if(p.translate){el.append($('h2','','Practice 1 · understand, then tap to check'));const x=$('div','ex');p.translate.forEach(q=>x.append(qa(`<span class="a" lang="ar">${esc(q.ar)}</span><small>${esc(q.tr)}</small>`,q.en)));el.append(x)}
+  if(p.fill){el.append($('h2','',(p.translate?'Practice 2':'Practice')+' · fill the gap, then tap to check'));const x=$('div','ex');p.fill.forEach(q=>x.append(qa(`${esc(q.tr)}<br><small>${esc(q.en)}</small>`,q.answer)));el.append(x)}
+  window.scrollTo(0,0)}
+function qa(h,a){const b=$('button','q',h+`<span class="ans">${esc(a)}</span>`);b.onclick=()=>b.classList.toggle('open');return b}
+function tbl(t,cls){const w=$('div','tw'),e=$('table');e.innerHTML='<tr>'+t.head.map(h=>`<th>${esc(h)}</th>`).join('')+'</tr>'+t.rows.map(r=>'<tr>'+r.map((c,i)=>`<td class="${cls?cls[i]:''}">${esc(c)}</td>`).join('')+'</tr>').join('');w.append(e);return w}
+const nav=document.getElementById('nav');L.forEach((d,i)=>{const b=$('button',d.bridge?'b':'',esc(d.n));b.title=d.title.en;b.onclick=()=>show(i);nav.append(b)});show(0);
+</script>
