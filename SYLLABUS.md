@@ -1,4 +1,4 @@
-# Shami — syllabus v0.2
+# Shami — syllabus v0.3
 
 A 100-lesson course in **Damascene Arabic** (الشامي), in the Assimil manner, for English-speaking learners who
 already read Arabic script. Explanations in English.
@@ -16,6 +16,26 @@ to be checked against the Syrian sources.*
 | Passive phase 1–49 | Read, listen, understand. |
 | Active phase from 50 | Second wave, as in Assimil: each lesson also revisits lesson *n − 49*, produced from English. |
 | Levels | 1–35 ≈ A1 · 36–70 ≈ A2 · 71–100 ≈ B1 (with B2 recognition items). |
+| Bridge size | A mini-lesson: a short MSA dialogue retelling the week's scene, the week's key Shami sentences with their MSA version, and contrast notes. About half a normal lesson. |
+
+## Pacing
+
+Modelled on the Assimil rhythm, starting at its week-2 size since learners already read Arabic.
+
+| Week | Lessons | Dialogue lines | Arabic words | New words |
+|---|---|---|---|---|
+| 1 | 1–7 | 4–5 | ~15 | 5–6 |
+| 2 | 8–14 | 5–6 | ~20 | 8 |
+| 3 | 15–21 | 6–7 | ~28 | 10 |
+| 4 | 22–28 | 7–8 | ~35 | 12 |
+| 5 | 29–35 | 8–9 | ~45 | 14 |
+| 6–7 | 36–49 | 10–11 | 55–65 | 14–16 |
+| 8–10 | 50–70 | 11–13 | 80–100 | 15–18 |
+| 11–12 | 71–84 | 14–16 | 110–140 | 18–20 |
+| 13–14 | 85–98 | 16–18 | 150–180 | 20 |
+
+Grammar order: present tense first (dialect speech needs it); derived verb forms early, one roughly every
+week: Form II (30), V (37), III (44), VIII (46), VII (53), X (59), VI (72).
 
 ## Conventions (decided)
 
@@ -104,12 +124,12 @@ Voices and the Syrian speakers of the two Shwayy 3an Ḥāli books.
 | 28 | **Revision 4** | | the suffix system in one table | | |
 | B4 | *Bridge: having, being, not* | | *3indī / ladayya* vs *3andi*; *hunāka* vs *fī*; *lā lam lan laysa* vs *mā mū lā* | | 15, 16 |
 | 29 | كان في · *kān fī* | Abu Sāmi on the Damascus of his youth | *kān* with verbless sentences; *kān 3andi* | | 16, 12 |
-| 30 | لما كنت صغير · *lamma kint zɣīr* | childhood: Paris and Damascus compared | *kān* + imperfect 'used to' | childhood | 12, 13 |
+| 30 | علمني · *3allimni* | Līna teaches Adam to cook | **Form II**; causatives (*nizil → nazzal*) | kitchen verbs | 03a, 09 |
 | 31 | أطيب من · *ʔaṭyab min* | Bakdāš ice cream | comparatives; *ma-ʔaḥla…!* | tastes | 07, 11 |
 | 32 | تيتا بتحكي · *tēta btiḥki* | Tēta's story begins | defective verbs (*ḥaka, miši, nisi*), *-ēt / -īt* | | 03a |
 | 33 | الأوضة يلي فوق · *l-ʔūḍa yalli fōʔ* | his father's old room | *yalli*; resumptive pronoun; *fōʔ / taḥt* | house | 19 |
 | 34 | إذا بتريد · *ʔiza bitrīd* | politeness | *ʔiza*; *sallim ʔidēk, ʔaḷḷa ywaffʔak* | blessings | 12, 13 |
-| 35 | **Revision 5** | | the tense and aspect map so far | | |
+| 35 | **Revision 5** | | the tense and aspect map so far; Form II | | |
 | B5 | *Bridge: time and aspect* | | *sa- / sawfa* vs *raḥ*; *kāna yaf3alu = kān yi3mil*; *3am-* has no MSA twin | | 12 |
 
 ## A2 — lessons 36–70
@@ -117,17 +137,17 @@ Voices and the Syrian speakers of the two Shwayy 3an Ḥāli books.
 | # | Title | Scene | Grammar | Words | C |
 |---|---|---|---|---|---|
 | 36 | بيوجعني · *byūja3ni* | Adam is ill | impersonal verbs; body parts | body | 14, 08 |
-| 37 | بالصيدلية · *biṣ-ṣaydaliyye* | pharmacy; a medicine that's hard to find | *marra / marrtēn*; imperatives with suffixes | medicine | 06, 20 |
+| 37 | تعلمت · *t3allamt* | progress: Tēta approves | **Form V** (*t3allam, tʔaxxar*) | school | 03a, 09 |
 | 38 | جبلي ياه · *jib-li yā* | errands for Tēta | double objects, *yā-*, the *-l-* forms | | 17, 21 |
 | 39 | صرلي سنتين · *ṣar-li sintēn* | a neighbour who came back from Germany | *ṣar-li*; *lissa*; *mā 3ād* | | 16, 21 |
 | 40 | شو صار؟ · *šū ṣār?* | Sāmi's eventful day | narration in the perfect; *ba3dēn* | | 12, 20 |
 | 41 | بالمطعم · *bil-maṭ3am* | restaurant; who pays | *taba3*; *kill, ba3ḍ, šwayyit* | menu | 18 |
 | 42 | **Revision 6** | | possession, quantity | | |
 | B6 | *Bridge: iḍāfa and numbers* | | case-marked iḍāfa vs Shami construct; *taba3*; number agreement | | 18 |
-| 43 | علمني · *3allimni* | Līna teaches Adam to cook | Pattern II; causatives (*nizil → nazzal*) | | 03a, 09 |
-| 44 | تعلمت · *t3allamt* | progress: Tēta approves | Pattern V | school | 03a, 09 |
-| 45 | سافرنا · *sāfarna* | weekend trip to the coast | Pattern III | travel | 03a |
-| 46 | بالمطار · *bil-maṭār* | **Adam's father lands in Damascus** | Pattern VIII as vocabulary (*štaɣal, štara, ḥtāj, štāʔ*); *msāfir* | airport | 03b |
+| 43 | لما كنت صغير · *lamma kint zɣīr* | childhood: Paris and Damascus compared | *kān* + imperfect 'used to' | childhood | 12, 13 |
+| 44 | سافرنا · *sāfarna* | weekend trip to the coast | **Form III** | travel | 03a |
+| 45 | بالصيدلية · *biṣ-ṣaydaliyye* | pharmacy; a medicine that's hard to find | *marra / marrtēn*; imperatives with suffixes | medicine | 06, 20 |
+| 46 | بالمطار · *bil-maṭār* | **Adam's father lands in Damascus** | **Form VIII** (*štaɣal, štara, ḥtāj, štāʔ*); *msāfir* | airport | 03b |
 | 47 | الباب مفتوح · *l-bāb maftūḥ* | father and Tēta at the old door | participles as states; *3ārif* vs *ba3rif* | | 10, 12 |
 | 48 | بظن إنو · *bẓinn ʔinno* | what changed, what didn't | *ʔinno* clauses; *byiẓhar ʔinno* | | 17 |
 | 49 | **Revision 7** | | verb patterns I, II, III, V, VIII | | |
@@ -135,14 +155,14 @@ Voices and the Syrian speakers of the two Shwayy 3an Ḥāli books.
 | 50 | ✱ معزومين · *ma3zūmīn* | dinner at the neighbours' · **second wave starts (lesson 1)** | hospitality formulas; *xalli*; *la-* purpose | | 13, 17 |
 | 51 | كل سنة وانت سالم · *kill sine w-inte sālim* | the Eid, with video calls abroad | festival greetings; months | holidays | |
 | 52 | الطقس · *iṭ-ṭaʔs* | first winter rain | weather; *3am-tšatti* | weather | 12 |
-| 53 | انقطعت الكهربا · *nʔaṭ3it il-kahraba* | a power cut during dinner | Pattern VII passive (*nʔaṭa3, nkasar*); *mā byinʔakal* | electricity | 03b, 09 |
+| 53 | انقطعت الكهربا · *nʔaṭ3it il-kahraba* | a power cut during dinner | **Form VII** passive (*nʔaṭa3, nkasar*); *mā byinʔakal* | electricity | 03b, 09 |
 | 54 | طبخة تيتا · *ṭabxit tēta* | cooking kibbe by candlelight | plural imperatives; instruments; verbal nouns | cooking | 11 |
 | 55 | كان عم يكتب · *kān 3am-yiktub* | a noise in the night | past progressive; *w-huwwe* 'while' | | 12, 20 |
 | 56 | **Revision 8** | | narration toolkit | | |
 | B8 | *Bridge: word order and agreement* | | MSA verb-first order vs Shami; plurals of things | | 14, 16 |
 | 57 | عند الحلاق · *3and il-ḥallāʔ* | barbershop talk | occupations and places: word families | trades | 02, 11 |
 | 58 | موعد · *maw3id* | making an appointment | dates, ordinals; *ʔabl ma / ba3d ma* | calendar | 11, 13 |
-| 59 | استنى شوي · *stanna šwayy* | paperwork and queues | Pattern X (*sta3mal, stanna, staʔjar*) | admin | 03b |
+| 59 | استنى شوي · *stanna šwayy* | paperwork and queues | **Form X** (*sta3mal, stanna, staʔjar*) | admin | 03b |
 | 60 | شغلي · *šiɣli* | Sāmi's job, and offers from abroad | *ṣār / ḍall / mā 3ād* + verb | office | 13, 17 |
 | 61 | قال إنو · *ʔāl ʔinno* | passing on messages | reported speech; *ʔal-li mā…* | | 12, 17 |
 | 62 | أحمر · *ʔaḥmar* | clothes shopping with Līna | colours; Pattern IX | clothes | 04, 07, 03b |
@@ -162,7 +182,7 @@ Voices and the Syrian speakers of the two Shwayy 3an Ḥāli books.
 | # | Title | Scene | Grammar | Words | C |
 |---|---|---|---|---|---|
 | 71 | بالضيعة · *biḍ-ḍē3a* | the family village | diminutives (*zɣayyar, šwayye*) | countryside | 11 |
-| 72 | عرس · *3irs* | a wedding, half the guests on screens | Pattern VI (*t3ārafu, tjawwazu*) | wedding | 03b, 09 |
+| 72 | عرس · *3irs* | a wedding, half the guests on screens | Form VI (*t3ārafu, tjawwazu*) | wedding | 03b, 09 |
 | 73 | خفيف الدم · *xafīf id-damm* | describing people | character adjectives; adjective constructs | personality | 10, 18 |
 | 74 | غلطة · *ɣalṭa* | a misunderstanding | instance nouns (*ɣalṭa, naẓra, marra*) | | 11 |
 | 75 | الأخبار · *il-ʔaxbār* | the TV news; the family argues | classicisms; *-an* adverbs | news | 20, 01 |
