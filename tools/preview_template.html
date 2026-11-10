@@ -26,9 +26,9 @@ h1{margin:2px 0 0;font:700 44px/1.25 var(--f-kufi);direction:rtl;text-align:star
 .opts{display:flex;gap:14px;flex-wrap:wrap;font-size:14px;color:var(--muted)} .opts label{display:flex;gap:6px;align-items:center;cursor:pointer}
 .playall{border:1px solid var(--tile);background:transparent;color:var(--tile);font:600 14px var(--f-lat);border-radius:4px;padding:8px 14px;cursor:pointer}
 .dlg{display:flex;flex-direction:column;gap:4px}
-.ln{display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:14px 0;border-top:1px solid var(--line)}
+.ln{padding:14px 0;border-top:1px solid var(--line)} .lh{display:flex;align-items:center;gap:10px}
 .ln.on .pl{background:var(--tile);color:var(--tile-ink)}
-.pl{width:40px;height:40px;border-radius:50%;border:1px solid var(--tile);background:transparent;color:var(--tile);cursor:pointer;font-size:14px;display:grid;place-items:center}
+.pl{width:34px;height:34px;flex:none;border-radius:50%;border:1px solid var(--tile);background:transparent;color:var(--tile);cursor:pointer;font-size:14px;display:grid;place-items:center}
 .who{font:600 12px var(--f-lat);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .ar{font:400 27px/1.9 var(--f-ar);direction:rtl;text-align:start}
 .tr{color:var(--tile);font-weight:600} .lit{color:var(--muted);font-size:13.5px;font-style:italic} .en{margin-top:2px}
@@ -42,6 +42,11 @@ td.a{font:400 20px/1.6 var(--f-ar);direction:rtl;white-space:nowrap} td.m{color:
 .words{display:grid;grid-template-columns:auto auto minmax(0,1fr);gap:4px 16px;align-items:baseline} .words .a{font:400 22px/1.6 var(--f-ar);direction:rtl} .words .t{color:var(--tile);font-weight:600}
 .ex{display:flex;flex-direction:column;gap:8px} .q{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:10px 12px;cursor:pointer;text-align:start;font:inherit;color:inherit;width:100%}
 .q .a{font:400 22px/1.7 var(--f-ar);direction:rtl;text-align:start;display:block} .q .ans{display:block;color:var(--pom);font-weight:600} .q:not(.open) .ans{visibility:hidden} .q small{color:var(--muted)}
+.nbtn{align-self:flex-start;margin:10px 0 0;border:1px solid var(--tile);background:var(--tile-soft);color:var(--tile);font:600 14px var(--f-lat);border-radius:4px;padding:8px 14px;cursor:pointer}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:20;display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--surface);color:var(--ink);width:100%;max-width:640px;max-height:75vh;overflow:auto;border-radius:12px 12px 0 0;padding:14px max(16px,env(safe-area-inset-left,0px)) calc(20px + env(safe-area-inset-bottom,0px));border-top:3px solid var(--tile)}
+.sh-h{display:flex;justify-content:space-between;align-items:center;gap:12px;position:sticky;top:-14px;background:var(--surface);padding:6px 0 8px}
+.x{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:50%;width:34px;height:34px;cursor:pointer;font-size:15px}
 footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:12px}
 @media (max-width:480px){h1{font-size:36px}.ar{font-size:24px}.words{grid-template-columns:auto minmax(0,1fr)}.words .e{grid-column:1/-1;margin-bottom:6px}}
 </style>
@@ -62,21 +67,26 @@ function show(i){stop();const d=L[i],el=document.getElementById('lesson');el.inn
   document.querySelectorAll('#nav button').forEach((b,k)=>b.setAttribute('aria-current',k===i));
   el.append($('div','kicker',d.bridge?'Bridge to Modern Standard Arabic':d.review?'Revision':'Lesson '+d.n));
   el.append($('h1','',esc(d.title.ar)),$('div','sub',esc(d.title.tr)+' · '+esc(d.title.en)),$('p','scene',esc(d.scene||'')));
+  if(d.notes&&d.notes.length){const nb=$('button','nbtn','ⓘ Notes · '+d.notes.length);nb.onclick=()=>openNotes(d);el.append(nb)}
   (d.sections||[]).forEach(s=>{const b=$('div','sec');b.append($('h3','',esc(s.title)));if(s.text)b.append($('p','',esc(s.text)));if(s.table)b.append(tbl(s.table));if(s.after)b.append($('p','',esc(s.after)));el.append(b)});
   if(d.lines){const o=$('div','opts');o.innerHTML='<button class="playall" id="pa">▶ Play the dialogue</button>'+[['tr','Transcription'],['lit','Word for word'],['en','English']].map(([k,t])=>`<label><input type="checkbox" id="o-${k}" ${document.body.classList.contains('no-'+k)?'':'checked'}> ${t}</label>`).join('');
     const g=$('div','dlg');el.append($('h2','','Dialogue'),o,g);
-    const rows=d.lines.map(l=>{const r=$('div','ln'+(l.lang==='msa'?' msa':''));const b=$('button','pl','▶');b.setAttribute('aria-label','Play line');const c=$('div');
-      c.innerHTML=`<div class="who">${esc(l.name)}</div><div class="ar" lang="ar">${esc(l.ar)}</div><div class="tr">${esc(l.tr)}</div><div class="lit">${esc(l.lit)}</div><div class="en">${esc(l.en)}</div>`;
-      b.onclick=()=>cur===r?stop():play(r,l.audio);r.append(b,c);g.append(r);return[r,l]});
+    const rows=d.lines.map(l=>{const r=$('div','ln'+(l.lang==='msa'?' msa':''));const b=$('button','pl','▶');b.setAttribute('aria-label','Play line');const c=$('div'),h=$('div','lh');h.append(b,$('div','who',esc(l.name)));
+      c.innerHTML=`<div class="ar" lang="ar">${esc(l.ar)}</div><div class="tr">${esc(l.tr)}</div><div class="lit">${esc(l.lit)}</div><div class="en">${esc(l.en)}</div>`;
+      b.onclick=()=>cur===r?stop():play(r,l.audio);r.append(h,c);g.append(r);return[r,l]});
     o.querySelector('#pa').onclick=()=>{let k=0;const nx=()=>{if(k<rows.length){const[r,l]=rows[k++];play(r,l.audio,nx)}};nx()};
     ['tr','lit','en'].forEach(k=>o.querySelector('#o-'+k).onchange=e=>document.body.classList.toggle('no-'+k,!e.target.checked))}
   if(d.pairs){el.append($('h2','','Side by side'));const t={head:d.pairs.head,rows:d.pairs.rows};el.append(tbl(t,['s','a','m','a','']))}
-  if(d.notes){el.append($('h2','','Notes'));d.notes.forEach(n=>el.append($('p','note',`<b>${esc(n.anchor)}</b><br>${esc(n.text)}`)))}
   if(d.words){el.append($('h2','','New words'));const w=$('div','words');d.words.forEach(x=>w.append($('span','a',esc(x.ar)),$('span','t',esc(x.tr)),$('span','e',esc(x.en))));el.append(w)}
   const p=d.practice||{};
   if(p.translate){el.append($('h2','','Practice 1 · understand, then tap to check'));const x=$('div','ex');p.translate.forEach(q=>x.append(qa(`<span class="a" lang="ar">${esc(q.ar)}</span><small>${esc(q.tr)}</small>`,q.en)));el.append(x)}
   if(p.fill){el.append($('h2','',(p.translate?'Practice 2':'Practice')+' · fill the gap, then tap to check'));const x=$('div','ex');p.fill.forEach(q=>x.append(qa(`${esc(q.tr)}<br><small>${esc(q.en)}</small>`,q.answer)));el.append(x)}
   window.scrollTo(0,0)}
+function openNotes(d){closeNotes();const o=$('div','ov');o.id='ov';const sh=$('div','sheet');
+  sh.innerHTML='<div class="sh-h"><b>Notes · '+esc(d.title.en)+'</b><button class="x" aria-label="Close">✕</button></div>'+d.notes.map(n=>`<p class="note"><b>${esc(n.anchor)}</b><br>${esc(n.text)}</p>`).join('');
+  o.onclick=e=>{if(e.target===o)closeNotes()};sh.querySelector('.x').onclick=closeNotes;o.append(sh);document.body.append(o)}
+function closeNotes(){const o=document.getElementById('ov');if(o)o.remove()}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeNotes()});
 function qa(h,a){const b=$('button','q',h+`<span class="ans">${esc(a)}</span>`);b.onclick=()=>b.classList.toggle('open');return b}
 function tbl(t,cls){const w=$('div','tw'),e=$('table');e.innerHTML='<tr>'+t.head.map(h=>`<th>${esc(h)}</th>`).join('')+'</tr>'+t.rows.map(r=>'<tr>'+r.map((c,i)=>`<td class="${cls?cls[i]:''}">${esc(c)}</td>`).join('')+'</tr>').join('');w.append(e);return w}
 const nav=document.getElementById('nav');L.forEach((d,i)=>{const b=$('button',d.bridge?'b':'',esc(d.n));b.title=d.title.en;b.onclick=()=>show(i);nav.append(b)});show(0);
