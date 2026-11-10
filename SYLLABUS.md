@@ -16,7 +16,7 @@ to be checked against the Syrian sources.*
 | Passive phase 1–49 | Read, listen, understand. |
 | Active phase from 50 | Second wave, as in Assimil: each lesson also revisits lesson *n − 49*, produced from English. |
 | Levels | 1–35 ≈ A1 · 36–70 ≈ A2 · 71–100 ≈ B1 (with B2 recognition items). |
-| Bridge size | A mini-lesson: a short MSA dialogue retelling the week's scene, the week's key Shami sentences with their MSA version, and contrast notes. About half a normal lesson. |
+| Bridge format | A true side by side, no new scene: about ten of the week's own sentences, each shown in Shami and in MSA (vowelled, read by a standard-Arabic voice). The words that change are highlighted; tapping one opens the rule behind it. A filter shows Shami only or MSA only, so the card becomes an exercise. The bridge ends with 4–6 short rules and a gap-fill. |
 
 ## Pacing
 
@@ -98,7 +98,7 @@ Voices and the Syrian speakers of the two Shwayy 3an Ḥāli books.
 | 5 | تعبان · *ta3bān* | jet lag | state adjectives (*ta3bān, jū3ān, na3sān*); m/f/pl; *mū* | feelings | 04, 07, 15 |
 | 6 | عندي · *3andi* | Tēta asks about the family in Paris | *3andi / mā 3andi*, *fī / mā fī*, *ʔili* | family | 16, 18 |
 | 7 | **Revision 1** | | pronouns, suffixes, verbless sentences, *mū* | | |
-| B1 | *Bridge: sounds* | Adam "talks like the news" | ق ث ذ ظ ج in MSA vs Shami; *bayt → bēt*, *yawm → yōm*; ة | | 01, 02 |
+| B1 | *Bridge: sounds* | | ق ث ذ ظ ج in MSA vs Shami; *bayt → bēt*, *yawm → yōm*; ة | | 01, 02 |
 | 8 | بدي قهوة · *biddi ʔahwe* | first coffee out with Sāmi | *biddi* + noun; numbers 1–10; *tnēn ʔahwe* | drinks | 16, 19 |
 | 9 | وين رايح؟ · *wēn rāyiḥ?* | going out | *biddi* + verb; *rāḥ*; *rāyiḥ* as present | places in town | 03a, 10, 13 |
 | 10 | بحب · *bḥibb* | likes and dislikes at dinner | full *b-* imperfect, sound verb; *ḥabb* | food | 06, 12 |

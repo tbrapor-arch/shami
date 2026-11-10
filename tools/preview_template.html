@@ -47,6 +47,32 @@ td.a{font:400 20px/1.6 var(--f-ar);direction:rtl;white-space:nowrap} td.m{color:
 .sheet{background:var(--surface);color:var(--ink);width:100%;max-width:640px;max-height:75vh;overflow:auto;border-radius:12px 12px 0 0;padding:14px max(16px,env(safe-area-inset-left,0px)) calc(20px + env(safe-area-inset-bottom,0px));border-top:3px solid var(--tile)}
 .sh-h{display:flex;justify-content:space-between;align-items:center;gap:12px;position:sticky;top:-14px;background:var(--surface);padding:6px 0 8px}
 .x{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:50%;width:34px;height:34px;cursor:pointer;font-size:15px}
+.mode{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.mode button{border:0;background:transparent;color:var(--muted);font:600 14px var(--f-lat);padding:8px 12px;cursor:pointer}
+.mode button[aria-pressed="true"]{background:var(--tile-soft);color:var(--tile)}
+.pairs{display:flex;flex-direction:column;gap:12px}
+.pc{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:10px}
+.pc .ref{font:600 12px var(--f-lat);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.sides{display:grid;gap:10px}
+.sd{display:flex;gap:10px;align-items:flex-start;min-width:0}
+.sd>div{min-width:0;flex:1}
+.sd .lab{font:700 11px var(--f-lat);letter-spacing:.1em;text-transform:uppercase}
+.sd.s .lab{color:var(--tile)} .sd.m .lab{color:var(--msa)}
+.sd.m{border-top:1px dashed var(--line);padding-top:10px}
+.sd .ar{font-size:25px;line-height:1.8} .sd.m .ar,.sd.m .tr{color:var(--msa)}
+.pc .en{color:var(--muted);font-size:14px}
+mark{color:inherit;background:transparent;border-bottom:2px solid currentColor;cursor:pointer;border-radius:2px;padding:0 1px}
+.sd.s mark{background:var(--tile-soft)} .sd.m mark{background:var(--msa-soft)}
+mark.lit2{outline:2px solid var(--pom)}
+.pc.hide-s .sd.s>div,.pc.hide-m .sd.m>div{filter:blur(7px);user-select:none}
+.peek{font:600 12px var(--f-lat);color:var(--pom);border:0;background:transparent;cursor:pointer;padding:0;align-self:flex-start}
+.rules{display:flex;flex-direction:column;gap:0}
+.rule{padding:12px 0;border-bottom:1px solid var(--line)} .rule h3{margin:0 0 4px;font:600 17px var(--f-lat);color:var(--tile)} .rule p{margin:0}
+.rex{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px} .rex span{font-size:13.5px;border:1px solid var(--line);border-radius:4px;padding:2px 8px}
+.rex b{color:var(--tile);font-weight:600} .rex i{color:var(--msa);font-style:normal}
+.sheet .pair{font-size:17px;margin:6px 0 10px} .sheet .pair .s{color:var(--tile);font-weight:600} .sheet .pair .m{color:var(--msa);font-weight:600}
+.sheet .pair .ara{font:400 24px/1.7 var(--f-ar)}
+@media (min-width:760px){body.wide main{max-width:980px}.sides{grid-template-columns:1fr 1fr}.sd.m{border-top:0;padding-top:0;border-inline-start:1px dashed var(--line);padding-inline-start:12px}}
 footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:12px}
 @media (max-width:480px){h1{font-size:36px}.ar{font-size:24px}.words{grid-template-columns:auto minmax(0,1fr)}.words .e{grid-column:1/-1;margin-bottom:6px}}
 </style>
@@ -63,7 +89,7 @@ const esc=s=>String(s).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[
 let au=new Audio(),cur=null,queue=[];
 function stop(){au.pause();if(cur)cur.classList.remove('on');cur=null}
 function play(row,src,next){stop();cur=row;row.classList.add('on');au=new Audio('data:audio/mpeg;base64,'+src);au.onended=()=>{row.classList.remove('on');cur=null;if(next)next()};au.play().catch(()=>{})}
-function show(i){stop();const d=L[i],el=document.getElementById('lesson');el.innerHTML='';
+function show(i){stop();closeNotes();const d=L[i],el=document.getElementById('lesson');el.innerHTML='';document.body.classList.toggle('wide',!!d.sides);
   document.querySelectorAll('#nav button').forEach((b,k)=>b.setAttribute('aria-current',k===i));
   el.append($('div','kicker',d.bridge?'Bridge to Modern Standard Arabic':d.review?'Revision':'Lesson '+d.n));
   el.append($('h1','',esc(d.title.ar)),$('div','sub',esc(d.title.tr)+' · '+esc(d.title.en)),$('p','scene',esc(d.scene||'')));
@@ -76,6 +102,8 @@ function show(i){stop();const d=L[i],el=document.getElementById('lesson');el.inn
       b.onclick=()=>cur===r?stop():play(r,l.audio);r.append(h,c);g.append(r);return[r,l]});
     o.querySelector('#pa').onclick=()=>{let k=0;const nx=()=>{if(k<rows.length){const[r,l]=rows[k++];play(r,l.audio,nx)}};nx()};
     ['tr','lit','en'].forEach(k=>o.querySelector('#o-'+k).onchange=e=>document.body.classList.toggle('no-'+k,!e.target.checked))}
+  if(d.sides)renderSides(d,el);
+  if(d.rules){el.append($('h2','','The rules'));const r=$('div','rules');d.rules.forEach(x=>{const b=$('div','rule');b.id='r-'+x.id;b.innerHTML=`<h3>${esc(x.title)}</h3><p>${esc(x.text)}</p>`;const ex=examples(d,x.id);if(ex.length){const e=$('div','rex');ex.forEach(h=>e.append($('span','',`<b>${esc(h[1])}</b> · <i>${esc(h[3])}</i>`)));b.append(e)}r.append(b)});el.append(r)}
   if(d.pairs){el.append($('h2','','Side by side'));const t={head:d.pairs.head,rows:d.pairs.rows};el.append(tbl(t,['s','a','m','a','']))}
   if(d.words){el.append($('h2','','New words'));const w=$('div','words');d.words.forEach(x=>w.append($('span','a',esc(x.ar)),$('span','t',esc(x.tr)),$('span','e',esc(x.en))));el.append(w)}
   const p=d.practice||{};
@@ -87,6 +115,31 @@ function openNotes(d){closeNotes();const o=$('div','ov');o.id='ov';const sh=$('d
   o.onclick=e=>{if(e.target===o)closeNotes()};sh.querySelector('.x').onclick=closeNotes;o.append(sh);document.body.append(o)}
 function closeNotes(){const o=document.getElementById('ov');if(o)o.remove()}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeNotes()});
+function examples(d,id){const seen=new Set(),out=[];d.sides.forEach(p=>p.hl.forEach(h=>{if(h[4]===id&&!seen.has(h[1])){seen.add(h[1]);out.push(h)}}));return out}
+function mark(text,subs){const sp=[];subs.forEach(([s,k])=>{let at=text.indexOf(s);while(at>=0&&sp.some(x=>at<x[1]&&at+s.length>x[0]))at=text.indexOf(s,at+1);if(at>=0)sp.push([at,at+s.length,k])});
+  sp.sort((a,b)=>a[0]-b[0]);let o='',p=0;sp.forEach(([a,b,k])=>{o+=esc(text.slice(p,a))+`<mark data-k="${k}">${esc(text.slice(a,b))}</mark>`;p=b});return o+esc(text.slice(p))}
+let sideMode='both';
+function renderSides(d,el){const rules=Object.fromEntries((d.rules||[]).map(r=>[r.id,r]));
+  const o=$('div','opts');o.innerHTML='<div class="mode" role="group" aria-label="Show">'+[['both','Both'],['s','Shami only'],['m','MSA only']].map(([k,t])=>`<button data-m="${k}" aria-pressed="${sideMode===k}">${t}</button>`).join('')+'</div>';
+  const g=$('div','pairs');el.append($('h2','','Side by side'),o,g);
+  const cards=d.sides.map(p=>{const c=$('div','pc');const s=p.sh,m=p.msa;
+    c.innerHTML=`<div class="ref">Lesson ${esc(p.lesson)} · ${esc(s.name)}</div><div class="sides">
+      <div class="sd s"><button class="pl" aria-label="Play Shami">▶</button><div><div class="lab">Shami</div><div class="ar" lang="ar">${mark(s.ar,p.hl.map((h,k)=>[h[0],k]))}</div><div class="tr">${mark(s.tr,p.hl.map((h,k)=>[h[1],k]))}</div></div></div>
+      <div class="sd m"><button class="pl" aria-label="Play MSA">▶</button><div><div class="lab">MSA</div><div class="ar" lang="ar">${mark(m.ar,p.hl.map((h,k)=>[h[2],k]))}</div><div class="tr">${mark(m.tr,p.hl.map((h,k)=>[h[3],k]))}</div></div></div>
+      </div><div class="en">${esc(s.en)}</div><button class="peek" hidden>Tap to reveal</button>`;
+    const [ps,pm]=c.querySelectorAll('.pl');ps.onclick=()=>cur===c?stop():play(c,s.audio);pm.onclick=()=>cur===c?stop():play(c,m.audio);
+    c.querySelectorAll('mark').forEach(mk=>{const k=+mk.dataset.k;
+      mk.onmouseenter=()=>c.querySelectorAll(`mark[data-k="${k}"]`).forEach(x=>x.classList.add('lit2'));
+      mk.onmouseleave=()=>c.querySelectorAll('mark').forEach(x=>x.classList.remove('lit2'));
+      mk.onclick=e=>{if(c.classList.contains('hide-s')||c.classList.contains('hide-m'))return;e.stopPropagation();const h=p.hl[k],r=rules[h[4]];
+        sheet(r.title,`<div class="pair"><span class="ara" lang="ar">${esc(h[0])}</span> <span class="s">${esc(h[1])}</span> &nbsp;↔&nbsp; <span class="ara" lang="ar">${esc(h[2])}</span> <span class="m">${esc(h[3])}</span></div><p>${esc(r.text)}</p>`)}});
+    const pk=c.querySelector('.peek');c.onclick=e=>{if(e.target.closest('.pl'))return;if(c.classList.contains('hide-s')||c.classList.contains('hide-m')){c.classList.remove('hide-s','hide-m');pk.hidden=true}};
+    g.append(c);return c});
+  const apply=()=>{o.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.m===sideMode));cards.forEach(c=>{c.classList.toggle('hide-m',sideMode==='s');c.classList.toggle('hide-s',sideMode==='m');c.querySelector('.peek').hidden=sideMode==='both'})};
+  o.querySelectorAll('button').forEach(b=>b.onclick=()=>{sideMode=b.dataset.m;apply()});apply()}
+function sheet(title,html){closeNotes();const o=$('div','ov');o.id='ov';const sh=$('div','sheet');
+  sh.innerHTML='<div class="sh-h"><b>'+esc(title)+'</b><button class="x" aria-label="Close">✕</button></div>'+html;
+  o.onclick=e=>{if(e.target===o)closeNotes()};sh.querySelector('.x').onclick=closeNotes;o.append(sh);document.body.append(o)}
 function qa(h,a){const b=$('button','q',h+`<span class="ans">${esc(a)}</span>`);b.onclick=()=>b.classList.toggle('open');return b}
 function tbl(t,cls){const w=$('div','tw'),e=$('table');e.innerHTML='<tr>'+t.head.map(h=>`<th>${esc(h)}</th>`).join('')+'</tr>'+t.rows.map(r=>'<tr>'+r.map((c,i)=>`<td class="${cls?cls[i]:''}">${esc(c)}</td>`).join('')+'</tr>').join('');w.append(e);return w}
 const nav=document.getElementById('nav');L.forEach((d,i)=>{const b=$('button',d.bridge?'b':'',esc(d.n));b.title=d.title.en;b.onclick=()=>show(i);nav.append(b)});show(0);

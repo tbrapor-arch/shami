@@ -207,7 +207,7 @@ lessons:
     scene: "Tēta wants to know everything about the family in Paris."
     lines:
       - {who: teta, ar: "عَنْدَك إخْوِة يا آدَم؟", tr: "3andak ʔixwe yā ʔādam?", lit: "at-you siblings O Adam?", en: "Do you have brothers and sisters, Adam?"}
-      - {who: adam, ar: "اي، عَنْدي أُخْت. ما عَنْدي أَخّ.", tr: "ʔē, 3andi ʔixt. mā 3andi ʔaxx.", lit: "yes, at-me sister. not at-me brother", en: "Yes, I have a sister. I don't have a brother."}
+      - {who: adam, ar: "اي، عَنْدي إخْت. ما عَنْدي أَخّ.", tr: "ʔē, 3andi ʔixt. mā 3andi ʔaxx.", lit: "yes, at-me sister. not at-me brother", en: "Yes, I have a sister. I don't have a brother."}
       - {who: teta, ar: "وفي ياسْمين بْباريس؟", tr: "w-fī yāsmīn b-Bārīs?", lit: "and-there-is jasmine in-Paris?", en: "And is there jasmine in Paris?"}
       - {who: adam, ar: "لأ، ما في ياسْمين. بَسّ في مَطَر كْتير!", tr: "laʔ, mā fī yāsmīn. bass fī maṭar ktīr!", lit: "no, not there-is jasmine. but there-is rain much", en: "No, there's no jasmine. But there's a lot of rain!"}
       - {who: teta, ar: "يا حَرام! هَوْن إلَك بَيْت وياسْمين.", tr: "yā ḥarām! hōn ʔilak bēt w-yāsmīn.", lit: "O pity! here to-you house and-jasmine", en: "Poor thing! Here you have a home, and jasmine."}
@@ -301,46 +301,101 @@ lessons:
     n: B1
     bridge: true
     title: {ar: "الشّامي والفُصْحى", tr: "iš-šāmi wil-fuṣḥa", en: "Bridge 1 · Sounds"}
-    scene: "Adam learnt Modern Standard Arabic at university. It is the Arabic of books, news and speeches; nobody speaks it at home. He tries it on Tēta."
-    lines:
-      - {who: adam, lang: msa, ar: "مَرْحَبًا يا جَدَّتي! كَيْفَ حالُكِ؟", tr: "marḥaban yā jaddatī! kayfa ḥāluki?", lit: "hello O grandmother-my! how state-your(f)?", en: "Hello, Grandmother! How are you?"}
-      - {who: teta, ar: "شو؟ «كَيْفَ حالُكِ»؟ اِنْتَ مُذيع أَخْبار؟", tr: "šū? \"kayfa ḥāluki\"? ʔinte muzī3 ʔaxbār?", lit: "what? how-is-your-state? you announcer news?", en: "What? \"How do you do\"? Are you a newsreader?"}
-      - {who: adam, lang: msa, ar: "أَنا مُتْعَبٌ قَليلًا. هٰذا البَيْتُ جَميلٌ جِدًّا.", tr: "ʔanā mut3abun qalīlan. hādhā l-baytu jamīlun jiddan.", lit: "I tired a-little. this the-house beautiful very", en: "I am a little tired. This house is very beautiful."}
-      - {who: teta, ar: "قول: «تَعْبان شْوَيّ» و«هَالبَيْت كْتير حِلو».", tr: "ʔūl: \"ta3bān šwayy\" w-\"hal-bēt ktīr ḥilu\".", lit: "say: tired a-little and this-the-house very beautiful", en: "Say: \"ta3bān šwayy\" and \"hal-bēt ktīr ḥilu\"."}
-      - {who: adam, lang: msa, ar: "هَلْ عِنْدَكِ قَهْوَةٌ؟", tr: "hal 3indaki qahwatun?", lit: "? at-you(f) coffee", en: "Do you have coffee?"}
-      - {who: teta, ar: "«في قَهْوِة؟» اي في! أَهْلا وْسَهْلا بِالشّام يا مُذيع!", tr: "\"fī ʔahwe?\" ʔē fī! ʔahla w-sahla biš-Šām yā muzī3!", lit: "there-is coffee? yes there-is! welcome in-the-Sham O announcer", en: "\"fī ʔahwe?\" Yes there is! Welcome to Damascus, Mr Newsreader!"}
-    pairs:
-      head: ["Shami", "", "MSA", "", "English"]
-      rows:
-        - ["kīfak?", "كيفَك؟", "kayfa ḥāluka?", "كَيْفَ حالُكَ؟", "How are you?"]
-        - ["ʔana ta3bān šwayy", "أنا تعبان شويّ", "ʔanā mut3abun qalīlan", "أَنا مُتْعَبٌ قَليلًا", "I'm a bit tired"]
-        - ["hāda bēti", "هادا بيتي", "hādhā baytī", "هٰذا بَيْتي", "This is my house"]
-        - ["šū hād?", "شو هاد؟", "mā hādhā?", "ما هٰذا؟", "What's this?"]
-        - ["wēn tēta?", "وين تيتا؟", "ʔayna jaddatī?", "أَيْنَ جَدَّتي؟", "Where is Grandmother?"]
-        - ["mū jū3ān", "مو جوعان", "lastu jāʔi3an", "لَسْتُ جائِعًا", "I'm not hungry"]
-        - ["mā 3andi ʔaxx", "ما عندي أخّ", "laysa 3indī ʔaxun", "لَيْسَ عِنْدي أَخٌ", "I don't have a brother"]
-        - ["fī yāsmīn", "في ياسمين", "hunāka yāsamīnun", "هُناكَ ياسَمينٌ", "There is jasmine"]
-        - ["ktīr ḥilu", "كتير حلو", "jamīlun jiddan", "جَميلٌ جِدًّا", "Very beautiful"]
-        - ["hallaʔ", "هلق", "al-ʔāna", "الآنَ", "now"]
-    notes:
-      - {anchor: "ق", text: "MSA says q, a k made at the very back of the mouth: qahwa. Damascus says ʔ: ʔahwe. So does Tēta's ʔūl 'say!' (MSA qul). A few learned words keep q even in Damascus, such as il-Qurʔān."}
-      - {anchor: "ث ذ ظ", text: "MSA has the th of 'think' (ث), the th of 'this' (ذ) and an emphatic version (ظ). Damascus has none of them. Everyday words turn them into t and d: MSA hādhā is hāda, kathīr is ktīr. Learned words turn them into s and z: MSA mudhī3 'announcer' is muzī3. Shami spells what it says: هادا, كتير."}
-      - {anchor: "ay, aw", text: "MSA ay and aw become long ē and ō: bayt is bēt, ʔayna is wēn, yawm 'day' is yōm."}
-      - {anchor: "Endings", text: "MSA nouns carry short case endings: bayt-u-n, qahwat-u-n, jamīl-u-n. Speech drops them all, which is why MSA sounds formal and long. The ة goes from -at(un) to plain -e or -a: qahwatun is ʔahwe."}
-      - {anchor: "Lost vowels", text: "Short unstressed vowels often disappear, leaving two consonants at the start of a word: MSA kathīr is ktīr, kabīr 'big' is kbīr."}
-      - {anchor: "ج", text: "In careful MSA ج is the j of 'jam'. In Damascus it is softer, the j of French 'jour': jiddi, jū3ān."}
-      - {anchor: "Different words", text: "Some of the commonest words are simply different: šū / mā 'what', hallaʔ / al-ʔāna 'now', mū / laysa 'not', ktīr / jiddan 'very', ḥilu / jamīl 'beautiful'. Syrians understand both; they speak the first and write the second."}
-    words:
-      - {ar: "قهوة", tr: "ʔahwe", en: "coffee"}
-      - {ar: "قول", tr: "ʔūl", en: "say! (to a man)"}
-      - {ar: "مذيع", tr: "muzī3", en: "announcer, newsreader"}
-      - {ar: "أخبار", tr: "ʔaxbār", en: "news"}
-      - {ar: "هالبيت", tr: "hal-bēt", en: "this house"}
-      - {ar: "الفصحى", tr: "il-fuṣḥa", en: "Modern Standard Arabic"}
+    scene: "Modern Standard Arabic (il-fuṣḥa) is the Arabic of books, news and signs. Below are this week's sentences as you learnt them, each with the way it would be written in MSA. Tap a coloured word to see why it changes."
+    sides:
+      - ref: [L001, 5]
+        msa: {ar: "أَهْلًا وَسَهْلًا بِكَ في دِمَشْقَ!", tr: "ʔahlan wa-sahlan bika fī Dimašqa!"}
+        hl:
+          - ["أَهْلا وْسَهْلا", "ʔahla w-sahla", "أَهْلًا وَسَهْلًا", "ʔahlan wa-sahlan", end]
+          - ["بِالشّام", "biš-Šām", "في دِمَشْقَ", "fī Dimašqa", words]
+      - ref: [L002, 2]
+        msa: {ar: "بِخَيْرٍ، الحَمْدُ لِلّٰهِ. وَكَيْفَ حالُكَ أَنْتَ يا عَمّي؟", tr: "bi-xayrin, al-ḥamdu lillāhi. wa-kayfa ḥāluka ʔanta yā 3ammī?"}
+        hl:
+          - ["مْنيح", "mnīḥ", "بِخَيْرٍ", "bi-xayrin", words]
+          - ["الحَمْدِلله", "il-ḥamdilla", "الحَمْدُ لِلّٰهِ", "al-ḥamdu lillāhi", end]
+          - ["كيفَك", "kīfak", "كَيْفَ حالُكَ", "kayfa ḥāluka", words]
+      - ref: [L003, 1]
+        msa: {ar: "أَهْلًا وَسَهْلًا يا بُنَيَّ! هٰذا بَيْتي، وَالآنَ هُوَ بَيْتُكَ.", tr: "ʔahlan wa-sahlan yā bunayya! hādhā baytī, wa-l-ʔāna huwa baytuka."}
+        hl:
+          - ["هادا", "hāda", "هٰذا", "hādhā", th]
+          - ["بَيْتي", "bēti", "بَيْتي", "baytī", diph]
+          - ["هَلَّق", "hallaʔ", "الآنَ", "l-ʔāna", q]
+      - ref: [L003, 3]
+        msa: {ar: "هُنا المَطْبَخُ، وَهُناكَ الحَمّامُ.", tr: "hunā l-maṭbaxu, wa-hunāka l-ḥammāmu."}
+        hl:
+          - ["هَوْن", "hōn", "هُنا", "hunā", words]
+          - ["هْنيك", "hnīk", "هُناكَ", "hunāka", vow]
+          - ["المَطْبَخ", "il-maṭbax", "المَطْبَخُ", "l-maṭbaxu", end]
+      - ref: [L004, 1]
+        msa: {ar: "يا لينا، ما هٰذا؟", tr: "yā Līnā, mā hādhā?"}
+        hl:
+          - ["شو", "šū", "ما", "mā", words]
+          - ["هاد", "hād", "هٰذا", "hādhā", th]
+      - ref: [L004, 5]
+        msa: {ar: "وَأَيْنَ جَدَّتي؟", tr: "wa-ʔayna jaddatī?"}
+        hl:
+          - ["وَيْن", "wēn", "أَيْنَ", "ʔayna", diph]
+          - ["تيتا", "tēta", "جَدَّتي", "jaddatī", words]
+      - ref: [L005, 2]
+        msa: {ar: "لا يا جَدَّتي، لَسْتُ جَوْعانَ. لٰكِنَّني مُتْعَبٌ قَليلًا.", tr: "lā yā jaddatī, lastu jaw3āna. lākinnanī mut3abun qalīlan."}
+        hl:
+          - ["مو", "mū", "لَسْتُ", "lastu", words]
+          - ["جوعان", "jū3ān", "جَوْعانَ", "jaw3āna", diph]
+          - ["بَسّ", "bass", "لٰكِنَّني", "lākinnanī", words]
+          - ["شْوَيّ", "šwayy", "قَليلًا", "qalīlan", words]
+      - ref: [L005, 4]
+        msa: {ar: "أَنا نَعْسانُ جِدًّا! وَأَنْتِ، أَلَسْتِ مُتْعَبَةً؟", tr: "ʔanā na3sānu jiddan! wa-ʔanti, ʔa-lasti mut3abatan?"}
+        hl:
+          - ["كْتير", "ktīr", "جِدًّا", "jiddan", words]
+          - ["اِنْتي", "ʔinti", "أَنْتِ", "ʔanti", vow]
+          - ["تَعْبانة", "ta3bāne", "مُتْعَبَةً", "mut3abatan", end]
+      - ref: [L006, 2]
+        msa: {ar: "نَعَمْ، عِنْدي أُخْتٌ. لَيْسَ عِنْدي أَخٌ.", tr: "na3am, 3indī ʔuxtun. laysa 3indī ʔaxun."}
+        hl:
+          - ["اي", "ʔē", "نَعَمْ", "na3am", words]
+          - ["إخْت", "ʔixt", "أُخْتٌ", "ʔuxtun", end]
+          - ["ما", "mā", "لَيْسَ", "laysa", words]
+      - ref: [L006, 3]
+        msa: {ar: "وَهَلْ يوجَدُ ياسَمينٌ في باريسَ؟", tr: "wa-hal yūjadu yāsamīnun fī Bārīsa?"}
+        hl:
+          - ["في", "fī", "هَلْ يوجَدُ", "hal yūjadu", words]
+          - ["بْباريس", "b-Bārīs", "في باريسَ", "fī Bārīsa", vow]
+      - ref: [L006, 4]
+        msa: {ar: "لا، لا يوجَدُ ياسَمينٌ. لٰكِنْ هُناكَ مَطَرٌ كَثيرٌ!", tr: "lā, lā yūjadu yāsamīnun. lākin hunāka maṭarun kathīrun!"}
+        hl:
+          - ["ما في", "mā fī", "لا يوجَدُ", "lā yūjadu", words]
+          - ["مَطَر", "maṭar", "مَطَرٌ", "maṭarun", end]
+          - ["كْتير", "ktīr", "كَثيرٌ", "kathīrun", th]
+    rules:
+      - id: q
+        title: "ق becomes ʔ"
+        short: "q → ʔ"
+        text: "MSA says q, a k made at the very back of the throat. Damascus says ʔ, a catch in the voice. hallaʔ 'now' comes from hal-waʔt 'this time' (MSA hādhā l-waqt), so even this little word has a hidden ق. Coffee is qahwa in MSA and ʔahwe in Damascus. A few learned words keep q, such as il-Qurʔān."
+      - id: th
+        title: "ث ذ ظ become t, d (or s, z)"
+        short: "th → t, d"
+        text: "MSA has the th of 'think' (ث), the th of 'this' (ذ) and an emphatic one (ظ). Damascus has none of them. In everyday words they become t and d: hādhā is hāda, kathīr is ktīr. In learned words they become s and z. Shami spelling follows the sound: هادا، كتير."
+      - id: diph
+        title: "ay and aw become ē and ō"
+        short: "ay, aw → ē, ō"
+        text: "MSA ay and aw shrink to long ē and ō: bayt is bēt, ʔayna is wēn, yawm 'day' is yōm. Sometimes they shrink further, to ī or ū: kayf is kīf, jaw3ān is jū3ān."
+      - id: end
+        title: "Endings drop away"
+        short: "no case endings"
+        text: "MSA nouns and adjectives carry short endings that mark their role in the sentence: maṭar-un, l-maṭbax-u, ʔahl-an. Speech drops them all, which is much of why MSA sounds formal. The ة ending goes from -at(an) to a plain -e or -a: mut3abatan, ta3bāne."
+      - id: vow
+        title: "Short vowels change or drop"
+        short: "vowels"
+        text: "Short unstressed vowels often vanish, leaving two consonants together at the start of a word: hunāka is hnīk, kathīr is ktīr, bi- 'in' is just b-. Others change colour: ʔanta, ʔanti become ʔinte, ʔinti."
+      - id: words
+        title: "Different everyday words"
+        short: "other words"
+        text: "Many of the commonest words are simply different: šū / mā 'what', hōn / hunā 'here', mū / laysa 'not', bass / lākin 'but', ktīr / jiddan 'very', fī / yūjad 'there is'. Syrians understand both: they say the first and write the second. Damascus is iš-Šām when spoken and Dimašq on maps and signs."
     practice:
       fill:
-        - {tr: "MSA qahwa → Shami ___", answer: "ʔahwe", en: "coffee"}
+        - {tr: "MSA kathīr → Shami ___", answer: "ktīr", en: "a lot, very"}
         - {tr: "MSA bayt → Shami ___", answer: "bēt", en: "house"}
-        - {tr: "MSA kathīr → Shami ___", answer: "ktīr", en: "a lot"}
         - {tr: "MSA hādhā → Shami ___", answer: "hāda", en: "this"}
         - {tr: "MSA ʔayna → Shami ___", answer: "wēn", en: "where"}
+        - {tr: "MSA qahwa → Shami ___", answer: "ʔahwe", en: "coffee"}
+        - {tr: "MSA laysa 3indī → Shami ___", answer: "mā 3andi", en: "I don't have"}
