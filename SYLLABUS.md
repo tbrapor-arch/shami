@@ -39,6 +39,22 @@ week: Form II (30), V (37), III (44), VIII (46), VII (53), X (59), VI (72).
 
 ## Conventions (decided)
 
+**Word choice: the forms Syrian speakers actually use.** Every word of every lesson is run against a private
+word index of Syrian speakers before it is published. Where two forms exist, the course teaches the one those
+speakers use and gives the other in a note. Decided so far:
+
+| Meaning | Taught | Also heard (in a note) |
+|---|---|---|
+| this (f) | *hāy* هاي | *hayy* |
+| when? | *ʔēmat* إيمت | *ʔēmta* (Lebanese) |
+| room | *ʔūḍa* أوضة | *ɣurfe* |
+| how much | *ʔaddēš*, spelt أدّيش | spelt قدّيش |
+| my father, my brother | *ʔabi*, *ʔaxi* | |
+| French | *faransi* | |
+| eight; one (f) | *tmāne*; *waḥde* | *tmānye* |
+| give me | *3ṭīni* (*3aṭa*) | |
+| small | *zɣīr*, spelt صغير | |
+
 **Transcription: Lingualism's system, with dots instead of hooks.**
 
 | Sound | Written | Example |

@@ -20,7 +20,7 @@ N = {
  (1, "كيفَك", "kīfak", G, "{كيف|kīf} 'how' takes the ending of the person asked: {كيفَك|kīfak} to a man, {كيفِك|kīfik} to a woman (line 4), {كيفْكُن|kīfkun} to several people (line 6). The same endings mean 'your' on nouns: {عَمَّك|3ammak}, {عَمِّك|3ammik}."),
  (2, "مْنيح، الحَمْدِلله", "mnīḥ, il-ḥamdilla", G, "{مْنيح|mnīḥ} 'fine, good'. A woman answers {مْنيحة|mnīḥa} (line 5): the adjective agrees with the speaker. The ة is said -a here because of the ḥ before it (lesson 7)."),
  (3, "تَمام", "tamām", V, "{تَمام|tamām} 'perfect, all good': a very common answer to 'how are you?', and also 'OK, fine'."),
- (3, "هَيّ مَرْت عَمَّك", "hayy mart 3ammak", G, "{هَيّ|hayy} 'this (f)' introduces a woman: {هَيّ لينا|hayy Līna} 'this is Līna'. {مَرْت عَمَّك|mart 3ammak} 'your uncle's wife': {مَرَة|mara} 'woman, wife' shows a t before another noun (see lesson 3)."),
+ (3, "هاي مَرْت عَمَّك", "hāy mart 3ammak", G, "{هاي|hāy} 'this (f)' introduces a woman: {هاي لينا|hāy Līna} 'this is Līna'. {مَرْت عَمَّك|mart 3ammak} 'your uncle's wife': {مَرَة|mara} 'woman, wife' shows a t before another noun (see lesson 3)."),
  (6, "يا اِبْني", "yā ʔibni", C, "{يا|yā} is used to call someone: {يا آدَم|yā ʔādam}. {اِبْني|ʔibni} 'my son' is how an older woman speaks to any young man she is fond of. {شَباب|šabāb} 'young people' is the usual 'guys'."),
  (6, "تْفَضَّلو", "tfaḍḍalu", V, "'Please, go ahead': come in, sit down, help yourselves. To one man {تْفَضَّل|tfaḍḍal}, to one woman {تْفَضَّلي|tfaḍḍali}, to several {تْفَضَّلو|tfaḍḍalu}. You will hear it many times a day."),
 ],
@@ -30,7 +30,7 @@ N = {
  (1, "هَلَّق", "hallaʔ", S, "Sound of the week: ق. Damascus does not say q; it says ʔ, a catch in the throat like the break in 'uh-oh'. The spelling keeps ق: {هَلَّق|hallaʔ} 'now'. MSA {قَهْوة|qahwa} 'coffee' is Shami {قَهْوة|ʔahwe} (lesson 8)."),
  (2, "شو حِلو!", "šū ḥilu!", G, "{شو|šū} 'what' also makes exclamations: {شو حِلو!|šū ḥilu!} 'how beautiful!'. {حِلو|ḥilu} 'nice, beautiful, sweet', feminine {حِلْوة|ḥilwe}."),
  (3, "هَوْن… هْنيك", "hōn… hnīk", V, "{هَوْن|hōn} 'here', {هْنيك|hnīk} 'there'. No verb is needed: {هَوْن المَطْبَخ|hōn il-maṭbax} 'here is the kitchen'."),
- (4, "وهَيّ؟", "w-hayy?", G, "{هَيّ|hayy} is 'this' for a feminine word. Adam says {وهَيّ؟|w-hayy?} because he points at a {أوضة|ʔūḍa} 'room', which is feminine. For a masculine word: {هادا|hāda}."),
+ (4, "وهاي؟", "w-hāy?", G, "{هاي|hāy} is 'this' for a feminine word. Adam says {وهاي؟|w-hāy?} because he points at a {أوضة|ʔūḍa} 'room', which is feminine. For a masculine word: {هادا|hāda}."),
  (5, "أوضِة أَبوك", "ʔūḍit ʔabūk", G, "'Your father's room': the thing first, the owner second, side by side. A word ending in ة then shows a hidden t: {أوضة|ʔūḍa} becomes {أوضِة|ʔūḍit}. The t also appears before an ending: {أوضْتَك|ʔūḍtak} 'your room'. {أَبوك|ʔabūk} 'your father': after a vowel, 'your' is just -k."),
 ],
 "L004": [
@@ -116,7 +116,7 @@ N = {
  (6, "ما رَدّ", "mā radd", G, "The past is negated with {ما|mā} too: {ما رَدّ|mā radd} 'he didn't answer'."),
 ],
 "L013": [
- (1, "قَدّيش", "ʔaddēš", G, "{قَدّيش|ʔaddēš} 'how much?' for prices and amounts. For things you count, use {كَم|kam} + a singular noun: {كَم شال؟|kam šāl?} 'how many scarves?'."),
+ (1, "أَدّيش", "ʔaddēš", G, "{أَدّيش|ʔaddēš} 'how much?' for prices and amounts. For things you count, use {كَم|kam} + a singular noun: {كَم شال؟|kam šāl?} 'how many scarves?'."),
  (1, "هالشّال", "haš-šāl", G, "{هَـ|hal-} is a short 'this', glued on like the article: {هالبَيْت|hal-bēt} 'this house'. It merges with sun letters as {ال|il-} does: {هالشّال|haš-šāl}."),
  (1, "عَمّو", "3ammo", C, "The polite way to address an older man you don't know, such as a shopkeeper: 'uncle'. For an older woman: {خالة|xāle} 'aunt'."),
  (2, "لَإلِك؟", "la-ʔilik?", C, "'For you?': the seller's classic line, to make a price sound like a favour. {إلِك|ʔilik} is ʔil- + -ik (lesson 6)."),

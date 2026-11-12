@@ -56,7 +56,7 @@ lessons:
     lines:
       - {who: abu, ar: "أَهْلين عَمّو! كيفَك؟", tr: "ʔahlēn 3ammo! kīfak?", lit: "welcome uncle! how-you?", en: "Welcome, my boy! How are you?"}
       - {who: adam, ar: "مْنيح، الحَمْدِلله. واِنْتَ كيفَك عَمّو؟", tr: "mnīḥ, il-ḥamdilla. w-ʔinte kīfak 3ammo?", lit: "good, the-praise-to-God. and-you how-you uncle?", en: "Fine, thank God. And how are you, Uncle?"}
-      - {who: abu, ar: "تَمام. هَيّ مَرْت عَمَّك، وهَيّ لينا.", tr: "tamām. hayy mart 3ammak, w-hayy Līna.", lit: "perfect. this wife uncle-your, and-this Lina", en: "Very well. This is your aunt, and this is Līna."}
+      - {who: abu, ar: "تَمام. هاي مَرْت عَمَّك، وهاي لينا.", tr: "tamām. hāy mart 3ammak, w-hāy Līna.", lit: "perfect. this wife uncle-your, and-this Lina", en: "Very well. This is your aunt, and this is Līna."}
       - {who: adam, ar: "مَرْحَبا! كيفِك لينا؟", tr: "marḥaba! kīfik Līna?", lit: "hello! how-you(f) Lina?", en: "Hello! How are you, Līna?"}
       - {who: lina, ar: "مْنيحة، الحَمْدِلله!", tr: "mnīḥa, il-ḥamdilla!", lit: "good(f), the-praise-to-God", en: "Fine, thank God!"}
       - {who: umm, ar: "أَهْلا وْسَهْلا يا اِبْني! كيفْكُن شَباب؟ تْفَضَّلو!", tr: "ʔahla w-sahla yā ʔibni! kīfkun šabāb? tfaḍḍalu!", lit: "welcome O son-my! how-you(pl) young-men? please(pl)", en: "Welcome, my son! How are you, boys? Come in!"}
@@ -65,7 +65,7 @@ lessons:
       - {line: 1, ar: "كيفَك", tr: "kīfak", topic: grammar, text: "{كيف|kīf} 'how' takes the ending of the person asked: {كيفَك|kīfak} to a man, {كيفِك|kīfik} to a woman (line 4), {كيفْكُن|kīfkun} to several people (line 6). The same endings mean 'your' on nouns: {عَمَّك|3ammak}, {عَمِّك|3ammik}."}
       - {line: 2, ar: "مْنيح، الحَمْدِلله", tr: "mnīḥ, il-ḥamdilla", topic: grammar, text: "{مْنيح|mnīḥ} 'fine, good'. A woman answers {مْنيحة|mnīḥa} (line 5): the adjective agrees with the speaker. The ة is said -a here because of the ḥ before it (lesson 7)."}
       - {line: 3, ar: "تَمام", tr: "tamām", topic: vocab, text: "{تَمام|tamām} 'perfect, all good': a very common answer to 'how are you?', and also 'OK, fine'."}
-      - {line: 3, ar: "هَيّ مَرْت عَمَّك", tr: "hayy mart 3ammak", topic: grammar, text: "{هَيّ|hayy} 'this (f)' introduces a woman: {هَيّ لينا|hayy Līna} 'this is Līna'. {مَرْت عَمَّك|mart 3ammak} 'your uncle's wife': {مَرَة|mara} 'woman, wife' shows a t before another noun (see lesson 3)."}
+      - {line: 3, ar: "هاي مَرْت عَمَّك", tr: "hāy mart 3ammak", topic: grammar, text: "{هاي|hāy} 'this (f)' introduces a woman: {هاي لينا|hāy Līna} 'this is Līna'. You will also hear {هَيّ|hayy}. {مَرْت عَمَّك|mart 3ammak} 'your uncle's wife': {مَرَة|mara} 'woman, wife' shows a t before another noun (see lesson 3)."}
       - {line: 6, ar: "يا اِبْني", tr: "yā ʔibni", topic: culture, text: "{يا|yā} is used to call someone: {يا آدَم|yā ʔādam}. {اِبْني|ʔibni} 'my son' is how an older woman speaks to any young man she is fond of. {شَباب|šabāb} 'young people' is the usual 'guys'."}
       - {line: 6, ar: "تْفَضَّلو", tr: "tfaḍḍalu", topic: vocab, text: "'Please, go ahead': come in, sit down, help yourselves. To one man {تْفَضَّل|tfaḍḍal}, to one woman {تْفَضَّلي|tfaḍḍali}, to several {تْفَضَّلو|tfaḍḍalu}. You will hear it many times a day."}
     words:
@@ -81,12 +81,12 @@ lessons:
       translate:
         - {ar: "كيفِك؟", tr: "kīfik?", en: "How are you? (to a woman)"}
         - {ar: "أنا منيح، الحمدلله.", tr: "ʔana mnīḥ, il-ḥamdilla.", en: "I'm fine, thank God."}
-        - {ar: "هَيّ مرت عمّي.", tr: "hayy mart 3ammi.", en: "This is my aunt."}
+        - {ar: "هاي مرت عمّي.", tr: "hāy mart 3ammi.", en: "This is my aunt."}
         - {ar: "كيفكن؟", tr: "kīfkun?", en: "How are you all?"}
       fill:
         - {tr: "kīf___ Līna?", answer: "ik", en: "How are you, Līna?"}
         - {tr: "Līna ___ , il-ḥamdilla.", answer: "mnīḥa", en: "Līna is fine, thank God."}
-        - {tr: "___ Līna.", answer: "hayy", en: "This is Līna."}
+        - {tr: "___ Līna.", answer: "hāy", en: "This is Līna."}
         - {tr: "ʔahla w-sahla yā ___!", answer: "ʔibni", en: "Welcome, my son!"}
 
   - id: L003
@@ -97,19 +97,19 @@ lessons:
       - {who: teta, ar: "أَهْلا وْسَهْلا يا تيتا! هادا بَيْتي، وهَلَّق بَيْتَك.", tr: "ʔahla w-sahla yā tēta! hāda bēti, w-hallaʔ bētak.", lit: "welcome O grandma! this house-my, and-now house-your", en: "Welcome, my dear! This is my house, and now it's yours."}
       - {who: adam, ar: "شو حِلو!", tr: "šū ḥilu!", lit: "what beautiful", en: "How beautiful!"}
       - {who: teta, ar: "هَوْن المَطْبَخ، وهْنيك الحَمّام.", tr: "hōn il-maṭbax, w-hnīk il-ḥammām.", lit: "here the-kitchen, and-there the-bathroom", en: "Here is the kitchen, and over there the bathroom."}
-      - {who: adam, ar: "وهَيّ؟", tr: "w-hayy?", lit: "and-this?", en: "And this one?"}
-      - {who: teta, ar: "هَيّ أوضِة أَبوك. هَلَّق أوضْتَك.", tr: "hayy ʔūḍit ʔabūk. hallaʔ ʔūḍtak.", lit: "this room father-your. now room-your", en: "This is your father's room. Now it's your room."}
+      - {who: adam, ar: "وهاي؟", tr: "w-hāy?", lit: "and-this?", en: "And this one?"}
+      - {who: teta, ar: "هاي أوضِة أَبوك. هَلَّق أوضْتَك.", tr: "hāy ʔūḍit ʔabūk. hallaʔ ʔūḍtak.", lit: "this room father-your. now room-your", en: "This is your father's room. Now it's your room."}
     notes:
       - {line: 1, ar: "يا تيتا", tr: "yā tēta", topic: culture, text: "Tēta calls Adam {تيتا|tēta}, as his uncle called him {عَمّو|3ammo} in lesson 2: the grown-up gives the child her own title. Tēta is this family's word for grandmother; many Damascenes say {سِتّي|sitti} 'my grandmother'."}
       - {line: 1, ar: "بَيْتي… بَيْتَك", tr: "bēti… bētak", topic: grammar, text: "'My' is -i, 'your' is -ak to a man and -ik to a woman: {بَيْت|bēt} 'house', {بَيْتي|bēti} 'my house', {بَيْتَك|bētak}, {بَيْتِك|bētik} 'your house'. {هادا|hāda} 'this' goes with masculine words; MSA {هٰذا|hādhā} (Bridge 1)."}
       - {line: 1, ar: "هَلَّق", tr: "hallaʔ", topic: sound, text: "Sound of the week: ق. Damascus does not say q; it says ʔ, a catch in the throat like the break in 'uh-oh'. The spelling keeps ق: {هَلَّق|hallaʔ} 'now'. MSA {قَهْوة|qahwa} 'coffee' is Shami {قَهْوة|ʔahwe} (lesson 8)."}
       - {line: 2, ar: "شو حِلو!", tr: "šū ḥilu!", topic: grammar, text: "{شو|šū} 'what' also makes exclamations: {شو حِلو!|šū ḥilu!} 'how beautiful!'. {حِلو|ḥilu} 'nice, beautiful, sweet', feminine {حِلْوة|ḥilwe}."}
       - {line: 3, ar: "هَوْن… هْنيك", tr: "hōn… hnīk", topic: vocab, text: "{هَوْن|hōn} 'here', {هْنيك|hnīk} 'there'. No verb is needed: {هَوْن المَطْبَخ|hōn il-maṭbax} 'here is the kitchen'."}
-      - {line: 4, ar: "وهَيّ؟", tr: "w-hayy?", topic: grammar, text: "{هَيّ|hayy} is 'this' for a feminine word. Adam says {وهَيّ؟|w-hayy?} because he points at a {أوضة|ʔūḍa} 'room', which is feminine. For a masculine word: {هادا|hāda}."}
+      - {line: 4, ar: "وهاي؟", tr: "w-hāy?", topic: grammar, text: "{هاي|hāy} is 'this' for a feminine word. Adam says {وهاي؟|w-hāy?} because he points at a {أوضة|ʔūḍa} 'room', which is feminine; many Syrians also say {غُرْفة|ɣurfe} for 'room'. For a masculine word: {هادا|hāda}."}
       - {line: 5, ar: "أوضِة أَبوك", tr: "ʔūḍit ʔabūk", topic: grammar, text: "'Your father's room': the thing first, the owner second, side by side. A word ending in ة then shows a hidden t: {أوضة|ʔūḍa} becomes {أوضِة|ʔūḍit}. The t also appears before an ending: {أوضْتَك|ʔūḍtak} 'your room'. {أَبوك|ʔabūk} 'your father': after a vowel, 'your' is just -k."}
     words:
       - {ar: "هادا", tr: "hāda", en: "this (masculine)"}
-      - {ar: "هَيّ", tr: "hayy", en: "this (feminine)"}
+      - {ar: "هاي", tr: "hāy", en: "this (feminine)"}
       - {ar: "بيت", tr: "bēt", en: "house, home"}
       - {ar: "هلق", tr: "hallaʔ", en: "now"}
       - {ar: "حلو", tr: "ḥilu", en: "beautiful, nice, sweet"}
@@ -123,11 +123,11 @@ lessons:
       translate:
         - {ar: "هادا بيتي.", tr: "hāda bēti.", en: "This is my house."}
         - {ar: "هون الحمّام.", tr: "hōn il-ḥammām.", en: "Here is the bathroom."}
-        - {ar: "هَيّ أوضتك.", tr: "hayy ʔūḍtak.", en: "This is your room."}
+        - {ar: "هاي أوضتك.", tr: "hāy ʔūḍtak.", en: "This is your room."}
         - {ar: "شو حلو بيتك!", tr: "šū ḥilu bētak!", en: "How beautiful your house is!"}
       fill:
         - {tr: "___ bēti.", answer: "hāda", en: "This is my house."}
-        - {tr: "___ ʔūḍit ʔabūk.", answer: "hayy", en: "This is your father's room."}
+        - {tr: "___ ʔūḍit ʔabūk.", answer: "hāy", en: "This is your father's room."}
         - {tr: "hōn il-maṭbax, w-___ il-ḥammām.", answer: "hnīk", en: "Here is the kitchen, and there the bathroom."}
         - {tr: "hāda bēti, w-hallaʔ bēt___.", answer: "ak", en: "This is my house, and now it's yours."}
 
@@ -137,7 +137,7 @@ lessons:
     scene: "Morning in the courtyard. Līna has come over for breakfast; Adam is looking at everything."
     lines:
       - {who: adam, ar: "لينا، شو هاد؟", tr: "Līna, šū hād?", lit: "Lina, what this?", en: "Līna, what's this?"}
-      - {who: lina, ar: "هاد ياسْمين. وهَيّ البَحْرة.", tr: "hād yāsmīn. w-hayy il-baḥra.", lit: "this jasmine. and-this the-fountain", en: "That's jasmine. And this is the fountain."}
+      - {who: lina, ar: "هاد ياسْمين. وهاي البَحْرة.", tr: "hād yāsmīn. w-hāy il-baḥra.", lit: "this jasmine. and-this the-fountain", en: "That's jasmine. And this is the fountain."}
       - {who: adam, ar: "ومين هاد بِالصّورة؟", tr: "w-mīn hād biṣ-ṣūra?", lit: "and-who this in-the-picture?", en: "And who's this in the photo?"}
       - {who: lina, ar: "هاد جِدّي وجِدَّك، الله يِرْحَمو.", tr: "hād jiddi w-jiddak, ʔalla yirḥamo.", lit: "this grandfather-my and-grandfather-your, God have-mercy-him", en: "That's my grandfather, and yours, God rest his soul."}
       - {who: adam, ar: "ووَيْن تيتا؟", tr: "w-wēn tēta?", lit: "and-where grandma?", en: "And where's Tēta?"}
@@ -163,7 +163,7 @@ lessons:
     practice:
       translate:
         - {ar: "شو هاد؟", tr: "šū hād?", en: "What's this?"}
-        - {ar: "مين هَيّ؟", tr: "mīn hayy?", en: "Who's this? (a woman)"}
+        - {ar: "مين هاي؟", tr: "mīn hāy?", en: "Who's this? (a woman)"}
         - {ar: "وين المطبخ؟", tr: "wēn il-maṭbax?", en: "Where's the kitchen?"}
         - {ar: "آدم بالبيت.", tr: "ʔādam bil-bēt.", en: "Adam is at home."}
       fill:
@@ -278,7 +278,7 @@ lessons:
         table:
           head: ["", "masculine", "feminine"]
           rows:
-            - ["this", "hāda / hād · هادا", "hayy · هَيّ"]
+            - ["this", "hāda / hād · هادا", "hāy · هاي"]
             - ["here / there", "hōn · هون", "hnīk · هنيك"]
       - title: "Two words for 'not'"
         text: "mū before adjectives, nouns and places: mū ta3bān, mū hōn. mā before verbs, 3and and fī: mā 3andi, mā fī."
@@ -302,7 +302,7 @@ lessons:
     practice:
       translate:
         - {ar: "وين سامي؟ هوّ بالبيت.", tr: "wēn Sāmi? huwwe bil-bēt.", en: "Where's Sāmi? He's at home."}
-        - {ar: "هَيّ أوضة لينا.", tr: "hayy ʔūḍit Līna.", en: "This is Līna's room."}
+        - {ar: "هاي أوضة لينا.", tr: "hāy ʔūḍit Līna.", en: "This is Līna's room."}
         - {ar: "ما في أكل، بسّ في ياسمين.", tr: "mā fī ʔakil, bass fī yāsmīn.", en: "There's no food, but there's jasmine."}
         - {ar: "تيتا مو تعبانة، بسّ أنا نعسان كتير.", tr: "tēta mū ta3bāne, bass ʔana na3sān ktīr.", en: "Tēta isn't tired, but I'm very sleepy."}
       fill:

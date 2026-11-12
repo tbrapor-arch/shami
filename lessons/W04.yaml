@@ -23,18 +23,18 @@ lessons:
       - {who: baqqal, ar: "وإنْتَ يا شَبّ، بْتْحِبّ الرُّمّان؟ هاد رُمّان طازة!", tr: "w-ʔinte yā šabb, btḥibb ir-rummān? hād rummān ṭāza!", lit: "and-you O young-man, you-like the-pomegranate? this pomegranate fresh", en: "And you, young man, do you like pomegranates? These are fresh!"}
       - {who: adam, ar: "اي، عْطيني رُمّانْتَيْن، إذا بِتْريد.", tr: "ʔē, 3ṭīni rummāntēn, ʔiza bitrīd.", lit: "yes, give-me two-pomegranates, if you-want", en: "Yes, give me two pomegranates, please."}
       - {who: baqqal, ar: "رُمّانْتَيْن بَسّ؟ خود تْلاتة، والتّالْتة هْدِيّة!", tr: "rummāntēn bass? xōd tlāte, wit-tālte hdiyye!", lit: "two-pomegranates only? take three, and-the-third gift", en: "Only two? Take three, and the third one's a present!"}
-      - {who: umm, ar: "الله يْخَلّيك! قَدّيش حْسابْنا؟", tr: "ʔalla yxallīk! ʔaddēš ḥsābna?", lit: "God keep-you! how-much account-our?", en: "Bless you! How much do we owe you?"}
+      - {who: umm, ar: "الله يْخَلّيك! أَدّيش حْسابْنا؟", tr: "ʔalla yxallīk! ʔaddēš ḥsābna?", lit: "God keep-you! how-much account-our?", en: "Bless you! How much do we owe you?"}
     notes:
       - {line: 1, ar: "إم سامي", tr: "ʔimm Sāmi", topic: culture, text: "Parents are often called after their eldest son: {أَبو سامي|ʔabu Sāmi} 'Sāmi's father', {إم سامي|ʔimm Sāmi} 'Sāmi's mother'. Neighbours and shopkeepers use these names more than first names. To a woman, {بِدِّك|biddik} 'you want'."}
       - {line: 2, ar: "كيلو بَنَدورة", tr: "kīlo banadōra", topic: grammar, text: "A quantity goes straight before the food, with no 'of': {كيلو بَنَدورة|kīlo banadōra} 'a kilo of tomatoes', {نُصّ كيلو خْيار|nuṣṣ kīlo xyār} 'half a kilo of cucumbers'."}
       - {line: 2, ar: "تْلاتين بَيْضة", tr: "tlātīn bēḍa", topic: grammar, text: "Many foods have two forms. {بَيْض|bēḍ} is 'eggs' in general (line 4); {بَيْضة|bēḍa} is one egg. The ة makes one: {بَصَل|baṣal} 'onions' → {بَصَلة|baṣale} 'an onion', {رُمّان|rummān} → {رُمّانة|rummāne} 'a pomegranate'. Counted from 11 up, the 'one' form stays singular: {تْلاتين بَيْضة|tlātīn bēḍa}."}
-      - {line: 3, ar: "هالقَدّ", tr: "hal-ʔadd", topic: vocab, text: "{هالقَدّ|hal-ʔadd} 'this much, so many': hal- 'this' + {قَدّ|ʔadd} 'amount', the ʔadd of {قَدّيش|ʔaddēš} 'how much?'."}
+      - {line: 3, ar: "هالقَدّ", tr: "hal-ʔadd", topic: vocab, text: "{هالقَدّ|hal-ʔadd} 'this much, so many': hal- 'this' + {قَدّ|ʔadd} 'amount', the ʔadd of {أَدّيش|ʔaddēš} 'how much?'."}
       - {line: 4, ar: "العِجّة بِدّا بَيْض", tr: "il-3ijje bidda bēḍ", topic: grammar, text: "bidd- also means 'need': {العِجّة بِدّا بَيْض|il-3ijje bidda bēḍ} 'ʕijje needs eggs' (bidd + -a 'her'; 3ijje is feminine). {عِجّة|3ijje}: a thick omelette full of parsley and onion, cut in squares."}
       - {line: 5, ar: "يا شَبّ", tr: "yā šabb", topic: culture, text: "{شَبّ|šabb} 'young man', the singular of {شَباب|šabāb} (lesson 2). Shopkeepers call any young customer {يا شَبّ|yā šabb}, or {يا حَبيبي|yā ḥabībi} 'my dear'."}
       - {line: 5, ar: "طازة", tr: "ṭāza", topic: vocab, text: "{طازة|ṭāza} 'fresh', from Turkish taze. It never changes: {رُمّان طازة|rummān ṭāza}, {خُبِز طازة|xubiz ṭāza} 'fresh bread'."}
       - {line: 6, ar: "عْطيني رُمّانْتَيْن", tr: "3ṭīni rummāntēn", topic: grammar, text: "The dual: -ēn on a noun means 'two'. {رُمّانة|rummāne} → {رُمّانْتَيْن|rummāntēn} 'two pomegranates': the ة shows its t, as in {أوضِة|ʔūḍit} (lesson 3). {بَيْضْتَيْن|bēḍtēn} 'two eggs', {يومَيْن|yōmēn} 'two days'. No tnēn is needed. {عْطيني|3ṭīni} 'give me', from {عَطى|3aṭa} 'to give'."}
       - {line: 7, ar: "التّالْتة هْدِيّة", tr: "it-tālte hdiyye", topic: vocab, text: "{تالِت|tālit}, f {تالْتة|tālte} 'third', from tlāte. {هْدِيّة|hdiyye} 'present, gift'. A little extra for a regular customer is part of the shop's manners."}
-      - {line: 8, ar: "الله يْخَلّيك", tr: "ʔalla yxallīk", topic: culture, text: "'God keep you': the warmest thank-you, and also 'please' when you ask a favour. {حْساب|ḥsāb} 'bill, account': {قَدّيش حْسابْنا؟|ʔaddēš ḥsābna?} 'how much do we owe?'."}
+      - {line: 8, ar: "الله يْخَلّيك", tr: "ʔalla yxallīk", topic: culture, text: "'God keep you': the warmest thank-you, and also 'please' when you ask a favour. {حْساب|ḥsāb} 'bill, account': {أَدّيش حْسابْنا؟|ʔaddēš ḥsābna?} 'how much do we owe?'."}
     sections:
       - title: "In general, one, two, several"
         table:
@@ -63,7 +63,7 @@ lessons:
         - {ar: "بدّي نصّ كيلو بصل.", tr: "biddi nuṣṣ kīlo baṣal.", en: "I'd like half a kilo of onions."}
         - {ar: "عندي أختين.", tr: "3andi ʔixtēn.", en: "I have two sisters."}
         - {ar: "عطيني بيضتين، إذا بتريد.", tr: "3ṭīni bēḍtēn, ʔiza bitrīd.", en: "Give me two eggs, please."}
-        - {ar: "قدّيش الرّمّان؟", tr: "ʔaddēš ir-rummān?", en: "How much are the pomegranates?"}
+        - {ar: "أدّيش الرّمّان؟", tr: "ʔaddēš ir-rummān?", en: "How much are the pomegranates?"}
       fill:
         - {tr: "___ banadōra", answer: "kīlo", en: "a kilo of tomatoes"}
         - {tr: "rummān → one: ___", answer: "rummāne", en: "a pomegranate"}
@@ -75,11 +75,11 @@ lessons:
     title: {ar: "بَيْت سِتّي", tr: "bēt sitti", en: "Grandmother's house"}
     scene: "A rainy afternoon. Tēta brings out the old photo album."
     lines:
-      - {who: teta, ar: "تَعا شوف هالأَلْبوم. هَيّ صورِة أَبوك وهُوّ صْغير.", tr: "ta3a šūf hal-ʔalbūm. hayy ṣūrit ʔabūk w-huwwe zɣīr.", lit: "come see this-album. this photo-of father-your and-he small", en: "Come and look at this album. This is a photo of your father when he was little."}
+      - {who: teta, ar: "تَعا شوف هالأَلْبوم. هاي صورِة أَبوك وهُوّ صْغير.", tr: "ta3a šūf hal-ʔalbūm. hāy ṣūrit ʔabūk w-huwwe zɣīr.", lit: "come see this-album. this photo-of father-your and-he small", en: "Come and look at this album. This is a photo of your father when he was little."}
       - {who: adam, ar: "شو حِلو! ومين هاد جَنْبو؟", tr: "šū ḥilu! w-mīn hād jambo?", lit: "what nice! and-who this next-to-him?", en: "How sweet! And who's that next to him?"}
-      - {who: teta, ar: "هاد أَخوه، عَمَّك أَبو سامي. وهَيّ بِنْت خالْتو سَلْوى.", tr: "hād ʔaxū, 3ammak ʔabu Sāmi. w-hayy bint xālto Salwa.", lit: "this brother-his, uncle-your Abu Sami. and-this daughter aunt-his Salwa", en: "That's his brother, your uncle Abu Sāmi. And that's his cousin Salwa."}
+      - {who: teta, ar: "هاد أَخوه، عَمَّك أَبو سامي. وهاي بِنْت خالْتو سَلْوى.", tr: "hād ʔaxū, 3ammak ʔabu Sāmi. w-hāy bint xālto Salwa.", lit: "this brother-his, uncle-your Abu Sami. and-this daughter aunt-his Salwa", en: "That's his brother, your uncle Abu Sāmi. And that's his cousin Salwa."}
       - {who: adam, ar: "ومين هالصَّبِيّة الحِلْوة؟", tr: "w-mīn haṣ-ṣabiyye il-ḥilwe?", lit: "and-who this-young-woman the-pretty?", en: "And who's this pretty young woman?"}
-      - {who: teta, ar: "هَيّ أنا! يوم عِرْسي.", tr: "hayy ʔana! yōm 3irsi.", lit: "this I! day wedding-my", en: "That's me! On my wedding day."}
+      - {who: teta, ar: "هاي أنا! يوم عِرْسي.", tr: "hāy ʔana! yōm 3irsi.", lit: "this I! day wedding-my", en: "That's me! On my wedding day."}
       - {who: adam, ar: "وَالله؟ وهاد جِدّي؟ بابا بْيِشْبَهو كْتير!", tr: "wallāhi? w-hād jiddi? bāba byišbaho ktīr!", lit: "by-God? and-this grandfather-my? dad he-resembles-him much", en: "Really? And that's Grandpa? Dad looks so much like him!"}
       - {who: teta, ar: "اي، نَفْس العْيون، ونَفْس الرّاس اليابِس!", tr: "ʔē, nafs il-3yūn, w-nafs ir-rās il-yābis!", lit: "yes, same the-eyes, and-same the-head the-dry", en: "Yes, the same eyes, and the same stubborn head!"}
       - {who: adam, ar: "وأنا كَمان عَنْدي راس يابِس... بَسّ مو كْتير!", tr: "w-ʔana kamān 3andi rās yābis... bass mū ktīr!", lit: "and-I also at-me head dry... but not much", en: "And I've got a stubborn head too... but not very!"}
@@ -148,7 +148,7 @@ lessons:
       - {who: teta, ar: "إنْتَ لازِم تِدْرُس عَرَبي!", tr: "ʔinte lāzim tidrus 3arabi!", lit: "you necessary you-study Arabic", en: "You have to study Arabic!"}
       - {who: adam, ar: "فيني اِدْرُس واِحْمِل بِنَفْس الوَقْت!", tr: "fīni ʔidrus w-iḥmil b-nafs il-waʔt!", lit: "in-me I-study and-I-carry in-same the-time", en: "I can study and carry bags at the same time!"}
       - {who: teta, ar: "طَيِّب. بُكْرا فيك تِجي مَعي عَالسّوق. بَسّ لازِم تْفيق بَكّير!", tr: "ṭayyib. bukra fīk tiji ma3i 3as-sūʔ. bass lāzim tfīʔ bakkīr!", lit: "good. tomorrow in-you you-come with-me to-the-market. but necessary you-wake early", en: "All right. Tomorrow you can come to the souk with me. But you'll have to get up early!"}
-      - {who: adam, ar: "قَدّيش بَكّير؟", tr: "ʔaddēš bakkīr?", lit: "how-much early?", en: "How early?"}
+      - {who: adam, ar: "أَدّيش بَكّير؟", tr: "ʔaddēš bakkīr?", lit: "how-much early?", en: "How early?"}
       - {who: teta, ar: "السّاعة سِتّة. الخُضْرة الطّازة بْتِخْلَص بَكّير!", tr: "is-sā3a sitte. il-xuḍra iṭ-ṭāza btixlaṣ bakkīr!", lit: "the-hour six. the-vegetables the-fresh it-ends early", en: "Six o'clock. The fresh vegetables run out early!"}
     notes:
       - {line: 1, ar: "فيني اِحْمِل", tr: "fīni ʔiḥmil", topic: grammar, text: "{فيني|fīni} 'I can', literally 'in me': fī- 'in' + an ending. {فيك|fīk} 'you can' (line 6), {فيكي|fīki} to a woman, {فيه|fī} 'he can'. The verb after it has no b-: {فيني اِحْمِل|fīni ʔiḥmil} 'can I carry?'. Negative: {ما فيني|mā fīni} 'I can't'."}
@@ -362,7 +362,7 @@ lessons:
             - ["us", "ma3na", "3anna", "ʔilna, -lna", "3alēna"]
             - ["you (pl)", "ma3kun", "3ankun", "ʔilkun, -lkun", "3alēkun"]
             - ["them", "ma3hun", "3anhun", "ʔilhun, -lhun", "3alēhun"]
-        after: "ʔil- stands alone ('mine, yours': hayy ʔili 'this is mine'); -l- glues onto a verb ('to me': ʔalli 'he told me')."
+        after: "ʔil- stands alone ('mine, yours': hāy ʔili 'this is mine'); -l- glues onto a verb ('to me': ʔalli 'he told me')."
     words:
       - {ar: "قلّي", tr: "ʔilli", en: "tell me"}
       - {ar: "حدا", tr: "ḥada", en: "someone, anyone"}
@@ -416,7 +416,7 @@ lessons:
       - {who: adam, ar: "عَم اِكْتُب لَرْفيقْتي سارة. عَم اِحْكيلا عَن البَيْت وعَنِّك.", tr: "3am-iktub la-rfīʔti Sāra. 3am-iḥkīla 3an il-bēt w-3annik.", lit: "(now) I-write to-friend-my Sara. (now) I-tell-her about the-house and-about-you", en: "I'm writing to my friend Sāra. I'm telling her about the house and about you."}
       - {who: teta, ar: "عَنّي أنا؟ وشو قِلْتِلّا؟", tr: "3anni ʔana? w-šū ʔiltilla?", lit: "about-me I? and-what you-said-to-her?", en: "About me? And what did you tell her?"}
       - {who: adam, ar: "قِلْتِلّا: عَنْدي سِتّ حِلْوة كْتير، وبَيْتا فيه ياسْمين وبَحْرة.", tr: "ʔiltilla: 3andi sitt ḥilwe ktīr, w-bēta fī yāsmīn w-baḥra.", lit: "I-said-to-her: at-me grandmother lovely very, and-house-her in-it jasmine and-fountain", en: "I told her: I've got a lovely grandmother, and her house has jasmine and a fountain."}
-      - {who: teta, ar: "وإيمْتى رَح شوفا؟ فيك تْجيبْها عَالشّام؟", tr: "w-ʔēmta raḥ šūfa? fīk tjībha 3aš-Šām?", lit: "and-when going I-see-her? in-you you-bring-her to-the-Sham?", en: "And when am I going to see her? Can you bring her to Damascus?"}
+      - {who: teta, ar: "وإيمْت رَح شوفا؟ فيك تْجيبْها عَالشّام؟", tr: "w-ʔēmat raḥ šūfa? fīk tjībha 3aš-Šām?", lit: "and-when going I-see-her? in-you you-bring-her to-the-Sham?", en: "And when am I going to see her? Can you bring her to Damascus?"}
       - {who: adam, ar: "تيتا! هِيّ رْفيقة بَسّ!", tr: "tēta! hiyye rfīʔa bass!", lit: "grandma! she friend only", en: "Tēta! She's just a friend!"}
       - {who: teta, ar: "اي، اي... وأَبوك كَمان قَلّي «رْفيقة بَسّ» عَن إمَّك!", tr: "ʔē, ʔē... w-ʔabūk kamān ʔalli «rfīʔa bass» 3an ʔimmak!", lit: "yes, yes... and-father-your also he-said-to-me friend only about mother-your", en: "Sure, sure... Your father told me 'just a friend' about your mother too!"}
       - {who: adam, ar: "خَلَص تيتا، فْهِمْت!", tr: "xalaṣ tēta, fhimt!", lit: "enough grandma, I-understood", en: "All right, Tēta, I get it!"}

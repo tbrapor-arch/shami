@@ -281,17 +281,17 @@ lessons:
 
   - id: L013
     n: 13
-    title: {ar: "قَدّيش؟", tr: "ʔaddēš?", en: "How much?"}
+    title: {ar: "أَدّيش؟", tr: "ʔaddēš?", en: "How much?"}
     scene: "Sūʔ il-Ḥamīdiyye. Līna has spotted a silk scarf, and Adam watches a real bargain."
     lines:
-      - {who: lina, ar: "عَمّو، قَدّيش هالشّال؟", tr: "3ammo, ʔaddēš haš-šāl?", lit: "uncle, how-much this-shawl?", en: "Excuse me, how much is this scarf?"}
+      - {who: lina, ar: "عَمّو، أَدّيش هالشّال؟", tr: "3ammo, ʔaddēš haš-šāl?", lit: "uncle, how-much this-shawl?", en: "Excuse me, how much is this scarf?"}
       - {who: bayya3, ar: "لَإلِك؟ تْلاتين أَلْف.", tr: "la-ʔilik? tlātīn ʔalf.", lit: "for-you(f)? thirty thousand", en: "For you? Thirty thousand."}
       - {who: lina, ar: "تْلاتين؟! غالي كْتير. عِشْرين.", tr: "tlātīn?! ɣāli ktīr. 3išrīn.", lit: "thirty?! expensive much. twenty", en: "Thirty?! That's far too expensive. Twenty."}
       - {who: bayya3, ar: "مَعْقول؟ خَمْسة وعِشْرين، وبَسّ لَإلِك.", tr: "ma3ʔūl? xamsa w-3išrīn, w-bass la-ʔilik.", lit: "reasonable? five and-twenty, and-only for-you", en: "Are you serious? Twenty-five, and only for you."}
       - {who: adam, ar: "كِلّ شي غالي هَوْن؟", tr: "kill šī ɣāli hōn?", lit: "all thing expensive here?", en: "Is everything expensive here?"}
       - {who: lina, ar: "هَلّق اي... بَسّ نِحْنا مْنِعْرِف نْفاصِل!", tr: "hallaʔ ʔē... bass niḥna mni3rif nfāṣil!", lit: "now yes... but we we-know we-bargain", en: "These days, yes... but we know how to bargain!"}
     notes:
-      - {line: 1, ar: "قَدّيش", tr: "ʔaddēš", topic: grammar, text: "{قَدّيش|ʔaddēš} 'how much?' for prices and amounts. For things you count, use {كَم|kam} + a singular noun: {كَم شال؟|kam šāl?} 'how many scarves?'."}
+      - {line: 1, ar: "أَدّيش", tr: "ʔaddēš", topic: grammar, text: "{أَدّيش|ʔaddēš} 'how much?' for prices and amounts. It is also written قدّيش, since it comes from {قَدّ|ʔadd} 'amount'. For things you count, use {كَم|kam} + a singular noun: {كَم شال؟|kam šāl?} 'how many scarves?'."}
       - {line: 1, ar: "هالشّال", tr: "haš-šāl", topic: grammar, text: "{هَـ|hal-} is a short 'this', glued on like the article: {هالبَيْت|hal-bēt} 'this house'. It merges with sun letters as {ال|il-} does: {هالشّال|haš-šāl}."}
       - {line: 1, ar: "عَمّو", tr: "3ammo", topic: culture, text: "The polite way to address an older man you don't know, such as a shopkeeper: 'uncle'. For an older woman: {خالة|xāle} 'aunt'."}
       - {line: 2, ar: "لَإلِك؟", tr: "la-ʔilik?", topic: culture, text: "'For you?': the seller's classic line, to make a price sound like a favour. {إلِك|ʔilik} is ʔil- + -ik (lesson 6)."}
@@ -317,7 +317,7 @@ lessons:
             - ["", "", "1000", "ʔalf · أَلْف"]
         after: "21 is wāḥid w-3išrīn, 35 xamsa w-tlātīn. After 3 to 10 a noun is plural (tlat banāt 'three girls'); from 11 it is singular (3išrīn lēra 'twenty pounds')."
     words:
-      - {ar: "قدّيش", tr: "ʔaddēš", en: "how much"}
+      - {ar: "أدّيش", tr: "ʔaddēš", en: "how much"}
       - {ar: "كم", tr: "kam", en: "how many (+ singular)"}
       - {ar: "شال", tr: "šāl", en: "scarf, shawl"}
       - {ar: "ألف", tr: "ʔalf", en: "thousand"}
@@ -328,7 +328,7 @@ lessons:
       - {ar: "ليرة", tr: "lēra", en: "pound (Syrian money)"}
     practice:
       translate:
-        - {ar: "قدّيش القهوة؟", tr: "ʔaddēš il-ʔahwe?", en: "How much is the coffee?"}
+        - {ar: "أدّيش القهوة؟", tr: "ʔaddēš il-ʔahwe?", en: "How much is the coffee?"}
         - {ar: "خمسين ألف؟ غالي كتير!", tr: "xamsīn ʔalf? ɣāli ktīr!", en: "Fifty thousand? That's very expensive!"}
         - {ar: "كم أخت عندك؟", tr: "kam ʔixt 3andak?", en: "How many sisters do you have?"}
         - {ar: "الشّال مو غالي.", tr: "iš-šāl mū ɣāli.", en: "The scarf isn't expensive."}

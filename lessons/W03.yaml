@@ -14,21 +14,21 @@ cast:
 lessons:
   - id: L015
     n: 15
-    title: {ar: "السّاعة قَدّيش؟", tr: "is-sā3a ʔaddēš?", en: "What time is it?"}
+    title: {ar: "السّاعة أَدّيش؟", tr: "is-sā3a ʔaddēš?", en: "What time is it?"}
     scene: "Early morning at a minibus stop in Mezze. Sāmi and Adam are heading for the old city."
     lines:
-      - {who: adam, ar: "سامي، السّاعة قَدّيش؟", tr: "Sāmi, is-sā3a ʔaddēš?", lit: "Sami, the-hour how-much?", en: "Sāmi, what time is it?"}
+      - {who: adam, ar: "سامي، السّاعة أَدّيش؟", tr: "Sāmi, is-sā3a ʔaddēš?", lit: "Sami, the-hour how-much?", en: "Sāmi, what time is it?"}
       - {who: sami, ar: "السّاعة تْمانة ورُبْع. المِكْرو بْيِطْلَع تْمانة ونُصّ.", tr: "is-sā3a tmāne w-rub3. il-mikro byiṭla3 tmāne w-nuṣṣ.", lit: "the-hour eight and-quarter. the-minibus it-leaves eight and-half", en: "It's a quarter past eight. The minibus leaves at half past eight."}
-      - {who: adam, ar: "والسّاعة قَدّيش مْنوصَل؟", tr: "w-is-sā3a ʔaddēš mnūṣal?", lit: "and-the-hour how-much we-arrive?", en: "And what time do we get there?"}
+      - {who: adam, ar: "والسّاعة أَدّيش مْنوصَل؟", tr: "w-is-sā3a ʔaddēš mnūṣal?", lit: "and-the-hour how-much we-arrive?", en: "And what time do we get there?"}
       - {who: sami, ar: "تِسْعة إلّا رُبْع، إذا ما في عَجْقة.", tr: "tis3a ʔilla rub3, ʔiza mā fī 3ajʔa.", lit: "nine except quarter, if not there-is jam", en: "A quarter to nine, if there's no traffic."}
       - {who: adam, ar: "وإذا في عَجْقة؟", tr: "w-ʔiza fī 3ajʔa?", lit: "and-if there-is jam?", en: "And if there is traffic?"}
       - {who: sami, ar: "تِسْعة ونُصّ، أَوْ عَشْرة... الله أَعْلَم!", tr: "tis3a w-nuṣṣ, ʔaw 3ašra... ʔalla ʔa3lam!", lit: "nine and-half, or ten... God most-knowing", en: "Half past nine, or ten... God knows!"}
     notes:
-      - {line: 1, ar: "السّاعة قَدّيش؟", tr: "is-sā3a ʔaddēš?", topic: grammar, text: "'What time is it?', literally 'the hour (is) how much?'. {قَدّيش|ʔaddēš} 'how much' (lesson 13) is also the question for clock time. You can put it first too: {قَدّيش السّاعة؟|ʔaddēš is-sā3a?}."}
+      - {line: 1, ar: "السّاعة أَدّيش؟", tr: "is-sā3a ʔaddēš?", topic: grammar, text: "'What time is it?', literally 'the hour (is) how much?'. {أَدّيش|ʔaddēš} 'how much' (lesson 13) is also the question for clock time. You can put it first too: {أَدّيش السّاعة؟|ʔaddēš is-sā3a?}."}
       - {line: 2, ar: "تْمانة ورُبْع", tr: "tmāne w-rub3", topic: grammar, text: "Clock time is {السّاعة|is-sā3a} + the hour: {السّاعة تْمانة|is-sā3a tmāne} 'eight o'clock'. Then add {ورُبْع|w-rub3} 'and a quarter', {ونُصّ|w-nuṣṣ} 'and a half'. 'At eight' needs no extra word: {المِكْرو بْيِطْلَع تْمانة ونُصّ|il-mikro byiṭla3 tmāne w-nuṣṣ}. The table is below the dialogue."}
       - {line: 2, ar: "المِكْرو", tr: "il-mikro", topic: culture, text: "{المِكْرو|il-mikro}, also {السَّرْفيس|is-sarvīs}: the white minibuses that criss-cross Damascus on fixed routes. You wave one down anywhere along its route and pass your fare to the driver."}
       - {line: 2, ar: "بْيِطْلَع", tr: "byiṭla3", topic: vocab, text: "{طِلِع|ṭili3} 'to go up, to go out, to leave': {بْيِطْلَع|byiṭla3} 'it leaves'. You also 'go up' into a bus: {طْلَعْت بِالمِكْرو|ṭla3t bil-mikro} 'I got on the minibus'."}
-      - {line: 3, ar: "مْنوصَل", tr: "mnūṣal", topic: grammar, text: "{وِصِل|wiṣil} 'to arrive': {مْنوصَل|mnūṣal} 'we arrive'. 'We' with b- starts with m(i)n- (lesson 10). The question word can come last: {والسّاعة قَدّيش مْنوصَل؟|w-is-sā3a ʔaddēš mnūṣal?}."}
+      - {line: 3, ar: "مْنوصَل", tr: "mnūṣal", topic: grammar, text: "{وِصِل|wiṣil} 'to arrive': {مْنوصَل|mnūṣal} 'we arrive'. 'We' with b- starts with m(i)n- (lesson 10). The question word can come last: {والسّاعة أَدّيش مْنوصَل؟|w-is-sā3a ʔaddēš mnūṣal?}."}
       - {line: 4, ar: "تِسْعة إلّا رُبْع", tr: "tis3a ʔilla rub3", topic: grammar, text: "{إلّا|ʔilla} 'except, less': {تِسْعة إلّا رُبْع|tis3a ʔilla rub3} 'a quarter to nine'. With {تِلْت|tilt} 'a third' (20 minutes): {تِسْعة إلّا تِلْت|tis3a ʔilla tilt} 'twenty to nine'."}
       - {line: 4, ar: "إذا ما في عَجْقة", tr: "ʔiza mā fī 3ajʔa", topic: vocab, text: "{إذا|ʔiza} 'if' (as in {إذا بِتْريد|ʔiza bitrīd}, lesson 8). {عَجْقة|3ajʔa} 'traffic jam, crowd': a word you will hear every day in Damascus."}
       - {line: 6, ar: "الله أَعْلَم", tr: "ʔalla ʔa3lam", topic: culture, text: "'God knows best': the honest answer about anything nobody can predict. {أَوْ|ʔaw} 'or' in a statement; in a question 'or' is {وِلّا|willa} (lesson 5)."}
@@ -136,7 +136,7 @@ lessons:
     lines:
       - {who: teta, ar: "لَيْش هَلّق بَسّ يا تيتا؟ عِشْرين سِنة ما شِفْناك!", tr: "lēš hallaʔ bass yā tēta? 3išrīn sine mā šifnāk!", lit: "why now only O grandma? twenty year not we-saw-you", en: "Why only now, my dear? Twenty years we haven't seen you!"}
       - {who: adam, ar: "لَإنّو بابا دايْماً بْيِقول: مو هَلّق، مو هَلّق.", tr: "laʔinno bāba dāyman biʔūl: mū hallaʔ, mū hallaʔ.", lit: "because dad always he-says: not now, not now", en: "Because Dad always says: not now, not now."}
-      - {who: teta, ar: "وإيمْتى بِدّو يِجي؟", tr: "w-ʔēmta biddo yiji?", lit: "and-when want-his he-comes?", en: "And when does he want to come?"}
+      - {who: teta, ar: "وإيمْت بِدّو يِجي؟", tr: "w-ʔēmat biddo yiji?", lit: "and-when want-his he-comes?", en: "And when does he want to come?"}
       - {who: adam, ar: "ما بَعْرِف... لَمّا يِخْلَص الشُّغِل، بْيِقول.", tr: "mā ba3rif... lamma yixlaṣ iš-šuɣil, biʔūl.", lit: "not I-know... when it-ends the-work, he-says", en: "I don't know... when the work is done, he says."}
       - {who: teta, ar: "الشُّغِل! دايْماً الشُّغِل. وكيف عْرِفْت وَيْن بَيْتْنا؟", tr: "iš-šuɣil! dāyman iš-šuɣil. w-kīf 3rift wēn bētna?", lit: "the-work! always the-work. and-how you-knew where house-our?", en: "Work! Always work. And how did you know where our house was?"}
       - {who: adam, ar: "مِن الصّوَر. بابا عَنْدو صوَر كْتير لَهالبَيْت.", tr: "min iṣ-ṣuwar. bāba 3ando ṣuwar ktīr la-hal-bēt.", lit: "from the-photos. dad at-him photos many to-this-house", en: "From the photos. Dad has lots of photos of this house."}
@@ -145,9 +145,9 @@ lessons:
       - {line: 1, ar: "لَيْش… هَلّق بَسّ", tr: "lēš… hallaʔ bass", topic: grammar, text: "{لَيْش|lēš} 'why?'. The answer starts with {لَإنّو|laʔinno} 'because' (line 2). {بَسّ|bass} after a word means 'only': {هَلّق بَسّ|hallaʔ bass} 'only now'; before a clause it is 'but' (lesson 6)."}
       - {line: 1, ar: "عِشْرين سِنة ما شِفْناك", tr: "3išrīn sine mā šifnāk", topic: grammar, text: "{سِنة|sine} 'year', singular after 3išrīn (lesson 13). A length of time placed first means 'for': 'twenty years we haven't seen you'. {شِفْناك|šifnāk} 'we saw you' is {شِفْنا|šifna} 'we saw' + -ak 'you'; endings on verbs come in lesson 26."}
       - {line: 2, ar: "دايْماً بْيِقول", tr: "dāyman biʔūl", topic: vocab, text: "{دايْماً|dāyman} 'always', another word that keeps the MSA ending -an. {قال|ʔāl} 'to say' (ق said ʔ): {بْيِقول|biʔūl} 'he says'. As in {بيحِبّ|biḥibb}, b- and yi- merge."}
-      - {line: 3, ar: "إيمْتى بِدّو يِجي؟", tr: "ʔēmta biddo yiji?", topic: grammar, text: "{إيمْتى|ʔēmta} 'when?'. {بِدّو|biddo} 'he wants' (bidd + -o 'his'). {يِجي|yiji} 'he comes', the form without b- of {إجا|ʔija} 'to come' (lesson 20)."}
+      - {line: 3, ar: "إيمْت بِدّو يِجي؟", tr: "ʔēmat biddo yiji?", topic: grammar, text: "{إيمْت|ʔēmat} 'when?'; you will also hear {إيمْتى|ʔēmta}, the usual Lebanese form. {بِدّو|biddo} 'he wants' (bidd + -o 'his'). {يِجي|yiji} 'he comes', the form without b- of {إجا|ʔija} 'to come' (lesson 20)."}
       - {line: 4, ar: "ما بَعْرِف", tr: "mā ba3rif", topic: vocab, text: "{ما بَعْرِف|mā ba3rif} 'I don't know', heard many times a day. For 'I', b- + ʔa3rif gives {بَعْرِف|ba3rif}."}
-      - {line: 4, ar: "لَمّا يِخْلَص الشُّغِل", tr: "lamma yixlaṣ iš-šuɣil", topic: grammar, text: "{لَمّا|lamma} 'when' in a statement; the question 'when?' is {إيمْتى|ʔēmta}. The verb after lamma has no b-. {خِلِص|xiliṣ} 'to end, be over'; {الشُّغِل|iš-šuɣil} 'work', from the same root as {اِشْتَغَل|ištaɣal} 'to work' (lesson 11)."}
+      - {line: 4, ar: "لَمّا يِخْلَص الشُّغِل", tr: "lamma yixlaṣ iš-šuɣil", topic: grammar, text: "{لَمّا|lamma} 'when' in a statement; the question 'when?' is {إيمْت|ʔēmat}. The verb after lamma has no b-. {خِلِص|xiliṣ} 'to end, be over'; {الشُّغِل|iš-šuɣil} 'work', from the same root as {اِشْتَغَل|ištaɣal} 'to work' (lesson 11)."}
       - {line: 5, ar: "كيف عْرِفْت وَيْن بَيْتْنا؟", tr: "kīf 3rift wēn bētna?", topic: grammar, text: "{كيف|kīf} 'how?' (lesson 2) asks about manner: 'how did you know...?'. {عْرِفْت|3rift} 'you knew, found out', past of {عِرِف|3irif}. A question word can sit inside a sentence: {وَيْن بَيْتْنا|wēn bētna} 'where our house is'. -na 'our'."}
       - {line: 6, ar: "الصّوَر… عَنْدو", tr: "iṣ-ṣuwar… 3ando", topic: grammar, text: "{صوَر|ṣuwar} 'photos', plural of {صورة|ṣūra} (lesson 4): many plurals change the vowels inside the word instead of adding an ending. {عَنْدو|3ando} 'he has' (3and + -o 'his')."}
       - {line: 7, ar: "ما نِسي", tr: "mā nisi", topic: vocab, text: "{نِسي|nisi} 'to forget': {ما نِسي|mā nisi} 'he hasn't forgotten'. Verbs ending in a vowel, like nisi and {حَكى|ḥaka}, have -ī- before the past endings: {نْسيت|nsīt} 'I forgot', {حْكيت|ḥkīt} 'I talked'."}
@@ -160,16 +160,16 @@ lessons:
             - ["who", "mīn", "مين"]
             - ["where", "wēn", "وَيْن"]
             - ["where from", "mnēn", "مْنَيْن"]
-            - ["when", "ʔēmta", "إيمْتى"]
+            - ["when", "ʔēmat", "إيمْت"]
             - ["why", "lēš", "لَيْش"]
             - ["how", "kīf", "كيف"]
-            - ["how much", "ʔaddēš", "قَدّيش"]
+            - ["how much", "ʔaddēš", "أَدّيش"]
             - ["how many", "kam (+ singular)", "كَم"]
         after: "Statements use other words: laʔinno 'because', lamma 'when', ʔiza 'if'."
     words:
       - {ar: "ليش", tr: "lēš", en: "why"}
       - {ar: "لإنّو", tr: "laʔinno", en: "because"}
-      - {ar: "إيمتى", tr: "ʔēmta", en: "when?"}
+      - {ar: "إيمت", tr: "ʔēmat", en: "when?"}
       - {ar: "لمّا", tr: "lamma", en: "when (statement)"}
       - {ar: "سنة", tr: "sine", en: "year"}
       - {ar: "دايماً", tr: "dāyman", en: "always"}
@@ -182,13 +182,13 @@ lessons:
     practice:
       translate:
         - {ar: "ليش ما بتحكي؟", tr: "lēš mā btiḥki?", en: "Why don't you say anything?"}
-        - {ar: "إيمتى بدّك تروح؟", tr: "ʔēmta biddak trūḥ?", en: "When do you want to go?"}
+        - {ar: "إيمت بدّك تروح؟", tr: "ʔēmat biddak trūḥ?", en: "When do you want to go?"}
         - {ar: "لمّا يخلص الشّغل، منروح عالسّوق.", tr: "lamma yixlaṣ iš-šuɣil, minrūḥ 3as-sūʔ.", en: "When work is over, we'll go to the souk."}
         - {ar: "ما بعرف ليش.", tr: "mā ba3rif lēš.", en: "I don't know why."}
       fill:
         - {tr: "___ hallaʔ bass?", answer: "lēš", en: "Why only now?"}
         - {tr: "___ bāba biʔūl: mū hallaʔ.", answer: "laʔinno", en: "Because Dad says: not now."}
-        - {tr: "___ biddo yiji?", answer: "ʔēmta", en: "When does he want to come?"}
+        - {tr: "___ biddo yiji?", answer: "ʔēmat", en: "When does he want to come?"}
         - {tr: "___ yixlaṣ iš-šuɣil", answer: "lamma", en: "when the work is over"}
 
   - id: L018
@@ -361,7 +361,7 @@ lessons:
     practice:
       translate:
         - {ar: "أكلت فتّة مبارح.", tr: "ʔakalt fatte mbāriḥ.", en: "I had fatteh yesterday."}
-        - {ar: "إيمتى إجيت؟", tr: "ʔēmta ʔijīt?", en: "When did you come?"}
+        - {ar: "إيمت إجيت؟", tr: "ʔēmat ʔijīt?", en: "When did you come?"}
         - {ar: "سامي بياخد المكرو كلّ يوم.", tr: "Sāmi byāxud il-mikro kill yōm.", en: "Sāmi takes the minibus every day."}
         - {ar: "لسّا ما أكلت.", tr: "lissa mā ʔakalt.", en: "I haven't eaten yet."}
       fill:
@@ -388,7 +388,7 @@ lessons:
             - ["talk! (m / f / pl)", "ʔiḥki / ʔiḥki / ʔiḥku", "اِحْكي / اِحْكو"]
             - ["don't talk!", "lā tiḥki / lā tiḥku", "لا تِحْكي / لا تِحْكو"]
       - title: "Questions and answers"
-        text: "šū, mīn, wēn, mnēn, ʔēmta, lēš, kīf, ʔaddēš, kam. lēš? → laʔinno… 'because'. ʔēmta? → lamma… 'when'. Statements: ʔiza 'if', ʔaw 'or'."
+        text: "šū, mīn, wēn, mnēn, ʔēmat, lēš, kīf, ʔaddēš, kam. lēš? → laʔinno… 'because'. ʔēmat? → lamma… 'when'. Statements: ʔiza 'if', ʔaw 'or'."
       - title: "Time"
         text: "is-sā3a ʔaddēš? — is-sā3a tmāne w-rub3 / w-tilt / w-nuṣṣ / tis3a ʔilla rub3. Days take the article: is-sabt, yōm il-ʔaḥad."
       - title: "Three verbs by heart"
@@ -397,7 +397,7 @@ lessons:
       - {who: baba, ar: "ألو؟ آدَم؟ عَم تِسْمَعْني؟", tr: "ʔalō? ʔādam? 3am-tisma3ni?", lit: "hello? Adam? (now) you-hear-me?", en: "Hello? Adam? Can you hear me?"}
       - {who: adam, ar: "اي بابا! عَم اِسْمَعَك مْنيح. كيفَك؟", tr: "ʔē bāba! 3am-isma3ak mnīḥ. kīfak?", lit: "yes dad! (now) I-hear-you well. how-you?", en: "Yes, Dad! I can hear you fine. How are you?"}
       - {who: baba, ar: "مْنيح، الحَمْدِلله. وإنْتَ؟ كيف الشّام؟ كيف تيتا؟", tr: "mnīḥ, il-ḥamdilla. w-ʔinte? kīf iš-Šām? kīf tēta?", lit: "fine, praise-God. and-you? how the-Sham? how grandma?", en: "Fine, thank God. And you? How's Damascus? How's Tēta?"}
-      - {who: adam, ar: "تيتا مْنيحة. بَسّ كِلّ يوم بْتِقول: إيمْتى رَح يِجي نَبيل؟", tr: "tēta mnīḥa. bass kill yōm btʔūl: ʔēmta raḥ yiji Nabīl?", lit: "grandma fine. but every day she-says: when going he-comes Nabil?", en: "Tēta's fine. But every day she says: when is Nabīl going to come?"}
+      - {who: adam, ar: "تيتا مْنيحة. بَسّ كِلّ يوم بْتِقول: إيمْت رَح يِجي نَبيل؟", tr: "tēta mnīḥa. bass kill yōm btʔūl: ʔēmat raḥ yiji Nabīl?", lit: "grandma fine. but every day she-says: when going he-comes Nabil?", en: "Tēta's fine. But every day she says: when is Nabīl going to come?"}
       - {who: baba, ar: "رَح اِجي، أَكيد. بَسّ مو هَلّق.", tr: "raḥ iji, ʔakīd. bass mū hallaʔ.", lit: "going I-come, sure. but not now", en: "I'll come, of course. But not now."}
       - {who: adam, ar: "دايْماً «مو هَلّق»! لَيْش، بابا؟", tr: "dāyman «mū hallaʔ»! lēš, bāba?", lit: "always not now! why, dad?", en: "Always 'not now'! Why, Dad?"}
       - {who: baba, ar: "الشُّغِل، يا اِبْني... يَلّا، سَلِّمْلي عَلَيْها.", tr: "iš-šuɣil, yā ʔibni... yalla, sallimli 3alēha.", lit: "the-work, O son-my... come-on, greet-for-me on-her", en: "Work, son... Right, give her my love."}
@@ -406,7 +406,7 @@ lessons:
       - {ar: "مْنَين", tr: "mnēn", en: "where from"}
     practice:
       translate:
-        - {ar: "السّاعة قدّيش رح تيجي؟", tr: "is-sā3a ʔaddēš raḥ tiji?", en: "What time are you going to come?"}
+        - {ar: "السّاعة أدّيش رح تيجي؟", tr: "is-sā3a ʔaddēš raḥ tiji?", en: "What time are you going to come?"}
         - {ar: "عم نحكي عنّك!", tr: "3am-niḥki 3annak!", en: "We're talking about you!"}
         - {ar: "لا تاكل كتير!", tr: "lā tākul ktīr!", en: "Don't eat too much!"}
         - {ar: "ليش ما إجيت مبارح؟", tr: "lēš mā ʔijīt mbāriḥ?", en: "Why didn't you come yesterday?"}
@@ -425,7 +425,7 @@ lessons:
       - ref: [L015, 1]
         msa: {ar: "يا سامي، كَمِ السّاعَةُ؟", tr: "yā Sāmī, kami s-sā3atu?"}
         hl:
-          - ["السّاعة قَدّيش", "is-sā3a ʔaddēš", "كَمِ السّاعَةُ", "kami s-sā3atu", q, "'What time is it?': MSA asks 'how many (is) the hour?', with kam first. Shami uses ʔaddēš 'how much', and can put it last."]
+          - ["السّاعة أَدّيش", "is-sā3a ʔaddēš", "كَمِ السّاعَةُ", "kami s-sā3atu", q, "'What time is it?': MSA asks 'how many (is) the hour?', with kam first. Shami uses ʔaddēš 'how much', and can put it last."]
       - ref: [L015, 4]
         msa: {ar: "التّاسِعَةُ إِلّا رُبْعًا، إِذا لَمْ يَكُنْ هُناكَ زِحامٌ.", tr: "at-tāsi3atu ʔillā rub3an, ʔidhā lam yakun hunāka ziḥāmun."}
         hl:
@@ -461,7 +461,7 @@ lessons:
       - ref: [L017, 3]
         msa: {ar: "وَمَتى يُريدُ أَنْ يَأْتِيَ؟", tr: "wa-matā yurīdu ʔan yaʔtiya?"}
         hl:
-          - ["إيمْتى", "ʔēmta", "مَتى", "matā", q, "'When?': MSA matā; Shami ʔēmta, probably from ʔayy matā 'which when'."]
+          - ["إيمْت", "ʔēmat", "مَتى", "matā", q, "'When?': MSA matā; Shami ʔēmat, probably from ʔayy matā 'which when'."]
           - ["يِجي", "yiji", "أَنْ يَأْتِيَ", "ʔan yaʔtiya", words, "'(To) come': Shami ʔija, MSA ʔatā (or jāʔa). MSA also needs ʔan and the ending -a after 'want' (Bridge 2)."]
       - ref: [L017, 4]
         msa: {ar: "لا أَعْرِفُ... عِنْدَما يَنْتَهي العَمَلُ، يَقولُ.", tr: "lā ʔa3rifu... 3indamā yantahī l-3amalu, yaqūlu."}
@@ -485,11 +485,11 @@ lessons:
       - id: dem
         title: "This and these"
         short: "this"
-        text: "MSA hādhā (m), hādhihi (f), hāʔulāʔi (pl). Shami hāda, hayy, hadōl. Before a noun with the article, Shami can use the short hal- for all of them: hal-bēt, hal-ʔayyām."
+        text: "MSA hādhā (m), hādhihi (f), hāʔulāʔi (pl). Shami hāda, hāy, hadōl. Before a noun with the article, Shami can use the short hal- for all of them: hal-bēt, hal-ʔayyām."
       - id: q
         title: "Question words"
         short: "question words"
-        text: "MSA mā / mādhā 'what', man 'who', ʔayna 'where', matā 'when', li-mādhā 'why', kayfa 'how', kam 'how much, how many'. Shami šū, mīn, wēn, ʔēmta, lēš, kīf, ʔaddēš / kam."
+        text: "MSA mā / mādhā 'what', man 'who', ʔayna 'where', matā 'when', li-mādhā 'why', kayfa 'how', kam 'how much, how many'. Shami šū, mīn, wēn, ʔēmat, lēš, kīf, ʔaddēš / kam."
       - id: conj
         title: "Because, when, if"
         short: "linking words"
@@ -513,7 +513,7 @@ lessons:
     practice:
       fill:
         - {tr: "MSA mādhā → Shami ___", answer: "šū", en: "what"}
-        - {tr: "MSA matā → Shami ___", answer: "ʔēmta", en: "when?"}
+        - {tr: "MSA matā → Shami ___", answer: "ʔēmat", en: "when?"}
         - {tr: "MSA li-mādhā → Shami ___", answer: "lēš", en: "why"}
         - {tr: "MSA li-ʔanna → Shami ___", answer: "laʔinno", en: "because"}
         - {tr: "MSA sa-naf3alu → Shami ___", answer: "raḥ na3mil", en: "we will do"}
