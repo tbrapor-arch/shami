@@ -45,10 +45,10 @@ lessons:
             - ["5", "xamse · خَمْسة", "٥"]
             - ["6", "sitte · سِتّة", "٦"]
             - ["7", "sab3a · سَبْعة", "٧"]
-            - ["8", "tmānye · تْمانْيِة", "٨"]
+            - ["8", "tmāne · تْمانة", "٨"]
             - ["9", "tis3a · تِسْعة", "٩"]
             - ["10", "3ašra · عَشْرة", "١٠"]
-        after: "Prices, signs and phone numbers use these Arabic digits, written left to right like ours: ٢٥ is 25. 'One' and 'two' also have feminine forms, wāḥde and tintēn."
+        after: "Prices, signs and phone numbers use these Arabic digits, written left to right like ours: ٢٥ is 25. 'One' and 'two' also have feminine forms, waḥde and tintēn."
     words:
       - {ar: "بدّ", tr: "bidd-", en: "(with an ending) to want"}
       - {ar: "قهوة", tr: "ʔahwe", en: "coffee"}
@@ -179,8 +179,8 @@ lessons:
       - {who: sami, ar: "أنا مُهَنْدِس. بِشْتِغِل بْشِرْكة بالمَزّة.", tr: "ʔana muhandis. bištiɣil b-širke bil-Mazze.", lit: "I engineer. I-work in-company in-the-Mezze", en: "I'm an engineer. I work for a company in Mezze."}
       - {who: adam, ar: "واِنْتي يا لينا، بْتِشْتِغْلي؟", tr: "w-ʔinti yā Līna, btištiɣli?", lit: "and-you(f) O Lina, you(f)-work?", en: "And you, Līna, do you work?"}
       - {who: lina, ar: "لأ، بِدْرُس طِبّ بالجامْعة. واِنْتَ، شو بْتِشْتِغِل بْباريس؟", tr: "laʔ, bidrus ṭibb bil-jām3a. w-ʔinte, šū btištiɣil b-Bārīs?", lit: "no, I-study medicine in-the-university. and-you, what you-work in-Paris?", en: "No, I study medicine at the university. And you, what do you do in Paris?"}
-      - {who: adam, ar: "بِشْتِغِل بْمَكْتَبة. أنا فَرَنْساوي وسوري.", tr: "bištiɣil b-maktabe. ʔana faransāwi w-sūri.", lit: "I-work in-library. I French and-Syrian", en: "I work in a library. I'm French and Syrian."}
-      - {who: lina, ar: "يَعْني نُصّ فَرَنْساوي ونُصّ شامي!", tr: "ya3ni nuṣṣ faransāwi w-nuṣṣ šāmi!", lit: "means half French and-half Damascene", en: "So half French and half Damascene!"}
+      - {who: adam, ar: "بِشْتِغِل بْمَكْتَبة. أنا فَرَنْسي وسوري.", tr: "bištiɣil b-maktabe. ʔana faransi w-sūri.", lit: "I-work in-library. I French and-Syrian", en: "I work in a library. I'm French and Syrian."}
+      - {who: lina, ar: "يَعْني نُصّ فَرَنْسي ونُصّ شامي!", tr: "ya3ni nuṣṣ faransi w-nuṣṣ šāmi!", lit: "means half French and-half Damascene", en: "So half French and half Damascene!"}
     notes:
       - {line: 1, ar: "بْتِشْتِغِل", tr: "btištiɣil", topic: grammar, text: "'You work'. {اِشْتَغَل|ištaɣal} 'to work': {بِشْتِغِل|bištiɣil} 'I work' (line 2), {بْتِشْتِغِل|btištiɣil} 'you work' or 'she works', {بْيِشْتِغِل|byištiɣil} 'he works'."}
       - {line: 2, ar: "أنا مُهَنْدِس", tr: "ʔana muhandis", topic: grammar, text: "No word for 'a': {أنا مُهَنْدِس|ʔana muhandis} 'I'm an engineer', {هِيّ دْكتورة|hiyye doktōra} 'she's a doctor'."}
@@ -188,7 +188,7 @@ lessons:
       - {line: 3, ar: "بْتِشْتِغْلي", tr: "btištiɣli", topic: grammar, text: "To a woman the verb adds -i, and the vowel before it drops: {بْتِشْتِغِل|btištiɣil} → {بْتِشْتِغْلي|btištiɣli}."}
       - {line: 4, ar: "بِدْرُس طِبّ", tr: "bidrus ṭibb", topic: vocab, text: "{دَرَس|daras} 'to study': {بِدْرُس|bidrus} 'I study'. {طِبّ|ṭibb} is medicine as a subject; a doctor is usually {دْكتور|doktōr}. {الجامْعة|il-jām3a} 'the university'."}
       - {line: 5, ar: "بْمَكْتَبة", tr: "b-maktabe", topic: vocab, text: "{مَكْتَبة|maktabe} 'library' or 'bookshop', from the root k-t-b 'write', like {كْتاب|ktāb} 'book' and {كَتَب|katab} 'he wrote' (lesson 12)."}
-      - {line: 5, ar: "فَرَنْساوي وسوري", tr: "faransāwi w-sūri", topic: grammar, text: "Nationalities end in -i, and -iyye for a woman: {سوري|sūri} / {سوريّة|sūriyye}, {فَرَنْساوي|faransāwi} / {فَرَنْساويّة|faransāwiyye}. More in the table below."}
+      - {line: 5, ar: "فَرَنْسي وسوري", tr: "faransi w-sūri", topic: grammar, text: "Nationalities end in -i, and -iyye for a woman: {سوري|sūri} / {سوريّة|sūriyye}, {فَرَنْسي|faransi} / {فَرَنْسيّة|faransiyye}. More in the table below."}
       - {line: 6, ar: "يَعْني", tr: "ya3ni", topic: vocab, text: "Literally 'it means': the everyday 'so, I mean, that is'. You will hear it in almost every sentence. {نُصّ|nuṣṣ} 'half'."}
       - {line: 6, ar: "شامي", tr: "šāmi", topic: culture, text: "{شامي|šāmi} 'from iš-Šām': Damascene, and more loosely Syrian or Levantine. It is also the name of this course."}
     sections:
@@ -199,7 +199,7 @@ lessons:
             - ["Syrian", "sūri · سوري", "sūriyye · سوريّة"]
             - ["Damascene", "šāmi · شامي", "šāmiyye · شاميّة"]
             - ["Lebanese", "lubnāni · لُبْناني", "lubnāniyye · لُبْنانيّة"]
-            - ["French", "faransāwi · فَرَنْساوي", "faransāwiyye · فَرَنْساويّة"]
+            - ["French", "faransi · فَرَنْسي", "faransiyye · فَرَنْسيّة"]
     words:
       - {ar: "اشتغل", tr: "ištaɣal (bištiɣil)", en: "to work"}
       - {ar: "مهندس", tr: "muhandis", en: "engineer"}
@@ -220,7 +220,7 @@ lessons:
         - {tr: "šū ___? (to a man)", answer: "btištiɣil", en: "What do you do?"}
         - {tr: "ʔana ___ ṭibb.", answer: "bidrus", en: "I study medicine."}
         - {tr: "Līna ___.", answer: "sūriyye", en: "Līna is Syrian."}
-        - {tr: "Adam ___ faransāwi w-nuṣṣ šāmi.", answer: "nuṣṣ", en: "Adam is half French and half Damascene."}
+        - {tr: "Adam ___ faransi w-nuṣṣ šāmi.", answer: "nuṣṣ", en: "Adam is half French and half Damascene."}
 
   - id: L012
     n: 12
@@ -367,10 +367,10 @@ lessons:
       - title: "mā or mū"
         text: "mā before verbs, present and past (mā bḥibb, mā radd), and before bidd-, 3and and fī. mū before everything else (mū ɣāli, mū hōn)."
       - title: "Numbers"
-        text: "1–10: wāḥid, tnēn, tlāte, ʔarb3a, xamse, sitte, sab3a, tmānye, tis3a, 3ašra. To order: number + singular, tnēn ʔahwe. From 11 the noun is singular: 3išrīn lēra. 25 is 'five and twenty', xamsa w-3išrīn."
+        text: "1–10: wāḥid, tnēn, tlāte, ʔarb3a, xamse, sitte, sab3a, tmāne, tis3a, 3ašra. To order: number + singular, tnēn ʔahwe. From 11 the noun is singular: 3išrīn lēra. 25 is 'five and twenty', xamsa w-3išrīn."
     lines:
       - {who: abu, ar: "آدَم، شو بِدَّك تَعْمِل هَلّق؟", tr: "ʔādam, šū biddak ta3mil hallaʔ?", lit: "Adam, what want-your you-do now?", en: "Adam, what do you want to do now?"}
-      - {who: adam, ar: "بِدّي اِكْتُب لَأَبوي.", tr: "biddi ʔiktub la-ʔabūy.", lit: "want-my I-write to-father-my", en: "I want to write to my father."}
+      - {who: adam, ar: "بِدّي اِكْتُب لَأَبي.", tr: "biddi ʔiktub la-ʔabi.", lit: "want-my I-write to-father-my", en: "I want to write to my father."}
       - {who: abu, ar: "كَتَبْتِلّو مْبارِح، وما رَدّ؟", tr: "katabtillo mbāriḥ, w-mā radd?", lit: "you-wrote-to-him yesterday, and-not he-answered?", en: "You wrote to him yesterday, and he didn't answer?"}
       - {who: adam, ar: "اي. بَسّ بْحِبّ اِكْتُبْلو. هُوّ بيحِبّ الشّام كْتير.", tr: "ʔē. bass bḥibb ʔiktublo. huwwe biḥibb iš-Šām ktīr.", lit: "yes. but I-like I-write-to-him. he he-loves the-Sham much", en: "Yes. But I like writing to him. He loves Damascus so much."}
       - {who: teta, ar: "أَبوك بيحِبّ الشّام، والشّام بْتْحِبّو.", tr: "ʔabūk biḥibb iš-Šām, w-iš-Šām btḥibbo.", lit: "father-your he-loves the-Sham, and-the-Sham she-loves-him", en: "Your father loves Damascus, and Damascus loves him."}
@@ -378,7 +378,7 @@ lessons:
       - {who: sami, ar: "أنا! تْنين قَهْوة: واحِد إلي وواحِد لَآدَم.", tr: "ʔana! tnēn ʔahwe: wāḥid ʔili w-wāḥid la-ʔādam.", lit: "I! two coffee: one for-me and-one for-Adam", en: "Me! Two coffees: one for me and one for Adam."}
     words:
       - {ar: "يلّا", tr: "yalla", en: "come on, let's go"}
-      - {ar: "أبوي", tr: "ʔabūy", en: "my father"}
+      - {ar: "أبي", tr: "ʔabi", en: "my father"}
     practice:
       translate:
         - {ar: "بدّك تروح عالسّوق؟", tr: "biddak trūḥ 3as-sūʔ?", en: "Do you want to go to the souk?"}
@@ -386,7 +386,7 @@ lessons:
         - {ar: "لينا ما بتحبّ اللحمة.", tr: "Līna mā btḥibb il-laḥme.", en: "Līna doesn't like meat."}
         - {ar: "منحبّ الكنافة.", tr: "minḥibb il-knāfe.", en: "We love knāfe."}
       fill:
-        - {tr: "biddi ___ la-ʔabūy.", answer: "ʔiktub", en: "I want to write to my father."}
+        - {tr: "biddi ___ la-ʔabi.", answer: "ʔiktub", en: "I want to write to my father."}
         - {tr: "hiyye ___ 3as-sūʔ mbāriḥ.", answer: "rāḥit", en: "She went to the souk yesterday."}
         - {tr: "Sāmi ___ il-maḥši.", answer: "biḥibb", en: "Sāmi loves stuffed vegetables."}
         - {tr: "___ biddi ʔahwe.", answer: "mā", en: "I don't want coffee."}

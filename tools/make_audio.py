@@ -7,6 +7,8 @@ import edge_tts.communicate as _c
 ca = os.environ.get("SSL_CERT_FILE") or "/root/.ccr/ca-bundle.crt"
 if os.path.exists(ca): _c._SSL_CTX = ssl.create_default_context(cafile=ca)
 MSA_MALE, MSA_FEMALE = "ar-SA-HamedNeural", "ar-SA-ZariyahNeural"
+# words spelt as in MSA but said differently: respelt for the voice only
+SAY = {"صغير": "زغير"}
 TASHKIL = re.compile(r"[ً-ْٰ]")
 async def one(text, cast, path):
     if os.path.exists(path) and os.path.getsize(path) > 0: return
@@ -18,6 +20,8 @@ async def main(src):
         os.makedirs(f"audio/{L['id']}", exist_ok=True)
         for i, ln in enumerate(L.get("lines", []), 1):
             t = ln["ar"] if ln.get("lang") == "msa" else TASHKIL.sub("", ln["ar"])
+            if ln.get("lang") != "msa":
+                for k, v in SAY.items(): t = t.replace(k, v)
             t = t.replace("«", "").replace("»", "").replace("ٰ", "")
             jobs.append(one(t, d["cast"][ln["who"]], f"audio/{L['id']}/{i:02d}.mp3"))
         # bridge side-by-side: the MSA half, read by a standard-Arabic voice of the speaker's gender

@@ -18,14 +18,14 @@ lessons:
     scene: "Early morning at a minibus stop in Mezze. Sāmi and Adam are heading for the old city."
     lines:
       - {who: adam, ar: "سامي، السّاعة قَدّيش؟", tr: "Sāmi, is-sā3a ʔaddēš?", lit: "Sami, the-hour how-much?", en: "Sāmi, what time is it?"}
-      - {who: sami, ar: "السّاعة تْمانْيِة ورُبْع. المِكْرو بْيِطْلَع تْمانْيِة ونُصّ.", tr: "is-sā3a tmānye w-rub3. il-mikro byiṭla3 tmānye w-nuṣṣ.", lit: "the-hour eight and-quarter. the-minibus it-leaves eight and-half", en: "It's a quarter past eight. The minibus leaves at half past eight."}
+      - {who: sami, ar: "السّاعة تْمانة ورُبْع. المِكْرو بْيِطْلَع تْمانة ونُصّ.", tr: "is-sā3a tmāne w-rub3. il-mikro byiṭla3 tmāne w-nuṣṣ.", lit: "the-hour eight and-quarter. the-minibus it-leaves eight and-half", en: "It's a quarter past eight. The minibus leaves at half past eight."}
       - {who: adam, ar: "والسّاعة قَدّيش مْنوصَل؟", tr: "w-is-sā3a ʔaddēš mnūṣal?", lit: "and-the-hour how-much we-arrive?", en: "And what time do we get there?"}
       - {who: sami, ar: "تِسْعة إلّا رُبْع، إذا ما في عَجْقة.", tr: "tis3a ʔilla rub3, ʔiza mā fī 3ajʔa.", lit: "nine except quarter, if not there-is jam", en: "A quarter to nine, if there's no traffic."}
       - {who: adam, ar: "وإذا في عَجْقة؟", tr: "w-ʔiza fī 3ajʔa?", lit: "and-if there-is jam?", en: "And if there is traffic?"}
       - {who: sami, ar: "تِسْعة ونُصّ، أَوْ عَشْرة... الله أَعْلَم!", tr: "tis3a w-nuṣṣ, ʔaw 3ašra... ʔalla ʔa3lam!", lit: "nine and-half, or ten... God most-knowing", en: "Half past nine, or ten... God knows!"}
     notes:
       - {line: 1, ar: "السّاعة قَدّيش؟", tr: "is-sā3a ʔaddēš?", topic: grammar, text: "'What time is it?', literally 'the hour (is) how much?'. {قَدّيش|ʔaddēš} 'how much' (lesson 13) is also the question for clock time. You can put it first too: {قَدّيش السّاعة؟|ʔaddēš is-sā3a?}."}
-      - {line: 2, ar: "تْمانْيِة ورُبْع", tr: "tmānye w-rub3", topic: grammar, text: "Clock time is {السّاعة|is-sā3a} + the hour: {السّاعة تْمانْيِة|is-sā3a tmānye} 'eight o'clock'. Then add {ورُبْع|w-rub3} 'and a quarter', {ونُصّ|w-nuṣṣ} 'and a half'. 'At eight' needs no extra word: {المِكْرو بْيِطْلَع تْمانْيِة ونُصّ|il-mikro byiṭla3 tmānye w-nuṣṣ}. The table is below the dialogue."}
+      - {line: 2, ar: "تْمانة ورُبْع", tr: "tmāne w-rub3", topic: grammar, text: "Clock time is {السّاعة|is-sā3a} + the hour: {السّاعة تْمانة|is-sā3a tmāne} 'eight o'clock'. Then add {ورُبْع|w-rub3} 'and a quarter', {ونُصّ|w-nuṣṣ} 'and a half'. 'At eight' needs no extra word: {المِكْرو بْيِطْلَع تْمانة ونُصّ|il-mikro byiṭla3 tmāne w-nuṣṣ}. The table is below the dialogue."}
       - {line: 2, ar: "المِكْرو", tr: "il-mikro", topic: culture, text: "{المِكْرو|il-mikro}, also {السَّرْفيس|is-sarvīs}: the white minibuses that criss-cross Damascus on fixed routes. You wave one down anywhere along its route and pass your fare to the driver."}
       - {line: 2, ar: "بْيِطْلَع", tr: "byiṭla3", topic: vocab, text: "{طِلِع|ṭili3} 'to go up, to go out, to leave': {بْيِطْلَع|byiṭla3} 'it leaves'. You also 'go up' into a bus: {طْلَعْت بِالمِكْرو|ṭla3t bil-mikro} 'I got on the minibus'."}
       - {line: 3, ar: "مْنوصَل", tr: "mnūṣal", topic: grammar, text: "{وِصِل|wiṣil} 'to arrive': {مْنوصَل|mnūṣal} 'we arrive'. 'We' with b- starts with m(i)n- (lesson 10). The question word can come last: {والسّاعة قَدّيش مْنوصَل؟|w-is-sā3a ʔaddēš mnūṣal?}."}
@@ -37,16 +37,16 @@ lessons:
         table:
           head: ["", "Shami", ""]
           rows:
-            - ["8:00", "tmānye", "تْمانْيِة"]
-            - ["8:05", "tmānye w-xamse", "تْمانْيِة وخَمْسة"]
-            - ["8:10", "tmānye w-3ašra", "تْمانْيِة وعَشْرة"]
-            - ["8:15", "tmānye w-rub3", "تْمانْيِة ورُبْع"]
-            - ["8:20", "tmānye w-tilt", "تْمانْيِة وتِلْت"]
-            - ["8:30", "tmānye w-nuṣṣ", "تْمانْيِة ونُصّ"]
+            - ["8:00", "tmāne", "تْمانة"]
+            - ["8:05", "tmāne w-xamse", "تْمانة وخَمْسة"]
+            - ["8:10", "tmāne w-3ašra", "تْمانة وعَشْرة"]
+            - ["8:15", "tmāne w-rub3", "تْمانة ورُبْع"]
+            - ["8:20", "tmāne w-tilt", "تْمانة وتِلْت"]
+            - ["8:30", "tmāne w-nuṣṣ", "تْمانة ونُصّ"]
             - ["8:40", "tis3a ʔilla tilt", "تِسْعة إلّا تِلْت"]
             - ["8:45", "tis3a ʔilla rub3", "تِسْعة إلّا رُبْع"]
             - ["8:55", "tis3a ʔilla xamse", "تِسْعة إلّا خَمْسة"]
-        after: "The hours: wāḥde, tintēn, tlāte, ʔarb3a, xamse, sitte, sab3a, tmānye, tis3a, 3ašra, ḥdāšar, tnāšar. One and two take their feminine forms, because sā3a is feminine. 'In the morning' is iṣ-ṣubḥ, 'in the evening' il-masa."
+        after: "The hours: waḥde, tintēn, tlāte, ʔarb3a, xamse, sitte, sab3a, tmāne, tis3a, 3ašra, ḥdāšar, tnāšar. One and two take their feminine forms, because sā3a is feminine. 'In the morning' is iṣ-ṣubḥ, 'in the evening' il-masa."
     words:
       - {ar: "ساعة", tr: "sā3a", en: "hour; watch, clock"}
       - {ar: "ربع", tr: "rub3", en: "quarter"}
@@ -66,9 +66,9 @@ lessons:
         - {ar: "إذا في عجقة، منوصل السّاعة عشرة.", tr: "ʔiza fī 3ajʔa, mnūṣal is-sā3a 3ašra.", en: "If there's traffic, we get there at ten."}
       fill:
         - {tr: "is-sā3a ___?", answer: "ʔaddēš", en: "What time is it?"}
-        - {tr: "tmānye w-___", answer: "rub3", en: "8:15"}
+        - {tr: "tmāne w-___", answer: "rub3", en: "8:15"}
         - {tr: "tis3a ___ rub3", answer: "ʔilla", en: "8:45"}
-        - {tr: "is-sā3a ___", answer: "wāḥde", en: "one o'clock"}
+        - {tr: "is-sā3a ___", answer: "waḥde", en: "one o'clock"}
 
   - id: L016
     n: 16
@@ -198,7 +198,7 @@ lessons:
     lines:
       - {who: umm, ar: "آدَم، تَعا لَهَوْن! خود هالبَصَل.", tr: "ʔādam, ta3a la-hōn! xōd hal-baṣal.", lit: "Adam, come to-here! take this-onion", en: "Adam, come here! Take these onions."}
       - {who: adam, ar: "وشو بَعْمِل؟", tr: "w-šū ba3mil?", lit: "and-what I-do?", en: "And what do I do?"}
-      - {who: umm, ar: "اِقْطَعو زْغير. وإنْتي يا لينا، جيبي البَنَدورة!", tr: "ʔiʔṭa3o zɣīr. w-ʔinti yā Līna, jībi l-banadōra!", lit: "cut-it small. and-you O Lina, bring the-tomatoes", en: "Chop them small. And you, Līna, bring the tomatoes!"}
+      - {who: umm, ar: "اِقْطَعو صْغير. وإنْتي يا لينا، جيبي البَنَدورة!", tr: "ʔiʔṭa3o zɣīr. w-ʔinti yā Līna, jībi l-banadōra!", lit: "cut-it small. and-you O Lina, bring the-tomatoes", en: "Chop them small. And you, Līna, bring the tomatoes!"}
       - {who: lina, ar: "حاضِر! ... آدَم، لا تِبْكي!", tr: "ḥāḍir! ... ʔādam, lā tibki!", lit: "ready! ... Adam, don't you-cry", en: "Right away! ... Adam, don't cry!"}
       - {who: adam, ar: "ما عَم اِبْكي! هاد البَصَل!", tr: "mā 3am-ibki! hād il-baṣal!", lit: "not (now) I-cry! this the-onion", en: "I'm not crying! It's the onions!"}
       - {who: umm, ar: "يَلّا شَباب، تَعالو كِلو! بَسّ لا تِحْكو كْتير.", tr: "yalla šabāb, ta3ālu kilu! bass lā tiḥku ktīr.", lit: "come-on guys, come eat! but don't you(pl)-talk much", en: "Come on, everyone, come and eat! Just don't talk too much."}
@@ -207,7 +207,7 @@ lessons:
       - {line: 1, ar: "تَعا لَهَوْن", tr: "ta3a la-hōn", topic: grammar, text: "An order. {تَعا|ta3a} 'come!' to a man, {تَعي|ta3i} to a woman, {تَعالو|ta3ālu} to several (line 6). {لَهَوْن|la-hōn} 'to here': la- 'to' + {هَوْن|hōn}."}
       - {line: 1, ar: "خود هالبَصَل", tr: "xōd hal-baṣal", topic: grammar, text: "{خود|xōd} 'take!', to a woman {خِدي|xidi}, to several {خِدو|xidu}. {بَصَل|baṣal} 'onions': like many foods, a collective word for onion in general (lesson 22)."}
       - {line: 2, ar: "شو بَعْمِل؟", tr: "šū ba3mil?", topic: grammar, text: "'What do I do?': {بَعْمِل|ba3mil} is b- + ʔa3mil, like {بَعْرِف|ba3rif} (lesson 17). The plain present often does the work of English 'shall I'."}
-      - {line: 3, ar: "اِقْطَعو زْغير", tr: "ʔiʔṭa3o zɣīr", topic: grammar, text: "Most orders are the 'you' form without its t-: {تِقْطَع|tiʔṭa3} 'you cut' → {اِقْطَع|ʔiʔṭa3} 'cut!'. -o is 'it, him': {اِقْطَعو|ʔiʔṭa3o} 'cut it'. {زْغير|zɣīr} 'small' (MSA {صَغير|ṣaɣīr})."}
+      - {line: 3, ar: "اِقْطَعو صْغير", tr: "ʔiʔṭa3o zɣīr", topic: grammar, text: "Most orders are the 'you' form without its t-: {تِقْطَع|tiʔṭa3} 'you cut' → {اِقْطَع|ʔiʔṭa3} 'cut!'. -o is 'it, him': {اِقْطَعو|ʔiʔṭa3o} 'cut it'. {صْغير|zɣīr} 'small': written like MSA {صَغير|ṣaɣīr}, but said with z."}
       - {line: 3, ar: "جيبي البَنَدورة", tr: "jībi l-banadōra", topic: vocab, text: "{جاب|jāb} 'to bring': {جيب|jīb} 'bring!', to a woman {جيبي|jībi}. {بَنَدورة|banadōra} 'tomatoes', from Italian pomodoro."}
       - {line: 4, ar: "حاضِر", tr: "ḥāḍir", topic: culture, text: "{حاضِر|ḥāḍir} 'ready': the polite yes to a request from someone older, like 'right away'."}
       - {line: 4, ar: "لا تِبْكي", tr: "lā tibki", topic: grammar, text: "'Don't…!': {لا|lā} + the 'you' form without b-: {لا تِبْكي|lā tibki} 'don't cry!'. A negative order always takes lā, never mā. {بِكي|biki} 'to cry'."}
@@ -230,7 +230,7 @@ lessons:
       - {ar: "تعا", tr: "ta3a", en: "come! (irregular)"}
       - {ar: "أخد، خود", tr: "ʔaxad, xōd", en: "to take, take!"}
       - {ar: "بصل", tr: "baṣal", en: "onions"}
-      - {ar: "زغير", tr: "zɣīr", en: "small"}
+      - {ar: "صغير", tr: "zɣīr", en: "small"}
       - {ar: "جاب", tr: "jāb (bjīb)", en: "to bring"}
       - {ar: "بندورة", tr: "banadōra", en: "tomatoes"}
       - {ar: "حاضر", tr: "ḥāḍir", en: "right away, at your service"}
@@ -390,7 +390,7 @@ lessons:
       - title: "Questions and answers"
         text: "šū, mīn, wēn, mnēn, ʔēmta, lēš, kīf, ʔaddēš, kam. lēš? → laʔinno… 'because'. ʔēmta? → lamma… 'when'. Statements: ʔiza 'if', ʔaw 'or'."
       - title: "Time"
-        text: "is-sā3a ʔaddēš? — is-sā3a tmānye w-rub3 / w-tilt / w-nuṣṣ / tis3a ʔilla rub3. Days take the article: is-sabt, yōm il-ʔaḥad."
+        text: "is-sā3a ʔaddēš? — is-sā3a tmāne w-rub3 / w-tilt / w-nuṣṣ / tis3a ʔilla rub3. Days take the article: is-sabt, yōm il-ʔaḥad."
       - title: "Three verbs by heart"
         text: "ʔakal, ʔaxad, ʔija: past ʔakalt, ʔaxadt, ʔijīt; present bākul, bāxud, biji; orders kōl, xōd, ta3a."
     lines:
@@ -419,7 +419,7 @@ lessons:
   - id: B03
     n: B3
     bridge: true
-    title: {ar: "الكِلْمات الزْغيرة", tr: "il-kilmāt iz-zɣīre", en: "Bridge 3 · Little words"}
+    title: {ar: "الكِلْمات الصْغيرة", tr: "il-kilmāt iz-zɣīre", en: "Bridge 3 · Little words"}
     scene: "Pronouns, 'this', question words, 'because', 'when', the future: the small words are where Shami and MSA differ most. Here are this week's sentences with their MSA version."
     sides:
       - ref: [L015, 1]

@@ -21,7 +21,7 @@ lessons:
       - {who: adam, ar: "تْلاتين بَيْضة؟! لَيْش هالقَدّ؟", tr: "tlātīn bēḍa?! lēš hal-ʔadd?", lit: "thirty egg?! why this-amount?", en: "Thirty eggs?! Why so many?"}
       - {who: umm, ar: "لَإنّو بُكْرا رَح نَعْمِل عِجّة، والعِجّة بِدّا بَيْض كْتير!", tr: "laʔinno bukra raḥ na3mil 3ijje, wil-3ijje bidda bēḍ ktīr!", lit: "because tomorrow going we-make omelette, and-the-omelette want-her eggs much", en: "Because tomorrow we're making ʕijje, and ʕijje needs lots of eggs!"}
       - {who: baqqal, ar: "وإنْتَ يا شَبّ، بْتْحِبّ الرُّمّان؟ هاد رُمّان طازة!", tr: "w-ʔinte yā šabb, btḥibb ir-rummān? hād rummān ṭāza!", lit: "and-you O young-man, you-like the-pomegranate? this pomegranate fresh", en: "And you, young man, do you like pomegranates? These are fresh!"}
-      - {who: adam, ar: "اي، أَعْطيني رُمّانْتَيْن، إذا بِتْريد.", tr: "ʔē, ʔa3ṭīni rummāntēn, ʔiza bitrīd.", lit: "yes, give-me two-pomegranates, if you-want", en: "Yes, give me two pomegranates, please."}
+      - {who: adam, ar: "اي، عْطيني رُمّانْتَيْن، إذا بِتْريد.", tr: "ʔē, 3ṭīni rummāntēn, ʔiza bitrīd.", lit: "yes, give-me two-pomegranates, if you-want", en: "Yes, give me two pomegranates, please."}
       - {who: baqqal, ar: "رُمّانْتَيْن بَسّ؟ خود تْلاتة، والتّالْتة هْدِيّة!", tr: "rummāntēn bass? xōd tlāte, wit-tālte hdiyye!", lit: "two-pomegranates only? take three, and-the-third gift", en: "Only two? Take three, and the third one's a present!"}
       - {who: umm, ar: "الله يْخَلّيك! قَدّيش حْسابْنا؟", tr: "ʔalla yxallīk! ʔaddēš ḥsābna?", lit: "God keep-you! how-much account-our?", en: "Bless you! How much do we owe you?"}
     notes:
@@ -32,7 +32,7 @@ lessons:
       - {line: 4, ar: "العِجّة بِدّا بَيْض", tr: "il-3ijje bidda bēḍ", topic: grammar, text: "bidd- also means 'need': {العِجّة بِدّا بَيْض|il-3ijje bidda bēḍ} 'ʕijje needs eggs' (bidd + -a 'her'; 3ijje is feminine). {عِجّة|3ijje}: a thick omelette full of parsley and onion, cut in squares."}
       - {line: 5, ar: "يا شَبّ", tr: "yā šabb", topic: culture, text: "{شَبّ|šabb} 'young man', the singular of {شَباب|šabāb} (lesson 2). Shopkeepers call any young customer {يا شَبّ|yā šabb}, or {يا حَبيبي|yā ḥabībi} 'my dear'."}
       - {line: 5, ar: "طازة", tr: "ṭāza", topic: vocab, text: "{طازة|ṭāza} 'fresh', from Turkish taze. It never changes: {رُمّان طازة|rummān ṭāza}, {خُبِز طازة|xubiz ṭāza} 'fresh bread'."}
-      - {line: 6, ar: "أَعْطيني رُمّانْتَيْن", tr: "ʔa3ṭīni rummāntēn", topic: grammar, text: "The dual: -ēn on a noun means 'two'. {رُمّانة|rummāne} → {رُمّانْتَيْن|rummāntēn} 'two pomegranates': the ة shows its t, as in {أوضِة|ʔūḍit} (lesson 3). {بَيْضْتَيْن|bēḍtēn} 'two eggs', {يومَيْن|yōmēn} 'two days'. No tnēn is needed. {أَعْطيني|ʔa3ṭīni} 'give me'."}
+      - {line: 6, ar: "عْطيني رُمّانْتَيْن", tr: "3ṭīni rummāntēn", topic: grammar, text: "The dual: -ēn on a noun means 'two'. {رُمّانة|rummāne} → {رُمّانْتَيْن|rummāntēn} 'two pomegranates': the ة shows its t, as in {أوضِة|ʔūḍit} (lesson 3). {بَيْضْتَيْن|bēḍtēn} 'two eggs', {يومَيْن|yōmēn} 'two days'. No tnēn is needed. {عْطيني|3ṭīni} 'give me', from {عَطى|3aṭa} 'to give'."}
       - {line: 7, ar: "التّالْتة هْدِيّة", tr: "it-tālte hdiyye", topic: vocab, text: "{تالِت|tālit}, f {تالْتة|tālte} 'third', from tlāte. {هْدِيّة|hdiyye} 'present, gift'. A little extra for a regular customer is part of the shop's manners."}
       - {line: 8, ar: "الله يْخَلّيك", tr: "ʔalla yxallīk", topic: culture, text: "'God keep you': the warmest thank-you, and also 'please' when you ask a favour. {حْساب|ḥsāb} 'bill, account': {قَدّيش حْسابْنا؟|ʔaddēš ḥsābna?} 'how much do we owe?'."}
     sections:
@@ -54,7 +54,7 @@ lessons:
       - {ar: "شبّ", tr: "šabb", en: "young man"}
       - {ar: "رمّان", tr: "rummān", en: "pomegranates"}
       - {ar: "طازة", tr: "ṭāza", en: "fresh"}
-      - {ar: "أعطى", tr: "ʔa3ṭa (ʔa3ṭīni)", en: "to give (give me)"}
+      - {ar: "عطى", tr: "3aṭa (3ṭīni)", en: "to give (give me)"}
       - {ar: "تالت", tr: "tālit", en: "third"}
       - {ar: "هديّة", tr: "hdiyye", en: "present, gift"}
       - {ar: "حساب", tr: "ḥsāb", en: "bill, account"}
@@ -62,7 +62,7 @@ lessons:
       translate:
         - {ar: "بدّي نصّ كيلو بصل.", tr: "biddi nuṣṣ kīlo baṣal.", en: "I'd like half a kilo of onions."}
         - {ar: "عندي أختين.", tr: "3andi ʔixtēn.", en: "I have two sisters."}
-        - {ar: "أعطيني بيضتين، إذا بتريد.", tr: "ʔa3ṭīni bēḍtēn, ʔiza bitrīd.", en: "Give me two eggs, please."}
+        - {ar: "عطيني بيضتين، إذا بتريد.", tr: "3ṭīni bēḍtēn, ʔiza bitrīd.", en: "Give me two eggs, please."}
         - {ar: "قدّيش الرّمّان؟", tr: "ʔaddēš ir-rummān?", en: "How much are the pomegranates?"}
       fill:
         - {tr: "___ banadōra", answer: "kīlo", en: "a kilo of tomatoes"}
@@ -75,7 +75,7 @@ lessons:
     title: {ar: "بَيْت سِتّي", tr: "bēt sitti", en: "Grandmother's house"}
     scene: "A rainy afternoon. Tēta brings out the old photo album."
     lines:
-      - {who: teta, ar: "تَعا شوف هالأَلْبوم. هَيّ صورِة أَبوك وهُوّ زْغير.", tr: "ta3a šūf hal-ʔalbūm. hayy ṣūrit ʔabūk w-huwwe zɣīr.", lit: "come see this-album. this photo-of father-your and-he small", en: "Come and look at this album. This is a photo of your father when he was little."}
+      - {who: teta, ar: "تَعا شوف هالأَلْبوم. هَيّ صورِة أَبوك وهُوّ صْغير.", tr: "ta3a šūf hal-ʔalbūm. hayy ṣūrit ʔabūk w-huwwe zɣīr.", lit: "come see this-album. this photo-of father-your and-he small", en: "Come and look at this album. This is a photo of your father when he was little."}
       - {who: adam, ar: "شو حِلو! ومين هاد جَنْبو؟", tr: "šū ḥilu! w-mīn hād jambo?", lit: "what nice! and-who this next-to-him?", en: "How sweet! And who's that next to him?"}
       - {who: teta, ar: "هاد أَخوه، عَمَّك أَبو سامي. وهَيّ بِنْت خالْتو سَلْوى.", tr: "hād ʔaxū, 3ammak ʔabu Sāmi. w-hayy bint xālto Salwa.", lit: "this brother-his, uncle-your Abu Sami. and-this daughter aunt-his Salwa", en: "That's his brother, your uncle Abu Sāmi. And that's his cousin Salwa."}
       - {who: adam, ar: "ومين هالصَّبِيّة الحِلْوة؟", tr: "w-mīn haṣ-ṣabiyye il-ḥilwe?", lit: "and-who this-young-woman the-pretty?", en: "And who's this pretty young woman?"}
@@ -85,9 +85,9 @@ lessons:
       - {who: adam, ar: "وأنا كَمان عَنْدي راس يابِس... بَسّ مو كْتير!", tr: "w-ʔana kamān 3andi rās yābis... bass mū ktīr!", lit: "and-I also at-me head dry... but not much", en: "And I've got a stubborn head too... but not very!"}
     notes:
       - {line: 1, ar: "صورِة أَبوك", tr: "ṣūrit ʔabūk", topic: grammar, text: "'A photo of your father': two nouns side by side, as in {أوضِة أَبوك|ʔūḍit ʔabūk} (lesson 3). {صورة|ṣūra} shows its t: {صورِة|ṣūrit}. The first noun never takes il-, even when it means 'the': {بَيْت سِتّي|bēt sitti} 'my grandmother's house'."}
-      - {line: 1, ar: "وهُوّ زْغير", tr: "w-huwwe zɣīr", topic: grammar, text: "w- + pronoun + description means 'while, when': {وهُوّ زْغير|w-huwwe zɣīr} 'when he was little'. No verb is needed. {أَلْبوم|ʔalbūm} 'album'."}
+      - {line: 1, ar: "وهُوّ صْغير", tr: "w-huwwe zɣīr", topic: grammar, text: "w- + pronoun + description means 'while, when': {وهُوّ صْغير|w-huwwe zɣīr} 'when he was little'. No verb is needed. {أَلْبوم|ʔalbūm} 'album'."}
       - {line: 2, ar: "جَنْبو", tr: "jambo", topic: vocab, text: "{جَنْب|jamb} 'next to' takes endings like a noun: {جَنْبي|jambi} 'next to me', {جَنْبو|jambo} 'next to him'."}
-      - {line: 3, ar: "أَخوه", tr: "ʔaxū", topic: grammar, text: "{أَب|ʔab} 'father' and {أَخ|ʔax} 'brother' become ʔabū-, ʔaxū- before an ending: {أَبوك|ʔabūk} 'your father', {أَخوه|ʔaxū} 'his brother' (the h is silent), {أَبوي|ʔabūy} 'my father'. On its own, 'a brother' is {أَخّ|ʔaxx} (lesson 6)."}
+      - {line: 3, ar: "أَخوه", tr: "ʔaxū", topic: grammar, text: "{أَب|ʔab} 'father' and {أَخ|ʔax} 'brother' become ʔabū-, ʔaxū- before an ending: {أَبوك|ʔabūk} 'your father', {أَخوه|ʔaxū} 'his brother' (the h is silent). 'My' is the exception: {أَبي|ʔabi} 'my father', {أَخي|ʔaxi} 'my brother'. On its own, 'a brother' is {أَخّ|ʔaxx} (lesson 6)."}
       - {line: 3, ar: "بِنْت خالْتو", tr: "bint xālto", topic: culture, text: "'His mother's sister's daughter'. {خالة|xāle} 'aunt on the mother's side' shows its t: {خالْتو|xālto} 'his aunt'. {عَمّة|3amme} is an aunt on the father's side. Arabic keeps every branch apart where English just says 'cousin'."}
       - {line: 4, ar: "هالصَّبِيّة الحِلْوة", tr: "haṣ-ṣabiyye il-ḥilwe", topic: grammar, text: "An adjective follows its noun and copies its il-: {الصَّبِيّة الحِلْوة|iṣ-ṣabiyye il-ḥilwe} 'the pretty young woman'. After hal- it takes il- too. {صَبِيّة|ṣabiyye} 'young woman'."}
       - {line: 5, ar: "يوم عِرْسي", tr: "yōm 3irsi", topic: culture, text: "Another noun pair: {يوم عِرْسي|yōm 3irsi} 'the day of my wedding'. {عِرْس|3irs} 'wedding'; {عَريس|3arīs} 'bridegroom', {عَروس|3arūs} 'bride'."}
@@ -98,9 +98,9 @@ lessons:
         table:
           head: ["", "Shami", "my…"]
           rows:
-            - ["father", "ʔab · bāba", "ʔabūy"]
+            - ["father", "ʔab · bāba", "ʔabi"]
             - ["mother", "ʔimm · māma", "ʔimmi"]
-            - ["brother", "ʔaxx", "ʔaxūy"]
+            - ["brother", "ʔaxx", "ʔaxi"]
             - ["sister", "ʔixt", "ʔixti"]
             - ["son", "ʔibn", "ʔibni"]
             - ["daughter", "bint", "binti"]
@@ -203,7 +203,7 @@ lessons:
     lines:
       - {who: adam, ar: "مَرْحَبا. لَباب توما، إذا بِتْريد.", tr: "marḥaba. la-Bāb Tūma, ʔiza bitrīd.", lit: "hello. to-Bab Tuma, if you-want", en: "Hello. To Bāb Tūma, please."}
       - {who: sofer, ar: "تِكْرَم! إنْتَ مو مِن هَوْن، صَحّ؟", tr: "tikram! ʔinte mū min hōn, ṣaḥḥ?", lit: "you-be-honoured! you not from here, right?", en: "Certainly! You're not from here, are you?"}
-      - {who: adam, ar: "أنا مِن باريس، بَسّ أَبوي شامي. بَيْت سِتّي بْباب توما.", tr: "ʔana min Bārīs, bass ʔabūy šāmi. bēt sitti b-Bāb Tūma.", lit: "I from Paris, but father-my Damascene. house grandmother-my in-Bab Tuma", en: "I'm from Paris, but my father's from Damascus. My grandmother's house is in Bāb Tūma."}
+      - {who: adam, ar: "أنا مِن باريس، بَسّ أَبي شامي. بَيْت سِتّي بْباب توما.", tr: "ʔana min Bārīs, bass ʔabi šāmi. bēt sitti b-Bāb Tūma.", lit: "I from Paris, but father-my Damascene. house grandmother-my in-Bab Tuma", en: "I'm from Paris, but my father's from Damascus. My grandmother's house is in Bāb Tūma."}
       - {who: sofer, ar: "أَهْلا وْسَهْلا! وَيْن بِالزَّبْط؟", tr: "ʔahla w-sahla! wēn biz-zabṭ?", lit: "welcome! where exactly?", en: "Welcome! Where exactly?"}
       - {who: adam, ar: "بَعْد الباب، خود عَاليَمين، وبَعْدين دُغْري. البَيْت حَدّ الكَنيسة.", tr: "ba3d il-bāb, xōd 3al-yamīn, w-ba3dēn duɣri. il-bēt ḥadd il-kanīse.", lit: "after the-gate, take to-the-right, and-then straight. the-house by the-church", en: "After the gate, turn right, then straight on. The house is next to the church."}
       - {who: sofer, ar: "هَوْن؟ قُدّام الفُرْن؟", tr: "hōn? ʔuddām il-furn?", lit: "here? in-front-of the-bakery?", en: "Here? In front of the bakery?"}
@@ -214,7 +214,7 @@ lessons:
       - {line: 1, ar: "باب توما", tr: "Bāb Tūma", topic: culture, text: "{باب توما|Bāb Tūma} 'Thomas's Gate': one of the Roman gates of the old city, and the name of the quarter behind it, with its narrow lanes, churches and courtyard houses."}
       - {line: 2, ar: "تِكْرَم", tr: "tikram", topic: culture, text: "{تِكْرَم|tikram} 'you shall be honoured': the courteous 'certainly, of course' of drivers and shopkeepers. To a woman {تِكْرَمي|tikrami}."}
       - {line: 2, ar: "مو مِن هَوْن، صَحّ؟", tr: "mū min hōn, ṣaḥḥ?", topic: grammar, text: "{مِن|min} 'from': {مِن هَوْن|min hōn} 'from here', {مِن باريس|min Bārīs}. {صَحّ؟|ṣaḥḥ?} at the end asks for agreement, like 'right?' or 'n'est-ce pas ?'."}
-      - {line: 3, ar: "أَبوي… بَيْت سِتّي", tr: "ʔabūy… bēt sitti", topic: culture, text: "With a stranger, Adam says {أَبوي|ʔabūy} 'my father' and {سِتّي|sitti} 'my grandmother', the ordinary words. {بابا|bāba} and {تيتا|tēta} are for inside the family."}
+      - {line: 3, ar: "أَبي… بَيْت سِتّي", tr: "ʔabi… bēt sitti", topic: culture, text: "With a stranger, Adam says {أَبي|ʔabi} 'my father' and {سِتّي|sitti} 'my grandmother', the ordinary words. {بابا|bāba} and {تيتا|tēta} are for inside the family."}
       - {line: 4, ar: "بِالزَّبْط", tr: "biz-zabṭ", topic: vocab, text: "{بِالزَّبْط|biz-zabṭ} 'exactly'. A Damascene favourite, also as a one-word answer: {بِالزَّبْط!|biz-zabṭ!} 'exactly!'."}
       - {line: 5, ar: "خود عَاليَمين… دُغْري", tr: "xōd 3al-yamīn… duɣri", topic: vocab, text: "Directions: {خود عَاليَمين|xōd 3al-yamīn} 'take a right', {عَالشْمال|3aš-šmāl} 'to the left', {دُغْري|duɣri} 'straight on' (from Turkish). {بَعْد|ba3d} 'after': {بَعْد الباب|ba3d il-bāb} 'after the gate'."}
       - {line: 5, ar: "حَدّ الكَنيسة", tr: "ḥadd il-kanīse", topic: vocab, text: "{حَدّ|ḥadd} 'next to, by', like {جَنْب|jamb} (lesson 23). {كَنيسة|kanīse} 'church'."}

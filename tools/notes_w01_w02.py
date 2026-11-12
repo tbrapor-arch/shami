@@ -100,7 +100,7 @@ N = {
  (3, "بْتِشْتِغْلي", "btištiɣli", G, "To a woman the verb adds -i, and the vowel before it drops: {بْتِشْتِغِل|btištiɣil} → {بْتِشْتِغْلي|btištiɣli}."),
  (4, "بِدْرُس طِبّ", "bidrus ṭibb", V, "{دَرَس|daras} 'to study': {بِدْرُس|bidrus} 'I study'. {طِبّ|ṭibb} is medicine as a subject; a doctor is usually {دْكتور|doktōr}. {الجامْعة|il-jām3a} 'the university'."),
  (5, "بْمَكْتَبة", "b-maktabe", V, "{مَكْتَبة|maktabe} 'library' or 'bookshop', from the root k-t-b 'write', like {كْتاب|ktāb} 'book' and {كَتَب|katab} 'he wrote' (lesson 12)."),
- (5, "فَرَنْساوي وسوري", "faransāwi w-sūri", G, "Nationalities end in -i, and -iyye for a woman: {سوري|sūri} / {سوريّة|sūriyye}, {فَرَنْساوي|faransāwi} / {فَرَنْساويّة|faransāwiyye}. More in the table below."),
+ (5, "فَرَنْسي وسوري", "faransi w-sūri", G, "Nationalities end in -i, and -iyye for a woman: {سوري|sūri} / {سوريّة|sūriyye}, {فَرَنْسي|faransi} / {فَرَنْسيّة|faransiyye}. More in the table below."),
  (6, "يَعْني", "ya3ni", V, "Literally 'it means': the everyday 'so, I mean, that is'. You will hear it in almost every sentence. {نُصّ|nuṣṣ} 'half'."),
  (6, "شامي", "šāmi", C, "{شامي|šāmi} 'from iš-Šām': Damascene, and more loosely Syrian or Levantine. It is also the name of this course."),
 ],
