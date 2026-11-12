@@ -108,7 +108,7 @@ Voices and the Syrian speakers of the two Shwayy 3an Ḥāli books.
 | 14 | **Revision 2** | | perfect, *b-* imperfect, bare imperfect | | |
 | B2 | *Bridge: the verb* | | *yaktubu / byiktub*; no case or mood endings; perfect endings side by side | | 06 |
 | 15 | الساعة قديش؟ · *is-sā3a ʔaddēš?* | catching the micro | clock time: *w-nuṣṣ, w-rub3, ʔilla tilt* | time | 11, 19 |
-| 16 | عم بحكي · *3am-biḥki* | video call with his mother in Paris | *3am-* progressive; *ḥaka* | phone phrases | 12 |
+| 16 | عم احكي · *3am-iḥki* | video call with his mother in Paris | *3am-* progressive; *ḥaka* | phone phrases | 12 |
 | 17 | ليش؟ · *lēš?* | Tēta's questions: why only now? | *lēš / laʔinno, ʔēmta, kīf, lamma* | | 20, 21 |
 | 18 | تعا لهون · *ta3a la-hōn* | Umm Sāmi in the kitchen | imperatives m/f/pl; *tfaḍḍal, xōd, kōl*; *lā* + verb | kitchen | 13, 06 |
 | 19 | رح نروح · *raḥ nrūḥ* | plans for Friday | *raḥ* future; *nrūḥ?* suggestions; *bukra* | weekdays | 12, 13 |

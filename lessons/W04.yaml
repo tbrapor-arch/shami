@@ -1,0 +1,540 @@
+# Shami, week 4: lessons 22–28 and bridge B4.
+# Original text written for this course. Not yet checked by a native speaker.
+week: 4
+cast:
+  adam: {name: "Adam", ar: "آدم", voice: ar-SY-LaithNeural}
+  sami: {name: "Sāmi", ar: "سامي", voice: ar-SY-LaithNeural, pitch: "-12Hz"}
+  umm:  {name: "Umm Sāmi", ar: "إم سامي", voice: ar-SY-AmanyNeural}
+  lina: {name: "Līna", ar: "لينا", voice: ar-SY-AmanyNeural, pitch: "+12Hz"}
+  teta: {name: "Tēta", ar: "تيتا", voice: ar-SY-AmanyNeural, pitch: "-18Hz", rate: "-8%"}
+  baqqal: {name: "Grocer", ar: "السَّمّان", voice: ar-SY-LaithNeural, pitch: "-8Hz", rate: "+4%"}
+  sofer: {name: "Driver", ar: "الشّوفير", voice: ar-SY-LaithNeural, pitch: "-4Hz", rate: "+8%"}
+
+lessons:
+  - id: L022
+    n: 22
+    title: {ar: "بَيْضة وبَيْضْتَيْن", tr: "bēḍa w-bēḍtēn", en: "One egg, two eggs"}
+    scene: "The corner grocer's in Mezze. Umm Sāmi shops; Adam carries."
+    lines:
+      - {who: baqqal, ar: "أَهْلين إم سامي! شو بِدِّك اليوم؟", tr: "ʔahlēn ʔimm Sāmi! šū biddik il-yōm?", lit: "welcome mother-of Sami! what want-your(f) today?", en: "Hello, Umm Sāmi! What would you like today?"}
+      - {who: umm, ar: "بِدّي كيلو بَنَدورة، وكيلو خْيار، وتْلاتين بَيْضة.", tr: "biddi kīlo banadōra, w-kīlo xyār, w-tlātīn bēḍa.", lit: "want-my kilo tomatoes, and-kilo cucumbers, and-thirty egg", en: "I'd like a kilo of tomatoes, a kilo of cucumbers, and thirty eggs."}
+      - {who: adam, ar: "تْلاتين بَيْضة؟! لَيْش هالقَدّ؟", tr: "tlātīn bēḍa?! lēš hal-ʔadd?", lit: "thirty egg?! why this-amount?", en: "Thirty eggs?! Why so many?"}
+      - {who: umm, ar: "لَإنّو بُكْرا رَح نَعْمِل عِجّة، والعِجّة بِدّا بَيْض كْتير!", tr: "laʔinno bukra raḥ na3mil 3ijje, wil-3ijje bidda bēḍ ktīr!", lit: "because tomorrow going we-make omelette, and-the-omelette want-her eggs much", en: "Because tomorrow we're making ʕijje, and ʕijje needs lots of eggs!"}
+      - {who: baqqal, ar: "وإنْتَ يا شَبّ، بْتْحِبّ الرُّمّان؟ هاد رُمّان طازة!", tr: "w-ʔinte yā šabb, btḥibb ir-rummān? hād rummān ṭāza!", lit: "and-you O young-man, you-like the-pomegranate? this pomegranate fresh", en: "And you, young man, do you like pomegranates? These are fresh!"}
+      - {who: adam, ar: "اي، أَعْطيني رُمّانْتَيْن، إذا بِتْريد.", tr: "ʔē, ʔa3ṭīni rummāntēn, ʔiza bitrīd.", lit: "yes, give-me two-pomegranates, if you-want", en: "Yes, give me two pomegranates, please."}
+      - {who: baqqal, ar: "رُمّانْتَيْن بَسّ؟ خود تْلاتة، والتّالْتة هْدِيّة!", tr: "rummāntēn bass? xōd tlāte, wit-tālte hdiyye!", lit: "two-pomegranates only? take three, and-the-third gift", en: "Only two? Take three, and the third one's a present!"}
+      - {who: umm, ar: "الله يْخَلّيك! قَدّيش حْسابْنا؟", tr: "ʔalla yxallīk! ʔaddēš ḥsābna?", lit: "God keep-you! how-much account-our?", en: "Bless you! How much do we owe you?"}
+    notes:
+      - {line: 1, ar: "إم سامي", tr: "ʔimm Sāmi", topic: culture, text: "Parents are often called after their eldest son: {أَبو سامي|ʔabu Sāmi} 'Sāmi's father', {إم سامي|ʔimm Sāmi} 'Sāmi's mother'. Neighbours and shopkeepers use these names more than first names. To a woman, {بِدِّك|biddik} 'you want'."}
+      - {line: 2, ar: "كيلو بَنَدورة", tr: "kīlo banadōra", topic: grammar, text: "A quantity goes straight before the food, with no 'of': {كيلو بَنَدورة|kīlo banadōra} 'a kilo of tomatoes', {نُصّ كيلو خْيار|nuṣṣ kīlo xyār} 'half a kilo of cucumbers'."}
+      - {line: 2, ar: "تْلاتين بَيْضة", tr: "tlātīn bēḍa", topic: grammar, text: "Many foods have two forms. {بَيْض|bēḍ} is 'eggs' in general (line 4); {بَيْضة|bēḍa} is one egg. The ة makes one: {بَصَل|baṣal} 'onions' → {بَصَلة|baṣale} 'an onion', {رُمّان|rummān} → {رُمّانة|rummāne} 'a pomegranate'. Counted from 11 up, the 'one' form stays singular: {تْلاتين بَيْضة|tlātīn bēḍa}."}
+      - {line: 3, ar: "هالقَدّ", tr: "hal-ʔadd", topic: vocab, text: "{هالقَدّ|hal-ʔadd} 'this much, so many': hal- 'this' + {قَدّ|ʔadd} 'amount', the ʔadd of {قَدّيش|ʔaddēš} 'how much?'."}
+      - {line: 4, ar: "العِجّة بِدّا بَيْض", tr: "il-3ijje bidda bēḍ", topic: grammar, text: "bidd- also means 'need': {العِجّة بِدّا بَيْض|il-3ijje bidda bēḍ} 'ʕijje needs eggs' (bidd + -a 'her'; 3ijje is feminine). {عِجّة|3ijje}: a thick omelette full of parsley and onion, cut in squares."}
+      - {line: 5, ar: "يا شَبّ", tr: "yā šabb", topic: culture, text: "{شَبّ|šabb} 'young man', the singular of {شَباب|šabāb} (lesson 2). Shopkeepers call any young customer {يا شَبّ|yā šabb}, or {يا حَبيبي|yā ḥabībi} 'my dear'."}
+      - {line: 5, ar: "طازة", tr: "ṭāza", topic: vocab, text: "{طازة|ṭāza} 'fresh', from Turkish taze. It never changes: {رُمّان طازة|rummān ṭāza}, {خُبِز طازة|xubiz ṭāza} 'fresh bread'."}
+      - {line: 6, ar: "أَعْطيني رُمّانْتَيْن", tr: "ʔa3ṭīni rummāntēn", topic: grammar, text: "The dual: -ēn on a noun means 'two'. {رُمّانة|rummāne} → {رُمّانْتَيْن|rummāntēn} 'two pomegranates': the ة shows its t, as in {أوضِة|ʔūḍit} (lesson 3). {بَيْضْتَيْن|bēḍtēn} 'two eggs', {يومَيْن|yōmēn} 'two days'. No tnēn is needed. {أَعْطيني|ʔa3ṭīni} 'give me'."}
+      - {line: 7, ar: "التّالْتة هْدِيّة", tr: "it-tālte hdiyye", topic: vocab, text: "{تالِت|tālit}, f {تالْتة|tālte} 'third', from tlāte. {هْدِيّة|hdiyye} 'present, gift'. A little extra for a regular customer is part of the shop's manners."}
+      - {line: 8, ar: "الله يْخَلّيك", tr: "ʔalla yxallīk", topic: culture, text: "'God keep you': the warmest thank-you, and also 'please' when you ask a favour. {حْساب|ḥsāb} 'bill, account': {قَدّيش حْسابْنا؟|ʔaddēš ḥsābna?} 'how much do we owe?'."}
+    sections:
+      - title: "In general, one, two, several"
+        table:
+          head: ["in general", "one", "two", "3–10"]
+          rows:
+            - ["bēḍ 'eggs'", "bēḍa", "bēḍtēn", "tlat bēḍāt"]
+            - ["baṣal 'onions'", "baṣale", "baṣaltēn", "tlat baṣalāt"]
+            - ["rummān 'pomegranates'", "rummāne", "rummāntēn", "tlat rummānāt"]
+            - ["xyār 'cucumbers'", "xyāra", "xyārtēn", "tlat xyārāt"]
+        after: "Ordinary nouns take -ēn the same way: bēt → bētēn 'two houses', sā3a → sā3tēn 'two hours'."
+    words:
+      - {ar: "كيلو", tr: "kīlo", en: "kilo"}
+      - {ar: "خيار", tr: "xyār", en: "cucumbers"}
+      - {ar: "بيض، بيضة", tr: "bēḍ, bēḍa", en: "eggs, an egg"}
+      - {ar: "قدّ", tr: "ʔadd", en: "amount, size"}
+      - {ar: "عجّة", tr: "3ijje", en: "herb omelette"}
+      - {ar: "شبّ", tr: "šabb", en: "young man"}
+      - {ar: "رمّان", tr: "rummān", en: "pomegranates"}
+      - {ar: "طازة", tr: "ṭāza", en: "fresh"}
+      - {ar: "أعطى", tr: "ʔa3ṭa (ʔa3ṭīni)", en: "to give (give me)"}
+      - {ar: "تالت", tr: "tālit", en: "third"}
+      - {ar: "هديّة", tr: "hdiyye", en: "present, gift"}
+      - {ar: "حساب", tr: "ḥsāb", en: "bill, account"}
+    practice:
+      translate:
+        - {ar: "بدّي نصّ كيلو بصل.", tr: "biddi nuṣṣ kīlo baṣal.", en: "I'd like half a kilo of onions."}
+        - {ar: "عندي أختين.", tr: "3andi ʔixtēn.", en: "I have two sisters."}
+        - {ar: "أعطيني بيضتين، إذا بتريد.", tr: "ʔa3ṭīni bēḍtēn, ʔiza bitrīd.", en: "Give me two eggs, please."}
+        - {ar: "قدّيش الرّمّان؟", tr: "ʔaddēš ir-rummān?", en: "How much are the pomegranates?"}
+      fill:
+        - {tr: "___ banadōra", answer: "kīlo", en: "a kilo of tomatoes"}
+        - {tr: "rummān → one: ___", answer: "rummāne", en: "a pomegranate"}
+        - {tr: "bēḍa → two: ___", answer: "bēḍtēn", en: "two eggs"}
+        - {tr: "ʔaddēš ___na?", answer: "ḥsāb", en: "How much do we owe?"}
+
+  - id: L023
+    n: 23
+    title: {ar: "بَيْت سِتّي", tr: "bēt sitti", en: "Grandmother's house"}
+    scene: "A rainy afternoon. Tēta brings out the old photo album."
+    lines:
+      - {who: teta, ar: "تَعا شوف هالأَلْبوم. هَيّ صورِة أَبوك وهُوّ زْغير.", tr: "ta3a šūf hal-ʔalbūm. hayy ṣūrit ʔabūk w-huwwe zɣīr.", lit: "come see this-album. this photo-of father-your and-he small", en: "Come and look at this album. This is a photo of your father when he was little."}
+      - {who: adam, ar: "شو حِلو! ومين هاد جَنْبو؟", tr: "šū ḥilu! w-mīn hād jambo?", lit: "what nice! and-who this next-to-him?", en: "How sweet! And who's that next to him?"}
+      - {who: teta, ar: "هاد أَخوه، عَمَّك أَبو سامي. وهَيّ بِنْت خالْتو سَلْوى.", tr: "hād ʔaxū, 3ammak ʔabu Sāmi. w-hayy bint xālto Salwa.", lit: "this brother-his, uncle-your Abu Sami. and-this daughter aunt-his Salwa", en: "That's his brother, your uncle Abu Sāmi. And that's his cousin Salwa."}
+      - {who: adam, ar: "ومين هالصَّبِيّة الحِلْوة؟", tr: "w-mīn haṣ-ṣabiyye il-ḥilwe?", lit: "and-who this-young-woman the-pretty?", en: "And who's this pretty young woman?"}
+      - {who: teta, ar: "هَيّ أنا! يوم عِرْسي.", tr: "hayy ʔana! yōm 3irsi.", lit: "this I! day wedding-my", en: "That's me! On my wedding day."}
+      - {who: adam, ar: "وَالله؟ وهاد جِدّي؟ بابا بْيِشْبَهو كْتير!", tr: "wallāhi? w-hād jiddi? bāba byišbaho ktīr!", lit: "by-God? and-this grandfather-my? dad he-resembles-him much", en: "Really? And that's Grandpa? Dad looks so much like him!"}
+      - {who: teta, ar: "اي، نَفْس العْيون، ونَفْس الرّاس اليابِس!", tr: "ʔē, nafs il-3yūn, w-nafs ir-rās il-yābis!", lit: "yes, same the-eyes, and-same the-head the-dry", en: "Yes, the same eyes, and the same stubborn head!"}
+      - {who: adam, ar: "وأنا كَمان عَنْدي راس يابِس... بَسّ مو كْتير!", tr: "w-ʔana kamān 3andi rās yābis... bass mū ktīr!", lit: "and-I also at-me head dry... but not much", en: "And I've got a stubborn head too... but not very!"}
+    notes:
+      - {line: 1, ar: "صورِة أَبوك", tr: "ṣūrit ʔabūk", topic: grammar, text: "'A photo of your father': two nouns side by side, as in {أوضِة أَبوك|ʔūḍit ʔabūk} (lesson 3). {صورة|ṣūra} shows its t: {صورِة|ṣūrit}. The first noun never takes il-, even when it means 'the': {بَيْت سِتّي|bēt sitti} 'my grandmother's house'."}
+      - {line: 1, ar: "وهُوّ زْغير", tr: "w-huwwe zɣīr", topic: grammar, text: "w- + pronoun + description means 'while, when': {وهُوّ زْغير|w-huwwe zɣīr} 'when he was little'. No verb is needed. {أَلْبوم|ʔalbūm} 'album'."}
+      - {line: 2, ar: "جَنْبو", tr: "jambo", topic: vocab, text: "{جَنْب|jamb} 'next to' takes endings like a noun: {جَنْبي|jambi} 'next to me', {جَنْبو|jambo} 'next to him'."}
+      - {line: 3, ar: "أَخوه", tr: "ʔaxū", topic: grammar, text: "{أَب|ʔab} 'father' and {أَخ|ʔax} 'brother' become ʔabū-, ʔaxū- before an ending: {أَبوك|ʔabūk} 'your father', {أَخوه|ʔaxū} 'his brother' (the h is silent), {أَبوي|ʔabūy} 'my father'. On its own, 'a brother' is {أَخّ|ʔaxx} (lesson 6)."}
+      - {line: 3, ar: "بِنْت خالْتو", tr: "bint xālto", topic: culture, text: "'His mother's sister's daughter'. {خالة|xāle} 'aunt on the mother's side' shows its t: {خالْتو|xālto} 'his aunt'. {عَمّة|3amme} is an aunt on the father's side. Arabic keeps every branch apart where English just says 'cousin'."}
+      - {line: 4, ar: "هالصَّبِيّة الحِلْوة", tr: "haṣ-ṣabiyye il-ḥilwe", topic: grammar, text: "An adjective follows its noun and copies its il-: {الصَّبِيّة الحِلْوة|iṣ-ṣabiyye il-ḥilwe} 'the pretty young woman'. After hal- it takes il- too. {صَبِيّة|ṣabiyye} 'young woman'."}
+      - {line: 5, ar: "يوم عِرْسي", tr: "yōm 3irsi", topic: culture, text: "Another noun pair: {يوم عِرْسي|yōm 3irsi} 'the day of my wedding'. {عِرْس|3irs} 'wedding'; {عَريس|3arīs} 'bridegroom', {عَروس|3arūs} 'bride'."}
+      - {line: 6, ar: "بْيِشْبَهو", tr: "byišbaho", topic: vocab, text: "{شِبِه|šibih} 'to look like': {بابا بْيِشْبَهو|bāba byišbaho} 'Dad looks like him', with -o 'him' and no preposition. {جِدّي|jiddi} 'my grandfather' (lesson 4)."}
+      - {line: 7, ar: "نَفْس العْيون… الرّاس اليابِس", tr: "nafs il-3yūn… ir-rās il-yābis", topic: vocab, text: "{نَفْس|nafs} 'the same', placed before the noun: {نَفْس العْيون|nafs il-3yūn} 'the same eyes' ({عَيْن|3ēn} 'eye', plural {عْيون|3yūn}). {راسو يابِس|rāso yābis} 'his head is dry' means 'he's stubborn'."}
+    sections:
+      - title: "The family"
+        table:
+          head: ["", "Shami", "my…"]
+          rows:
+            - ["father", "ʔab · bāba", "ʔabūy"]
+            - ["mother", "ʔimm · māma", "ʔimmi"]
+            - ["brother", "ʔaxx", "ʔaxūy"]
+            - ["sister", "ʔixt", "ʔixti"]
+            - ["son", "ʔibn", "ʔibni"]
+            - ["daughter", "bint", "binti"]
+            - ["grandfather", "jidd", "jiddi"]
+            - ["grandmother", "sitt · tēta", "sitti"]
+            - ["uncle (father's side)", "3amm", "3ammi"]
+            - ["aunt (father's side)", "3amme", "3ammti"]
+            - ["uncle (mother's side)", "xāl", "xāli"]
+            - ["aunt (mother's side)", "xāle", "xālti"]
+            - ["wife", "mara (mart…)", "marti"]
+            - ["husband", "jōz", "jōzi"]
+    words:
+      - {ar: "ألبوم", tr: "ʔalbūm", en: "album"}
+      - {ar: "جنب", tr: "jamb", en: "next to"}
+      - {ar: "أخ، أخو", tr: "ʔaxx, ʔaxū-", en: "brother"}
+      - {ar: "خالة", tr: "xāle", en: "aunt (mother's sister)"}
+      - {ar: "صبيّة", tr: "ṣabiyye", en: "young woman"}
+      - {ar: "عرس", tr: "3irs", en: "wedding"}
+      - {ar: "شبه", tr: "šibih (byišbah)", en: "to look like"}
+      - {ar: "نفس", tr: "nafs", en: "the same"}
+      - {ar: "عين، عيون", tr: "3ēn, 3yūn", en: "eye, eyes"}
+      - {ar: "راس", tr: "rās", en: "head"}
+      - {ar: "يابس", tr: "yābis", en: "dry; (head) stubborn"}
+      - {ar: "جدّ", tr: "jidd", en: "grandfather"}
+    practice:
+      translate:
+        - {ar: "هاد بيت خالتي.", tr: "hād bēt xālti.", en: "This is my aunt's house."}
+        - {ar: "مين جنبك بالصّورة؟", tr: "mīn jambak biṣ-ṣūra?", en: "Who's next to you in the photo?"}
+        - {ar: "سامي بيشبه أبوه.", tr: "Sāmi byišbah ʔabū.", en: "Sāmi looks like his father."}
+        - {ar: "عندنا نفس العيون.", tr: "3andna nafs il-3yūn.", en: "We have the same eyes."}
+      fill:
+        - {tr: "___ ʔabūk (a photo of)", answer: "ṣūrit", en: "a photo of your father"}
+        - {tr: "hād ___, 3ammak. (his brother)", answer: "ʔaxū", en: "That's his brother, your uncle."}
+        - {tr: "haṣ-ṣabiyye ___ (the pretty)", answer: "il-ḥilwe", en: "this pretty young woman"}
+        - {tr: "___ il-3yūn", answer: "nafs", en: "the same eyes"}
+
+  - id: L024
+    n: 24
+    title: {ar: "فيني؟", tr: "fīni?", en: "Can I?"}
+    scene: "Tēta comes back from the market, two heavy bags in her hands, and stops at the foot of the stairs."
+    lines:
+      - {who: adam, ar: "تيتا، فيني اِحْمِل عَنِّك؟", tr: "tēta, fīni ʔiḥmil 3annik?", lit: "grandma, in-me I-carry from-you?", en: "Tēta, can I carry that for you?"}
+      - {who: teta, ar: "اي يا تيتا، الله يْخَلّيك. أنا ما بِقْدِر اِطْلَع الدَّرَج مَع هالأَكْياس.", tr: "ʔē yā tēta, ʔalla yxallīk. ʔana mā biʔdir ʔiṭla3 id-daraj ma3 hal-ʔakyās.", lit: "yes O grandma, God keep-you. I not I-can I-go-up the-stairs with these-bags", en: "Yes, dear, bless you. I can't climb the stairs with these bags."}
+      - {who: adam, ar: "لَيْش رِحْتي لَحالِك؟ لازِم تاخْديني مَعِك!", tr: "lēš riḥti la-ḥālik? lāzim tāxdīni ma3ik!", lit: "why you(f)-went by-self-your? necessary you-take-me with-you", en: "Why did you go on your own? You have to take me with you!"}
+      - {who: teta, ar: "إنْتَ لازِم تِدْرُس عَرَبي!", tr: "ʔinte lāzim tidrus 3arabi!", lit: "you necessary you-study Arabic", en: "You have to study Arabic!"}
+      - {who: adam, ar: "فيني اِدْرُس واِحْمِل بِنَفْس الوَقْت!", tr: "fīni ʔidrus w-iḥmil b-nafs il-waʔt!", lit: "in-me I-study and-I-carry in-same the-time", en: "I can study and carry bags at the same time!"}
+      - {who: teta, ar: "طَيِّب. بُكْرا فيك تِجي مَعي عَالسّوق. بَسّ لازِم تْفيق بَكّير!", tr: "ṭayyib. bukra fīk tiji ma3i 3as-sūʔ. bass lāzim tfīʔ bakkīr!", lit: "good. tomorrow in-you you-come with-me to-the-market. but necessary you-wake early", en: "All right. Tomorrow you can come to the souk with me. But you'll have to get up early!"}
+      - {who: adam, ar: "قَدّيش بَكّير؟", tr: "ʔaddēš bakkīr?", lit: "how-much early?", en: "How early?"}
+      - {who: teta, ar: "السّاعة سِتّة. الخُضْرة الطّازة بْتِخْلَص بَكّير!", tr: "is-sā3a sitte. il-xuḍra iṭ-ṭāza btixlaṣ bakkīr!", lit: "the-hour six. the-vegetables the-fresh it-ends early", en: "Six o'clock. The fresh vegetables run out early!"}
+    notes:
+      - {line: 1, ar: "فيني اِحْمِل", tr: "fīni ʔiḥmil", topic: grammar, text: "{فيني|fīni} 'I can', literally 'in me': fī- 'in' + an ending. {فيك|fīk} 'you can' (line 6), {فيكي|fīki} to a woman, {فيه|fī} 'he can'. The verb after it has no b-: {فيني اِحْمِل|fīni ʔiḥmil} 'can I carry?'. Negative: {ما فيني|mā fīni} 'I can't'."}
+      - {line: 1, ar: "عَنِّك", tr: "3annik", topic: vocab, text: "{عَن|3an} 'about' (lesson 16) also means 'for, in place of': {اِحْمِل عَنِّك|ʔiḥmil 3annik} 'carry it for you'. {حَمَل|ḥamal} 'to carry'."}
+      - {line: 2, ar: "ما بِقْدِر", tr: "mā biʔdir", topic: grammar, text: "{قِدِر|ʔidir} 'to be able' (ق said ʔ): {بِقْدِر|biʔdir} 'I can', {ما بِقْدِر|mā biʔdir} 'I can't'. It means the same as fīni, and also takes a verb without b-: {ما بِقْدِر اِطْلَع|mā biʔdir ʔiṭla3} 'I can't go up'."}
+      - {line: 2, ar: "الدَّرَج… هالأَكْياس", tr: "id-daraj… hal-ʔakyās", topic: vocab, text: "{دَرَج|daraj} 'stairs'. {كيس|kīs} 'bag', plural {أَكْياس|ʔakyās}. {اِطْلَع الدَّرَج|ʔiṭla3 id-daraj} 'go up the stairs', with {طِلِع|ṭili3} (lesson 15)."}
+      - {line: 3, ar: "رِحْتي… لازِم تاخْديني", tr: "riḥti… lāzim tāxdīni", topic: grammar, text: "{رِحْتي|riḥti} 'you went' (to a woman), -ti as in the table of lesson 12. {لازِم|lāzim} 'must, have to' + the verb without b-: {لازِم تاخْديني|lāzim tāxdīni} 'you must take me'. lāzim never changes. {تاخْدي|tāxdi} 'you (f) take' + -ni 'me'."}
+      - {line: 4, ar: "عَرَبي", tr: "3arabi", topic: vocab, text: "{عَرَبي|3arabi} 'Arabic' and 'Arab'. 'To speak Arabic' is {حَكى عَرَبي|ḥaka 3arabi}, with no article."}
+      - {line: 5, ar: "بِنَفْس الوَقْت", tr: "b-nafs il-waʔt", topic: vocab, text: "'At the same time': {نَفْس|nafs} 'same' (lesson 23), {وَقْت|waʔt} 'time' (MSA waqt, ق said ʔ). {فيني اِدْرُس واِحْمِل|fīni ʔidrus w-iḥmil}: one fīni covers both verbs."}
+      - {line: 6, ar: "فيك تِجي… بَكّير", tr: "fīk tiji… bakkīr", topic: grammar, text: "'You can come': {فيك|fīk} + the verb without b-. {بَكّير|bakkīr} 'early'; 'late' is {مِتْأَخِّر|mitʔaxxir} (lesson 20)."}
+      - {line: 6, ar: "تْفيق", tr: "tfīʔ", topic: vocab, text: "{فاق|fāʔ} 'to wake up' (ق said ʔ): {لازِم تْفيق بَكّير|lāzim tfīʔ bakkīr} 'you'll have to get up early'."}
+      - {line: 8, ar: "بْتِخْلَص", tr: "btixlaṣ", topic: vocab, text: "{خِلِص|xiliṣ} 'to be over' (lesson 17) also means 'to run out': {الخُضْرة بْتِخْلَص|il-xuḍra btixlaṣ} 'the vegetables run out'. On its own, {خَلَص!|xalaṣ!} means 'that's it, enough, done!'."}
+    sections:
+      - title: "Can, must"
+        table:
+          head: ["", "Shami", ""]
+          rows:
+            - ["I can talk", "fīni ʔiḥki · biʔdir ʔiḥki", "فيني اِحْكي · بِقْدِر اِحْكي"]
+            - ["can you come?", "fīk tiji? · btiʔdir tiji?", "فيك تِجي؟"]
+            - ["I can't sleep", "mā fīni nām · mā biʔdir nām", "ما فيني نام"]
+            - ["I must study", "lāzim ʔidrus", "لازِم اِدْرُس"]
+            - ["you don't have to come", "mā lāzim tiji", "ما لازِم تِجي"]
+        after: "mā lāzim means 'there's no need'. To forbid, use an order: lā tiji 'don't come'."
+    words:
+      - {ar: "فيني", tr: "fīni", en: "I can"}
+      - {ar: "حمل", tr: "ḥamal (biḥmil)", en: "to carry"}
+      - {ar: "قدر", tr: "ʔidir (biʔdir)", en: "to be able, can"}
+      - {ar: "درج", tr: "daraj", en: "stairs"}
+      - {ar: "كيس، أكياس", tr: "kīs, ʔakyās", en: "bag, bags"}
+      - {ar: "لازم", tr: "lāzim", en: "must, have to"}
+      - {ar: "عربي", tr: "3arabi", en: "Arabic; Arab"}
+      - {ar: "وقت", tr: "waʔt", en: "time"}
+      - {ar: "بكّير", tr: "bakkīr", en: "early"}
+      - {ar: "فاق", tr: "fāʔ (bfīʔ)", en: "to wake up"}
+      - {ar: "خلص", tr: "xalaṣ!", en: "that's it, enough!"}
+    practice:
+      translate:
+        - {ar: "فيني إجي معك؟", tr: "fīni ʔiji ma3ak?", en: "Can I come with you?"}
+        - {ar: "ما بقدر نام.", tr: "mā biʔdir nām.", en: "I can't sleep."}
+        - {ar: "لازم نروح هلّق.", tr: "lāzim nrūḥ hallaʔ.", en: "We have to go now."}
+        - {ar: "ما لازم تحمل كلّ شي لحالك.", tr: "mā lāzim tiḥmil kill šī la-ḥālak.", en: "You don't have to carry everything on your own."}
+      fill:
+        - {tr: "___ ʔiḥmil 3annik? (can I)", answer: "fīni", en: "Can I carry it for you?"}
+        - {tr: "mā ___ ʔiṭla3. (I can)", answer: "biʔdir", en: "I can't go up."}
+        - {tr: "___ tfīʔ bakkīr. (must)", answer: "lāzim", en: "You have to get up early."}
+        - {tr: "b-nafs il-___", answer: "waʔt", en: "at the same time"}
+
+  - id: L025
+    n: 25
+    title: {ar: "عَاليَمين", tr: "3al-yamīn", en: "On the right"}
+    scene: "A yellow taxi from Mezze to the old city. Adam, alone, gives the directions."
+    lines:
+      - {who: adam, ar: "مَرْحَبا. لَباب توما، إذا بِتْريد.", tr: "marḥaba. la-Bāb Tūma, ʔiza bitrīd.", lit: "hello. to-Bab Tuma, if you-want", en: "Hello. To Bāb Tūma, please."}
+      - {who: sofer, ar: "تِكْرَم! إنْتَ مو مِن هَوْن، صَحّ؟", tr: "tikram! ʔinte mū min hōn, ṣaḥḥ?", lit: "you-be-honoured! you not from here, right?", en: "Certainly! You're not from here, are you?"}
+      - {who: adam, ar: "أنا مِن باريس، بَسّ أَبوي شامي. بَيْت سِتّي بْباب توما.", tr: "ʔana min Bārīs, bass ʔabūy šāmi. bēt sitti b-Bāb Tūma.", lit: "I from Paris, but father-my Damascene. house grandmother-my in-Bab Tuma", en: "I'm from Paris, but my father's from Damascus. My grandmother's house is in Bāb Tūma."}
+      - {who: sofer, ar: "أَهْلا وْسَهْلا! وَيْن بِالزَّبْط؟", tr: "ʔahla w-sahla! wēn biz-zabṭ?", lit: "welcome! where exactly?", en: "Welcome! Where exactly?"}
+      - {who: adam, ar: "بَعْد الباب، خود عَاليَمين، وبَعْدين دُغْري. البَيْت حَدّ الكَنيسة.", tr: "ba3d il-bāb, xōd 3al-yamīn, w-ba3dēn duɣri. il-bēt ḥadd il-kanīse.", lit: "after the-gate, take to-the-right, and-then straight. the-house by the-church", en: "After the gate, turn right, then straight on. The house is next to the church."}
+      - {who: sofer, ar: "هَوْن؟ قُدّام الفُرْن؟", tr: "hōn? ʔuddām il-furn?", lit: "here? in-front-of the-bakery?", en: "Here? In front of the bakery?"}
+      - {who: adam, ar: "لأ، شْوَيّ كَمان... اي، هَوْن! وْقَف هَوْن، لَوْ سَمَحْت.", tr: "laʔ, šwayy kamān... ʔē, hōn! wʔaf hōn, law samaḥt.", lit: "no, a-little more... yes, here! stop here, if you-allowed", en: "No, a bit further... yes, here! Stop here, please."}
+      - {who: sofer, ar: "تِكْرَم. الله مَعَك، وسَلِّمْلي عَسِتَّك!", tr: "tikram. ʔalla ma3ak, w-sallimli 3a-sittak!", lit: "you-be-honoured. God with-you, and-greet-for-me on-grandmother-your", en: "Certainly. Take care, and say hello to your grandmother!"}
+    notes:
+      - {line: 1, ar: "لَباب توما", tr: "la-Bāb Tūma", topic: grammar, text: "{لَـ|la-} 'to' (lesson 9) before a place: {لَباب توما|la-Bāb Tūma} 'to Bāb Tūma'. You will also hear {عَـ|3a-}: {عَباب توما|3a-Bāb Tūma}. 'From' is {مِن|min} (line 2)."}
+      - {line: 1, ar: "باب توما", tr: "Bāb Tūma", topic: culture, text: "{باب توما|Bāb Tūma} 'Thomas's Gate': one of the Roman gates of the old city, and the name of the quarter behind it, with its narrow lanes, churches and courtyard houses."}
+      - {line: 2, ar: "تِكْرَم", tr: "tikram", topic: culture, text: "{تِكْرَم|tikram} 'you shall be honoured': the courteous 'certainly, of course' of drivers and shopkeepers. To a woman {تِكْرَمي|tikrami}."}
+      - {line: 2, ar: "مو مِن هَوْن، صَحّ؟", tr: "mū min hōn, ṣaḥḥ?", topic: grammar, text: "{مِن|min} 'from': {مِن هَوْن|min hōn} 'from here', {مِن باريس|min Bārīs}. {صَحّ؟|ṣaḥḥ?} at the end asks for agreement, like 'right?' or 'n'est-ce pas ?'."}
+      - {line: 3, ar: "أَبوي… بَيْت سِتّي", tr: "ʔabūy… bēt sitti", topic: culture, text: "With a stranger, Adam says {أَبوي|ʔabūy} 'my father' and {سِتّي|sitti} 'my grandmother', the ordinary words. {بابا|bāba} and {تيتا|tēta} are for inside the family."}
+      - {line: 4, ar: "بِالزَّبْط", tr: "biz-zabṭ", topic: vocab, text: "{بِالزَّبْط|biz-zabṭ} 'exactly'. A Damascene favourite, also as a one-word answer: {بِالزَّبْط!|biz-zabṭ!} 'exactly!'."}
+      - {line: 5, ar: "خود عَاليَمين… دُغْري", tr: "xōd 3al-yamīn… duɣri", topic: vocab, text: "Directions: {خود عَاليَمين|xōd 3al-yamīn} 'take a right', {عَالشْمال|3aš-šmāl} 'to the left', {دُغْري|duɣri} 'straight on' (from Turkish). {بَعْد|ba3d} 'after': {بَعْد الباب|ba3d il-bāb} 'after the gate'."}
+      - {line: 5, ar: "حَدّ الكَنيسة", tr: "ḥadd il-kanīse", topic: vocab, text: "{حَدّ|ḥadd} 'next to, by', like {جَنْب|jamb} (lesson 23). {كَنيسة|kanīse} 'church'."}
+      - {line: 6, ar: "قُدّام الفُرْن", tr: "ʔuddām il-furn", topic: grammar, text: "Place words go straight before the noun: {قُدّام|ʔuddām} 'in front of', {وَرا|wara} 'behind', {فوق|fōʔ} 'above, upstairs', {تَحْت|taḥt} 'under, downstairs'. {فُرْن|furn} 'bakery, oven'."}
+      - {line: 7, ar: "وْقَف… لَوْ سَمَحْت", tr: "wʔaf… law samaḥt", topic: vocab, text: "{وْقَف|wʔaf} 'stop!'. {لَوْ سَمَحْت|law samaḥt} 'if you allow': another 'please', a little more formal than {إذا بِتْريد|ʔiza bitrīd}. {شْوَيّ كَمان|šwayy kamān} 'a bit further, a bit more'."}
+      - {line: 8, ar: "الله مَعَك", tr: "ʔalla ma3ak", topic: culture, text: "'God be with you': goodbye to someone who is leaving. {سَلِّمْلي عَسِتَّك|sallimli 3a-sittak} 'say hello to your grandmother': {عَلى|3ala} shortens to {عَـ|3a-}."}
+    sections:
+      - title: "Where?"
+        table:
+          head: ["", "Shami", ""]
+          rows:
+            - ["next to", "jamb · ḥadd", "جَنْب · حَدّ"]
+            - ["in front of", "ʔuddām", "قُدّام"]
+            - ["behind", "wara", "وَرا"]
+            - ["above, upstairs", "fōʔ", "فوق"]
+            - ["under, downstairs", "taḥt", "تَحْت"]
+            - ["between", "bēn", "بَيْن"]
+            - ["inside", "juwwa", "جُوّا"]
+            - ["outside", "barra", "بَرّا"]
+            - ["to the right / left", "3al-yamīn / 3aš-šmāl", "عَاليَمين / عَالشْمال"]
+            - ["straight on", "duɣri", "دُغْري"]
+    words:
+      - {ar: "شوفير", tr: "šofēr", en: "driver"}
+      - {ar: "تكرم", tr: "tikram", en: "certainly, of course"}
+      - {ar: "من", tr: "min", en: "from; since"}
+      - {ar: "صحّ", tr: "ṣaḥḥ", en: "right, correct"}
+      - {ar: "بالزبط", tr: "biz-zabṭ", en: "exactly"}
+      - {ar: "يمين، شمال", tr: "yamīn, šmāl", en: "right, left"}
+      - {ar: "دغري", tr: "duɣri", en: "straight on"}
+      - {ar: "بعد", tr: "ba3d", en: "after"}
+      - {ar: "حدّ", tr: "ḥadd", en: "next to, by"}
+      - {ar: "كنيسة", tr: "kanīse", en: "church"}
+      - {ar: "قدّام", tr: "ʔuddām", en: "in front of"}
+      - {ar: "فرن", tr: "furn", en: "bakery; oven"}
+      - {ar: "لو سمحت", tr: "law samaḥt", en: "please, excuse me"}
+    practice:
+      translate:
+        - {ar: "البيت ورا الجامع.", tr: "il-bēt wara l-jāmi3.", en: "The house is behind the mosque."}
+        - {ar: "خود عالشمال، لو سمحت.", tr: "xōd 3aš-šmāl, law samaḥt.", en: "Turn left, please."}
+        - {ar: "تيتا فوق، وسامي تحت.", tr: "tēta fōʔ, w-Sāmi taḥt.", en: "Tēta is upstairs, and Sāmi is downstairs."}
+        - {ar: "إنتي مو من هون، صحّ؟", tr: "ʔinti mū min hōn, ṣaḥḥ?", en: "You're not from here, are you? (to a woman)"}
+      fill:
+        - {tr: "xōd 3al-___", answer: "yamīn", en: "Turn right."}
+        - {tr: "w-ba3dēn ___", answer: "duɣri", en: "and then straight on"}
+        - {tr: "___ il-furn", answer: "ʔuddām", en: "in front of the bakery"}
+        - {tr: "wʔaf hōn, law ___", answer: "samaḥt", en: "Stop here, please."}
+
+  - id: L026
+    n: 26
+    title: {ar: "شِفْتو؟", tr: "šifto?", en: "Have you seen it?"}
+    scene: "Nine in the morning. Adam has to go out, and the house key has vanished."
+    lines:
+      - {who: adam, ar: "لينا، شِفْتي المُفْتاح؟ ما لَقَيْتو.", tr: "Līna, šifti il-muftāḥ? mā laʔēto.", lit: "Lina, you(f)-saw the-key? not I-found-it", en: "Līna, have you seen the key? I can't find it."}
+      - {who: lina, ar: "أَيّا مُفْتاح؟ مُفْتاح البَيْت؟", tr: "ʔayya muftāḥ? muftāḥ il-bēt?", lit: "which key? key the-house?", en: "Which key? The house key?"}
+      - {who: adam, ar: "اي. حَطّيْتو هَوْن عَالطّاوْلة مْبارِح، وهَلّق ما في!", tr: "ʔē. ḥaṭṭēto hōn 3aṭ-ṭāwle mbāriḥ, w-hallaʔ mā fī!", lit: "yes. I-put-it here on-the-table yesterday, and-now not there-is", en: "Yes. I put it here on the table yesterday, and now it's gone!"}
+      - {who: lina, ar: "سَأَلْت تيتا؟ يِمْكِن شافِتو.", tr: "saʔalt tēta? yimkin šāfíto.", lit: "you-asked grandma? maybe she-saw-it", en: "Did you ask Tēta? Maybe she's seen it."}
+      - {who: adam, ar: "سَأَلْتا، وقالِتْلي: ما شِفْتو!", tr: "saʔalta, w-ʔālítli: mā šífto!", lit: "I-asked-her, and-she-said-to-me: not I-saw-it", en: "I asked her, and she said: I haven't seen it!"}
+      - {who: lina, ar: "آدَم... شو هاد بْإيدَك؟", tr: "ʔādam... šū hād b-ʔīdak?", lit: "Adam... what this in-hand-your?", en: "Adam... what's that in your hand?"}
+      - {who: adam, ar: "... المُفْتاح! مِن الصُّبْح بْإيدي!", tr: "... il-muftāḥ! min iṣ-ṣubḥ b-ʔīdi!", lit: "... the-key! from the-morning in-hand-my", en: "... The key! It's been in my hand since this morning!"}
+      - {who: lina, ar: "حُطّو بْجَيْبْتَك، وخَلّيه هْنيك!", tr: "ḥuṭṭo b-jēbtak, w-xallīh hnīk!", lit: "put-it in-pocket-your, and-leave-it there", en: "Put it in your pocket, and leave it there!"}
+    notes:
+      - {line: 1, ar: "شِفْتي المُفْتاح؟", tr: "šifti il-muftāḥ?", topic: grammar, text: "{شِفْتي|šifti} 'did you see?' (to a woman). {مُفْتاح|muftāḥ} 'key', from the root f-t-ḥ 'open': {فَتَح|fataḥ} 'to open'."}
+      - {line: 1, ar: "ما لَقَيْتو", tr: "mā laʔēto", topic: grammar, text: "'I didn't find it': {لَقى|laʔa} 'to find' (ق said ʔ) → {لَقَيْت|laʔēt} 'I found' + -o 'it' = {لَقَيْتو|laʔēto}. Objects are endings on the verb, the same set as on nouns, with -ni for 'me'. The table is below the dialogue."}
+      - {line: 2, ar: "أَيّا مُفْتاح؟", tr: "ʔayya muftāḥ?", topic: vocab, text: "{أَيّا|ʔayya} 'which?' + a noun. {مُفْتاح البَيْت|muftāḥ il-bēt} 'the house key': two nouns side by side again (lesson 23)."}
+      - {line: 3, ar: "حَطّيْتو", tr: "ḥaṭṭēto", topic: grammar, text: "{حَطّ|ḥaṭṭ} 'to put'. Verbs with a doubled last letter, like ḥaṭṭ and {حَبّ|ḥabb}, add -ē- before the past endings: {حَطّيْت|ḥaṭṭēt} 'I put', + -o = {حَطّيْتو|ḥaṭṭēto} 'I put it'. 'Put!' is {حُطّ|ḥuṭṭ} (line 8)."}
+      - {line: 4, ar: "سَأَلْت… يِمْكِن", tr: "saʔalt… yimkin", topic: vocab, text: "{سَأَل|saʔal} 'to ask' keeps its hamza. {يِمْكِن|yimkin} 'maybe, perhaps'."}
+      - {line: 4, ar: "شافِتو", tr: "šāfíto", topic: sound, text: "Stress moves to the ending: {شافِت|šāfit} 'she saw' (stress on šā) + -o → {شافِتو|šāfíto} 'she saw it', stressed on fí. Listen for it in the audio; the transcription marks it because it is not where you would guess."}
+      - {line: 5, ar: "سَأَلْتا… قالِتْلي", tr: "saʔalta… ʔālítli", topic: grammar, text: "-a 'her': {سَأَلْت|saʔalt} + -a = {سَأَلْتا|saʔalta} 'I asked her'. {قالِتْلي|ʔālítli} 'she told me': {قالِت|ʔālit} 'she said' + -li 'to me'. In her own words Tēta said {ما شِفْتو|mā šífto} 'I didn't see it'."}
+      - {line: 6, ar: "بْإيدَك", tr: "b-ʔīdak", topic: vocab, text: "{إيد|ʔīd} 'hand': {بْإيدَك|b-ʔīdak} 'in your hand', {بْإيدي|b-ʔīdi} 'in my hand'."}
+      - {line: 7, ar: "مِن الصُّبْح", tr: "min iṣ-ṣubḥ", topic: vocab, text: "{مِن|min} 'from' also means 'since': {مِن الصُّبْح|min iṣ-ṣubḥ} 'since this morning'. {الصُّبْح|iṣ-ṣubḥ} 'the morning'."}
+      - {line: 8, ar: "حُطّو بْجَيْبْتَك… خَلّيه", tr: "ḥuṭṭo b-jēbtak… xallīh", topic: grammar, text: "Orders take the same endings: {حُطّو|ḥuṭṭo} 'put it', {خَلّيه|xallīh} 'leave it'. {جَيْبة|jēbe} 'pocket' shows its t: {جَيْبْتَك|jēbtak} 'your pocket'."}
+    sections:
+      - title: "Object endings"
+        text: "šāf 'he saw' + who was seen:"
+        table:
+          head: ["", "Shami", ""]
+          rows:
+            - ["he saw me", "šāfni", "شافْني"]
+            - ["he saw you (m)", "šāfak", "شافَك"]
+            - ["he saw you (f)", "šāfik", "شافِك"]
+            - ["he saw him, it", "šāfo", "شافو"]
+            - ["he saw her", "šāfa", "شافا"]
+            - ["he saw us", "šāfna", "شافْنا"]
+            - ["he saw you (pl)", "šāfkun", "شافْكُن"]
+            - ["he saw them", "šāfhun", "شافْهُن"]
+        after: "The noun endings again (bēti, bētak, bēto…), with -ni instead of -i for 'me'. After an ending, the stress often moves: šāfit → šāfíto, katabit → katabíto."
+    words:
+      - {ar: "مفتاح", tr: "muftāḥ", en: "key"}
+      - {ar: "لقى", tr: "laʔa (laʔēt)", en: "to find"}
+      - {ar: "أيّا", tr: "ʔayya", en: "which"}
+      - {ar: "حطّ", tr: "ḥaṭṭ (ḥaṭṭēt)", en: "to put"}
+      - {ar: "سأل", tr: "saʔal", en: "to ask"}
+      - {ar: "يمكن", tr: "yimkin", en: "maybe"}
+      - {ar: "إيد", tr: "ʔīd", en: "hand"}
+      - {ar: "صبح", tr: "ṣubḥ", en: "morning"}
+      - {ar: "جيبة", tr: "jēbe", en: "pocket"}
+      - {ar: "خلّى", tr: "xalla (xallīh)", en: "to leave, let"}
+      - {ar: "فتح", tr: "fataḥ", en: "to open"}
+    practice:
+      translate:
+        - {ar: "شفتو مبارح.", tr: "šifto mbāriḥ.", en: "I saw him yesterday."}
+        - {ar: "تيتا شافتني.", tr: "tēta šāfitni.", en: "Tēta saw me."}
+        - {ar: "وين حطّيتو؟", tr: "wēn ḥaṭṭēto?", en: "Where did you put it?"}
+        - {ar: "سألتا وما ردّت.", tr: "saʔalta w-mā raddit.", en: "I asked her and she didn't answer."}
+      fill:
+        - {tr: "mā laʔē___ (it)", answer: "to", en: "I didn't find it."}
+        - {tr: "šāf___ (me)", answer: "ni", en: "He saw me."}
+        - {tr: "saʔalt___ (her)", answer: "a", en: "I asked her."}
+        - {tr: "___ b-jēbtak! (put it)", answer: "ḥuṭṭo", en: "Put it in your pocket!"}
+
+  - id: L027
+    n: 27
+    title: {ar: "قِلّي", tr: "ʔilli", en: "Tell me"}
+    scene: "Late at night in the courtyard. Līna wants to know everything."
+    lines:
+      - {who: lina, ar: "قِلّي يا آدَم، في حَدا بْباريس؟", tr: "ʔilli yā ʔādam, fī ḥada b-Bārīs?", lit: "tell-me O Adam, there-is someone in-Paris?", en: "Tell me, Adam, is there someone in Paris?"}
+      - {who: adam, ar: "شو قَصْدِك؟", tr: "šū ʔaṣdik?", lit: "what intention-your(f)?", en: "What do you mean?"}
+      - {who: lina, ar: "يَعْني... صَبِيّة. بْتِحْكي مَعَك كِلّ يوم؟", tr: "ya3ni... ṣabiyye. btiḥki ma3ak kill yōm?", lit: "means... young-woman. she-talks with-you every day?", en: "I mean... a girl. Does she talk to you every day?"}
+      - {who: adam, ar: "في رْفيقة، اِسْمْها سارة. بَسّ ما في شي بَيْناتْنا.", tr: "fī rfīʔa, ʔismha Sāra. bass mā fī šī bēnātna.", lit: "there-is friend(f), name-her Sara. but not there-is thing between-us", en: "There's a friend, her name's Sāra. But there's nothing between us."}
+      - {who: lina, ar: "اي اي... وشو قالَّك أَبوك عَنْها؟", tr: "ʔē ʔē... w-šū ʔāllak ʔabūk 3anha?", lit: "yes yes... and-what he-said-to-you father-your about-her?", en: "Sure, sure... And what did your father say to you about her?"}
+      - {who: adam, ar: "قَلّي «مْنيحة». بَسّ عَنِّك إنْتي، ما قَلّي وَلا كِلْمة!", tr: "ʔalli «mnīḥa». bass 3annik ʔinti, mā ʔalli wala kilme!", lit: "he-said-to-me nice. but about-you you, not he-said-to-me not-even word", en: "He told me 'she's nice'. But about you, he never told me a single word!"}
+      - {who: lina, ar: "مَعْقول؟ أنا بِنْت أَخوه!", tr: "ma3ʔūl? ʔana bint ʔaxū!", lit: "reasonable? I daughter brother-his", en: "Really? I'm his brother's daughter!"}
+      - {who: adam, ar: "لَإنّو ما بْيِحْكي عَن الشّام أَبَداً. كِلّ شي عَنْدو بِالقَلْب.", tr: "laʔinno mā byiḥki 3an iš-Šām ʔabadan. kill šī 3ando bil-ʔalb.", lit: "because not he-talks about the-Sham ever. all thing at-him in-the-heart", en: "Because he never talks about Damascus. He keeps everything in his heart."}
+    notes:
+      - {line: 1, ar: "قِلّي", tr: "ʔilli", topic: grammar, text: "'Tell me': {قول|ʔūl} 'say!' + -li 'to me' shrinks to {قِلّي|ʔilli}. To a woman {قوليلي|ʔūlīli}, to several {قولولي|ʔūlūli}. In the past: {قَلّي|ʔalli} 'he told me' (line 6), {قالَّك|ʔāllak} 'he told you' (line 5)."}
+      - {line: 1, ar: "في حَدا", tr: "fī ḥada", topic: vocab, text: "{حَدا|ḥada} 'someone, anyone': {في حَدا؟|fī ḥada?} 'is there someone?'. {ما في حَدا|mā fī ḥada} 'there's nobody'."}
+      - {line: 2, ar: "شو قَصْدِك؟", tr: "šū ʔaṣdik?", topic: vocab, text: "{قَصْد|ʔaṣd} 'intention, meaning' (ق said ʔ): {شو قَصْدِك؟|šū ʔaṣdik?} 'what do you mean?' (to a woman)."}
+      - {line: 3, ar: "بْتِحْكي مَعَك", tr: "btiḥki ma3ak", topic: grammar, text: "Little words take the same endings as nouns: {مَعَك|ma3ak} 'with you', {مَعي|ma3i} 'with me', {مَعْها|ma3ha} 'with her'. The same set goes on {عَن|3an}, {لَـ|la-}, {عَلى|3ala} and {في|fī}: the table is below the dialogue."}
+      - {line: 4, ar: "رْفيقة، اِسْمْها سارة", tr: "rfīʔa, ʔismha Sāra", topic: vocab, text: "{رْفيق|rfīʔ} 'friend', f {رْفيقة|rfīʔa}. Like English 'girlfriend', rfīʔa can mean more, which is why Līna smiles. {اِسِم|ʔisim} 'name' + -ha: {اِسْمْها|ʔismha} 'her name'."}
+      - {line: 4, ar: "بَيْناتْنا", tr: "bēnātna", topic: vocab, text: "{بَيْن|bēn} 'between'; with endings it becomes {بَيْنات|bēnāt-}: {بَيْناتْنا|bēnātna} 'between us'. {ما في شي|mā fī šī} 'there's nothing'."}
+      - {line: 5, ar: "قالَّك… عَنْها", tr: "ʔāllak… 3anha", topic: grammar, text: "{قال|ʔāl} 'he said' + -lak 'to you' = {قالَّك|ʔāllak} 'he told you'. {عَنْها|3anha} 'about her'."}
+      - {line: 6, ar: "ما قَلّي وَلا كِلْمة", tr: "mā ʔalli wala kilme", topic: grammar, text: "{وَلا|wala} 'not even (one)': {وَلا كِلْمة|wala kilme} 'not a single word'. {كِلْمة|kilme} 'word'. {قَلّي|ʔalli} 'he told me': ʔāl + -li, with the ā shortened."}
+      - {line: 7, ar: "بِنْت أَخوه", tr: "bint ʔaxū", topic: culture, text: "'His brother's daughter': there is no single word for 'niece'. Līna is {بِنْت أَخو|bint ʔaxu} to Nabīl, and {بِنْت عَمّ|bint 3amm} to Adam."}
+      - {line: 8, ar: "بِالقَلْب", tr: "bil-ʔalb", topic: vocab, text: "{قَلْب|ʔalb} 'heart' (ق said ʔ): {كِلّ شي عَنْدو بِالقَلْب|kill šī 3ando bil-ʔalb} 'he keeps everything in his heart'. Compare {عَلى قَلْبَك|3ala ʔalbak} (lesson 10)."}
+    sections:
+      - title: "Little words with endings"
+        table:
+          head: ["", "with", "about", "to, for", "on"]
+          rows:
+            - ["me", "ma3i", "3anni", "ʔili, -li", "3alayy"]
+            - ["you (m)", "ma3ak", "3annak", "ʔilak, -lak", "3alēk"]
+            - ["you (f)", "ma3ik", "3annik", "ʔilik, -lik", "3alēki"]
+            - ["him", "ma3o", "3anno", "ʔilo, -lo", "3alē"]
+            - ["her", "ma3ha", "3anha", "ʔila, -la", "3alēha"]
+            - ["us", "ma3na", "3anna", "ʔilna, -lna", "3alēna"]
+            - ["you (pl)", "ma3kun", "3ankun", "ʔilkun, -lkun", "3alēkun"]
+            - ["them", "ma3hun", "3anhun", "ʔilhun, -lhun", "3alēhun"]
+        after: "ʔil- stands alone ('mine, yours': hayy ʔili 'this is mine'); -l- glues onto a verb ('to me': ʔalli 'he told me')."
+    words:
+      - {ar: "قلّي", tr: "ʔilli", en: "tell me"}
+      - {ar: "حدا", tr: "ḥada", en: "someone, anyone"}
+      - {ar: "قصد", tr: "ʔaṣd", en: "intention, meaning"}
+      - {ar: "رفيق، رفيقة", tr: "rfīʔ, rfīʔa", en: "friend"}
+      - {ar: "اسم", tr: "ʔisim", en: "name"}
+      - {ar: "بين", tr: "bēn", en: "between"}
+      - {ar: "ولا", tr: "wala", en: "not even"}
+      - {ar: "كلمة", tr: "kilme", en: "word"}
+      - {ar: "قلب", tr: "ʔalb", en: "heart"}
+      - {ar: "على", tr: "3ala", en: "on"}
+    practice:
+      translate:
+        - {ar: "قلّي الحقيقة!", tr: "ʔilli l-ḥaʔīʔa!", en: "Tell me the truth!"}
+        - {ar: "ما في حدا هون.", tr: "mā fī ḥada hōn.", en: "There's nobody here."}
+        - {ar: "شو قلّك؟", tr: "šū ʔallak?", en: "What did he tell you?"}
+        - {ar: "عم نحكي عنكن.", tr: "3am-niḥki 3ankun.", en: "We're talking about you (pl)."}
+      fill:
+        - {tr: "___ yā ʔādam! (tell me)", answer: "ʔilli", en: "Tell me, Adam!"}
+        - {tr: "fī ___ b-Bārīs?", answer: "ḥada", en: "Is there someone in Paris?"}
+        - {tr: "mā ʔalli wala ___", answer: "kilme", en: "He didn't tell me a single word."}
+        - {tr: "btiḥki ___ kill yōm? (with you)", answer: "ma3ak", en: "Does she talk to you every day?"}
+
+  - id: L028
+    n: 28
+    review: true
+    title: {ar: "مُراجَعة", tr: "murāja3a", en: "Revision 4"}
+    scene: "Evening. Adam is typing on his phone when Tēta sits down next to him."
+    sections:
+      - title: "One set of endings for everything"
+        table:
+          head: ["", "noun (bēt)", "verb (šāf)", "with (ma3)", "to (-l-)"]
+          rows:
+            - ["me, my", "bēti", "šāfni", "ma3i", "-li"]
+            - ["you (m)", "bētak", "šāfak", "ma3ak", "-lak"]
+            - ["you (f)", "bētik", "šāfik", "ma3ik", "-lik"]
+            - ["him, his", "bēto", "šāfo", "ma3o", "-lo"]
+            - ["her", "bēta", "šāfa", "ma3ha", "-la"]
+            - ["us, our", "bētna", "šāfna", "ma3na", "-lna"]
+            - ["you (pl)", "bētkun", "šāfkun", "ma3kun", "-lkun"]
+            - ["them, their", "bēthun", "šāfhun", "ma3hun", "-lhun"]
+        after: "A noun in ة shows its t before an ending: ṣūra → ṣūrti 'my photo', jēbe → jēbtak 'your pocket'."
+      - title: "Two nouns side by side"
+        text: "bēt sitti 'my grandmother's house', ṣūrit ʔabūk 'your father's photo', muftāḥ il-bēt 'the house key'. The first noun has no il-; a ة shows its t."
+      - title: "One, two, many"
+        text: "bēḍ 'eggs' → bēḍa 'one egg' → bēḍtēn 'two eggs' → tlat bēḍāt 'three eggs' → tlātīn bēḍa 'thirty eggs'."
+      - title: "Can, must, where"
+        text: "fīni / biʔdir + verb 'I can'; lāzim + verb 'must'; mā lāzim 'no need'. ʔuddām, wara, fōʔ, taḥt, jamb, ḥadd, bēn; 3al-yamīn, 3aš-šmāl, duɣri."
+    lines:
+      - {who: teta, ar: "آدَم، تَعا لَجَنْبي. شو عَم تَعْمِل؟", tr: "ʔādam, ta3a la-jambi. šū 3am-ta3mil?", lit: "Adam, come to-next-to-me. what (now) you-do?", en: "Adam, come and sit by me. What are you doing?"}
+      - {who: adam, ar: "عَم اِكْتُب لَرْفيقْتي سارة. عَم اِحْكيلا عَن البَيْت وعَنِّك.", tr: "3am-iktub la-rfīʔti Sāra. 3am-iḥkīla 3an il-bēt w-3annik.", lit: "(now) I-write to-friend-my Sara. (now) I-tell-her about the-house and-about-you", en: "I'm writing to my friend Sāra. I'm telling her about the house and about you."}
+      - {who: teta, ar: "عَنّي أنا؟ وشو قِلْتِلّا؟", tr: "3anni ʔana? w-šū ʔiltilla?", lit: "about-me I? and-what you-said-to-her?", en: "About me? And what did you tell her?"}
+      - {who: adam, ar: "قِلْتِلّا: عَنْدي سِتّ حِلْوة كْتير، وبَيْتا فيه ياسْمين وبَحْرة.", tr: "ʔiltilla: 3andi sitt ḥilwe ktīr, w-bēta fī yāsmīn w-baḥra.", lit: "I-said-to-her: at-me grandmother lovely very, and-house-her in-it jasmine and-fountain", en: "I told her: I've got a lovely grandmother, and her house has jasmine and a fountain."}
+      - {who: teta, ar: "وإيمْتى رَح شوفا؟ فيك تْجيبْها عَالشّام؟", tr: "w-ʔēmta raḥ šūfa? fīk tjībha 3aš-Šām?", lit: "and-when going I-see-her? in-you you-bring-her to-the-Sham?", en: "And when am I going to see her? Can you bring her to Damascus?"}
+      - {who: adam, ar: "تيتا! هِيّ رْفيقة بَسّ!", tr: "tēta! hiyye rfīʔa bass!", lit: "grandma! she friend only", en: "Tēta! She's just a friend!"}
+      - {who: teta, ar: "اي، اي... وأَبوك كَمان قَلّي «رْفيقة بَسّ» عَن إمَّك!", tr: "ʔē, ʔē... w-ʔabūk kamān ʔalli «rfīʔa bass» 3an ʔimmak!", lit: "yes, yes... and-father-your also he-said-to-me friend only about mother-your", en: "Sure, sure... Your father told me 'just a friend' about your mother too!"}
+      - {who: adam, ar: "خَلَص تيتا، فْهِمْت!", tr: "xalaṣ tēta, fhimt!", lit: "enough grandma, I-understood", en: "All right, Tēta, I get it!"}
+    words:
+      - {ar: "فهم", tr: "fihim (fhimt)", en: "to understand"}
+      - {ar: "إمّ", tr: "ʔimm", en: "mother"}
+    practice:
+      translate:
+        - {ar: "فيك تجيبلي قهوة؟", tr: "fīk tjibli ʔahwe?", en: "Can you bring me a coffee?"}
+        - {ar: "لازم احكيلو.", tr: "lāzim iḥkīlo.", en: "I have to tell him."}
+        - {ar: "البيت ورا الكنيسة، عاليمين.", tr: "il-bēt wara l-kanīse, 3al-yamīn.", en: "The house is behind the church, on the right."}
+        - {ar: "عندي تلات صور لبيت ستّي.", tr: "3andi tlat ṣuwar la-bēt sitti.", en: "I have three photos of my grandmother's house."}
+      fill:
+        - {tr: "šū ʔilti___? (to her)", answer: "lla", en: "What did you tell her?"}
+        - {tr: "___ tjībha 3aš-Šām? (can you)", answer: "fīk", en: "Can you bring her to Damascus?"}
+        - {tr: "raḥ šūf___ (her)", answer: "a", en: "I'm going to see her."}
+        - {tr: "xalaṣ, ___! (I understood)", answer: "fhimt", en: "OK, I get it!"}
+
+  - id: B04
+    n: B4
+    bridge: true
+    title: {ar: "عَنْدي، في، ما", tr: "3andi, fī, mā", en: "Bridge 4 · Having, being, not"}
+    scene: "Having, 'there is', can, must and not: Shami does it with little words (3and, fī, fīni, lāzim, mā, mū); MSA mostly with verbs. Here are this week's sentences side by side."
+    sides:
+      - ref: [L022, 4]
+        msa: {ar: "لِأَنَّنا سَنَصْنَعُ العِجَّةَ غَدًا، وَالعِجَّةُ تَحْتاجُ إِلى بَيْضٍ كَثيرٍ!", tr: "li-ʔannanā sa-naṣna3u l-3ijjata ɣadan, wa-l-3ijjatu taḥtāju ʔilā bayḍin kathīrin!"}
+        hl:
+          - ["بِدّا", "bidda", "تَحْتاجُ إِلى", "taḥtāju ʔilā", words, "'Needs': Shami bidd- is both 'want' and 'need'. MSA has a verb, iḥtāja ʔilā 'to need', conjugated: taḥtāju 'she needs'."]
+          - ["بَيْض كْتير", "bēḍ ktīr", "بَيْضٍ كَثيرٍ", "bayḍin kathīrin", b1, "'Lots of eggs': ay → ē, th → t, endings dropped. Shami puts ktīr after the noun, as MSA does."]
+      - ref: [L022, 2]
+        msa: {ar: "أُريدُ كيلو طَماطِمَ، وَكيلو خِيارٍ، وَثَلاثينَ بَيْضَةً.", tr: "ʔurīdu kīlo ṭamāṭima, wa-kīlo xiyārin, wa-thalāthīna bayḍatan."}
+        hl:
+          - ["بَنَدورة", "banadōra", "طَماطِمَ", "ṭamāṭima", words, "'Tomatoes': Shami banadōra, from Italian pomodoro; MSA ṭamāṭim, from Spanish tomate. Both are borrowings."]
+          - ["تْلاتين بَيْضة", "tlātīn bēḍa", "ثَلاثينَ بَيْضَةً", "thalāthīna bayḍatan", b1, "The same rule in both: from 11 the noun is singular. MSA adds -tan; th → t and ay → ē in Shami."]
+      - ref: [L022, 6]
+        msa: {ar: "نَعَمْ، أَعْطِني رُمّانَتَيْنِ، مِنْ فَضْلِكَ.", tr: "na3am, ʔa3ṭinī rummānatayni, min faḍlika."}
+        hl:
+          - ["رُمّانْتَيْن", "rummāntēn", "رُمّانَتَيْنِ", "rummānatayni", b1, "The dual: MSA -ayni (or -āni as a subject), Shami -ēn: ay → ē once more."]
+          - ["إذا بِتْريد", "ʔiza bitrīd", "مِنْ فَضْلِكَ", "min faḍlika", words, "'Please': MSA min faḍlika 'out of your kindness'. Shami ʔiza bitrīd 'if you want'; min faḍlak is used too."]
+      - ref: [L024, 1]
+        msa: {ar: "يا جَدَّتي، هَلْ أَسْتَطيعُ أَنْ أَحْمِلَ عَنْكِ؟", tr: "yā jaddatī, hal ʔastaṭī3u ʔan ʔaḥmila 3anki?"}
+        hl:
+          - ["فيني", "fīni", "هَلْ أَسْتَطيعُ", "hal ʔastaṭī3u", can, "'Can I': Shami fīni, literally 'in me'. MSA uses a verb, istaṭā3a 'to be able': ʔastaṭī3u 'I can', with hal to ask."]
+          - ["اِحْمِل", "ʔiḥmil", "أَنْ أَحْمِلَ", "ʔan ʔaḥmila", mood, "The second verb: bare in Shami, with ʔan and -a in MSA, just as after 'want' (Bridge 2)."]
+      - ref: [L024, 2]
+        msa: {ar: "نَعَمْ يا بُنَيَّ، بارَكَ اللّٰهُ فيكَ. لا أَقْدِرُ أَنْ أَصْعَدَ الدَّرَجَ مَعَ هٰذِهِ الأَكْياسِ.", tr: "na3am yā bunayya, bāraka llāhu fīka. lā ʔaqdiru ʔan ʔaṣ3ada d-daraja ma3a hādhihi l-ʔakyāsi."}
+        hl:
+          - ["ما بِقْدِر", "mā biʔdir", "لا أَقْدِرُ", "lā ʔaqdiru", neg, "'I can't': the same verb, qadara; q said ʔ in Shami. Shami negates with mā, MSA with lā for the present."]
+          - ["اِطْلَع", "ʔiṭla3", "أَنْ أَصْعَدَ", "ʔan ʔaṣ3ada", words, "'Go up': Shami ṭili3, MSA ṣa3ida. In MSA ṭala3a is what the sun does: 'to rise'."]
+          - ["هالأَكْياس", "hal-ʔakyās", "هٰذِهِ الأَكْياسِ", "hādhihi l-ʔakyāsi", words, "'These bags': Shami hal- for any noun. MSA says hādhihi 'this (f)', because plurals of things count as feminine singular."]
+      - ref: [L024, 3]
+        msa: {ar: "لِماذا ذَهَبْتِ وَحْدَكِ؟ يَجِبُ أَنْ تَأْخُذيني مَعَكِ!", tr: "li-mādhā dhahabti waḥdaki? yajibu ʔan taʔxudhīnī ma3aki!"}
+        hl:
+          - ["لَحالِك", "la-ḥālik", "وَحْدَكِ", "waḥdaki", words, "'On your own': Shami la-ḥāl-, MSA waḥd-, with the same endings."]
+          - ["لازِم", "lāzim", "يَجِبُ أَنْ", "yajibu ʔan", must, "'Must': Shami lāzim + verb. MSA yajibu ʔan 'it is necessary that'. lāzim exists in MSA ('necessary'), but yajibu is the usual 'must'."]
+          - ["تاخْديني", "tāxdīni", "تَأْخُذيني", "taʔxudhīnī", b1, "'(You) take me': the same verb, the same -nī. MSA keeps the hamza and the dh: taʔxudhīnī."]
+      - ref: [L025, 2]
+        msa: {ar: "حاضِر! أَنْتَ لَسْتَ مِنْ هُنا، أَلَيْسَ كَذٰلِكَ؟", tr: "ḥāḍir! ʔanta lasta min hunā, ʔa-laysa kadhālika?"}
+        hl:
+          - ["مو مِن هَوْن", "mū min hōn", "لَسْتَ مِنْ هُنا", "lasta min hunā", neg, "'You're not from here': Shami mū, which never changes. MSA conjugates laysa: lasta 'you are not'."]
+          - ["صَحّ؟", "ṣaḥḥ?", "أَلَيْسَ كَذٰلِكَ؟", "ʔa-laysa kadhālika?", words, "'Right?': Shami ṣaḥḥ? 'correct?'. MSA 'is it not so?'."]
+      - ref: [L026, 1]
+        msa: {ar: "يا لينا، هَلْ رَأَيْتِ المِفْتاحَ؟ لَمْ أَجِدْهُ.", tr: "yā Līnā, hal raʔayti l-miftāḥa? lam ʔajidhu."}
+        hl:
+          - ["ما لَقَيْتو", "mā laʔēto", "لَمْ أَجِدْهُ", "lam ʔajidhu", neg, "'I didn't find it': Shami mā + past; MSA lam + a short present form, ʔajid. 'It' is -o in Shami, -hu in MSA."]
+      - ref: [L026, 3]
+        msa: {ar: "نَعَمْ. وَضَعْتُهُ هُنا عَلى الطّاوِلَةِ أَمْسِ، وَالآنَ لَيْسَ هُنا!", tr: "na3am. waḍa3tuhu hunā 3alā ṭ-ṭāwilati ʔamsi, wa-l-ʔāna laysa hunā!"}
+        hl:
+          - ["حَطّيْتو", "ḥaṭṭēto", "وَضَعْتُهُ", "waḍa3tuhu", words, "'I put it': Shami ḥaṭṭ, MSA waḍa3a. MSA ḥaṭṭa exists, but means 'to land, to set down'."]
+          - ["ما في", "mā fī", "لَيْسَ هُنا", "laysa hunā", there, "'It's gone': Shami mā fī 'there isn't (any)'. MSA laysa hunā 'it is not here'."]
+      - ref: [L027, 1]
+        msa: {ar: "قُلْ لي يا آدَمُ، هَلْ هُناكَ أَحَدٌ في باريسَ؟", tr: "qul lī yā ʔādamu, hal hunāka ʔaḥadun fī Bārīsa?"}
+        hl:
+          - ["قِلّي", "ʔilli", "قُلْ لي", "qul lī", b1, "'Tell me': MSA qul + lī, two words; Shami fuses them into one, ʔilli."]
+          - ["في حَدا", "fī ḥada", "هَلْ هُناكَ أَحَدٌ", "hal hunāka ʔaḥadun", there, "'Is there anyone': Shami fī; MSA hunāka 'there' (or yūjad, Bridge 1). ḥada and ʔaḥad are the same word."]
+      - ref: [L027, 8]
+        msa: {ar: "لِأَنَّهُ لا يَتَحَدَّثُ عَنِ الشّامِ أَبَدًا. يَحْتَفِظُ بِكُلِّ شَيْءٍ في قَلْبِهِ.", tr: "li-ʔannahu lā yataḥaddathu 3ani š-Šāmi ʔabadan. yaḥtafiẓu bi-kulli šayʔin fī qalbihi."}
+        hl:
+          - ["ما بْيِحْكي", "mā byiḥki", "لا يَتَحَدَّثُ", "lā yataḥaddathu", neg, "'He doesn't talk': mā in Shami, lā in MSA for the present."]
+          - ["عَنْدو", "3ando", "يَحْتَفِظُ بِ", "yaḥtafiẓu bi-", have, "Shami says 'everything is at him, in the heart', with 3and. MSA would use a verb, iḥtafaẓa bi- 'to keep'. For plain 'have', MSA says 3indahu or ladayhi."]
+    rules:
+      - id: have
+        title: "Having"
+        short: "having"
+        text: "MSA 3inda 'at' (3indī 'I have'), ladā (ladayya 'I have'), li- 'belongs to'. Shami 3and (3andi), ma3 (ma3i 'I have on me'), ʔil- (ʔili 'it's mine'). None of them is a verb."
+      - id: there
+        title: "There is"
+        short: "there is"
+        text: "MSA hunāka 'there (is)' or yūjad 'is found'. Shami fī, which never changes: fī, mā fī, fī ḥada?"
+      - id: neg
+        title: "Not"
+        short: "mā / mū / lā"
+        text: "Shami: mā before verbs, 3and, fī, bidd, fīni; mū before everything else; lā for orders. MSA: lā (present), lam (past), lan (future), laysa (not, with nouns and adjectives, conjugated: lastu, lasta…)."
+      - id: can
+        title: "Can"
+        short: "can"
+        text: "MSA istaṭā3a or qadara 'to be able', yumkin 'it is possible'. Shami fī- + ending (fīni) or ʔidir (biʔdir); yimkin means 'maybe'."
+      - id: must
+        title: "Must"
+        short: "must"
+        text: "MSA yajibu ʔan 'it is necessary that'. Shami lāzim + the verb without b-."
+      - id: mood
+        title: "No ʔan"
+        short: "no ʔan, no -a"
+        text: "After can, must and want, MSA needs ʔan and the ending -a; Shami just puts the bare verb (Bridge 2)."
+      - id: words
+        title: "Different words"
+        short: "other words"
+        text: "ṭili3 / ṣa3ida 'go up', ḥaṭṭ / waḍa3a 'put', la-ḥāl- / waḥd- 'alone', banadōra / ṭamāṭim 'tomatoes'."
+      - id: b1
+        title: "The sounds of Bridge 1"
+        short: "Bridge 1 sounds"
+        text: "q said ʔ, th → t, ay → ē, endings dropped: Bridge 1 applies everywhere."
+    practice:
+      fill:
+        - {tr: "MSA 3indī → Shami ___", answer: "3andi", en: "I have"}
+        - {tr: "MSA hunāka → Shami ___", answer: "fī", en: "there is"}
+        - {tr: "MSA ʔastaṭī3u ʔan ʔadhhaba → Shami ___", answer: "fīni rūḥ", en: "I can go"}
+        - {tr: "MSA yajibu ʔan nadrusa → Shami ___", answer: "lāzim nidrus", en: "we must study"}
+        - {tr: "MSA lastu ta3bān → Shami ___", answer: "mū ta3bān", en: "I'm not tired"}
+        - {tr: "MSA lam ʔajidhu → Shami ___", answer: "mā laʔēto", en: "I didn't find it"}
