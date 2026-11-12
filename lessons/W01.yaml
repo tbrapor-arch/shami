@@ -23,11 +23,14 @@ lessons:
       - {who: adam, ar: "الله يْسَلّمَك.", tr: "ʔalla ysallmak.", lit: "God keep-safe-you", en: "Thank you. (God keep you safe.)"}
       - {who: sami, ar: "أَهْلا وْسَهْلا فيك بِالشّام!", tr: "ʔahla w-sahla fīk biš-Šām!", lit: "welcome in-you in-the-Sham", en: "Welcome to Damascus!"}
     notes:
-      - {anchor: "ʔinte ʔādam?", text: "There is no word for 'am / is / are'. 'You Adam?' is a complete question; only the rising voice marks it. ʔana Sāmi = 'I am Sāmi'."}
-      - {anchor: "ʔinte", text: "ʔinte is 'you' to a man. To a woman it is ʔinti (lesson 5)."}
-      - {anchor: "ʔibn 3ammak", text: "Literally 'son of your father's brother'. Arabic names each cousin by the exact link. The ending -ak means 'your' (to a man)."}
-      - {anchor: "il-ḥamdilla 3as-salāme", text: "The fixed greeting for anyone who has just travelled or recovered from illness. The fixed answer is ʔalla ysallmak (to a woman: ʔalla ysallmik)."}
-      - {anchor: "biš-Šām", text: "iš-Šām is what Syrians call Damascus (and, more widely, the whole Levant). b- means 'in'."}
+      - {line: 1, ar: "اِنْتَ آدَم؟", tr: "ʔinte ʔādam?", topic: grammar, text: "No verb 'to be' in the present: two words side by side make a sentence. {أنا آدَم|ʔana ʔādam} 'I am Adam', {اِنْتَ سامي؟|ʔinte Sāmi?} 'are you Sāmi?'. A question keeps the same words; only the voice rises at the end. MSA works the same way: {أَنا آدَمُ|ʔanā ʔādamu}."}
+      - {line: 1, ar: "اِنْتَ", tr: "ʔinte", topic: grammar, text: "{اِنْتَ|ʔinte} 'you' to a man. To a woman: {اِنْتي|ʔinti} (lesson 5). Damascus says ʔinte where MSA says {أَنْتَ|ʔanta}."}
+      - {line: 2, ar: "اي", tr: "ʔē", topic: vocab, text: "{اي|ʔē} 'yes', the everyday word; you will also hear {إيه|ʔēh}. MSA {نَعَم|na3am} sounds formal. 'No' is {لأ|laʔ} (lesson 5)."}
+      - {line: 3, ar: "اِبْن عَمَّك", tr: "ʔibn 3ammak", topic: culture, text: "Literally 'son of your father's brother'. Arabic names each cousin by the exact link: {عَمّ|3amm} is a father's brother, {خال|xāl} a mother's brother, so {اِبْن خالَك|ʔibn xālak} is a cousin on your mother's side. The ending -ak is 'your' (to a man)."}
+      - {line: 3, ar: "الحَمْدِلله عَالسَّلامة", tr: "il-ḥamdilla 3as-salāme", topic: culture, text: "'Praise God for your safe arrival': the fixed greeting for anyone back from a journey or recovering from an illness. {الحَمْدِلله|il-ḥamdilla} 'thank God' on its own is also the usual answer to 'how are you?' (lesson 2)."}
+      - {line: 4, ar: "الله يْسَلّمَك", tr: "ʔalla ysallmak", topic: culture, text: "The fixed reply: 'God keep you safe'. To a woman: {الله يْسَلّمِك|ʔalla ysallmik}. Many Syrian formulas come in pairs like this; learn the greeting and its reply together."}
+      - {line: 5, ar: "أَهْلا وْسَهْلا فيك", tr: "ʔahla w-sahla fīk", topic: vocab, text: "'Welcome'. {فيك|fīk} 'in you' makes it personal: 'welcome to you'. The reply is {أَهْلا فيك|ʔahla fīk}."}
+      - {line: 5, ar: "بِالشّام", tr: "biš-Šām", topic: culture, text: "{الشّام|iš-Šām} is what Syrians call Damascus, and more widely the whole Levant. The map name is {دِمَشْق|Dimašq} (Bridge 1). {بْ|b-} 'in' joins the article: {بِالشّام|biš-Šām} 'in Damascus'."}
     words:
       - {ar: "مرحبا", tr: "marḥaba", en: "hello"}
       - {ar: "انت", tr: "ʔinte", en: "you (to a man)"}
@@ -58,11 +61,13 @@ lessons:
       - {who: lina, ar: "مْنيحة، الحَمْدِلله!", tr: "mnīḥa, il-ḥamdilla!", lit: "good(f), the-praise-to-God", en: "Fine, thank God!"}
       - {who: umm, ar: "أَهْلا وْسَهْلا يا اِبْني! كيفْكُن شَباب؟ تْفَضَّلو!", tr: "ʔahla w-sahla yā ʔibni! kīfkun šabāb? tfaḍḍalu!", lit: "welcome O son-my! how-you(pl) young-men? please(pl)", en: "Welcome, my son! How are you, boys? Come in!"}
     notes:
-      - {anchor: "kīfak / kīfik / kīfkun", text: "kīf 'how' takes the ending of the person you ask: -ak to a man, -ik to a woman, -kun to several people. The same three endings mean 'your' on nouns: 3ammak, 3ammik, 3ammkun."}
-      - {anchor: "mnīḥ / mnīḥa", text: "Adjectives agree with the person. The feminine ending is written ة. It is said -e after most consonants and -a after throat and emphatic consonants (ḥ, 3, x, ɣ, ʔ, h, ṣ, ḍ, ṭ, ẓ) and usually r: so mnīḥa here, but ta3bāne in lesson 5."}
-      - {anchor: "3ammo", text: "Adam calls his uncle 3ammo, and the uncle calls Adam 3ammo back. Older relatives address children with their own title; it is affectionate, not a mistake."}
-      - {anchor: "hayy", text: "hayy is 'this' for a woman or a feminine thing. It is also how you introduce someone: hayy Līna, 'this is Līna'."}
-      - {anchor: "tfaḍḍalu", text: "'Please, go ahead': come in, sit down, help yourself. To one man tfaḍḍal, to one woman tfaḍḍali."}
+      - {line: 1, ar: "أَهْلين عَمّو", tr: "ʔahlēn 3ammo", topic: culture, text: "{أَهْلين|ʔahlēn} 'hi', a friendly form of {أَهْلا|ʔahla}. The uncle calls Adam {عَمّو|3ammo} 'uncle', and Adam calls him {عَمّو|3ammo} back (line 2). Older relatives address children by their own title: it is affectionate, not a mistake."}
+      - {line: 1, ar: "كيفَك", tr: "kīfak", topic: grammar, text: "{كيف|kīf} 'how' takes the ending of the person asked: {كيفَك|kīfak} to a man, {كيفِك|kīfik} to a woman (line 4), {كيفْكُن|kīfkun} to several people (line 6). The same endings mean 'your' on nouns: {عَمَّك|3ammak}, {عَمِّك|3ammik}."}
+      - {line: 2, ar: "مْنيح، الحَمْدِلله", tr: "mnīḥ, il-ḥamdilla", topic: grammar, text: "{مْنيح|mnīḥ} 'fine, good'. A woman answers {مْنيحة|mnīḥa} (line 5): the adjective agrees with the speaker. The ة is said -a here because of the ḥ before it (lesson 7)."}
+      - {line: 3, ar: "تَمام", tr: "tamām", topic: vocab, text: "{تَمام|tamām} 'perfect, all good': a very common answer to 'how are you?', and also 'OK, fine'."}
+      - {line: 3, ar: "هَيّ مَرْت عَمَّك", tr: "hayy mart 3ammak", topic: grammar, text: "{هَيّ|hayy} 'this (f)' introduces a woman: {هَيّ لينا|hayy Līna} 'this is Līna'. {مَرْت عَمَّك|mart 3ammak} 'your uncle's wife': {مَرَة|mara} 'woman, wife' shows a t before another noun (see lesson 3)."}
+      - {line: 6, ar: "يا اِبْني", tr: "yā ʔibni", topic: culture, text: "{يا|yā} is used to call someone: {يا آدَم|yā ʔādam}. {اِبْني|ʔibni} 'my son' is how an older woman speaks to any young man she is fond of. {شَباب|šabāb} 'young people' is the usual 'guys'."}
+      - {line: 6, ar: "تْفَضَّلو", tr: "tfaḍḍalu", topic: vocab, text: "'Please, go ahead': come in, sit down, help yourselves. To one man {تْفَضَّل|tfaḍḍal}, to one woman {تْفَضَّلي|tfaḍḍali}, to several {تْفَضَّلو|tfaḍḍalu}. You will hear it many times a day."}
     words:
       - {ar: "كيف", tr: "kīf", en: "how"}
       - {ar: "منيح", tr: "mnīḥ", en: "good, well"}
@@ -95,11 +100,13 @@ lessons:
       - {who: adam, ar: "وهَيّ؟", tr: "w-hayy?", lit: "and-this?", en: "And this one?"}
       - {who: teta, ar: "هَيّ أوضِة أَبوك. هَلَّق أوضْتَك.", tr: "hayy ʔūḍit ʔabūk. hallaʔ ʔūḍtak.", lit: "this room father-your. now room-your", en: "This is your father's room. Now it's your room."}
     notes:
-      - {anchor: "hāda / hayy", text: "'This': hāda for masculine words (hāda bēti), hayy for feminine ones (hayy ʔūḍa). Adam asks w-hayy? because ʔūḍa 'room' is feminine."}
-      - {anchor: "hallaʔ", text: "Sound of the week: the letter ق. In Damascus it is not said q. It is a catch in the throat, written ʔ, like the break in 'uh-oh'. The spelling keeps ق: هلق is said hallaʔ."}
-      - {anchor: "bēti, bētak", text: "'My' is -i, 'your' (to a man) is -ak: bēt, bēti, bētak. To a woman: bētik."}
-      - {anchor: "ʔūḍit ʔabūk", text: "To say 'the room of your father', put the two words side by side. A word ending in ة then shows a hidden t: ʔūḍa becomes ʔūḍit. The same t appears before an ending: ʔūḍti 'my room', ʔūḍtak 'your room'."}
-      - {anchor: "yā tēta", text: "Tēta calls Adam tēta, just as his uncle called him 3ammo in lesson 2. Many Syrians say sitti for 'my grandmother'."}
+      - {line: 1, ar: "يا تيتا", tr: "yā tēta", topic: culture, text: "Tēta calls Adam {تيتا|tēta}, as his uncle called him {عَمّو|3ammo} in lesson 2: the grown-up gives the child her own title. Tēta is this family's word for grandmother; many Damascenes say {سِتّي|sitti} 'my grandmother'."}
+      - {line: 1, ar: "بَيْتي… بَيْتَك", tr: "bēti… bētak", topic: grammar, text: "'My' is -i, 'your' is -ak to a man and -ik to a woman: {بَيْت|bēt} 'house', {بَيْتي|bēti} 'my house', {بَيْتَك|bētak}, {بَيْتِك|bētik} 'your house'. {هادا|hāda} 'this' goes with masculine words; MSA {هٰذا|hādhā} (Bridge 1)."}
+      - {line: 1, ar: "هَلَّق", tr: "hallaʔ", topic: sound, text: "Sound of the week: ق. Damascus does not say q; it says ʔ, a catch in the throat like the break in 'uh-oh'. The spelling keeps ق: {هَلَّق|hallaʔ} 'now'. MSA {قَهْوة|qahwa} 'coffee' is Shami {قَهْوة|ʔahwe} (lesson 8)."}
+      - {line: 2, ar: "شو حِلو!", tr: "šū ḥilu!", topic: grammar, text: "{شو|šū} 'what' also makes exclamations: {شو حِلو!|šū ḥilu!} 'how beautiful!'. {حِلو|ḥilu} 'nice, beautiful, sweet', feminine {حِلْوة|ḥilwe}."}
+      - {line: 3, ar: "هَوْن… هْنيك", tr: "hōn… hnīk", topic: vocab, text: "{هَوْن|hōn} 'here', {هْنيك|hnīk} 'there'. No verb is needed: {هَوْن المَطْبَخ|hōn il-maṭbax} 'here is the kitchen'."}
+      - {line: 4, ar: "وهَيّ؟", tr: "w-hayy?", topic: grammar, text: "{هَيّ|hayy} is 'this' for a feminine word. Adam says {وهَيّ؟|w-hayy?} because he points at a {أوضة|ʔūḍa} 'room', which is feminine. For a masculine word: {هادا|hāda}."}
+      - {line: 5, ar: "أوضِة أَبوك", tr: "ʔūḍit ʔabūk", topic: grammar, text: "'Your father's room': the thing first, the owner second, side by side. A word ending in ة then shows a hidden t: {أوضة|ʔūḍa} becomes {أوضِة|ʔūḍit}. The t also appears before an ending: {أوضْتَك|ʔūḍtak} 'your room'. {أَبوك|ʔabūk} 'your father': after a vowel, 'your' is just -k."}
     words:
       - {ar: "هادا", tr: "hāda", en: "this (masculine)"}
       - {ar: "هَيّ", tr: "hayy", en: "this (feminine)"}
@@ -136,11 +143,14 @@ lessons:
       - {who: adam, ar: "ووَيْن تيتا؟", tr: "w-wēn tēta?", lit: "and-where grandma?", en: "And where's Tēta?"}
       - {who: lina, ar: "تيتا بِالمَطْبَخ.", tr: "tēta bil-maṭbax.", lit: "grandma in-the-kitchen", en: "Tēta is in the kitchen."}
     notes:
-      - {anchor: "šū, mīn, wēn", text: "The three first question words: šū 'what', mīn 'who', wēn 'where'. They stand first, and nothing else changes: wēn tēta? 'Where is Tēta?'"}
-      - {anchor: "hād", text: "hād is the everyday short form of hāda. Both are correct."}
-      - {anchor: "il-baḥra, biṣ-ṣūra", text: "'The' is il-, joined to the word. Before a consonant made with the tip of the tongue (t, d, s, z, š, ṣ, ḍ, ṭ, ẓ, n, r, l, and usually j), the l copies that consonant: il + ṣūra is iṣ-ṣūra, il + Šām is iš-Šām. Before other consonants the l stays: il-baḥra, il-maṭbax."}
-      - {anchor: "bil-maṭbax", text: "b- 'in' joins the article: b + il-maṭbax is bil-maṭbax, b + iṣ-ṣūra is biṣ-ṣūra."}
-      - {anchor: "ʔalla yirḥamo", text: "Said every time you mention someone who has died. For a woman: ʔalla yirḥamha."}
+      - {line: 1, ar: "شو هاد؟", tr: "šū hād?", topic: grammar, text: "{شو|šū} 'what' starts the question; nothing else changes. {هاد|hād} is the everyday short form of {هادا|hāda}; both are right."}
+      - {line: 2, ar: "ياسْمين", tr: "yāsmīn", topic: culture, text: "Jasmine climbs the walls of the old courtyard houses; Damascus is often called 'the city of jasmine'."}
+      - {line: 2, ar: "البَحْرة", tr: "il-baḥra", topic: culture, text: "{البَحْرة|il-baḥra}: the fountain basin in the middle of a Damascene courtyard (from {بَحْر|baḥr} 'sea'). The house itself is a {بَيْت عَرَبي|bēt 3arabi} 'Arab house'."}
+      - {line: 3, ar: "مين", tr: "mīn", topic: vocab, text: "The question words so far: {شو|šū} 'what', {مين|mīn} 'who', {وَيْن|wēn} 'where' (line 5), {كيف|kīf} 'how' (lesson 2). They come first."}
+      - {line: 3, ar: "بِالصّورة", tr: "biṣ-ṣūra", topic: grammar, text: "'The' is {ال|il-}, joined to the word. Before t, d, s, z, š, ṣ, ḍ, ṭ, ẓ, n, r, l (and often j) the l copies the next sound: il + ṣūra → {الصّورة|iṣ-ṣūra}, il + Šām → {الشّام|iš-Šām}. Elsewhere it stays: {البَحْرة|il-baḥra}. These are the 'sun letters'."}
+      - {line: 4, ar: "جِدّي وجِدَّك", tr: "jiddi w-jiddak", topic: vocab, text: "{جِدّ|jidd} 'grandfather', with 'my' and 'your'. Līna says 'my grandfather and yours': they share him, since their fathers are brothers."}
+      - {line: 4, ar: "الله يِرْحَمو", tr: "ʔalla yirḥamo", topic: culture, text: "'God have mercy on him': said each time you mention someone who has died. For a woman: {الله يِرْحَمْها|ʔalla yirḥamha}."}
+      - {line: 6, ar: "بِالمَطْبَخ", tr: "bil-maṭbax", topic: grammar, text: "{بْ|b-} 'in' joins the article: b + il-maṭbax → {بِالمَطْبَخ|bil-maṭbax}. Still no verb: {تيتا بِالمَطْبَخ|tēta bil-maṭbax} 'Tēta is in the kitchen'."}
     words:
       - {ar: "شو", tr: "šū", en: "what"}
       - {ar: "مين", tr: "mīn", en: "who"}
@@ -173,11 +183,13 @@ lessons:
       - {who: adam, ar: "نَعْسان كْتير! واِنْتي، مو تَعْبانة؟", tr: "na3sān ktīr! w-ʔinti, mū ta3bāne?", lit: "sleepy very! and-you(f), not tired(f)?", en: "Very sleepy! And you, aren't you tired?"}
       - {who: teta, ar: "أنا؟ أنا مو تَعْبانة أَبَداً!", tr: "ʔana? ʔana mū ta3bāne ʔabadan!", lit: "I? I not tired(f) at-all", en: "Me? I'm not tired at all!"}
     notes:
-      - {anchor: "jū3ān, ta3bān, na3sān", text: "Many words for a passing state end in -ān. Feminine adds -e, plural -īn: ta3bān, ta3bāne, ta3bānīn."}
-      - {anchor: "mū", text: "mū is 'not' before anything that is not a verb: mū jū3ān 'not hungry', mū hōn 'not here', mū ʔana 'not me'."}
-      - {anchor: "ʔinti", text: "'You' to a woman is ʔinti; her adjective is feminine too: ʔinti ta3bāne?"}
-      - {anchor: "willa", text: "'Or' in a question that offers a choice."}
-      - {anchor: "šwayy, ktīr", text: "šwayy 'a little' and ktīr 'very, a lot' usually follow the adjective: ta3bān šwayy, na3sān ktīr. ktīr can also come first: ktīr ḥilu."}
+      - {line: 1, ar: "جوعان", tr: "jū3ān", topic: grammar, text: "Words for a passing state often end in -ān: {جوعان|jū3ān} 'hungry', {تَعْبان|ta3bān} 'tired', {نَعْسان|na3sān} 'sleepy'. Feminine -e, plural -īn: {تَعْبانة|ta3bāne}, {تَعْبانين|ta3bānīn}."}
+      - {line: 2, ar: "لأ", tr: "laʔ", topic: vocab, text: "{لأ|laʔ} 'no', with a clear catch in the throat at the end. 'Yes' is {اي|ʔē}."}
+      - {line: 2, ar: "مو جوعان", tr: "mū jū3ān", topic: grammar, text: "{مو|mū} is 'not' before anything that is not a verb: {مو جوعان|mū jū3ān} 'not hungry', {مو هَوْن|mū hōn} 'not here', {مو أنا|mū ʔana} 'not me'. Verbs take {ما|mā} (lesson 6)."}
+      - {line: 2, ar: "شْوَيّ", tr: "šwayy", topic: grammar, text: "{شْوَيّ|šwayy} 'a little' and {كْتير|ktīr} 'very, a lot' (line 4) usually follow the adjective: {تَعْبان شْوَيّ|ta3bān šwayy}, {نَعْسان كْتير|na3sān ktīr}. ktīr can also come first: {كْتير حِلو|ktīr ḥilu}."}
+      - {line: 3, ar: "وِلّا", tr: "willa", topic: vocab, text: "{وِلّا|willa} 'or' in a question that offers a choice: {تَعْبان وِلّا نَعْسان؟|ta3bān willa na3sān?}."}
+      - {line: 4, ar: "واِنْتي", tr: "w-ʔinti", topic: grammar, text: "{اِنْتي|ʔinti} 'you' to a woman, and her adjective is feminine too: {اِنْتي تَعْبانة؟|ʔinti ta3bāne?}."}
+      - {line: 5, ar: "أَبَداً", tr: "ʔabadan", topic: vocab, text: "{أَبَداً|ʔabadan} 'not at all, never', after a negative: {مو تَعْبانة أَبَداً|mū ta3bāne ʔabadan}. One of the few Shami words that keep the MSA ending -an."}
     words:
       - {ar: "جوعان", tr: "jū3ān", en: "hungry"}
       - {ar: "تعبان", tr: "ta3bān", en: "tired"}
@@ -212,11 +224,13 @@ lessons:
       - {who: adam, ar: "لأ، ما في ياسْمين. بَسّ في مَطَر كْتير!", tr: "laʔ, mā fī yāsmīn. bass fī maṭar ktīr!", lit: "no, not there-is jasmine. but there-is rain much", en: "No, there's no jasmine. But there's a lot of rain!"}
       - {who: teta, ar: "يا حَرام! هَوْن إلَك بَيْت وياسْمين.", tr: "yā ḥarām! hōn ʔilak bēt w-yāsmīn.", lit: "O pity! here to-you house and-jasmine", en: "Poor thing! Here you have a home, and jasmine."}
     notes:
-      - {anchor: "3andak, 3andi", text: "There is no verb 'to have'. You say 'at me': 3and + ending. 3andi 'I have', 3andak 'you have' (to a man), 3andik (to a woman)."}
-      - {anchor: "mā 3andi", text: "'I don't have' is mā 3andi. mā is the 'not' for verbs and for 3and and fī; mū (lesson 5) is for everything else."}
-      - {anchor: "fī / mā fī", text: "fī 'there is, there are' and mā fī 'there isn't, there aren't' never change: fī maṭar, mā fī yāsmīn."}
-      - {anchor: "ʔilak", text: "ʔil- + ending means 'belongs to, is for': ʔili 'mine, for me', ʔilak 'yours'. It is warmer than 3andak: Tēta is saying the house is his."}
-      - {anchor: "yā ḥarām", text: "Sympathy: 'poor thing', 'what a pity'."}
+      - {line: 1, ar: "عَنْدَك", tr: "3andak", topic: grammar, text: "There is no verb 'to have': you say 'at me'. {عَنْد|3and} + ending: {عَنْدي|3andi} 'I have', {عَنْدَك|3andak} 'you have' (to a man), {عَنْدِك|3andik} (to a woman)."}
+      - {line: 1, ar: "إخْوِة", tr: "ʔixwe", topic: vocab, text: "{إخْوِة|ʔixwe} 'brothers', and for a mixed family 'brothers and sisters'. One brother: {أَخّ|ʔaxx}; one sister: {إخْت|ʔixt}."}
+      - {line: 2, ar: "ما عَنْدي", tr: "mā 3andi", topic: grammar, text: "'I don't have': {ما عَنْدي|mā 3andi}. {ما|mā} negates verbs and the verb-like words {عَنْد|3and} and {في|fī}; {مو|mū} (lesson 5) negates the rest."}
+      - {line: 3, ar: "في", tr: "fī", topic: grammar, text: "{في|fī} 'there is, there are' and {ما في|mā fī} 'there isn't, there aren't' never change: {في مَطَر|fī maṭar}, {ما في ياسْمين|mā fī yāsmīn}."}
+      - {line: 4, ar: "بَسّ", tr: "bass", topic: vocab, text: "{بَسّ|bass} 'but'; also 'only' and 'enough!'. One of the commonest words in Shami."}
+      - {line: 5, ar: "يا حَرام", tr: "yā ḥarām", topic: culture, text: "Sympathy: 'poor thing', 'what a pity'."}
+      - {line: 5, ar: "إلَك", tr: "ʔilak", topic: grammar, text: "{إل|ʔil-} + ending: 'belongs to, is for'. {إلي|ʔili} 'mine, for me', {إلَك|ʔilak} 'yours'. It is warmer than {عَنْدَك|3andak}: Tēta is saying the house is his."}
     words:
       - {ar: "عند", tr: "3and", en: "at; (with an ending) to have"}
       - {ar: "إخوة", tr: "ʔixwe", en: "brothers, siblings"}

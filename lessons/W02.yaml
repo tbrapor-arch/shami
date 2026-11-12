@@ -25,13 +25,14 @@ lessons:
       - {who: garson, ar: "أَمْرَك! وشي تاني؟", tr: "ʔamrak! w-šī tāni?", lit: "order-your! and-thing other?", en: "Right away! Anything else?"}
       - {who: adam, ar: "اي، واحِد كْنافة كَمان!", tr: "ʔē, wāḥid knāfe kamān!", lit: "yes, one knafeh also", en: "Yes, one knāfe as well!"}
     notes:
-      - {anchor: "biddkun", text: "bidd- + an ending means 'want'. It works like 3and- (lesson 6): biddi 'I want', biddak (to a man), biddik (to a woman), biddkun (to several people). It is not a verb, so it never takes b-, and it is negated with mā: mā biddi."}
-      - {anchor: "ʔahwe", text: "MSA qahwa, with ق said ʔ. Syrian coffee is boiled Turkish-style, often with cardamom."}
-      - {anchor: "sāde", text: "sāde 'plain' means no sugar. Ask for wasaṭ for a little sugar, ḥilwe for sweet."}
-      - {anchor: "tnēn ʔahwe", text: "To order, put the number before a singular word: tnēn ʔahwe 'two coffees', tlāte mayy 'three waters'. wāḥid and tnēn stay in this form even before a feminine word like ʔahwe."}
-      - {anchor: "ʔiza bitrīd", text: "Literally 'if you want': the everyday 'please'. To a woman: ʔiza bitrīdi. min faḍlak works too."}
-      - {anchor: "ʔamrak", text: "'Your order': what a waiter or shopkeeper says as he takes your request."}
-      - {anchor: "knāfe", text: "Warm cheese pastry soaked in syrup, the classic Damascus dessert."}
+      - {line: 1, ar: "شو بِدّْكُن؟", tr: "šū biddkun?", topic: grammar, text: "{بِدّ|bidd-} + an ending means 'want'. It works like {عَنْد|3and} (lesson 6): {بِدّي|biddi} 'I want', {بِدَّك|biddak} (to a man), {بِدِّك|biddik} (to a woman), {بِدّْكُن|biddkun} (to several). It is not a verb, so it never takes b-, and it is negated with mā: {ما بِدّي|mā biddi}."}
+      - {line: 2, ar: "قَهْوة", tr: "ʔahwe", topic: culture, text: "MSA {قَهْوة|qahwa}, with ق said ʔ. Syrian coffee is boiled Turkish-style in a small pot, often with cardamom, and served in tiny cups."}
+      - {line: 3, ar: "كَمان", tr: "kamān", topic: vocab, text: "{كَمان|kamān} 'also, too', and 'more, again': {كَمان قَهْوة|kamān ʔahwe} 'another coffee'."}
+      - {line: 3, ar: "سادة", tr: "sāde", topic: culture, text: "{سادة|sāde} 'plain' means no sugar. Ask for {وَسَط|wasaṭ} for a little sugar, {حِلْوة|ḥilwe} for sweet."}
+      - {line: 4, ar: "تْنين قَهْوة", tr: "tnēn ʔahwe", topic: grammar, text: "To order, the number comes first with a singular word: {تْنين قَهْوة|tnēn ʔahwe} 'two coffees', {تْلاتة مَيّ|tlāte mayy} 'three waters'. {واحِد|wāḥid} and {تْنين|tnēn} keep this form even before a feminine word like ʔahwe. Numbers 1–10 are below the dialogue."}
+      - {line: 4, ar: "إذا بِتْريد", tr: "ʔiza bitrīd", topic: vocab, text: "Literally 'if you want': the everyday 'please'. To a woman: {إذا بِتْريدي|ʔiza bitrīdi}. {مِن فَضْلَك|min faḍlak} works too."}
+      - {line: 5, ar: "أَمْرَك", tr: "ʔamrak", topic: culture, text: "'Your order': what a waiter or shopkeeper says as he takes your request. {شي تاني؟|šī tāni?} 'anything else?': {شي|šī} 'something', {تاني|tāni} 'other'."}
+      - {line: 6, ar: "واحِد كْنافة", tr: "wāḥid knāfe", topic: culture, text: "{كْنافة|knāfe}: warm cheese pastry soaked in syrup, the classic Damascus dessert. Again number + singular: {واحِد كْنافة|wāḥid knāfe}."}
     sections:
       - title: "Numbers 1–10"
         table:
@@ -81,13 +82,15 @@ lessons:
       - {who: umm, ar: "وبَعْدين، وَيْن رايْحين؟", tr: "w-ba3dēn, wēn rāyḥīn?", lit: "and-after, where going(pl)?", en: "And after that, where are you going?"}
       - {who: adam, ar: "بَعْدين بِدّْنا نْروح لَعَنْد تيتا.", tr: "ba3dēn biddna nrūḥ la-3and tēta.", lit: "after want-our we-go to-at grandma", en: "Then we want to go to Tēta's."}
     notes:
-      - {anchor: "rāyiḥ", text: "'Going', right now. It is a verb-adjective (a participle), so it changes like ta3bān: rāyiḥ (m), rāyḥa (f), rāyḥīn (pl). wēn rāyiḥ? is the everyday 'where are you off to?'."}
-      - {anchor: "3as-sūʔ", text: "3a means 'to, onto'. With the article it fuses: 3a + is-sūʔ → 3as-sūʔ. sūʔ is MSA sūq, with ق said ʔ."}
-      - {anchor: "biddi šūf", text: "After biddi the verb comes with no b-. For 'I' it is just the bare stem: biddi šūf 'I want to see'."}
-      - {anchor: "sūʔ il-Ḥamīdiyye", text: "The great covered market of old Damascus, running from the citadel to the Umayyad Mosque."}
-      - {anchor: "la-ḥālak", text: "'On your own'. With other endings: la-ḥāli 'on my own', la-ḥālik (to a woman), la-ḥālha 'on her own'."}
-      - {anchor: "biddna nrūḥ", text: "'We want to go'. For 'we' the verb starts with n-: nrūḥ. biddna is bidd + -na 'our'."}
-      - {anchor: "la-3and tēta", text: "3and tēta is 'at Tēta's (place)'. Put la- 'to' in front and it becomes 'to Tēta's'."}
+      - {line: 1, ar: "وَيْن رايِح؟", tr: "wēn rāyiḥ?", topic: grammar, text: "'Going', right now. {رايِح|rāyiḥ} is a verb-adjective (a participle), so it changes like {تَعْبان|ta3bān}: {رايِح|rāyiḥ} (m), {رايْحة|rāyḥa} (f), {رايْحين|rāyḥīn} (pl, line 4). {وَيْن رايِح؟|wēn rāyiḥ?} is the everyday 'where are you off to?'."}
+      - {line: 2, ar: "عَالسّوق", tr: "3as-sūʔ", topic: grammar, text: "{عَ|3a-} 'to, onto' fuses with the article: 3a + is-sūʔ → {عَالسّوق|3as-sūʔ}; 3a + il-bēt → {عَالبَيْت|3al-bēt} 'home'. {سوق|sūʔ} is MSA sūq, ق said ʔ."}
+      - {line: 2, ar: "بِدّي شوف", tr: "biddi šūf", topic: grammar, text: "After {بِدّي|biddi} the verb comes with no b-. For 'I' it is the bare stem: {بِدّي شوف|biddi šūf} 'I want to see', {بِدّي روح|biddi rūḥ} 'I want to go'."}
+      - {line: 2, ar: "سوق الحَميدِيّة", tr: "sūʔ il-Ḥamīdiyye", topic: culture, text: "The great covered market of old Damascus, under a high iron roof, running from the citadel to the Umayyad Mosque."}
+      - {line: 3, ar: "لَحالَك", tr: "la-ḥālak", topic: vocab, text: "'On your own'. With other endings: {لَحالي|la-ḥāli} 'on my own', {لَحالِك|la-ḥālik} (to a woman), {لَحالْها|la-ḥālha} 'on her own'."}
+      - {line: 4, ar: "مَعي", tr: "ma3i", topic: vocab, text: "{مَع|ma3} 'with' takes endings: {مَعي|ma3i} 'with me', {مَعَك|ma3ak} 'with you'."}
+      - {line: 5, ar: "بَعْدين", tr: "ba3dēn", topic: vocab, text: "{بَعْدين|ba3dēn} 'then, after that, later'."}
+      - {line: 6, ar: "بِدّْنا نْروح", tr: "biddna nrūḥ", topic: grammar, text: "'We want to go'. For 'we' the verb starts with n-: {نْروح|nrūḥ}. {بِدّْنا|biddna} is bidd + -na 'our'."}
+      - {line: 6, ar: "لَعَنْد تيتا", tr: "la-3and tēta", topic: grammar, text: "{عَنْد تيتا|3and tēta} is 'at Tēta's (place)'. With {لَ|la-} 'to' in front, it becomes 'to Tēta's'."}
     words:
       - {ar: "رايح", tr: "rāyiḥ", en: "going (f rāyḥa, pl rāyḥīn)"}
       - {ar: "راح", tr: "rāḥ (nrūḥ)", en: "to go (we go)"}
@@ -121,14 +124,15 @@ lessons:
       - {who: sami, ar: "لينا ما بْتْحِبّ اللَّحْمة، بَسّ بْتْحِبّ الحِلو كْتير!", tr: "Līna mā btḥibb il-laḥme, bass btḥibb il-ḥilu ktīr!", lit: "Lina not she-likes the-meat, but she-likes the-sweet much", en: "Līna doesn't like meat, but she loves dessert!"}
       - {who: teta, ar: "كِلّ شي عَالطّاوْلة. صَحْتين!", tr: "kill šī 3aṭ-ṭāwle. ṣaḥtēn!", lit: "all thing on-the-table. two-healths", en: "Everything's on the table. Enjoy your meal!"}
     notes:
-      - {anchor: "btḥibb tākul", text: "Two verbs in a row: the first takes b-, the second does not. btḥibb tākul 'you like to eat'."}
-      - {anchor: "bḥibb", text: "b- marks the ordinary present. For 'I' it is b- + the stem: bḥibb 'I like, I love'. ḥabb covers both 'like' and 'love'."}
-      - {anchor: "kibbe", text: "Balls of bulgur and minced meat stuffed with more meat and pine nuts: a Damascus speciality."}
-      - {anchor: "biḥibb", text: "'He likes': b- and the y- of 'he' merge into bi-: biḥibb. 'You like' and 'she likes' sound the same: btḥibb."}
-      - {anchor: "maḥši", text: "Courgettes, aubergines or vine leaves stuffed with rice and often meat."}
-      - {anchor: "mā bḥibb", text: "Verbs are negated with mā, as with 3and and fī: mā bḥibb 'I don't like'."}
-      - {anchor: "il-ḥilu", text: "ḥilu 'nice, sweet'. il-ḥilu 'the sweet (thing)' is dessert."}
-      - {anchor: "ṣaḥtēn", text: "'Two healths': said to people who are eating. The answer is 3ala ʔalbak, 'on your heart' (to a woman 3ala ʔalbik)."}
+      - {line: 1, ar: "شو بْتْحِبّ تاكُل", tr: "šū btḥibb tākul", topic: grammar, text: "Two verbs in a row: the first takes b-, the second does not. {بْتْحِبّ تاكُل|btḥibb tākul} 'you like to eat'. On its own, 'you eat' is {بْتاكُل|btākul}."}
+      - {line: 2, ar: "بْحِبّ", tr: "bḥibb", topic: grammar, text: "b- marks the ordinary present. For 'I' it is b- + the stem: {بْحِبّ|bḥibb} 'I like, I love'. {حَبّ|ḥabb} covers both 'like' and 'love'. The full table is below the dialogue."}
+      - {line: 2, ar: "كِلّ شي", tr: "kill šī", topic: vocab, text: "{كِلّ|kill} 'every, all' + {شي|šī} 'thing' = 'everything'. {كِلّ يوم|kill yōm} 'every day'."}
+      - {line: 2, ar: "الكِبّة", tr: "il-kibbe", topic: culture, text: "{كِبّة|kibbe}: balls of bulgur and minced meat stuffed with more meat and pine nuts, a Damascus speciality."}
+      - {line: 3, ar: "بيحِبّ المَحْشي", tr: "biḥibb il-maḥši", topic: grammar, text: "'He likes': b- and the y- of 'he' merge into bi-: {بيحِبّ|biḥibb}. 'You like' and 'she likes' sound the same: {بْتْحِبّ|btḥibb} (line 5). {المَحْشي|il-maḥši}: courgettes, aubergines or vine leaves stuffed with rice and often meat."}
+      - {line: 4, ar: "ما بْحِبّ", tr: "mā bḥibb", topic: grammar, text: "Verbs are negated with {ما|mā}, like {عَنْد|3and} and {في|fī}: {ما بْحِبّ|mā bḥibb} 'I don't like'."}
+      - {line: 4, ar: "اللَّحْمة", tr: "il-laḥme", topic: vocab, text: "{لَحْمة|laḥme} 'meat', {خُضْرة|xuḍra} 'vegetables', {حُمُّص|ḥummuṣ} 'hummus, chickpeas'. Food you speak of in general takes the article: {بْحِبّ الحُمُّص|bḥibb il-ḥummuṣ} 'I like hummus'."}
+      - {line: 5, ar: "الحِلو", tr: "il-ḥilu", topic: vocab, text: "{حِلو|ḥilu} 'nice, sweet'; {الحِلو|il-ḥilu} 'the sweet (thing)' is dessert."}
+      - {line: 6, ar: "صَحْتين", tr: "ṣaḥtēn", topic: culture, text: "'Two healths': said to people who are eating. The answer is {عَلى قَلْبَك|3ala ʔalbak} 'on your heart' (to a woman {عَلى قَلْبِك|3ala ʔalbik}). {عَالطّاوْلة|3aṭ-ṭāwle} 'on the table'."}
     sections:
       - title: "The present with b-"
         text: "ḥabb 'to like, to love', for every person:"
@@ -178,13 +182,15 @@ lessons:
       - {who: adam, ar: "بِشْتِغِل بْمَكْتَبة. أنا فَرَنْساوي وسوري.", tr: "bištiɣil b-maktabe. ʔana faransāwi w-sūri.", lit: "I-work in-library. I French and-Syrian", en: "I work in a library. I'm French and Syrian."}
       - {who: lina, ar: "يَعْني نُصّ فَرَنْساوي ونُصّ شامي!", tr: "ya3ni nuṣṣ faransāwi w-nuṣṣ šāmi!", lit: "means half French and-half Damascene", en: "So half French and half Damascene!"}
     notes:
-      - {anchor: "btištiɣil", text: "'You work'. ištaɣal 'to work': bištiɣil 'I work', btištiɣil 'you work' or 'she works', byištiɣil 'he works'."}
-      - {anchor: "ʔana muhandis", text: "No word for 'a' with jobs: ʔana muhandis 'I'm an engineer'."}
-      - {anchor: "btištiɣli", text: "To a woman the verb adds -i, and the vowel before it drops: btištiɣil → btištiɣli."}
-      - {anchor: "bidrus ṭibb", text: "daras 'to study': bidrus 'I study'. ṭibb is medicine as a subject; a doctor is usually called doktōr."}
-      - {anchor: "faransāwi w-sūri", text: "Nationalities end in -i, and in -iyye for a woman: sūri / sūriyye, faransāwi / faransāwiyye."}
-      - {anchor: "ya3ni", text: "Literally 'it means': the everyday 'so, I mean, that is'. You will hear it in almost every sentence."}
-      - {anchor: "šāmi", text: "šāmi is 'from iš-Šām': Damascene, and more loosely Syrian or Levantine. It is also the name of this course."}
+      - {line: 1, ar: "بْتِشْتِغِل", tr: "btištiɣil", topic: grammar, text: "'You work'. {اِشْتَغَل|ištaɣal} 'to work': {بِشْتِغِل|bištiɣil} 'I work' (line 2), {بْتِشْتِغِل|btištiɣil} 'you work' or 'she works', {بْيِشْتِغِل|byištiɣil} 'he works'."}
+      - {line: 2, ar: "أنا مُهَنْدِس", tr: "ʔana muhandis", topic: grammar, text: "No word for 'a': {أنا مُهَنْدِس|ʔana muhandis} 'I'm an engineer', {هِيّ دْكتورة|hiyye doktōra} 'she's a doctor'."}
+      - {line: 2, ar: "بالمَزّة", tr: "bil-Mazze", topic: culture, text: "{المَزّة|il-Mazze}, in west Damascus: a modern district of flats and offices, where Sāmi's family lives."}
+      - {line: 3, ar: "بْتِشْتِغْلي", tr: "btištiɣli", topic: grammar, text: "To a woman the verb adds -i, and the vowel before it drops: {بْتِشْتِغِل|btištiɣil} → {بْتِشْتِغْلي|btištiɣli}."}
+      - {line: 4, ar: "بِدْرُس طِبّ", tr: "bidrus ṭibb", topic: vocab, text: "{دَرَس|daras} 'to study': {بِدْرُس|bidrus} 'I study'. {طِبّ|ṭibb} is medicine as a subject; a doctor is usually {دْكتور|doktōr}. {الجامْعة|il-jām3a} 'the university'."}
+      - {line: 5, ar: "بْمَكْتَبة", tr: "b-maktabe", topic: vocab, text: "{مَكْتَبة|maktabe} 'library' or 'bookshop', from the root k-t-b 'write', like {كْتاب|ktāb} 'book' and {كَتَب|katab} 'he wrote' (lesson 12)."}
+      - {line: 5, ar: "فَرَنْساوي وسوري", tr: "faransāwi w-sūri", topic: grammar, text: "Nationalities end in -i, and -iyye for a woman: {سوري|sūri} / {سوريّة|sūriyye}, {فَرَنْساوي|faransāwi} / {فَرَنْساويّة|faransāwiyye}. More in the table below."}
+      - {line: 6, ar: "يَعْني", tr: "ya3ni", topic: vocab, text: "Literally 'it means': the everyday 'so, I mean, that is'. You will hear it in almost every sentence. {نُصّ|nuṣṣ} 'half'."}
+      - {line: 6, ar: "شامي", tr: "šāmi", topic: culture, text: "{شامي|šāmi} 'from iš-Šām': Damascene, and more loosely Syrian or Levantine. It is also the name of this course."}
     sections:
       - title: "Where are you from?"
         table:
@@ -228,14 +234,15 @@ lessons:
       - {who: abu, ar: "أَحْلى شي! وكَتَبْت لَأَبوك؟", tr: "ʔaḥla šī! w-katabt la-ʔabūk?", lit: "sweetest thing! and-you-wrote to-father-your?", en: "Lovely! And did you write to your father?"}
       - {who: adam, ar: "اي، كَتَبْتِلّو مْبارِح بِاللّيْل. بَسّ ما رَدّ.", tr: "ʔē, katabtillo mbāriḥ bil-lēl. bass mā radd.", lit: "yes, I-wrote-to-him yesterday at-the-night. but not he-answered", en: "Yes, I wrote to him last night. But he didn't answer."}
     notes:
-      - {anchor: "3milt", text: "The past: -t is the ending for 'I' and for 'you' (to a man), so 3milt is 'I did' or 'you did'. 3imil is 'he did'."}
-      - {anchor: "ṣabāḥ il-xēr", text: "'Morning of goodness'. The answer swaps in another nice word: ṣabāḥ in-nūr 'morning of light'."}
-      - {anchor: "riḥt", text: "rāḥ 'he went' shortens its ā when an ending is added: riḥt 'I went'. šāf 'he saw' does the same: šift."}
-      - {anchor: "il-Jāmi3 il-ʔUmawi", text: "The Umayyad Mosque, at the end of the Ḥamīdiyye souk, built in the early 8th century."}
-      - {anchor: "būẓa", text: "Damascus ice cream, pounded and stretched, flavoured with mastic and rolled in pistachios. Bakdāš, in the Ḥamīdiyye souk, is the most famous place for it."}
-      - {anchor: "ʔaḥla šī", text: "'The nicest thing': a warm 'how lovely!'."}
-      - {anchor: "katabtillo", text: "-lo 'to him' sticks onto the verb, with an i to link: katabt + lo → katabtillo 'I wrote to him'."}
-      - {anchor: "mā radd", text: "The past is negated with mā too: mā radd 'he didn't answer'."}
+      - {line: 1, ar: "صَباح الخير", tr: "ṣabāḥ il-xēr", topic: culture, text: "'Morning of goodness'. The answer swaps in another nice word: {صَباح النّور|ṣabāḥ in-nūr} 'morning of light' (line 2)."}
+      - {line: 1, ar: "شو عْمِلْت", tr: "šū 3milt", topic: grammar, text: "The past. -t is the ending for 'I' and for 'you' (to a man): {عْمِلْت|3milt} 'I did' or 'you did'; context decides. {عِمِل|3imil} 'he did'. The full table is below the dialogue."}
+      - {line: 1, ar: "مْبارِح", tr: "mbāriḥ", topic: vocab, text: "{مْبارِح|mbāriḥ} 'yesterday'. {اليوم|il-yōm} 'today', {بُكْرا|bukra} 'tomorrow'."}
+      - {line: 2, ar: "رِحْت", tr: "riḥt", topic: grammar, text: "{راح|rāḥ} 'he went' shortens its ā before an ending that starts with a consonant: {رِحْت|riḥt} 'I went'. {شاف|šāf} 'he saw' does the same: {شِفْت|šift} (line 3)."}
+      - {line: 4, ar: "الجامِع الأُمَوي", tr: "il-Jāmi3 il-ʔUmawi", topic: culture, text: "The Umayyad Mosque, at the end of the Ḥamīdiyye souk, built in the early 8th century on the site of a church and, before that, a Roman temple."}
+      - {line: 4, ar: "بوظة عَنْد بَكْداش", tr: "būẓa 3and Bakdāš", topic: culture, text: "{بوظة|būẓa}: Damascus ice cream, pounded and stretched, flavoured with mastic and rolled in pistachios. {بَكْداش|Bakdāš}, in the Ḥamīdiyye souk, is the most famous place for it. {أَكَلْت|ʔakalt} 'I ate'."}
+      - {line: 5, ar: "أَحْلى شي!", tr: "ʔaḥla šī!", topic: vocab, text: "'The nicest thing': a warm 'how lovely!'. {أَحْلى|ʔaḥla} 'nicer, nicest', from {حِلو|ḥilu}. {لَأَبوك|la-ʔabūk} 'to your father'."}
+      - {line: 6, ar: "كَتَبْتِلّو", tr: "katabtillo", topic: grammar, text: "-lo 'to him' sticks onto the verb, with an i to link: {كَتَبْت|katabt} + -lo → {كَتَبْتِلّو|katabtillo} 'I wrote to him'. {بِاللّيْل|bil-lēl} 'at night'."}
+      - {line: 6, ar: "ما رَدّ", tr: "mā radd", topic: grammar, text: "The past is negated with {ما|mā} too: {ما رَدّ|mā radd} 'he didn't answer'."}
     sections:
       - title: "The past"
         table:
@@ -284,14 +291,15 @@ lessons:
       - {who: adam, ar: "كِلّ شي غالي هَوْن؟", tr: "kill šī ɣāli hōn?", lit: "all thing expensive here?", en: "Is everything expensive here?"}
       - {who: lina, ar: "هَلّق اي... بَسّ نِحْنا مْنِعْرِف نْفاصِل!", tr: "hallaʔ ʔē... bass niḥna mni3rif nfāṣil!", lit: "now yes... but we we-know we-bargain", en: "These days, yes... but we know how to bargain!"}
     notes:
-      - {anchor: "ʔaddēš", text: "'How much?' for prices and amounts. For things you count, use kam + a singular noun: kam šāl? 'how many scarves?'."}
-      - {anchor: "haš-šāl", text: "hal- is a short 'this': hal-bēt 'this house'. Like the article, it merges with sun letters: haš-šāl."}
-      - {anchor: "3ammo", text: "The polite way to address an older man you don't know, such as a shopkeeper. For an older woman: xāle."}
-      - {anchor: "la-ʔilik", text: "'For you': the seller's classic line, to make a price sound like a favour."}
-      - {anchor: "tlātīn ʔalf", text: "From 11 up, the noun after a number stays singular: tlātīn ʔalf 'thirty thousand', xamsīn lēra 'fifty pounds'."}
-      - {anchor: "xamsa w-3išrīn", text: "Units come first, as in German: 'five and twenty' = 25."}
-      - {anchor: "ma3ʔūl", text: "'Reasonable?', here 'are you serious?'. MSA ma3qūl, ق said ʔ."}
-      - {anchor: "nfāṣil", text: "fāṣal 'to bargain'. mni3rif nfāṣil 'we know (how to) bargain': the second verb, again, has no b-."}
+      - {line: 1, ar: "قَدّيش", tr: "ʔaddēš", topic: grammar, text: "{قَدّيش|ʔaddēš} 'how much?' for prices and amounts. For things you count, use {كَم|kam} + a singular noun: {كَم شال؟|kam šāl?} 'how many scarves?'."}
+      - {line: 1, ar: "هالشّال", tr: "haš-šāl", topic: grammar, text: "{هَـ|hal-} is a short 'this', glued on like the article: {هالبَيْت|hal-bēt} 'this house'. It merges with sun letters as {ال|il-} does: {هالشّال|haš-šāl}."}
+      - {line: 1, ar: "عَمّو", tr: "3ammo", topic: culture, text: "The polite way to address an older man you don't know, such as a shopkeeper: 'uncle'. For an older woman: {خالة|xāle} 'aunt'."}
+      - {line: 2, ar: "لَإلِك؟", tr: "la-ʔilik?", topic: culture, text: "'For you?': the seller's classic line, to make a price sound like a favour. {إلِك|ʔilik} is ʔil- + -ik (lesson 6)."}
+      - {line: 2, ar: "تْلاتين أَلْف", tr: "tlātīn ʔalf", topic: grammar, text: "From 11 up, the noun after a number stays singular: {تْلاتين أَلْف|tlātīn ʔalf} 'thirty thousand', {خَمْسين ليرة|xamsīn lēra} 'fifty pounds'. The numbers are below the dialogue."}
+      - {line: 3, ar: "غالي", tr: "ɣāli", topic: vocab, text: "{غالي|ɣāli} 'expensive', and also 'dear, precious'. 'Cheap' is {رْخيص|rxīṣ}."}
+      - {line: 4, ar: "مَعْقول؟", tr: "ma3ʔūl?", topic: vocab, text: "'Reasonable?', here 'are you serious?'. MSA {مَعْقول|ma3qūl}, ق said ʔ."}
+      - {line: 4, ar: "خَمْسة وعِشْرين", tr: "xamsa w-3išrīn", topic: grammar, text: "Units come first, as in German: 'five and twenty' = 25."}
+      - {line: 6, ar: "مْنِعْرِف نْفاصِل", tr: "mni3rif nfāṣil", topic: grammar, text: "{فاصَل|fāṣal} 'to bargain'. {مْنِعْرِف نْفاصِل|mni3rif nfāṣil} 'we know (how to) bargain': 'we' with b- is m(i)n-, and the second verb has no b-. In the souk, the first price opens a conversation."}
     sections:
       - title: "Numbers from 11"
         table:

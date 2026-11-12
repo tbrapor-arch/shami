@@ -14,24 +14,55 @@ for L in d["lessons"]:
         sd["sh"] = lines[lid][k - 1]
         sd["lesson"] = nums[lid]
         sd["msa"]["audio"] = base64.b64encode(open(f"audio/{L['id']}/m{i:02d}.mp3", "rb").read()).decode()
-# notes become small pop-ups anchored on the transcription: each part of an anchor
-# ("hāda / hayy") is marked at its first free whole-word occurrence in the dialogue
+# lesson notes: one numbered badge per note, at the end of its line (Tsheh-tû style)
 import re
 for L in d["lessons"]:
-    lns = L.get("lines", []); spans = {i: [] for i in range(len(lns))}; loose = []
+    for ln in L.get("lines", []): ln["marks"] = []
     for k, n in enumerate(L.get("notes", [])):
-        hit = False
-        for part in [x.strip() for x in re.split(r" / |, ", n["anchor"]) if x.strip()]:
-            pat = re.compile(r"(?<!\w)" + re.escape(part) + r"(?!\w)")
-            done = False
-            for i, ln in enumerate(lns):
-                for m in pat.finditer(ln["tr"]):
-                    if not any(m.start() < b and m.end() > a for a, b, _ in spans[i]):
-                        spans[i].append((m.start(), m.end(), k)); done = hit = True; break
-                if done: break
-        if not hit: loose.append(k)
-    for i, ln in enumerate(lns): ln["marks"] = sorted(spans[i])
-    L["loose"] = loose
+        L["lines"][n["line"] - 1]["marks"].append([0, 0, k])
+
+# bridge notes and rules: write each cited word as {Arabic|transcription}, like the lesson notes
+CITE = {
+ "iš-Šām": "الشّام", "Dimašq": "دِمَشْق", "fī": "في", "hādhā": "هٰذا", "hāda": "هادا", "bayt": "بَيْت", "bēt": "بَيْت",
+ "hal-waqt": "هالوَقْت", "al-ʔāna": "الآن", "kīf": "كيف", "kayf": "كَيْف", "sitti": "سِتّي", "laysa": "لَيْسَ",
+ "lākinna": "لٰكِنَّ", "lākin": "لٰكِن", "jiddan": "جِدًّا", "ʔanta": "أَنْتَ", "ʔinte": "اِنْتَ", "ʔanti": "أَنْتِ", "ʔinti": "اِنْتي",
+ "ta3bān": "تَعْبان", "mut3ab": "مُتْعَب", "3andi": "عَنْدي", "kathīr": "كَثير", "ktīr": "كْتير", "jaw3ān": "جَوْعان",
+ "jū3ān": "جوعان", "qahwa": "قَهْوة", "ʔahwe": "قَهْوة", "yawm": "يَوْم", "yōm": "يوم", "il-Qurʔān": "القُرْآن",
+ "šū": "شو", "mā": "ما", "hōn": "هَوْن", "hunā": "هُنا", "hunāka": "هُناك", "hnīk": "هْنيك", "mū": "مو", "bass": "بَسّ",
+ "wēn": "وَيْن", "ʔayna": "أَيْنَ", "rāḥ": "راح", "dhahaba": "ذَهَبَ", "ištaɣal": "اِشْتَغَل", "ištaɣala": "اِشْتَغَلَ",
+ "3amila": "عَمِلَ", "3imil": "عِمِل", "fa3ala": "فَعَلَ", "ʔarāda": "أَرادَ", "katab": "كَتَب", "kataba": "كَتَبَ",
+ "ḥabb": "حَبّ", "ʔaḥabba": "أَحَبَّ", "ʔakal": "أَكَل", "ʔakala": "أَكَلَ", "ʔan": "أَنْ", "lam": "لَمْ", "lan": "لَنْ",
+ "lā": "لا", "hal": "هَلْ", "šayʔ": "شَيْء", "šī": "شي", "laḥm": "لَحْم", "laḥme": "لَحْمة", "xuḍār": "خُضار",
+ "xuḍra": "خُضْرة", "širke": "شِرْكة", "šarika": "شَرِكة", "taʔkul": "تَأْكُل", "tākul": "تاكُل", "katabt": "كَتَبْت",
+ "katabat": "كَتَبَتْ", "katbit": "كَتْبِت", "katabtum": "كَتَبْتُم", "katabta": "كَتَبْتَ", "biḥibb": "بيحِبّ",
+ "bḥibb": "بْحِبّ", "btḥibb": "بْتْحِبّ", "minḥibb": "مِنْحِبّ", "yaktubu": "يَكْتُبُ", "ʔan yaktuba": "أَنْ يَكْتُبَ",
+ "lam yaktub": "لَمْ يَكْتُبْ", "al-bāriḥa": "البارِحة", "ʔilā": "إِلى", "riḥt": "رِحْت", "biddi": "بِدّي",
+ "biddi ʔiktub": "بِدّي اِكْتُب", "lastu": "لَسْتُ", "bunayya": "بُنَيَّ", "ʔuḥibbu": "أُحِبُّ", "tuḥibbu": "تُحِبُّ",
+ "yuḥibbu": "يُحِبُّ", "ʔahla": "أَهْلا", "mnīḥa": "مْنيحة", "ta3bāne": "تَعْبانة", "mut3abatan": "مُتْعَبَةً",
+ "ʔixt": "إخْت", "ʔuxt": "أُخْت", "maṭar": "مَطَر", "hallaʔ": "هَلَّق", "3ammo": "عَمّو", "lahu": "لَهُ",
+}
+def cite(text, extra):
+    keys = {**CITE, **extra}
+    taken = [(m.start(), m.end()) for m in re.finditer(r"\{[^{}]*\}", text)]
+    for k in sorted(keys, key=len, reverse=True):
+        for m in re.finditer(r"(?<![\w-])" + re.escape(k) + r"(?![\w])", text):
+            if any(a < m.end() and m.start() < b for a, b in taken): continue
+            rep = "{" + keys[k] + "|" + k + "}"
+            text = text[:m.start()] + rep + text[m.end():]
+            d_ = len(rep) - (m.end() - m.start())
+            taken = [(a + d_ if a >= m.end() else a, b + d_ if b >= m.end() else b) for a, b in taken] + [(m.start(), m.start() + len(rep))]
+            break
+    return text
+for L in d["lessons"]:
+    if not L.get("sides"): continue
+    extra = {}
+    for sd in L["sides"]:
+        for h in sd["hl"]:
+            extra[h[1]] = h[0]; extra[h[3]] = h[2]
+    for sd in L["sides"]:
+        for h in sd["hl"]:
+            if len(h) > 5: h[5] = cite(h[5], extra)
+    for r in L.get("rules", []): r["text"] = cite(r["text"], extra)
 data = json.dumps(d["lessons"], ensure_ascii=False).replace("</", "<\\/")
 open(out, "w").write(open("tools/preview_template.html").read().replace("/*DATA*/[]", data).replace("{{WEEK}}", str(d["week"])))
 print(out, len(data) // 1024, "KB")

@@ -78,7 +78,12 @@ td.a{font:400 20px/1.6 var(--f-ar);direction:rtl;white-space:nowrap} td.m{color:
 .sheet{border:2px solid var(--ink);border-bottom:0;border-radius:14px 14px 0 0;box-shadow:6px -2px 0 var(--tile)}
 .grip{width:44px;height:5px;border-radius:3px;background:var(--ink);margin:0 auto 6px}
 .kick{font:700 12px var(--f-lat);letter-spacing:.1em;text-transform:uppercase;color:var(--tile)}
-.nh{font:600 24px/1.3 var(--f-lat);color:var(--ink);padding-bottom:8px;border-bottom:3px solid var(--tile);display:inline-block}
+.nhead{display:inline-block;padding-bottom:8px;border-bottom:3px solid var(--tile);max-width:100%}
+.ntr{font:600 17px/1.3 var(--f-lat);color:var(--tile)} .nhead .nar{font:400 30px/1.6 var(--f-ar);color:var(--ink);text-align:start;margin:0}
+.ia{font:400 1.3em/1 var(--f-ar);unicode-bidi:isolate;color:var(--ink)} .it{color:var(--tile);font-style:normal;font-weight:600}
+.alln{margin-top:28px;border-top:1px solid var(--line);padding-top:10px} .alln summary{cursor:pointer;font:700 13px var(--f-lat);letter-spacing:.08em;text-transform:uppercase;color:var(--tile);padding:6px 0}
+.an{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);line-height:1.55} .an .nb{flex:none;margin:2px 0 0;vertical-align:top} .an>div{min-width:0}
+.an-h{margin-bottom:2px} .an-h span{font:400 22px var(--f-ar);unicode-bidi:isolate} .an-h b{color:var(--tile);margin-inline-start:6px}
 .nar{font:400 26px/1.7 var(--f-ar);direction:rtl;text-align:start;margin-top:6px}
 .nbody{border-top:1px solid var(--line);margin-top:12px;padding-top:12px;font-size:16px;line-height:1.5} .nbody b{display:block;color:var(--tile);margin-bottom:4px}
 .ntag{margin-top:12px;font:700 12px var(--f-lat);letter-spacing:.06em;text-transform:uppercase;color:var(--msa)} .ntag span{font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted)}
@@ -110,19 +115,20 @@ function show(i){stop();closeNotes();unpop();NT=[];const d=L[i],el=document.getE
   if(d.lines){const o=$('div','opts');o.innerHTML='<button class="playall" id="pa">▶ Play the dialogue</button>'+[['tr','Transcription'],['lit','Word for word'],['en','English']].map(([k,t])=>`<label><input type="checkbox" id="o-${k}" ${document.body.classList.contains('no-'+k)?'':'checked'}> ${t}</label>`).join('');
     const g=$('div','dlg');el.append($('h2','','Dialogue'),o,g);
     const seenN={};const rows=d.lines.map((l,li)=>{const r=$('div','ln'+(l.lang==='msa'?' msa':''));const b=$('button','pl','▶');b.setAttribute('aria-label','Play line');const c=$('div'),h=$('div','lh');h.append(b,$('div','who',esc(l.name)));
-      const bd=(l.marks||[]).map(m=>m[2]).filter(k=>!(k in seenN)).map(k=>{seenN[k]=NT.length;const n=d.notes[k];NT.push({where:'line '+(li+1),head:n.anchor,body:n.text});return badge(NT.length-1)}).join('');
+      const bd=(l.marks||[]).map(m=>m[2]).filter(k=>!(k in seenN)).map(k=>{seenN[k]=NT.length;const n=d.notes[k];NT.push({where:'line '+(li+1)+' · '+n.topic,tr:n.tr,ar:n.ar,body:n.text});return badge(NT.length-1)}).join('');
       c.innerHTML=`<div class="ar" lang="ar">${esc(l.ar)}${bd?`<span class="nbs">${bd}</span>`:''}</div><div class="tr">${esc(l.tr)}</div><div class="lit">${esc(l.lit)}</div><div class="en">${esc(l.en)}</div>`;
       b.onclick=()=>cur===r?stop():play(r,l.audio);r.append(h,c);g.append(r);return[r,l]});
     o.querySelector('#pa').onclick=()=>{let k=0;const nx=()=>{if(k<rows.length){const[r,l]=rows[k++];play(r,l.audio,nx)}};nx()};
     ['tr','lit','en'].forEach(k=>o.querySelector('#o-'+k).onchange=e=>document.body.classList.toggle('no-'+k,!e.target.checked))}
   if(d.sides)renderSides(d,el);
   if(!d.review)secs();
-  if(d.rules){el.append($('h2','','The rules'));const r=$('div','rules');d.rules.forEach(x=>{const b=$('div','rule');b.id='r-'+x.id;b.innerHTML=`<h3>${esc(x.title)}</h3><p>${esc(x.text)}</p>`;const ex=examples(d,x.id);if(ex.length){const e=$('div','rex');ex.forEach(h=>e.append($('span','',`<b>${esc(h[1])}</b> · <i>${esc(h[3])}</i>`)));b.append(e)}r.append(b)});el.append(r)}
+  if(d.rules){el.append($('h2','','The rules'));const r=$('div','rules');d.rules.forEach(x=>{const b=$('div','rule');b.id='r-'+x.id;b.innerHTML=`<h3>${esc(x.title)}</h3><p>${md(x.text)}</p>`;const ex=examples(d,x.id);if(ex.length){const e=$('div','rex');ex.forEach(h=>e.append($('span','',`<b>${esc(h[1])}</b> · <i>${esc(h[3])}</i>`)));b.append(e)}r.append(b)});el.append(r)}
   if(d.pairs){el.append($('h2','','Side by side'));const t={head:d.pairs.head,rows:d.pairs.rows};el.append(tbl(t,['s','a','m','a','']))}
   if(d.words){el.append($('h2','','New words'));const w=$('div','words');d.words.forEach(x=>w.append($('span','a',esc(x.ar)),$('span','t',esc(x.tr)),$('span','e',esc(x.en))));el.append(w)}
   const p=d.practice||{};
   if(p.translate){el.append($('h2','','Practice 1 · understand, then tap to check'));const x=$('div','ex');p.translate.forEach(q=>x.append(qa(`<span class="a" lang="ar">${esc(q.ar)}</span><small>${esc(q.tr)}</small>`,q.en)));el.append(x)}
   if(p.fill){el.append($('h2','',(p.translate?'Practice 2':'Practice')+' · fill the gap, then tap to check'));const x=$('div','ex');p.fill.forEach(q=>x.append(qa(`${esc(q.tr)}<br><small>${esc(q.en)}</small>`,q.answer)));el.append(x)}
+  allNotes(el);
   window.scrollTo(0,0)}
 function openNotes(d){closeNotes();const o=$('div','ov');o.id='ov';const sh=$('div','sheet');
   sh.innerHTML='<div class="sh-h"><b>Notes · '+esc(d.title.en)+'</b><button class="x" aria-label="Close">✕</button></div>'+d.notes.map(n=>`<p class="note"><b>${esc(n.anchor)}</b><br>${esc(n.text)}</p>`).join('');
@@ -137,7 +143,7 @@ function renderSides(d,el){const rules=Object.fromEntries((d.rules||[]).map(r=>[
   const o=$('div','opts');o.innerHTML='<div class="mode" role="group" aria-label="Show">'+[['both','Both'],['s','Shami only'],['m','MSA only']].map(([k,t])=>`<button data-m="${k}" aria-pressed="${sideMode===k}">${t}</button>`).join('')+'</div>';
   const g=$('div','pairs');el.append($('h2','','Side by side'),o,g);
   const cards=d.sides.map(p=>{const c=$('div','pc');const s=p.sh,m=p.msa;
-    const bd=p.hl.map(h=>{const r=rules[h[4]];NT.push({where:'lesson '+p.lesson+' · '+s.name,head:h[1]+' ↔ '+h[3],ar:h[0]+' ↔ '+h[2],tag:r.short,body:h[5]});return badge(NT.length-1)}).join('');
+    const bd=p.hl.map(h=>{const r=rules[h[4]];NT.push({where:'lesson '+p.lesson+' · '+s.name,tr:h[1]+' ↔ '+h[3],ar:h[0]+' ↔ '+h[2],tag:r.short,body:h[5]});return badge(NT.length-1)}).join('');
     c.innerHTML=`<div class="ref">Lesson ${esc(p.lesson)} · ${esc(s.name)}</div><div class="sides">
       <div class="sd s"><button class="pl" aria-label="Play Shami">▶</button><div><div class="lab">Shami</div><div class="ar" lang="ar">${esc(s.ar)}</div><div class="tr">${esc(s.tr)}</div></div></div>
       <div class="sd m"><button class="pl" aria-label="Play MSA">▶</button><div><div class="lab">MSA</div><div class="ar" lang="ar">${esc(m.ar)}${bd?`<span class="nbs">${bd}</span>`:''}</div><div class="tr">${esc(m.tr)}</div></div></div>
@@ -162,12 +168,14 @@ function badge(i){return `<button class="nb" data-i="${i}" aria-label="Note ${i+
 document.addEventListener('click',e=>{const b=e.target.closest('.nb');if(!b)return;const c=b.closest('.pc');if(c&&(c.classList.contains('hide-s')||c.classList.contains('hide-m')))return;e.stopPropagation();noteSheet(+b.dataset.i)},true);
 function noteSheet(i){closeNotes();const n=NT[i];const o=$('div','ov');o.id='ov';const sh=$('div','sheet');
   sh.innerHTML=`<div class="grip"></div><div class="sh-h"><span class="kick">Notes · ${i+1} of ${NT.length} · ${esc(n.where)}</span><button class="x" aria-label="Close">✕</button></div>
-  <div class="nh">${esc(n.head)}</div>${n.ar?`<div class="nar" lang="ar">${esc(n.ar)}</div>`:''}<div class="nbody">${esc(n.body)}</div>${n.tag?`<div class="ntag">Rule · ${esc(n.tag)} <span>(see The rules, below)</span></div>`:''}
+  <div class="nhead"><div class="ntr">${esc(n.tr)}</div><div class="nar" lang="ar" dir="rtl">${esc(n.ar)}</div></div><div class="nbody">${md(n.body)}</div>${n.tag?`<div class="ntag">Rule · ${esc(n.tag)} <span>(see The rules, below)</span></div>`:''}
   <div class="nnav"><button class="prev" ${i?'':'disabled'}>‹ Previous</button><button class="next" ${i<NT.length-1?'':'disabled'}>Next ›</button></div>`;
   o.onclick=e=>{if(e.target===o)closeNotes()};sh.querySelector('.x').onclick=closeNotes;
   sh.querySelector('.prev').onclick=()=>noteSheet(i-1);sh.querySelector('.next').onclick=()=>noteSheet(i+1);
   document.querySelectorAll('.nb.on').forEach(x=>x.classList.remove('on'));const bb=document.querySelector(`.nb[data-i="${i}"]`);if(bb){bb.classList.add('on');window.scrollTo({top:bb.getBoundingClientRect().top+scrollY-110,behavior:'smooth'})}
   o.append(sh);document.body.append(o)}
+function md(t){return esc(t).replace(/\{([^|{}]+)\|([^{}]+)\}/g,(_,a,b)=>`<span class="ia" lang="ar" dir="rtl">${a}</span> <i class="it">${b}</i>`)}
+function allNotes(el){if(!NT.length)return;const dt=$('details','alln');dt.innerHTML=`<summary>All notes · ${NT.length}</summary>`+NT.map((n,i)=>`<div class="an"><button class="nb" data-i="${i}">${i+1}</button><div><div class="an-h"><span lang="ar" dir="rtl">${esc(n.ar)}</span> <b>${esc(n.tr)}</b></div><div>${md(n.body)}</div></div></div>`).join('');el.append(dt)}
 function qa(h,a){const b=$('button','q',h+`<span class="ans">${esc(a)}</span>`);b.onclick=()=>b.classList.toggle('open');return b}
 function tbl(t,cls){const w=$('div','tw'),e=$('table');e.innerHTML='<tr>'+t.head.map(h=>`<th>${esc(h)}</th>`).join('')+'</tr>'+t.rows.map(r=>'<tr>'+r.map((c,i)=>`<td class="${cls?cls[i]:''}">${esc(c)}</td>`).join('')+'</tr>').join('');w.append(e);return w}
 const nav=document.getElementById('nav');L.forEach((d,i)=>{const b=$('button',d.bridge?'b':'',esc(d.n));b.title=d.title.en;b.onclick=()=>show(i);nav.append(b)});show(0);
