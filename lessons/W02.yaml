@@ -1,0 +1,502 @@
+# Shami, week 2: lessons 8–14 and bridge B2.
+# Original text written for this course. Not yet checked by a native speaker.
+# Line fields: who, ar (partial vowels), tr (transcription), lit (word for word), en.
+week: 2
+cast:
+  adam: {name: "Adam", ar: "آدم", voice: ar-SY-LaithNeural}
+  sami: {name: "Sāmi", ar: "سامي", voice: ar-SY-LaithNeural, pitch: "-12Hz"}
+  abu:  {name: "Abu Sāmi", ar: "أبو سامي", voice: ar-SY-LaithNeural, pitch: "-25Hz", rate: "-6%"}
+  umm:  {name: "Umm Sāmi", ar: "إم سامي", voice: ar-SY-AmanyNeural}
+  lina: {name: "Līna", ar: "لينا", voice: ar-SY-AmanyNeural, pitch: "+12Hz"}
+  teta: {name: "Tēta", ar: "تيتا", voice: ar-SY-AmanyNeural, pitch: "-18Hz", rate: "-8%"}
+  garson: {name: "Waiter", ar: "الكرسون", voice: ar-SY-LaithNeural, pitch: "+6Hz", rate: "+6%"}
+  bayya3: {name: "Shopkeeper", ar: "البيّاع", voice: ar-SY-LaithNeural, pitch: "-18Hz", rate: "+4%"}
+
+lessons:
+  - id: L008
+    n: 8
+    title: {ar: "بِدّي قَهْوة", tr: "biddi ʔahwe", en: "I'd like a coffee"}
+    scene: "Sāmi takes Adam to a café in the old city for his first real Damascus coffee."
+    lines:
+      - {who: garson, ar: "أَهْلين! شو بِدّْكُن؟", tr: "ʔahlēn! šū biddkun?", lit: "welcome! what want-your(pl)?", en: "Hello! What would you like?"}
+      - {who: sami, ar: "أنا بِدّي قَهْوة. واِنْتَ يا آدَم، شو بِدَّك؟", tr: "ʔana biddi ʔahwe. w-ʔinte yā ʔādam, šū biddak?", lit: "I want-my coffee. and-you O Adam, what want-your?", en: "I'd like a coffee. And you, Adam, what would you like?"}
+      - {who: adam, ar: "وأنا كَمان قَهْوة، بَسّ سادة.", tr: "w-ʔana kamān ʔahwe, bass sāde.", lit: "and-I also coffee, but plain", en: "A coffee for me too, but without sugar."}
+      - {who: sami, ar: "تْنين قَهْوة وتْنين مَيّ، إذا بِتْريد.", tr: "tnēn ʔahwe w-tnēn mayy, ʔiza bitrīd.", lit: "two coffee and-two water, if you-want", en: "Two coffees and two waters, please."}
+      - {who: garson, ar: "أَمْرَك! وشي تاني؟", tr: "ʔamrak! w-šī tāni?", lit: "order-your! and-thing other?", en: "Right away! Anything else?"}
+      - {who: adam, ar: "اي، واحِد كْنافة كَمان!", tr: "ʔē, wāḥid knāfe kamān!", lit: "yes, one knafeh also", en: "Yes, one knāfe as well!"}
+    notes:
+      - {anchor: "biddkun", text: "bidd- + an ending means 'want'. It works like 3and- (lesson 6): biddi 'I want', biddak (to a man), biddik (to a woman), biddkun (to several people). It is not a verb, so it never takes b-, and it is negated with mā: mā biddi."}
+      - {anchor: "ʔahwe", text: "MSA qahwa, with ق said ʔ. Syrian coffee is boiled Turkish-style, often with cardamom."}
+      - {anchor: "sāde", text: "sāde 'plain' means no sugar. Ask for wasaṭ for a little sugar, ḥilwe for sweet."}
+      - {anchor: "tnēn ʔahwe", text: "To order, put the number before a singular word: tnēn ʔahwe 'two coffees', tlāte mayy 'three waters'. wāḥid and tnēn stay in this form even before a feminine word like ʔahwe."}
+      - {anchor: "ʔiza bitrīd", text: "Literally 'if you want': the everyday 'please'. To a woman: ʔiza bitrīdi. min faḍlak works too."}
+      - {anchor: "ʔamrak", text: "'Your order': what a waiter or shopkeeper says as he takes your request."}
+      - {anchor: "knāfe", text: "Warm cheese pastry soaked in syrup, the classic Damascus dessert."}
+    sections:
+      - title: "Numbers 1–10"
+        table:
+          head: ["", "Shami", "digit"]
+          rows:
+            - ["1", "wāḥid · واحِد", "١"]
+            - ["2", "tnēn · تْنين", "٢"]
+            - ["3", "tlāte · تْلاتة", "٣"]
+            - ["4", "ʔarb3a · أَرْبْعة", "٤"]
+            - ["5", "xamse · خَمْسة", "٥"]
+            - ["6", "sitte · سِتّة", "٦"]
+            - ["7", "sab3a · سَبْعة", "٧"]
+            - ["8", "tmānye · تْمانْيِة", "٨"]
+            - ["9", "tis3a · تِسْعة", "٩"]
+            - ["10", "3ašra · عَشْرة", "١٠"]
+        after: "Prices, signs and phone numbers use these Arabic digits, written left to right like ours: ٢٥ is 25. 'One' and 'two' also have feminine forms, wāḥde and tintēn."
+    words:
+      - {ar: "بدّ", tr: "bidd-", en: "(with an ending) to want"}
+      - {ar: "قهوة", tr: "ʔahwe", en: "coffee"}
+      - {ar: "كمان", tr: "kamān", en: "also, too; more"}
+      - {ar: "سادة", tr: "sāde", en: "plain; (coffee) without sugar"}
+      - {ar: "ميّ", tr: "mayy", en: "water"}
+      - {ar: "شي", tr: "šī", en: "thing, something"}
+      - {ar: "تاني", tr: "tāni", en: "other; second"}
+      - {ar: "كنافة", tr: "knāfe", en: "knafeh (cheese pastry)"}
+    practice:
+      translate:
+        - {ar: "بدّي ميّ، إذا بتريد.", tr: "biddi mayy, ʔiza bitrīd.", en: "I'd like some water, please."}
+        - {ar: "شو بدّك يا لينا؟", tr: "šū biddik yā Līna?", en: "What would you like, Līna?"}
+        - {ar: "تلاتة قهوة وتنين ميّ.", tr: "tlāte ʔahwe w-tnēn mayy.", en: "Three coffees and two waters."}
+        - {ar: "ما بدّي كنافة.", tr: "mā biddi knāfe.", en: "I don't want any knāfe."}
+      fill:
+        - {tr: "šū bidd___? (to a woman)", answer: "ik", en: "What would you like?"}
+        - {tr: "___ ʔahwe, ʔiza bitrīd.", answer: "tnēn", en: "Two coffees, please."}
+        - {tr: "w-ʔana ___ ʔahwe.", answer: "kamān", en: "A coffee for me too."}
+        - {tr: "w-šī ___?", answer: "tāni", en: "Anything else?"}
+
+  - id: L009
+    n: 9
+    title: {ar: "وَيْن رايِح؟", tr: "wēn rāyiḥ?", en: "Where are you off to?"}
+    scene: "Adam is putting his shoes on by the door when Umm Sāmi comes out of the kitchen."
+    lines:
+      - {who: umm, ar: "وَيْن رايِح يا آدَم؟", tr: "wēn rāyiḥ yā ʔādam?", lit: "where going O Adam?", en: "Where are you off to, Adam?"}
+      - {who: adam, ar: "رايِح عَالسّوق. بِدّي شوف سوق الحَميدِيّة.", tr: "rāyiḥ 3as-sūʔ. biddi šūf sūʔ il-Ḥamīdiyye.", lit: "going to-the-market. want-my see market the-Hamidiyya", en: "To the souk. I want to see the Ḥamīdiyye market."}
+      - {who: umm, ar: "لَحالَك؟", tr: "la-ḥālak?", lit: "to-self-your?", en: "On your own?"}
+      - {who: adam, ar: "لأ، سامي ولينا رايْحين مَعي.", tr: "laʔ, Sāmi w-Līna rāyḥīn ma3i.", lit: "no, Sami and-Lina going with-me", en: "No, Sāmi and Līna are coming with me."}
+      - {who: umm, ar: "وبَعْدين، وَيْن رايْحين؟", tr: "w-ba3dēn, wēn rāyḥīn?", lit: "and-after, where going(pl)?", en: "And after that, where are you going?"}
+      - {who: adam, ar: "بَعْدين بِدّْنا نْروح لَعَنْد تيتا.", tr: "ba3dēn biddna nrūḥ la-3and tēta.", lit: "after want-our we-go to-at grandma", en: "Then we want to go to Tēta's."}
+    notes:
+      - {anchor: "rāyiḥ", text: "'Going', right now. It is a verb-adjective (a participle), so it changes like ta3bān: rāyiḥ (m), rāyḥa (f), rāyḥīn (pl). wēn rāyiḥ? is the everyday 'where are you off to?'."}
+      - {anchor: "3as-sūʔ", text: "3a means 'to, onto'. With the article it fuses: 3a + is-sūʔ → 3as-sūʔ. sūʔ is MSA sūq, with ق said ʔ."}
+      - {anchor: "biddi šūf", text: "After biddi the verb comes with no b-. For 'I' it is just the bare stem: biddi šūf 'I want to see'."}
+      - {anchor: "sūʔ il-Ḥamīdiyye", text: "The great covered market of old Damascus, running from the citadel to the Umayyad Mosque."}
+      - {anchor: "la-ḥālak", text: "'On your own'. With other endings: la-ḥāli 'on my own', la-ḥālik (to a woman), la-ḥālha 'on her own'."}
+      - {anchor: "biddna nrūḥ", text: "'We want to go'. For 'we' the verb starts with n-: nrūḥ. biddna is bidd + -na 'our'."}
+      - {anchor: "la-3and tēta", text: "3and tēta is 'at Tēta's (place)'. Put la- 'to' in front and it becomes 'to Tēta's'."}
+    words:
+      - {ar: "رايح", tr: "rāyiḥ", en: "going (f rāyḥa, pl rāyḥīn)"}
+      - {ar: "راح", tr: "rāḥ (nrūḥ)", en: "to go (we go)"}
+      - {ar: "شاف", tr: "šāf (šūf)", en: "to see (I see)"}
+      - {ar: "سوق", tr: "sūʔ", en: "market, souk"}
+      - {ar: "لحال", tr: "la-ḥāl-", en: "(with an ending) on one's own"}
+      - {ar: "مع", tr: "ma3", en: "with"}
+      - {ar: "بعدين", tr: "ba3dēn", en: "then, after that"}
+      - {ar: "لَ", tr: "la-", en: "to"}
+    practice:
+      translate:
+        - {ar: "وين رايحة يا لينا؟", tr: "wēn rāyḥa yā Līna?", en: "Where are you off to, Līna?"}
+        - {ar: "رايح عالبيت.", tr: "rāyiḥ 3al-bēt.", en: "I'm going home."}
+        - {ar: "بدّي روح مع سامي.", tr: "biddi rūḥ ma3 Sāmi.", en: "I want to go with Sāmi."}
+        - {ar: "تيتا رايحة عالسّوق لحالها.", tr: "tēta rāyḥa 3as-sūʔ la-ḥālha.", en: "Tēta is going to the souk on her own."}
+      fill:
+        - {tr: "Līna ___ ma3i.", answer: "rāyḥa", en: "Līna is coming with me."}
+        - {tr: "biddi ___ il-Ḥamīdiyye.", answer: "šūf", en: "I want to see the Ḥamīdiyye."}
+        - {tr: "biddna ___ la-3and tēta.", answer: "nrūḥ", en: "We want to go to Tēta's."}
+        - {tr: "rāyiḥ la-___?", answer: "ḥālak", en: "Are you going on your own?"}
+
+  - id: L010
+    n: 10
+    title: {ar: "بْحِبّ", tr: "bḥibb", en: "I love it"}
+    scene: "Dinner at Tēta's. The table is covered, and Tēta wants to know what everyone likes."
+    lines:
+      - {who: teta, ar: "شو بْتْحِبّ تاكُل يا آدَم؟", tr: "šū btḥibb tākul yā ʔādam?", lit: "what you-like you-eat O Adam?", en: "What do you like to eat, Adam?"}
+      - {who: adam, ar: "بْحِبّ كِلّ شي، بَسّ بْحِبّ الكِبّة كْتير.", tr: "bḥibb kill šī, bass bḥibb il-kibbe ktīr.", lit: "I-like all thing, but I-like the-kibbeh much", en: "I like everything, but I really love kibbeh."}
+      - {who: teta, ar: "سامي بيحِبّ المَحْشي. واِنْتي يا لينا؟", tr: "Sāmi biḥibb il-maḥši. w-ʔinti yā Līna?", lit: "Sami he-likes the-stuffed. and-you(f) O Lina?", en: "Sāmi loves stuffed vegetables. And you, Līna?"}
+      - {who: lina, ar: "أنا ما بْحِبّ اللَّحْمة. بْحِبّ الخُضْرة والحُمُّص.", tr: "ʔana mā bḥibb il-laḥme. bḥibb il-xuḍra wil-ḥummuṣ.", lit: "I not I-like the-meat. I-like the-vegetables and-the-hummus", en: "I don't like meat. I like vegetables and hummus."}
+      - {who: sami, ar: "لينا ما بْتْحِبّ اللَّحْمة، بَسّ بْتْحِبّ الحِلو كْتير!", tr: "Līna mā btḥibb il-laḥme, bass btḥibb il-ḥilu ktīr!", lit: "Lina not she-likes the-meat, but she-likes the-sweet much", en: "Līna doesn't like meat, but she loves dessert!"}
+      - {who: teta, ar: "كِلّ شي عَالطّاوْلة. صَحْتين!", tr: "kill šī 3aṭ-ṭāwle. ṣaḥtēn!", lit: "all thing on-the-table. two-healths", en: "Everything's on the table. Enjoy your meal!"}
+    notes:
+      - {anchor: "btḥibb tākul", text: "Two verbs in a row: the first takes b-, the second does not. btḥibb tākul 'you like to eat'."}
+      - {anchor: "bḥibb", text: "b- marks the ordinary present. For 'I' it is b- + the stem: bḥibb 'I like, I love'. ḥabb covers both 'like' and 'love'."}
+      - {anchor: "kibbe", text: "Balls of bulgur and minced meat stuffed with more meat and pine nuts: a Damascus speciality."}
+      - {anchor: "biḥibb", text: "'He likes': b- and the y- of 'he' merge into bi-: biḥibb. 'You like' and 'she likes' sound the same: btḥibb."}
+      - {anchor: "maḥši", text: "Courgettes, aubergines or vine leaves stuffed with rice and often meat."}
+      - {anchor: "mā bḥibb", text: "Verbs are negated with mā, as with 3and and fī: mā bḥibb 'I don't like'."}
+      - {anchor: "il-ḥilu", text: "ḥilu 'nice, sweet'. il-ḥilu 'the sweet (thing)' is dessert."}
+      - {anchor: "ṣaḥtēn", text: "'Two healths': said to people who are eating. The answer is 3ala ʔalbak, 'on your heart' (to a woman 3ala ʔalbik)."}
+    sections:
+      - title: "The present with b-"
+        text: "ḥabb 'to like, to love', for every person:"
+        table:
+          head: ["", "Shami", ""]
+          rows:
+            - ["I", "bḥibb", "بْحِبّ"]
+            - ["you (m)", "btḥibb", "بْتْحِبّ"]
+            - ["you (f)", "btḥibbi", "بْتْحِبّي"]
+            - ["he", "biḥibb", "بيحِبّ"]
+            - ["she", "btḥibb", "بْتْحِبّ"]
+            - ["we", "minḥibb", "مِنْحِبّ"]
+            - ["you (pl)", "btḥibbu", "بْتْحِبّو"]
+            - ["they", "biḥibbu", "بيحِبّو"]
+        after: "Without b- (after biddi, or as the second of two verbs): ḥibb, tḥibb, tḥibbi, yḥibb, nḥibb, tḥibbu, yḥibbu."
+    words:
+      - {ar: "حبّ", tr: "ḥabb (bḥibb)", en: "to like, to love"}
+      - {ar: "كلّ", tr: "kill", en: "all, every"}
+      - {ar: "كبّة", tr: "kibbe", en: "kibbeh"}
+      - {ar: "محشي", tr: "maḥši", en: "stuffed vegetables"}
+      - {ar: "لحمة", tr: "laḥme", en: "meat"}
+      - {ar: "خضرة", tr: "xuḍra", en: "vegetables"}
+      - {ar: "حمّص", tr: "ḥummuṣ", en: "hummus; chickpeas"}
+      - {ar: "طاولة", tr: "ṭāwle", en: "table"}
+      - {ar: "صحتين", tr: "ṣaḥtēn", en: "enjoy your meal"}
+    practice:
+      translate:
+        - {ar: "بتحبّ القهوة؟", tr: "btḥibb il-ʔahwe?", en: "Do you like coffee?"}
+        - {ar: "ما بحبّ الكنافة.", tr: "mā bḥibb il-knāfe.", en: "I don't like knāfe."}
+        - {ar: "تيتا بتحبّ الياسمين.", tr: "tēta btḥibb il-yāsmīn.", en: "Tēta loves jasmine."}
+        - {ar: "منحبّ الشّام كتير.", tr: "minḥibb iš-Šām ktīr.", en: "We love Damascus very much."}
+      fill:
+        - {tr: "Sāmi ___ il-maḥši.", answer: "biḥibb", en: "Sāmi loves stuffed vegetables."}
+        - {tr: "ʔinti ___ il-laḥme?", answer: "btḥibbi", en: "Do you (f) like meat?"}
+        - {tr: "ʔana ___ bḥibb il-laḥme.", answer: "mā", en: "I don't like meat."}
+        - {tr: "šū btḥibb ___?", answer: "tākul", en: "What do you like to eat?"}
+
+  - id: L011
+    n: 11
+    title: {ar: "شو بْتِشْتِغِل؟", tr: "šū btištiɣil?", en: "What do you do?"}
+    scene: "Late evening on the balcony in Mezze. Adam finally asks his cousins about their lives."
+    lines:
+      - {who: adam, ar: "سامي، شو بْتِشْتِغِل؟", tr: "Sāmi, šū btištiɣil?", lit: "Sami, what you-work?", en: "Sāmi, what do you do for work?"}
+      - {who: sami, ar: "أنا مُهَنْدِس. بِشْتِغِل بْشِرْكة بالمَزّة.", tr: "ʔana muhandis. bištiɣil b-širke bil-Mazze.", lit: "I engineer. I-work in-company in-the-Mezze", en: "I'm an engineer. I work for a company in Mezze."}
+      - {who: adam, ar: "واِنْتي يا لينا، بْتِشْتِغْلي؟", tr: "w-ʔinti yā Līna, btištiɣli?", lit: "and-you(f) O Lina, you(f)-work?", en: "And you, Līna, do you work?"}
+      - {who: lina, ar: "لأ، بِدْرُس طِبّ بالجامْعة. واِنْتَ، شو بْتِشْتِغِل بْباريس؟", tr: "laʔ, bidrus ṭibb bil-jām3a. w-ʔinte, šū btištiɣil b-Bārīs?", lit: "no, I-study medicine in-the-university. and-you, what you-work in-Paris?", en: "No, I study medicine at the university. And you, what do you do in Paris?"}
+      - {who: adam, ar: "بِشْتِغِل بْمَكْتَبة. أنا فَرَنْساوي وسوري.", tr: "bištiɣil b-maktabe. ʔana faransāwi w-sūri.", lit: "I-work in-library. I French and-Syrian", en: "I work in a library. I'm French and Syrian."}
+      - {who: lina, ar: "يَعْني نُصّ فَرَنْساوي ونُصّ شامي!", tr: "ya3ni nuṣṣ faransāwi w-nuṣṣ šāmi!", lit: "means half French and-half Damascene", en: "So half French and half Damascene!"}
+    notes:
+      - {anchor: "btištiɣil", text: "'You work'. ištaɣal 'to work': bištiɣil 'I work', btištiɣil 'you work' or 'she works', byištiɣil 'he works'."}
+      - {anchor: "ʔana muhandis", text: "No word for 'a' with jobs: ʔana muhandis 'I'm an engineer'."}
+      - {anchor: "btištiɣli", text: "To a woman the verb adds -i, and the vowel before it drops: btištiɣil → btištiɣli."}
+      - {anchor: "bidrus ṭibb", text: "daras 'to study': bidrus 'I study'. ṭibb is medicine as a subject; a doctor is usually called doktōr."}
+      - {anchor: "faransāwi w-sūri", text: "Nationalities end in -i, and in -iyye for a woman: sūri / sūriyye, faransāwi / faransāwiyye."}
+      - {anchor: "ya3ni", text: "Literally 'it means': the everyday 'so, I mean, that is'. You will hear it in almost every sentence."}
+      - {anchor: "šāmi", text: "šāmi is 'from iš-Šām': Damascene, and more loosely Syrian or Levantine. It is also the name of this course."}
+    sections:
+      - title: "Where are you from?"
+        table:
+          head: ["", "man", "woman"]
+          rows:
+            - ["Syrian", "sūri · سوري", "sūriyye · سوريّة"]
+            - ["Damascene", "šāmi · شامي", "šāmiyye · شاميّة"]
+            - ["Lebanese", "lubnāni · لُبْناني", "lubnāniyye · لُبْنانيّة"]
+            - ["French", "faransāwi · فَرَنْساوي", "faransāwiyye · فَرَنْساويّة"]
+    words:
+      - {ar: "اشتغل", tr: "ištaɣal (bištiɣil)", en: "to work"}
+      - {ar: "مهندس", tr: "muhandis", en: "engineer"}
+      - {ar: "شركة", tr: "širke", en: "company"}
+      - {ar: "درس", tr: "daras (bidrus)", en: "to study"}
+      - {ar: "طبّ", tr: "ṭibb", en: "medicine"}
+      - {ar: "جامعة", tr: "jām3a", en: "university"}
+      - {ar: "مكتبة", tr: "maktabe", en: "library; bookshop"}
+      - {ar: "يعني", tr: "ya3ni", en: "so, I mean"}
+      - {ar: "نصّ", tr: "nuṣṣ", en: "half"}
+    practice:
+      translate:
+        - {ar: "بشتغل بالمزّة.", tr: "bištiɣil bil-Mazze.", en: "I work in Mezze."}
+        - {ar: "لينا بتدرس طبّ.", tr: "Līna btidrus ṭibb.", en: "Līna studies medicine."}
+        - {ar: "انتي سوريّة؟", tr: "ʔinti sūriyye?", en: "Are you Syrian? (to a woman)"}
+        - {ar: "سامي مهندس شامي.", tr: "Sāmi muhandis šāmi.", en: "Sāmi is a Damascene engineer."}
+      fill:
+        - {tr: "šū ___? (to a man)", answer: "btištiɣil", en: "What do you do?"}
+        - {tr: "ʔana ___ ṭibb.", answer: "bidrus", en: "I study medicine."}
+        - {tr: "Līna ___.", answer: "sūriyye", en: "Līna is Syrian."}
+        - {tr: "Adam ___ faransāwi w-nuṣṣ šāmi.", answer: "nuṣṣ", en: "Adam is half French and half Damascene."}
+
+  - id: L012
+    n: 12
+    title: {ar: "مْبارِح", tr: "mbāriḥ", en: "Yesterday"}
+    scene: "Breakfast. Abu Sāmi, behind his newspaper, wants a full report on yesterday."
+    lines:
+      - {who: abu, ar: "صَباح الخير يا آدَم! شو عْمِلْت مْبارِح؟", tr: "ṣabāḥ il-xēr yā ʔādam! šū 3milt mbāriḥ?", lit: "morning the-good O Adam! what you-did yesterday?", en: "Good morning, Adam! What did you do yesterday?"}
+      - {who: adam, ar: "صَباح النّور عَمّو! رِحْت عَالسّوق مَع سامي ولينا.", tr: "ṣabāḥ in-nūr 3ammo! riḥt 3as-sūʔ ma3 Sāmi w-Līna.", lit: "morning the-light uncle! I-went to-the-market with Sami and-Lina", en: "Good morning, Uncle! I went to the souk with Sāmi and Līna."}
+      - {who: abu, ar: "وشو شِفْت؟", tr: "w-šū šift?", lit: "and-what you-saw?", en: "And what did you see?"}
+      - {who: adam, ar: "شِفْت الجامِع الأُمَوي، وأَكَلْت بوظة عَنْد بَكْداش!", tr: "šift il-Jāmi3 il-ʔUmawi, w-ʔakalt būẓa 3and Bakdāš!", lit: "I-saw the-mosque the-Umayyad, and-I-ate ice-cream at Bakdash", en: "I saw the Umayyad Mosque, and had ice cream at Bakdāš!"}
+      - {who: abu, ar: "أَحْلى شي! وكَتَبْت لَأَبوك؟", tr: "ʔaḥla šī! w-katabt la-ʔabūk?", lit: "sweetest thing! and-you-wrote to-father-your?", en: "Lovely! And did you write to your father?"}
+      - {who: adam, ar: "اي، كَتَبْتِلّو مْبارِح بِاللّيْل. بَسّ ما رَدّ.", tr: "ʔē, katabtillo mbāriḥ bil-lēl. bass mā radd.", lit: "yes, I-wrote-to-him yesterday at-the-night. but not he-answered", en: "Yes, I wrote to him last night. But he didn't answer."}
+    notes:
+      - {anchor: "3milt", text: "The past: -t is the ending for 'I' and for 'you' (to a man), so 3milt is 'I did' or 'you did'. 3imil is 'he did'."}
+      - {anchor: "ṣabāḥ il-xēr", text: "'Morning of goodness'. The answer swaps in another nice word: ṣabāḥ in-nūr 'morning of light'."}
+      - {anchor: "riḥt", text: "rāḥ 'he went' shortens its ā when an ending is added: riḥt 'I went'. šāf 'he saw' does the same: šift."}
+      - {anchor: "il-Jāmi3 il-ʔUmawi", text: "The Umayyad Mosque, at the end of the Ḥamīdiyye souk, built in the early 8th century."}
+      - {anchor: "būẓa", text: "Damascus ice cream, pounded and stretched, flavoured with mastic and rolled in pistachios. Bakdāš, in the Ḥamīdiyye souk, is the most famous place for it."}
+      - {anchor: "ʔaḥla šī", text: "'The nicest thing': a warm 'how lovely!'."}
+      - {anchor: "katabtillo", text: "-lo 'to him' sticks onto the verb, with an i to link: katabt + lo → katabtillo 'I wrote to him'."}
+      - {anchor: "mā radd", text: "The past is negated with mā too: mā radd 'he didn't answer'."}
+    sections:
+      - title: "The past"
+        table:
+          head: ["", "katab 'write'", "rāḥ 'go'"]
+          rows:
+            - ["I", "katabt", "riḥt"]
+            - ["you (m)", "katabt", "riḥt"]
+            - ["you (f)", "katabti", "riḥti"]
+            - ["he", "katab", "rāḥ"]
+            - ["she", "katbit", "rāḥit"]
+            - ["we", "katabna", "riḥna"]
+            - ["you (pl)", "katabtu", "riḥtu"]
+            - ["they", "katabu", "rāḥu"]
+        after: "Verbs with a long ā in the middle, like rāḥ, šāf and nām, shorten it to i when the ending starts with a consonant: riḥt, šift, nimt."
+    words:
+      - {ar: "مبارح", tr: "mbāriḥ", en: "yesterday"}
+      - {ar: "عمل", tr: "3imil (3milt)", en: "to do, to make"}
+      - {ar: "صباح الخير", tr: "ṣabāḥ il-xēr", en: "good morning"}
+      - {ar: "أكل", tr: "ʔakal", en: "to eat"}
+      - {ar: "كتب", tr: "katab", en: "to write"}
+      - {ar: "جامع", tr: "jāmi3", en: "mosque"}
+      - {ar: "بوظة", tr: "būẓa", en: "ice cream"}
+      - {ar: "ليل", tr: "lēl", en: "night"}
+      - {ar: "ردّ", tr: "radd", en: "to answer, to reply"}
+    practice:
+      translate:
+        - {ar: "رحت عالبيت.", tr: "riḥt 3al-bēt.", en: "I went home."}
+        - {ar: "شو أكلت مبارح؟", tr: "šū ʔakalt mbāriḥ?", en: "What did you eat yesterday?"}
+        - {ar: "لينا راحت عالجامعة.", tr: "Līna rāḥit 3al-jām3a.", en: "Līna went to the university."}
+        - {ar: "ما شفت سامي.", tr: "mā šift Sāmi.", en: "I didn't see Sāmi."}
+      fill:
+        - {tr: "šū ___ mbāriḥ? (to a man)", answer: "3milt", en: "What did you do yesterday?"}
+        - {tr: "___ 3as-sūʔ.", answer: "riḥt", en: "I went to the souk."}
+        - {tr: "Līna ___ il-Jāmi3.", answer: "šāfit", en: "Līna saw the mosque."}
+        - {tr: "katabtillo, bass ___ radd.", answer: "mā", en: "I wrote to him, but he didn't answer."}
+
+  - id: L013
+    n: 13
+    title: {ar: "قَدّيش؟", tr: "ʔaddēš?", en: "How much?"}
+    scene: "Sūʔ il-Ḥamīdiyye. Līna has spotted a silk scarf, and Adam watches a real bargain."
+    lines:
+      - {who: lina, ar: "عَمّو، قَدّيش هالشّال؟", tr: "3ammo, ʔaddēš haš-šāl?", lit: "uncle, how-much this-shawl?", en: "Excuse me, how much is this scarf?"}
+      - {who: bayya3, ar: "لَإلِك؟ تْلاتين أَلْف.", tr: "la-ʔilik? tlātīn ʔalf.", lit: "for-you(f)? thirty thousand", en: "For you? Thirty thousand."}
+      - {who: lina, ar: "تْلاتين؟! غالي كْتير. عِشْرين.", tr: "tlātīn?! ɣāli ktīr. 3išrīn.", lit: "thirty?! expensive much. twenty", en: "Thirty?! That's far too expensive. Twenty."}
+      - {who: bayya3, ar: "مَعْقول؟ خَمْسة وعِشْرين، وبَسّ لَإلِك.", tr: "ma3ʔūl? xamsa w-3išrīn, w-bass la-ʔilik.", lit: "reasonable? five and-twenty, and-only for-you", en: "Are you serious? Twenty-five, and only for you."}
+      - {who: adam, ar: "كِلّ شي غالي هَوْن؟", tr: "kill šī ɣāli hōn?", lit: "all thing expensive here?", en: "Is everything expensive here?"}
+      - {who: lina, ar: "هَلّق اي... بَسّ نِحْنا مْنِعْرِف نْفاصِل!", tr: "hallaʔ ʔē... bass niḥna mni3rif nfāṣil!", lit: "now yes... but we we-know we-bargain", en: "These days, yes... but we know how to bargain!"}
+    notes:
+      - {anchor: "ʔaddēš", text: "'How much?' for prices and amounts. For things you count, use kam + a singular noun: kam šāl? 'how many scarves?'."}
+      - {anchor: "haš-šāl", text: "hal- is a short 'this': hal-bēt 'this house'. Like the article, it merges with sun letters: haš-šāl."}
+      - {anchor: "3ammo", text: "The polite way to address an older man you don't know, such as a shopkeeper. For an older woman: xāle."}
+      - {anchor: "la-ʔilik", text: "'For you': the seller's classic line, to make a price sound like a favour."}
+      - {anchor: "tlātīn ʔalf", text: "From 11 up, the noun after a number stays singular: tlātīn ʔalf 'thirty thousand', xamsīn lēra 'fifty pounds'."}
+      - {anchor: "xamsa w-3išrīn", text: "Units come first, as in German: 'five and twenty' = 25."}
+      - {anchor: "ma3ʔūl", text: "'Reasonable?', here 'are you serious?'. MSA ma3qūl, ق said ʔ."}
+      - {anchor: "nfāṣil", text: "fāṣal 'to bargain'. mni3rif nfāṣil 'we know (how to) bargain': the second verb, again, has no b-."}
+    sections:
+      - title: "Numbers from 11"
+        table:
+          head: ["", "Shami", "", "Shami"]
+          rows:
+            - ["11", "ḥdāšar · حْداشَر", "20", "3išrīn · عِشْرين"]
+            - ["12", "tnāšar · تْناشَر", "30", "tlātīn · تْلاتين"]
+            - ["13", "tlattāšar · تْلَطّاشَر", "40", "ʔarb3īn · أَرْبْعين"]
+            - ["14", "ʔarba3tāšar · أَرْبَعْتاشَر", "50", "xamsīn · خَمْسين"]
+            - ["15", "xamstāšar · خَمِسْتاشَر", "60", "sittīn · سِتّين"]
+            - ["16", "sittāšar · سِتّاشَر", "70", "sab3īn · سَبْعين"]
+            - ["17", "saba3tāšar · سَبَعْتاشَر", "80", "tmānīn · تْمانين"]
+            - ["18", "tmantāšar · تْمَنْتاشَر", "90", "tis3īn · تِسْعين"]
+            - ["19", "tisa3tāšar · تِسَعْتاشَر", "100", "mīye · مِيّة"]
+            - ["", "", "1000", "ʔalf · أَلْف"]
+        after: "21 is wāḥid w-3išrīn, 35 xamsa w-tlātīn. After 3 to 10 a noun is plural (tlat banāt 'three girls'); from 11 it is singular (3išrīn lēra 'twenty pounds')."
+    words:
+      - {ar: "قدّيش", tr: "ʔaddēš", en: "how much"}
+      - {ar: "كم", tr: "kam", en: "how many (+ singular)"}
+      - {ar: "شال", tr: "šāl", en: "scarf, shawl"}
+      - {ar: "ألف", tr: "ʔalf", en: "thousand"}
+      - {ar: "غالي", tr: "ɣāli", en: "expensive"}
+      - {ar: "معقول", tr: "ma3ʔūl", en: "reasonable; really?"}
+      - {ar: "عرف", tr: "3irif (mni3rif)", en: "to know (we know)"}
+      - {ar: "فاصل", tr: "fāṣal", en: "to bargain"}
+      - {ar: "ليرة", tr: "lēra", en: "pound (Syrian money)"}
+    practice:
+      translate:
+        - {ar: "قدّيش القهوة؟", tr: "ʔaddēš il-ʔahwe?", en: "How much is the coffee?"}
+        - {ar: "خمسين ألف؟ غالي كتير!", tr: "xamsīn ʔalf? ɣāli ktīr!", en: "Fifty thousand? That's very expensive!"}
+        - {ar: "كم أخت عندك؟", tr: "kam ʔixt 3andak?", en: "How many sisters do you have?"}
+        - {ar: "الشّال مو غالي.", tr: "iš-šāl mū ɣāli.", en: "The scarf isn't expensive."}
+      fill:
+        - {tr: "___ haš-šāl?", answer: "ʔaddēš", en: "How much is this scarf?"}
+        - {tr: "xamsa w-___", answer: "3išrīn", en: "twenty-five"}
+        - {tr: "kam ___ biddik?", answer: "šāl", en: "How many scarves do you want?"}
+        - {tr: "niḥna mni3rif ___.", answer: "nfāṣil", en: "We know how to bargain."}
+
+  - id: L014
+    n: 14
+    review: true
+    title: {ar: "مُراجَعة", tr: "murāja3a", en: "Revision 2"}
+    scene: "Nothing new this lesson: the verb, in tables, then an evening dialogue made of what you know."
+    sections:
+      - title: "Wanting: bidd-"
+        text: "bidd + an ending, like 3and: biddi, biddak, biddik, biddo, bidda, biddna, biddkun, biddun. It is negated with mā: mā biddi. A verb after it has no b-: biddi šūf 'I want to see'."
+      - title: "The present with b-"
+        text: "katab 'to write':"
+        table:
+          head: ["", "with b-", "after biddi…"]
+          rows:
+            - ["I", "biktub · بِكْتُب", "ʔiktub"]
+            - ["you (m)", "btiktub · بْتِكْتُب", "tiktub"]
+            - ["you (f)", "btiktbi · بْتِكْتْبي", "tiktbi"]
+            - ["he", "byiktub · بْيِكْتُب", "yiktub"]
+            - ["she", "btiktub · بْتِكْتُب", "tiktub"]
+            - ["we", "mniktub · مْنِكْتُب", "niktub"]
+            - ["you (pl)", "btiktbu · بْتِكْتْبو", "tiktbu"]
+            - ["they", "byiktbu · بْيِكْتْبو", "yiktbu"]
+        after: "With a verb like ḥabb, 'he' is biḥibb rather than byḥibb: b- and yi- merge. For 'we', b- + n- gives m(i)n-: mniktub, minḥibb."
+      - title: "The past"
+        text: "Endings: -t 'I' and 'you (m)', -ti 'you (f)', nothing for 'he', -it 'she', -na 'we', -tu 'you (pl)', -u 'they'. Verbs with ā in the middle shorten it before -t, -na, -tu: rāḥ → riḥt, šāf → šift."
+      - title: "Going: rāyiḥ"
+        text: "rāyiḥ, rāyḥa, rāyḥīn 'going, on the way'. It describes what is happening now: wēn rāyiḥ? 'where are you off to?'."
+      - title: "mā or mū"
+        text: "mā before verbs, present and past (mā bḥibb, mā radd), and before bidd-, 3and and fī. mū before everything else (mū ɣāli, mū hōn)."
+      - title: "Numbers"
+        text: "1–10: wāḥid, tnēn, tlāte, ʔarb3a, xamse, sitte, sab3a, tmānye, tis3a, 3ašra. To order: number + singular, tnēn ʔahwe. From 11 the noun is singular: 3išrīn lēra. 25 is 'five and twenty', xamsa w-3išrīn."
+    lines:
+      - {who: abu, ar: "آدَم، شو بِدَّك تَعْمِل هَلّق؟", tr: "ʔādam, šū biddak ta3mil hallaʔ?", lit: "Adam, what want-your you-do now?", en: "Adam, what do you want to do now?"}
+      - {who: adam, ar: "بِدّي اِكْتُب لَأَبوي.", tr: "biddi ʔiktub la-ʔabūy.", lit: "want-my I-write to-father-my", en: "I want to write to my father."}
+      - {who: abu, ar: "كَتَبْتِلّو مْبارِح، وما رَدّ؟", tr: "katabtillo mbāriḥ, w-mā radd?", lit: "you-wrote-to-him yesterday, and-not he-answered?", en: "You wrote to him yesterday, and he didn't answer?"}
+      - {who: adam, ar: "اي. بَسّ بْحِبّ اِكْتُبْلو. هُوّ بيحِبّ الشّام كْتير.", tr: "ʔē. bass bḥibb ʔiktublo. huwwe biḥibb iš-Šām ktīr.", lit: "yes. but I-like I-write-to-him. he he-loves the-Sham much", en: "Yes. But I like writing to him. He loves Damascus so much."}
+      - {who: teta, ar: "أَبوك بيحِبّ الشّام، والشّام بْتْحِبّو.", tr: "ʔabūk biḥibb iš-Šām, w-iš-Šām btḥibbo.", lit: "father-your he-loves the-Sham, and-the-Sham she-loves-him", en: "Your father loves Damascus, and Damascus loves him."}
+      - {who: lina, ar: "يَلّا، مين بِدّو قَهْوة؟", tr: "yalla, mīn biddo ʔahwe?", lit: "come-on, who want-his coffee?", en: "Come on, who wants coffee?"}
+      - {who: sami, ar: "أنا! تْنين قَهْوة: واحِد إلي وواحِد لَآدَم.", tr: "ʔana! tnēn ʔahwe: wāḥid ʔili w-wāḥid la-ʔādam.", lit: "I! two coffee: one for-me and-one for-Adam", en: "Me! Two coffees: one for me and one for Adam."}
+    words:
+      - {ar: "يلّا", tr: "yalla", en: "come on, let's go"}
+      - {ar: "أبوي", tr: "ʔabūy", en: "my father"}
+    practice:
+      translate:
+        - {ar: "بدّك تروح عالسّوق؟", tr: "biddak trūḥ 3as-sūʔ?", en: "Do you want to go to the souk?"}
+        - {ar: "شفت تيتا مبارح.", tr: "šift tēta mbāriḥ.", en: "I saw Tēta yesterday."}
+        - {ar: "لينا ما بتحبّ اللحمة.", tr: "Līna mā btḥibb il-laḥme.", en: "Līna doesn't like meat."}
+        - {ar: "منحبّ الكنافة.", tr: "minḥibb il-knāfe.", en: "We love knāfe."}
+      fill:
+        - {tr: "biddi ___ la-ʔabūy.", answer: "ʔiktub", en: "I want to write to my father."}
+        - {tr: "hiyye ___ 3as-sūʔ mbāriḥ.", answer: "rāḥit", en: "She went to the souk yesterday."}
+        - {tr: "Sāmi ___ il-maḥši.", answer: "biḥibb", en: "Sāmi loves stuffed vegetables."}
+        - {tr: "___ biddi ʔahwe.", answer: "mā", en: "I don't want coffee."}
+
+  - id: B02
+    n: B2
+    bridge: true
+    title: {ar: "الفِعِل", tr: "il-fi3il", en: "Bridge 2 · The verb"}
+    scene: "This week you learnt the Shami verb. Here are the week's sentences again, each with its MSA version. The verbs are close cousins: tap a number for the note on each difference."
+    sides:
+      - ref: [L008, 2]
+        msa: {ar: "أَنا أُريدُ قَهْوَةً. وَأَنْتَ يا آدَمُ، ماذا تُريدُ؟", tr: "ʔanā ʔurīdu qahwatan. wa-ʔanta yā ʔādamu, mādhā turīdu?"}
+        hl:
+          - ["بِدّي", "biddi", "أُريدُ", "ʔurīdu", words, "'I want': Shami bidd- is not a verb, just bidd + 'my'. MSA uses a real verb, ʔarāda, and conjugates it: ʔurīdu 'I want'."]
+          - ["بِدَّك", "biddak", "تُريدُ", "turīdu", pers, "'You want': Shami changes the ending (-ak). MSA changes the front of the verb: t- for 'you', turīdu."]
+          - ["قَهْوة", "ʔahwe", "قَهْوَةً", "qahwatan", b1, "q said ʔ, and MSA adds the ending -tan for an indefinite object."]
+      - ref: [L009, 1]
+        msa: {ar: "إِلى أَيْنَ أَنْتَ ذاهِبٌ يا آدَمُ؟", tr: "ʔilā ʔayna ʔanta dhāhibun yā ʔādamu?"}
+        hl:
+          - ["رايِح", "rāyiḥ", "ذاهِبٌ", "dhāhibun", words, "'Going': both use a participle, a verb-adjective for what is happening now. Shami's comes from rāḥ 'go', MSA's from dhahaba. MSA also says ʔanta 'you'; Shami leaves it out."]
+          - ["وَيْن", "wēn", "إِلى أَيْنَ", "ʔilā ʔayna", words, "MSA asks 'to where?' (ʔilā ʔayna). Shami wēn covers both 'where' and 'where to'."]
+      - ref: [L009, 6]
+        msa: {ar: "ثُمَّ نُريدُ أَنْ نَذْهَبَ إِلى بَيْتِ جَدَّتِنا.", tr: "thumma nurīdu ʔan nadhhaba ʔilā bayti jaddatinā."}
+        hl:
+          - ["بِدّْنا نْروح", "biddna nrūḥ", "نُريدُ أَنْ نَذْهَبَ", "nurīdu ʔan nadhhaba", mood, "'We want to go': Shami puts the bare verb straight after biddna. MSA needs ʔan 'that' and the ending -a on the verb: ʔan nadhhaba. Both start 'we' with n-."]
+          - ["لَعَنْد تيتا", "la-3and tēta", "إِلى بَيْتِ جَدَّتِنا", "ʔilā bayti jaddatinā", words, "'To Tēta's': Shami la-3and 'to the place of'. MSA spells it out: 'to the house of our grandmother'."]
+      - ref: [L010, 1]
+        msa: {ar: "ماذا تُحِبُّ أَنْ تَأْكُلَ يا آدَمُ؟", tr: "mādhā tuḥibbu ʔan taʔkula yā ʔādamu?"}
+        hl:
+          - ["بْتْحِبّ", "btḥibb", "تُحِبُّ", "tuḥibbu", b, "'You like': the same t- for 'you' in both. Shami adds b- in front for the plain present; MSA adds -u at the end."]
+          - ["تاكُل", "tākul", "أَنْ تَأْكُلَ", "ʔan taʔkula", mood, "The second verb: bare in Shami, with ʔan and the ending -a in MSA. MSA taʔkul keeps its hamza; Shami drops it and lengthens the vowel: tākul."]
+      - ref: [L010, 2]
+        msa: {ar: "أُحِبُّ كُلَّ شَيْءٍ، لٰكِنَّني أُحِبُّ الكِبَّةَ كَثيرًا.", tr: "ʔuḥibbu kulla šayʔin, lākinnanī ʔuḥibbu l-kibbata kathīran."}
+        hl:
+          - ["بْحِبّ", "bḥibb", "أُحِبُّ", "ʔuḥibbu", pers, "'I like': MSA starts with ʔu- for 'I'. In Shami that ʔ- disappears behind b-: bḥibb."]
+          - ["كِلّ شي", "kill šī", "كُلَّ شَيْءٍ", "kulla šayʔin", b1, "'Everything': the same two words. šayʔ loses its final hamza and ay becomes ī: šī. The endings go."]
+      - ref: [L010, 3]
+        msa: {ar: "سامي يُحِبُّ المَحْشِيَّ. وَأَنْتِ يا لينا؟", tr: "Sāmī yuḥibbu l-maḥšiyya. wa-ʔanti yā Līnā?"}
+        hl:
+          - ["بيحِبّ", "biḥibb", "يُحِبُّ", "yuḥibbu", b, "'He likes': y- for 'he' in both. In Shami, b- and yi- merge into bi-: biḥibb."]
+      - ref: [L010, 4]
+        msa: {ar: "أَنا لا أُحِبُّ اللَّحْمَ. أُحِبُّ الخُضارَ وَالحُمُّصَ.", tr: "ʔanā lā ʔuḥibbu l-laḥma. ʔuḥibbu l-xuḍāra wa-l-ḥummuṣa."}
+        hl:
+          - ["ما بْحِبّ", "mā bḥibb", "لا أُحِبُّ", "lā ʔuḥibbu", neg, "'I don't like': Shami mā, MSA lā for the present. Shami uses mā for the past too; MSA switches to lam."]
+          - ["اللَّحْمة", "il-laḥme", "اللَّحْمَ", "l-laḥma", words, "'Meat': Shami adds the ة ending, laḥme; MSA laḥm has none."]
+          - ["الخُضْرة", "il-xuḍra", "الخُضارَ", "l-xuḍāra", words, "'Vegetables': Shami xuḍra, MSA xuḍār. Same root, x-ḍ-r, 'green'."]
+      - ref: [L011, 2]
+        msa: {ar: "أَنا مُهَنْدِسٌ. أَعْمَلُ في شَرِكَةٍ في المَزَّةِ.", tr: "ʔanā muhandisun. ʔa3malu fī šarikatin fī l-Mazzati."}
+        hl:
+          - ["بِشْتِغِل", "bištiɣil", "أَعْمَلُ", "ʔa3malu", words, "'I work': Shami ištaɣal, MSA usually 3amila. MSA has ištaɣala too, but 3amila is the standard word."]
+          - ["بْشِرْكة", "b-širke", "في شَرِكَةٍ", "fī šarikatin", b1, "'In a company': Shami b- 'in' and širke with a vowel dropped; MSA fī and šarika with all its vowels, plus an ending."]
+      - ref: [L011, 3]
+        msa: {ar: "وَأَنْتِ يا لينا، هَلْ تَعْمَلينَ؟", tr: "wa-ʔanti yā Līnā, hal ta3malīna?"}
+        hl:
+          - ["بْتِشْتِغْلي", "btištiɣli", "تَعْمَلينَ", "ta3malīna", pers, "'You work' to a woman: t- in front and -i at the end in both. MSA -īna shrinks to Shami -i. MSA also opens the question with hal; Shami just raises the voice."]
+      - ref: [L012, 1]
+        msa: {ar: "صَباحَ الخَيْرِ يا آدَمُ! ماذا فَعَلْتَ أَمْسِ؟", tr: "ṣabāḥa l-xayri yā ʔādamu! mādhā fa3alta ʔamsi?"}
+        hl:
+          - ["عْمِلْت", "3milt", "فَعَلْتَ", "fa3alta", past, "'You did': MSA -ta for 'you' (m) and -tu for 'I'. Shami has one form, -t, for both. The verb differs too: Shami 3imil, MSA fa3ala."]
+          - ["مْبارِح", "mbāriḥ", "أَمْسِ", "ʔamsi", words, "'Yesterday': two different words. mbāriḥ is related to the MSA al-bāriḥa 'last night'."]
+      - ref: [L012, 2]
+        msa: {ar: "صَباحَ النّورِ يا عَمّي! ذَهَبْتُ إِلى السّوقِ مَعَ سامي وَلينا.", tr: "ṣabāḥa n-nūri yā 3ammī! dhahabtu ʔilā s-sūqi ma3a Sāmī wa-Līnā."}
+        hl:
+          - ["رِحْت", "riḥt", "ذَهَبْتُ", "dhahabtu", past, "'I went': MSA -tu for 'I', Shami just -t. Different verbs: Shami rāḥ (riḥt, with the ā shortened), MSA dhahaba."]
+          - ["عَالسّوق", "3as-sūʔ", "إِلى السّوقِ", "ʔilā s-sūqi", b1, "'To the market': MSA ʔilā; Shami 3a- fused with the article. sūq becomes sūʔ."]
+      - ref: [L012, 6]
+        msa: {ar: "نَعَمْ، كَتَبْتُ لَهُ لَيْلَةَ أَمْسِ. لٰكِنَّهُ لَمْ يَرُدَّ.", tr: "na3am, katabtu lahu laylata ʔamsi. lākinnahu lam yarudda."}
+        hl:
+          - ["كَتَبْتِلّو", "katabtillo", "كَتَبْتُ لَهُ", "katabtu lahu", past, "'I wrote to him': MSA katabtu and a separate lahu. Shami katabt with -lo glued on, linked by an i: katabtillo."]
+          - ["ما رَدّ", "mā radd", "لَمْ يَرُدَّ", "lam yarudda", neg, "'He didn't answer': Shami mā + the past. MSA uses lam with a present-looking form: lam yarudda, literally 'not he-answers'."]
+    sections:
+      - title: "The verb side by side"
+        text: "katab 'to write', in MSA and in Shami."
+        table:
+          head: ["", "MSA past", "Shami past", "MSA present", "Shami present"]
+          rows:
+            - ["I", "katabtu", "katabt", "ʔaktubu", "biktub"]
+            - ["you (m)", "katabta", "katabt", "taktubu", "btiktub"]
+            - ["you (f)", "katabti", "katabti", "taktubīna", "btiktbi"]
+            - ["he", "kataba", "katab", "yaktubu", "byiktub"]
+            - ["she", "katabat", "katbit", "taktubu", "btiktub"]
+            - ["we", "katabnā", "katabna", "naktubu", "mniktub"]
+            - ["you (pl)", "katabtum", "katabtu", "taktubūna", "btiktbu"]
+            - ["they", "katabū", "katabu", "yaktubūna", "byiktbu"]
+    rules:
+      - id: b
+        title: "b- marks the present"
+        short: "b- present"
+        text: "Shami puts b- in front of the ordinary present: bḥibb, btḥibb, biḥibb. MSA has nothing in front; it marks the plain present with -u at the end instead: ʔuḥibbu, tuḥibbu, yuḥibbu."
+      - id: pers
+        title: "The same person markers"
+        short: "person markers"
+        text: "Both use the same letters for the person: ʔ- I, t- you, y- he, n- we. In Shami the ʔ- of 'I' disappears behind b- (bḥibb), and b- + n- becomes m(i)n- (minḥibb). MSA long endings shrink: -īna becomes -i, -ūna becomes -u."
+      - id: mood
+        title: "No mood endings"
+        short: "no ʔan, no -a"
+        text: "MSA changes the end of the verb with its role: -u for the plain present (yaktubu), -a after ʔan 'that' (ʔan yaktuba), nothing after lam (lam yaktub). Shami has one form. After biddi or bḥibb the second verb simply drops its b-: biddi ʔiktub."
+      - id: past
+        title: "Past endings"
+        short: "past endings"
+        text: "MSA katabtu 'I wrote', katabta 'you (m) wrote': two forms. Shami has one, katabt. MSA katabat 'she wrote' is Shami katbit, and MSA katabtum is Shami katabtu. The table above has the full set."
+      - id: neg
+        title: "Negation"
+        short: "mā / lā / lam"
+        text: "Shami uses mā for the present and the past: mā bḥibb, mā radd. MSA has lā for the present (lā ʔuḥibbu), lam with a present-looking verb for the past (lam yarudda), and lan for the future."
+      - id: words
+        title: "Different words"
+        short: "other words"
+        text: "Many everyday verbs differ: rāḥ / dhahaba 'go', ištaɣal / 3amila 'work', 3imil / fa3ala 'do', bidd- / ʔarāda 'want'. Others are shared: katab / kataba 'write', ḥabb / ʔaḥabba 'love', ʔakal / ʔakala 'eat'."
+      - id: b1
+        title: "The sounds of Bridge 1"
+        short: "Bridge 1 sounds"
+        text: "q said ʔ, endings dropped, short vowels lost: everything in Bridge 1 applies to the words around the verb too."
+    practice:
+      fill:
+        - {tr: "MSA yaktubu → Shami ___", answer: "byiktub", en: "he writes"}
+        - {tr: "MSA ʔuḥibbu → Shami ___", answer: "bḥibb", en: "I like"}
+        - {tr: "MSA katabtu → Shami ___", answer: "katabt", en: "I wrote"}
+        - {tr: "MSA lā ʔuḥibbu → Shami ___", answer: "mā bḥibb", en: "I don't like"}
+        - {tr: "MSA ʔurīdu ʔan ʔadhhaba → Shami ___", answer: "biddi rūḥ", en: "I want to go"}
+        - {tr: "MSA lam yaktub → Shami ___", answer: "mā katab", en: "he didn't write"}

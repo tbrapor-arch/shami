@@ -105,7 +105,8 @@ function show(i){stop();closeNotes();unpop();NT=[];const d=L[i],el=document.getE
   el.append($('div','kicker',d.bridge?'Bridge to Modern Standard Arabic':d.review?'Revision':'Lesson '+d.n));
   el.append($('h1','',esc(d.title.ar)),$('div','sub',esc(d.title.tr)+' · '+esc(d.title.en)),$('p','scene',esc(d.scene||'')));
   if(d.loose&&d.loose.length){const nb=$('button','nbtn','ⓘ Notes · '+d.loose.length);nb.onclick=()=>openNotes({title:d.title,notes:d.loose.map(k=>d.notes[k])});el.append(nb)}
-  (d.sections||[]).forEach(s=>{const b=$('div','sec');b.append($('h3','',esc(s.title)));if(s.text)b.append($('p','',esc(s.text)));if(s.table)b.append(tbl(s.table));if(s.after)b.append($('p','',esc(s.after)));el.append(b)});
+  const secs=()=>(d.sections||[]).forEach(s=>{const b=$('div','sec');b.append($('h3','',esc(s.title)));if(s.text)b.append($('p','',esc(s.text)));if(s.table)b.append(tbl(s.table));if(s.after)b.append($('p','',esc(s.after)));el.append(b)});
+  if(d.review)secs();
   if(d.lines){const o=$('div','opts');o.innerHTML='<button class="playall" id="pa">▶ Play the dialogue</button>'+[['tr','Transcription'],['lit','Word for word'],['en','English']].map(([k,t])=>`<label><input type="checkbox" id="o-${k}" ${document.body.classList.contains('no-'+k)?'':'checked'}> ${t}</label>`).join('');
     const g=$('div','dlg');el.append($('h2','','Dialogue'),o,g);
     const seenN={};const rows=d.lines.map((l,li)=>{const r=$('div','ln'+(l.lang==='msa'?' msa':''));const b=$('button','pl','▶');b.setAttribute('aria-label','Play line');const c=$('div'),h=$('div','lh');h.append(b,$('div','who',esc(l.name)));
@@ -115,6 +116,7 @@ function show(i){stop();closeNotes();unpop();NT=[];const d=L[i],el=document.getE
     o.querySelector('#pa').onclick=()=>{let k=0;const nx=()=>{if(k<rows.length){const[r,l]=rows[k++];play(r,l.audio,nx)}};nx()};
     ['tr','lit','en'].forEach(k=>o.querySelector('#o-'+k).onchange=e=>document.body.classList.toggle('no-'+k,!e.target.checked))}
   if(d.sides)renderSides(d,el);
+  if(!d.review)secs();
   if(d.rules){el.append($('h2','','The rules'));const r=$('div','rules');d.rules.forEach(x=>{const b=$('div','rule');b.id='r-'+x.id;b.innerHTML=`<h3>${esc(x.title)}</h3><p>${esc(x.text)}</p>`;const ex=examples(d,x.id);if(ex.length){const e=$('div','rex');ex.forEach(h=>e.append($('span','',`<b>${esc(h[1])}</b> · <i>${esc(h[3])}</i>`)));b.append(e)}r.append(b)});el.append(r)}
   if(d.pairs){el.append($('h2','','Side by side'));const t={head:d.pairs.head,rows:d.pairs.rows};el.append(tbl(t,['s','a','m','a','']))}
   if(d.words){el.append($('h2','','New words'));const w=$('div','words');d.words.forEach(x=>w.append($('span','a',esc(x.ar)),$('span','t',esc(x.tr)),$('span','e',esc(x.en))));el.append(w)}
